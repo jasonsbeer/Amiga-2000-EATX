@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "Amiga 3000 library")(type Legacy)(uri "/mnt/work/amiga/Peripherals/Amiga-KiCad/Amiga 3000 library.lib")(options "")(descr ""))
+)
