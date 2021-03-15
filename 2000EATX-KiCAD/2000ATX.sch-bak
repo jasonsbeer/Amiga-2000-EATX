@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 5
 Title ""
 Date ""
 Rev ""
@@ -32,5 +32,11 @@ S 4950 2800 1050 700
 U 60696879
 F0 "Coprocessor" 50
 F1 "coprocessor.sch" 50
+$EndSheet
+$Sheet
+S 4950 1550 1050 600 
+U 60A4FE7B
+F0 "Power" 50
+F1 "power.sch" 50
 $EndSheet
 $EndSCHEMATC
