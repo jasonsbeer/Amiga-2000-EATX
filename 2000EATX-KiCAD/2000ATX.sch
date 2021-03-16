@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 6
 Title ""
 Date ""
 Rev ""
@@ -38,5 +38,11 @@ S 4950 1550 1050 600
 U 60A4FE7B
 F0 "Power" 50
 F1 "power.sch" 50
+$EndSheet
+$Sheet
+S 4950 3950 1150 600 
+U 607C1EB7
+F0 "Video" 50
+F1 "video.sch" 50
 $EndSheet
 $EndSCHEMATC
