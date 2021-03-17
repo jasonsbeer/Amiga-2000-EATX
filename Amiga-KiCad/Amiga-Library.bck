@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AUDIO
+D Power symbol creates a global label with name "AUDIO" , reference supply ground
+K power-flag
+$ENDCMP
+#
 $CMP C_Small
 D Unpolarized capacitor, small symbol
 K capacitor cap
