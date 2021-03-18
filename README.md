@@ -1,7 +1,7 @@
 # Amiga 2000 EATX PCB
 The purpose of this project is to develop an Amiga 2000 PCB in the EATX form factor. There are direct board replacement projects for the Amiga 2000, but none to modernize the layout to meet current form factor standards. In addition, the Amiga 2000 made use of connectors and custom parts that are no longer commercially manufactured. This often requires parts to be cannabalized from existing machines. As such, this project will make use of only currently available connectors and parts whenever possible.
 
-It is my hope that having a form factor that meets current industry standards, along with future projects to replace the no longer manufactured custom IC's, will revitalize the Amiga platform and bring additional interest to it as a retro-computing option.
+It is my hope that having a form factor that meets current industry standards, along with future projects to replace the custom IC's, will bring additional interest to the Amiga as a retro-computing option.
 
 ## Project Goals
 1. Enter Amiga 2000 Rev 6.4 schematics into KiCad.
@@ -25,7 +25,7 @@ It is my hope that having a form factor that meets current industry standards, a
 ADD SOME STUFF
 
 ## Assembling the Amiga 2000EATX
-This board makes use of suface mount devices. Lots of them. This is probably not a great first project to those new to SMD soldering. The Amiga 2000 made use of a lot of decoupling capacitors and pullup/pulldown resistors. This is reflected in this project. You will need the Amiga custom IC's shown in Table 2 as well as a 68000 64DIP processor. To my knowledge, the 64DIP 68000 is no longer manufactured, but they are relatively easy to find new old stock. All other components may be purchased from your favorite supply house. The BOM includes DigiKey part numbers for your reference.
+This board makes use of suface mount devices. Lots of them. This is probably not a great first project to those new to SMD soldering. The Amiga 2000 made use of a lot of decoupling capacitors and pullup/pulldown resistors. This is reflected in this project. You will need the Amiga custom IC's shown in Table 2 as well as a 64DIP 68000 processor. To my knowledge, the 64DIP 68000 is no longer manufactured, but they are relatively easy to find new old stock. Any speed should be fine as along as it is 8MHz or greater. All other components may be purchased from your favorite supply house. The BOM includes DigiKey part numbers for your reference.
 
 ## BOM
 REALLY BIG!
