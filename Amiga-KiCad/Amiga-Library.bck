@@ -5,10 +5,22 @@ D Power symbol creates a global label with name "AUDIO" , reference supply groun
 K power-flag
 $ENDCMP
 #
+$CMP C_Feedthrough
+D Feedthrough capacitor
+K EMI filter feedthrough capacitor
+F ~
+$ENDCMP
+#
 $CMP C_Small
 D Unpolarized capacitor, small symbol
 K capacitor cap
 F ~
+$ENDCMP
+#
+$CMP EMI_Filter_C
+D EMI filter, single capacitor
+K EMI filter feedthrough capacitor
+F http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb
 $ENDCMP
 #
 $CMP ZorroCardEdge

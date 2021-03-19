@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
-Sheet 6 6
+Sheet 6 7
 Title ""
 Date ""
 Rev ""
@@ -2360,10 +2360,10 @@ Wire Wire Line
 	3100 6700 4250 6700
 Connection ~ 2950 6600
 $Comp
-L Connector:Conn_01x22_Male VIDIOT
+L Connector:Conn_01x22_Male VIDIOT1
 U 1 1 60820DFB
 P 13100 3250
-F 0 "VIDIOT" H 12950 3250 50  0000 C CNN
+F 0 "VIDIOT1" H 12950 3250 50  0000 C CNN
 F 1 "HY200" H 13072 3178 50  0000 R CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x22_P2.54mm_Vertical" H 13100 3250 50  0001 C CNN
 F 3 "~" H 13100 3250 50  0001 C CNN
