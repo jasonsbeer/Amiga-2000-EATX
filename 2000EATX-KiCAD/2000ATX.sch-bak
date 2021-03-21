@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 7
+Sheet 1 8
 Title ""
 Date ""
 Rev ""
@@ -50,5 +50,11 @@ S 7100 1750 1400 800
 U 6053EA58
 F0 "BUS CONTROL" 50
 F1 "bus.sch" 50
+$EndSheet
+$Sheet
+S 7150 2950 1500 1300
+U 60561B9D
+F0 "ISA" 50
+F1 "isa.sch" 50
 $EndSheet
 $EndSCHEMATC
