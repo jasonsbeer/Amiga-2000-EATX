@@ -23,6 +23,10 @@ K EMI filter feedthrough capacitor
 F http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb
 $ENDCMP
 #
+$CMP Gary
+D Gary
+$ENDCMP
+#
 $CMP ZorroCardEdge
 D Amiga Zorro Card Edge
 K Amiga Zorro Card Edge
