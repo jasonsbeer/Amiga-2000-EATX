@@ -14,17 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:Bus_ISA_16bit CN707
-U 1 1 60573101
-P 9250 7450
-F 0 "CN707" H 9250 10217 50  0000 C CNN
-F 1 "Bus_ISA_16bit" H 9250 10126 50  0000 C CNN
-F 2 "Connector_Samtec_HLE_THT:Samtec_HLE-118-02-xx-DV-TE_2x18_P2.54mm_Horizontal" H 9250 7500 50  0001 C CNN
-F 3 "https://en.wikipedia.org/wiki/Industry_Standard_Architecture" H 9250 7500 50  0001 C CNN
-	1    9250 7450
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:Bus_ISA_16bit CN706
 U 1 1 60571C8C
 P 7300 7400
@@ -55,17 +44,6 @@ F 1 "Bus_ISA_16bit" H 2950 10176 50  0000 C CNN
 F 2 "Connector_Samtec_HLE_THT:Samtec_HLE-118-02-xx-DV-TE_2x18_P2.54mm_Horizontal" H 2950 7550 50  0001 C CNN
 F 3 "https://en.wikipedia.org/wiki/Industry_Standard_Architecture" H 2950 7550 50  0001 C CNN
 	1    2950 7500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Bus_ISA_8bit CN703
-U 1 1 6056E684
-P 9250 2850
-F 0 "CN703" H 9250 4617 50  0000 C CNN
-F 1 "Bus_ISA_8bit" H 9250 4526 50  0000 C CNN
-F 2 "AmigaFootprints:ISA_2x31_P2.54mm_Horizontal" H 9250 2850 50  0001 C CNN
-F 3 "https://en.wikipedia.org/wiki/Industry_Standard_Architecture" H 9250 2850 50  0001 C CNN
-	1    9250 2850
 	1    0    0    -1  
 $EndComp
 $Comp

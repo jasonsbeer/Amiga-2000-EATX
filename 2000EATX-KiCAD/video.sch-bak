@@ -414,20 +414,7 @@ Connection ~ 14360 4530
 Wire Wire Line
 	14360 4530 14360 4460
 $Comp
-L 2000ATX-rescue:2N3904-OpenAmigaVideoHybrid-cache Q1V
-U 1 1 6055EF71
-P 14840 4530
-AR Path="/6055EF71" Ref="Q1V"  Part="1" 
-AR Path="/607C1EB7/6055EF71" Ref="Q1V1"  Part="1" 
-F 0 "Q1V1" H 15030 4576 50  0000 L CNN
-F 1 "MMBT3904" H 15030 4485 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 15040 4455 50  0001 L CIN
-F 3 "" H 14840 4530 50  0001 L CNN
-	1    14840 4530
-	1    0    0    -1  
-$EndComp
-$Comp
-L 2000ATX-rescue:2N3904-OpenAmigaVideoHybrid-cache Q2V
+L Transistor_BJT:2N3904 Q2V
 U 1 1 6055F640
 P 14820 3080
 AR Path="/6055F640" Ref="Q2V"  Part="1" 
@@ -440,7 +427,7 @@ F 3 "" H 14820 3080 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2000ATX-rescue:2N3904-OpenAmigaVideoHybrid-cache Q3V
+L Transistor_BJT:2N3904 Q3V
 U 1 1 6055FF02
 P 14850 1740
 AR Path="/6055FF02" Ref="Q3V"  Part="1" 
@@ -491,8 +478,6 @@ F 3 "~" H 14950 2080 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	14920 3280 14920 3300
-Wire Wire Line
-	14940 4730 14940 4750
 Wire Wire Line
 	14950 1940 14950 1950
 $Comp
@@ -561,11 +546,6 @@ F 3 "~" H 15250 1950 50  0001 C CNN
 	1    15250 1950
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	15130 4750 14940 4750
-Connection ~ 14940 4750
-Wire Wire Line
-	14940 4750 14940 4770
 Wire Wire Line
 	15120 3300 14920 3300
 Connection ~ 14920 3300
@@ -3223,4 +3203,19 @@ Wire Wire Line
 Connection ~ 9400 5250
 Wire Wire Line
 	9400 5250 9400 5450
+$Comp
+L Transistor_BJT:2N3904 Q1V1
+U 1 1 606229E1
+P 14840 4530
+F 0 "Q1V1" H 15031 4576 50  0000 L CNN
+F 1 "MMBT3904" H 15031 4485 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 15040 4455 50  0001 L CIN
+F 3 "" H 14840 4530 50  0001 L CNN
+	1    14840 4530
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14940 4730 14940 4770
+Wire Wire Line
+	14940 4750 15130 4750
 $EndSCHEMATC
