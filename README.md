@@ -5,7 +5,7 @@ It is my hope that having a form factor that meets current industry standards wi
 
 ## Project Goals
 1. Enter Amiga 2000 Rev 6.4 schematics into KiCad.
-2. Whenever possible, replace unavailable components with suitable alternatives that are commercially available.
+2. When possible, replace unavailable components with suitable alternatives that are commercially available.
 3. Layout and route components using the ATX standard as a guide.
 4. Test it and make sure it works.
 
@@ -20,7 +20,7 @@ It is my hope that having a form factor that meets current industry standards wi
 ADD SOME STUFF
 
 ## Assembling the Amiga 2000EATX
-This board makes use of suface mount devices. Lots of them. This is probably not a great project to learn how to solder SMD. The Amiga 2000 made use of a lot of decoupling capacitors and pullup/pulldown resistors. This is reflected in this project. You will need the Amiga custom IC's shown in Table 2 as well as a 64DIP 68000 processor. To my knowledge, the 64DIP 68000 is no longer manufactured, but they are relatively easy to find new old stock. Any speed should be fine as along as it is 8MHz or greater. All other components may be purchased from your favorite supply house. The BOM includes DigiKey part numbers for your reference.
+This board makes use of suface mount devices. Lots of them. This is probably not a great project to learn how to solder SMD. The Amiga 2000 made use of a lot of decoupling capacitors and pullup/pulldown resistors. This is reflected in this project. You will need to obtain the legacy IC's shown in Table 2. All other components may be purchased from your favorite electronics supply house. The BOM includes DigiKey part numbers for your reference.
 
 Notes:
 1. If you do not intend to use a bridgeboard or the ISA slots, you do not need to install the components shown in the ISA SUPPORT silk screen.
@@ -49,14 +49,14 @@ The external disk drive port has been removed. Any Amiga compatable double densi
 The number of 16 bit ISA slots has been reduced to three. This was done to provide additional space on the board. Support for ISA cards via a Bridgeboard is unchanged from the Amiga 2000. 
 
 ### Kickstart ROM
-The Kickstart ROM is now a 27C512 EPROM. The original 27C400 EPROMs are no longer manufactured.
+The Kickstart ROM is now a 27C512 EPROM. The original 27C400 EPROMs are no longer manufactured. Burn Kickstart to the 27C512 using an EPROM programmer, such as the common TL866II. There are no special considerations in this process. The two EPROMs are compatable. The pin configuration is different.
 
 ## What has not changed?
 ### Most External Ports
 The keyboard, joystick, mouse, parallel, serial, and audio ports are all present and function as they did in the Amiga 2000. The parallel, serial, mouse, and joystick ports are present as stacked DB9 and DB25 connectors, respectively. The Amiga keyboard port is a DIN5 connector. 
 
 ### Zorro II Slots
-Support for Zorro II cards should be the same as the Amiga 2000. Any issues or limitations that may be present are also present in the original design.
+There are no changes to the Zorro II slots.
 
 ## Tables
 Table 1. Video Port
@@ -68,10 +68,12 @@ Pin|Signal|Pin|Signal|Pin|Signal
 4|NC|9|GND|14|VSYNC
 5|GND|10|GND|15|NC
 
-Table 2. Amiga 2000 Custom IC's
-Common Name|MOS/CSG Designation|Postion|Package
+Table 2. Legacy IC's
+Common Name|Designation|Postion|Package
 -|-|-|-
-Fatter Agnus|87xx|Uxxx|PLCC 64
+MC68000|MC68000|Uxxx|64-DIP
+Fatter Agnus|87xx|Uxxx|PLCC 84
+
 
 ## Acknowledgments
 This project includes ideas shared in other projects. The Amiga community is great and wide.
