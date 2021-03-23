@@ -69,15 +69,20 @@ Pin|Signal|Pin|Signal|Pin|Signal
 5|GND|10|GND|15|NC
 
 Table 2. Legacy IC's
-Common Name|Designation|Postion|Package
--|-|-|-
-MC68000|MC68000|Uxxx|64-DIP
-Fatter Agnus|87xx|Uxxx|PLCC 84
+Common Name|Designation|Postion|Package|Notes
+-|-|-|-|-
+Motorola 68000|MC68000|Uxxx|64-DIP|8MHz or greater
+Fatter Agnus|87xx|Uxxx|PLCC 84|87xx should work as well with jumper settings
 
 
 ## Acknowledgments
-This project includes ideas shared in other projects. The Amiga community is great and wide.
+This project includes prior works shared in other projects.
 
 SukkoPerra - VIDIOT replacment circuit - https://github.com/SukkoPera/OpenAmigaVideoHybrid
+
 Unknown Author - Amiga 500 SRAM Memory Expansion - https://www.techtravels.org/a500-dram-card/
+
 iansbremmer - Amiga IC KiCad footprints - https://github.com/iansbremner/ReAmiga-3000---KiCAD
+
+skiselev - ATX Power On/Off Circuit - https://github.com/skiselev/isa8_backplane
+
