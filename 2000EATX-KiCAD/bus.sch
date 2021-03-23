@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
-Sheet 7 9
+Sheet 7 10
 Title ""
 Date ""
 Rev ""
@@ -127,7 +127,7 @@ Connection ~ 1800 2500
 Wire Wire Line
 	1800 2500 1700 2500
 $Comp
-L Amiga~3000~library:+5V #PWR0224
+L power:+5V #PWR0224
 U 1 1 605A120A
 P 1250 2350
 F 0 "#PWR0224" H 1250 2200 50  0001 C CNN
@@ -235,7 +235,7 @@ $EndComp
 Wire Wire Line
 	1600 5650 1750 5650
 $Comp
-L Amiga~3000~library:+5V #PWR0226
+L power:+5V #PWR0226
 U 1 1 605B0A1C
 P 1750 4450
 F 0 "#PWR0226" H 1750 4300 50  0001 C CNN
@@ -333,7 +333,7 @@ Connection ~ 4450 3900
 Wire Wire Line
 	4450 3900 4450 3800
 $Comp
-L Amiga~3000~library:+5V #PWR0227
+L power:+5V #PWR0227
 U 1 1 605C1F0A
 P 4450 3800
 F 0 "#PWR0227" H 4450 3650 50  0001 C CNN
@@ -506,7 +506,7 @@ Wire Wire Line
 Wire Wire Line
 	12750 1900 11900 1900
 $Comp
-L Amiga~3000~library:+5V #PWR0230
+L power:+5V #PWR0230
 U 1 1 605650DB
 P 12800 1750
 F 0 "#PWR0230" H 12800 1600 50  0001 C CNN
@@ -703,7 +703,7 @@ F 3 "~" H 13800 1700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Amiga~3000~library:GND #PWR0233
+L power:GND #PWR0233
 U 1 1 6062424F
 P 10000 3300
 F 0 "#PWR0233" H 10000 3050 50  0001 C CNN
@@ -714,7 +714,7 @@ F 3 "" H 10000 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amiga~3000~library:+5V #PWR0235
+L power:+5V #PWR0235
 U 1 1 60641BA5
 P 13500 1700
 F 0 "#PWR0235" H 13500 1550 50  0001 C CNN
@@ -730,7 +730,6 @@ Wire Wire Line
 	13300 2000 13500 2000
 Wire Wire Line
 	13500 2000 13500 1700
-Connection ~ 13500 1700
 Connection ~ 9500 1550
 Wire Wire Line
 	10000 2000 9500 2000
@@ -776,7 +775,7 @@ Connection ~ 3250 8150
 Wire Wire Line
 	3250 8150 4050 8150
 $Comp
-L Amiga~3000~library:+5V #PWR0238
+L power:+5V #PWR0238
 U 1 1 606958CA
 P 4050 6900
 F 0 "#PWR0238" H 4050 6750 50  0001 C CNN
@@ -805,7 +804,6 @@ Wire Wire Line
 Connection ~ 9500 3000
 Wire Wire Line
 	9500 3000 9500 3300
-Connection ~ 10000 3300
 Connection ~ 9500 2000
 Text Notes 13400 9700 2    197  ~ 0
 BUSter
@@ -830,7 +828,7 @@ D2
 Text GLabel 8850 8800 2    50   Input ~ 0
 D3
 $Comp
-L Amiga~3000~library:+5V #PWR0232
+L power:+5V #PWR0232
 U 1 1 605CA78F
 P 9500 1350
 F 0 "#PWR0232" H 9500 1200 50  0001 C CNN
@@ -957,7 +955,7 @@ Wire Wire Line
 Wire Wire Line
 	7650 7450 7650 7250
 $Comp
-L Amiga~3000~library:+5V #PWR0225
+L power:+5V #PWR0225
 U 1 1 605B851F
 P 7650 7250
 F 0 "#PWR0225" H 7650 7100 50  0001 C CNN
@@ -1108,7 +1106,7 @@ Connection ~ 7300 9200
 Wire Wire Line
 	7300 9200 7300 9250
 $Comp
-L Amiga~3000~library:+5V #PWR0241
+L power:+5V #PWR0241
 U 1 1 6060C85C
 P 11000 7150
 F 0 "#PWR0241" H 11000 7000 50  0001 C CNN

@@ -1,5 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP +AUD
+D Power symbol creates a global label with name "+5V"
+K power-flag
+$ENDCMP
+#
+$CMP +VID
+D Power symbol creates a global label with name "+5V"
+K power-flag
+$ENDCMP
+#
 $CMP AUDIO
 D Power symbol creates a global label with name "AUDIO" , reference supply ground
 K power-flag

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 9
+Sheet 4 10
 Title ""
 Date ""
 Rev ""
@@ -29,7 +29,7 @@ Wire Wire Line
 Wire Wire Line
 	1500 1550 1500 1600
 $Comp
-L Amiga~3000~library:GND #PWR0123
+L power:GND #PWR0123
 U 1 1 604D2A89
 P 1500 6250
 F 0 "#PWR0123" H 1500 6000 50  0001 C CNN
@@ -97,7 +97,7 @@ Wire Wire Line
 	2100 1800 2100 1750
 Connection ~ 2100 1750
 $Comp
-L Amiga~3000~library:+5V #PWR0124
+L power:+5V #PWR0124
 U 1 1 604D882A
 P 2100 1550
 F 0 "#PWR0124" H 2100 1400 50  0001 C CNN
@@ -108,7 +108,7 @@ F 3 "" H 2100 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amiga~3000~library:-5V #PWR0125
+L power:-5V #PWR0125
 U 1 1 604D8A9E
 P 2250 1350
 F 0 "#PWR0125" H 2250 1200 50  0001 C CNN
@@ -119,7 +119,7 @@ F 3 "" H 2250 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amiga~3000~library:+12V #PWR0126
+L power:+12V #PWR0126
 U 1 1 604DB1C1
 P 2400 1550
 F 0 "#PWR0126" H 2400 1400 50  0001 C CNN
@@ -299,7 +299,7 @@ Wire Wire Line
 	4900 4450 4900 4350
 NoConn ~ 5300 1800
 $Comp
-L Amiga~3000~library:GND #PWR0127
+L power:GND #PWR0127
 U 1 1 60551069
 P 5800 2400
 F 0 "#PWR0127" H 5800 2150 50  0001 C CNN
@@ -310,7 +310,7 @@ F 3 "" H 5800 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amiga~3000~library:GND #PWR0128
+L power:GND #PWR0128
 U 1 1 6056F1B9
 P 6850 4150
 F 0 "#PWR0128" H 6850 3900 50  0001 C CNN
@@ -321,7 +321,7 @@ F 3 "" H 6850 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amiga~3000~library:GND #PWR0129
+L power:GND #PWR0129
 U 1 1 6056F9E8
 P 5850 5650
 F 0 "#PWR0129" H 5850 5400 50  0001 C CNN
@@ -411,7 +411,7 @@ BD9
 Text GLabel 10750 3750 2    50   BiDi ~ 0
 BD8
 $Comp
-L Amiga~3000~library:GND #PWR0130
+L power:GND #PWR0130
 U 1 1 605B732B
 P 10250 2800
 F 0 "#PWR0130" H 10250 2550 50  0001 C CNN
@@ -422,7 +422,7 @@ F 3 "" H 10250 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amiga~3000~library:GND #PWR0131
+L power:GND #PWR0131
 U 1 1 605B78D1
 P 10250 5050
 F 0 "#PWR0131" H 10250 4800 50  0001 C CNN
@@ -519,7 +519,7 @@ Wire Wire Line
 Wire Wire Line
 	9750 4450 8800 4450
 $Comp
-L Amiga~3000~library:GND #PWR0132
+L power:GND #PWR0132
 U 1 1 607375B5
 P 7850 1800
 F 0 "#PWR0132" H 7850 1550 50  0001 C CNN
@@ -530,7 +530,7 @@ F 3 "" H 7850 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amiga~3000~library:GND #PWR0133
+L power:GND #PWR0133
 U 1 1 6073AFFD
 P 7900 4250
 F 0 "#PWR0133" H 7900 4000 50  0001 C CNN
@@ -900,7 +900,7 @@ _BUDS
 Text GLabel 5700 6900 2    47   BiDi ~ 0
 _BAS
 $Comp
-L Amiga~3000~library:GND #PWR0134
+L power:GND #PWR0134
 U 1 1 60B411F4
 P 3750 7500
 F 0 "#PWR0134" H 3750 7250 50  0001 C CNN
@@ -922,18 +922,18 @@ F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 4800 5850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amiga~3000~library:+5V #PWR0135
+L power:+5V #PWR0135
 U 1 1 60B454E3
 P 4400 5650
 F 0 "#PWR0135" H 4400 5500 50  0001 C CNN
-F 1 "+5V" H 4417 5873 50  0000 C CNN
+F 1 "+5V" H 4400 5800 50  0000 C CNN
 F 2 "" H 4400 5650 50  0001 C CNN
 F 3 "" H 4400 5650 50  0001 C CNN
 	1    4400 5650
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amiga~3000~library:GND #PWR0136
+L power:GND #PWR0136
 U 1 1 60B78755
 P 3250 7200
 F 0 "#PWR0136" H 3250 6950 50  0001 C CNN
@@ -1012,7 +1012,7 @@ F 3 "~" H 3250 5800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Amiga~3000~library:+5V #PWR0137
+L power:+5V #PWR0137
 U 1 1 60E422B1
 P 3450 5800
 F 0 "#PWR0137" H 3450 5650 50  0001 C CNN
@@ -1023,7 +1023,7 @@ F 3 "" H 3450 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amiga~3000~library:GND #PWR0138
+L power:GND #PWR0138
 U 1 1 60E42986
 P 3150 5800
 F 0 "#PWR0138" H 3150 5550 50  0001 C CNN
@@ -1039,7 +1039,6 @@ Wire Wire Line
 	3450 5800 3450 5900
 Wire Wire Line
 	3450 5900 3750 5900
-Connection ~ 3450 5800
 $Comp
 L Device:C_Small C602
 U 1 1 60E76DE4
@@ -1096,7 +1095,7 @@ F 3 "~" H 10800 3450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Amiga~3000~library:GND #PWR0139
+L power:GND #PWR0139
 U 1 1 60E7B497
 P 10900 3450
 F 0 "#PWR0139" H 10900 3200 50  0001 C CNN
@@ -1107,7 +1106,7 @@ F 3 "" H 10900 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amiga~3000~library:GND #PWR0140
+L power:GND #PWR0140
 U 1 1 60E7BCF4
 P 10800 1200
 F 0 "#PWR0140" H 10800 950 50  0001 C CNN
@@ -1118,7 +1117,7 @@ F 3 "" H 10800 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amiga~3000~library:GND #PWR0141
+L power:GND #PWR0141
 U 1 1 60E7CCB0
 P 6350 800
 F 0 "#PWR0141" H 6350 550 50  0001 C CNN
@@ -1129,7 +1128,7 @@ F 3 "" H 6350 800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amiga~3000~library:GND #PWR0142
+L power:GND #PWR0142
 U 1 1 60E7E9FD
 P 7500 2400
 F 0 "#PWR0142" H 7500 2150 50  0001 C CNN
@@ -1140,7 +1139,7 @@ F 3 "" H 7500 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amiga~3000~library:+5V #PWR0143
+L power:+5V #PWR0143
 U 1 1 60E89AA3
 P 6150 4150
 F 0 "#PWR0143" H 6150 4000 50  0001 C CNN
@@ -1155,7 +1154,7 @@ Wire Wire Line
 Wire Wire Line
 	4200 850  4200 3750
 $Comp
-L Amiga~3000~library:+5V #PWR0144
+L power:+5V #PWR0144
 U 1 1 60FCDD63
 P 7150 2400
 F 0 "#PWR0144" H 7150 2250 50  0001 C CNN
@@ -1165,13 +1164,8 @@ F 3 "" H 7150 2400 50  0001 C CNN
 	1    7150 2400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7300 2400 7150 2400
-Connection ~ 7150 2400
-Wire Wire Line
-	7150 2400 6850 2400
 $Comp
-L Amiga~3000~library:+5V #PWR0145
+L power:+5V #PWR0145
 U 1 1 60FE91B2
 P 6050 800
 F 0 "#PWR0145" H 6050 650 50  0001 C CNN
@@ -1182,7 +1176,7 @@ F 3 "" H 6050 800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amiga~3000~library:+5V #PWR0146
+L power:+5V #PWR0146
 U 1 1 60FE967D
 P 10500 1200
 F 0 "#PWR0146" H 10500 1050 50  0001 C CNN
@@ -1193,7 +1187,7 @@ F 3 "" H 10500 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amiga~3000~library:+5V #PWR0147
+L power:+5V #PWR0147
 U 1 1 60FE9CDB
 P 10500 3450
 F 0 "#PWR0147" H 10500 3300 50  0001 C CNN
@@ -1203,23 +1197,8 @@ F 3 "" H 10500 3450 50  0001 C CNN
 	1    10500 3450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10250 3450 10500 3450
-Connection ~ 10500 3450
-Wire Wire Line
-	10500 3450 10700 3450
-Wire Wire Line
-	10600 1200 10500 1200
-Connection ~ 10500 1200
-Wire Wire Line
-	10500 1200 10250 1200
-Wire Wire Line
-	5800 800  6050 800 
-Connection ~ 6050 800 
-Wire Wire Line
-	6050 800  6150 800 
 $Comp
-L Amiga~3000~library:GND #PWR0148
+L power:GND #PWR0148
 U 1 1 610452A3
 P 5300 2100
 F 0 "#PWR0148" H 5300 1850 50  0001 C CNN
@@ -1230,7 +1209,7 @@ F 3 "" H 5300 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amiga~3000~library:GND #PWR0149
+L power:GND #PWR0149
 U 1 1 61045A56
 P 5350 5350
 F 0 "#PWR0149" H 5350 5100 50  0001 C CNN
@@ -1241,7 +1220,7 @@ F 3 "" H 5350 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amiga~3000~library:GND #PWR0150
+L power:GND #PWR0150
 U 1 1 610463ED
 P 6350 3700
 F 0 "#PWR0150" H 6350 3450 50  0001 C CNN
@@ -1255,16 +1234,10 @@ Wire Wire Line
 	6700 4150 6850 4150
 Wire Wire Line
 	6850 4150 6850 4000
-Connection ~ 6850 4150
-Wire Wire Line
-	6500 4150 6150 4150
 Wire Wire Line
 	5850 4050 6000 4050
 Wire Wire Line
 	6000 4050 6000 4150
-Wire Wire Line
-	6000 4150 6150 4150
-Connection ~ 6150 4150
 Text GLabel 7450 4950 0    47   Input ~ 0
 _DBOE
 Text GLabel 7450 4800 0    47   Input ~ 0
@@ -1779,4 +1752,14 @@ Wire Wire Line
 Connection ~ 3100 1700
 Wire Wire Line
 	3100 1700 3100 2550
+Wire Wire Line
+	6850 2400 7300 2400
+Wire Wire Line
+	10250 3450 10700 3450
+Wire Wire Line
+	10250 1200 10600 1200
+Wire Wire Line
+	5800 800  6150 800 
+Wire Wire Line
+	6000 4150 6500 4150
 $EndSCHEMATC

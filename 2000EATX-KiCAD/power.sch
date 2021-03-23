@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 9
+Sheet 5 10
 Title ""
 Date ""
 Rev ""
@@ -26,7 +26,7 @@ F 4 "39281243" H 1600 1600 50  0001 C CNN "Part"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amiga~3000~library:GND #PWR0165
+L power:GND #PWR0165
 U 1 1 60A5B857
 P 4150 3900
 F 0 "#PWR0165" H 4150 3650 50  0001 C CNN
@@ -48,7 +48,7 @@ F 3 "http://www.onsemi.com/pub/Collateral/MC7900-D.PDF" H 4150 3600 50  0001 C C
 	-1   0    0    1   
 $EndComp
 $Comp
-L Amiga~3000~library:GND #PWR0166
+L power:GND #PWR0166
 U 1 1 60A630E8
 P 1600 2200
 F 0 "#PWR0166" H 1600 1950 50  0001 C CNN
@@ -63,7 +63,7 @@ Wire Wire Line
 Wire Wire Line
 	2450 2000 2450 2100
 $Comp
-L Amiga~3000~library:-12V #PWR0167
+L power:-12V #PWR0167
 U 1 1 60A6467A
 P 8550 950
 F 0 "#PWR0167" H 8550 800 50  0001 C CNN
@@ -74,7 +74,7 @@ F 3 "" H 8550 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amiga~3000~library:-5V #PWR0168
+L power:-5V #PWR0168
 U 1 1 60A64F47
 P 8800 950
 F 0 "#PWR0168" H 8800 800 50  0001 C CNN
@@ -139,7 +139,7 @@ F 3 "~" H 900 6150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amiga~3000~library:GND #PWR0169
+L power:GND #PWR0169
 U 1 1 60A6AF77
 P 2150 6800
 F 0 "#PWR0169" H 2150 6550 50  0001 C CNN
@@ -363,16 +363,11 @@ Wire Wire Line
 Wire Wire Line
 	6650 6300 6650 6800
 Connection ~ 3250 6800
-Wire Wire Line
-	2150 6800 2300 6800
 Connection ~ 2300 6800
 Wire Wire Line
 	2300 6800 3250 6800
 Wire Wire Line
-	2150 6800 1100 6800
-Wire Wire Line
 	1100 6800 1100 6250
-Connection ~ 2150 6800
 Connection ~ 3250 5100
 Wire Wire Line
 	3250 5100 6150 5100
@@ -393,7 +388,7 @@ POWER
 Wire Wire Line
 	3400 1400 3750 1400
 $Comp
-L Amiga~3000~library:GND #PWR0170
+L power:GND #PWR0170
 U 1 1 60B02E26
 P 8050 1400
 F 0 "#PWR0170" H 8050 1150 50  0001 C CNN
@@ -447,7 +442,7 @@ Wire Wire Line
 	3850 1200 8050 1200
 Connection ~ 3850 1400
 $Comp
-L Amiga~3000~library:+12V #PWR0171
+L power:+12V #PWR0171
 U 1 1 60B0BBA9
 P 8050 950
 F 0 "#PWR0171" H 8050 800 50  0001 C CNN
@@ -681,7 +676,7 @@ Connection ~ 3850 1800
 Wire Wire Line
 	3850 1800 4300 1800
 $Comp
-L Amiga~3000~library:+5V #PWR0172
+L power:+5V #PWR0172
 U 1 1 60B329EC
 P 8300 950
 F 0 "#PWR0172" H 8300 800 50  0001 C CNN
@@ -830,4 +825,6 @@ Wire Wire Line
 	2100 1700 2100 1850
 Wire Wire Line
 	2100 1850 2250 1850
+Wire Wire Line
+	1100 6800 2300 6800
 $EndSCHEMATC
