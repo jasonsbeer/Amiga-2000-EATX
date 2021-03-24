@@ -52,7 +52,7 @@ The number of 16 bit ISA slots has been reduced to three. This was done to provi
 The Kickstart ROM is now a 27C512 EPROM. The original 27C400 EPROMs are no longer manufactured. Burn Kickstart to the 27C512 using an EPROM programmer, such as the common TL866II. There are no special considerations in this process. The two EPROMs are compatable. The pin configuration is different.
 
 ### Board Layout
-For obvious reasons, it was necessary to move components relative to one another. Be sure to double check the orientation and position of any IC's before attaching. Most components have the same designation as the Amiga 2000. However, some components have been removed and others have been added with unique designations. The video socket has been relocated to the sixth slot position on the board. Zorro slots occupy positions 1-5 and the CPU slot occupies position 7. It is possible to have every slot populated simultaneously.
+For obvious reasons, it was necessary to move components relative to one another. Be sure to double check the orientation and position of any IC's before attaching. Most components have the same designation as the Amiga 2000. However, some components have been removed and others have been added with unique designations. The video slot has been relocated to the sixth slot position on the board. Zorro slots occupy positions 1-5 and the CPU slot occupies position 7. It is possible to have every slot populated simultaneously.
 
 ### Support for ATX Power Supplies
 The original Amiga 2000 power supply is not supported. New ATX 24-pin power supplies are supported with -5V being supplied on board via a voltage regulator. The power switch header is positioned near the power socket on the board.
@@ -88,7 +88,7 @@ CIA|MOS 8520|Uxxx|40-DIP|Need two
 Buster|MOS 5721|Uxxx|48-DIP|BUS maSTER
 Denise|MOS 8362 or CSG 8373|Uxxx|48-DIP|Video controller
 
-*legacy Commodore IC's may be marked "CSG" or "MOS", or possibly neighther in the case of contracted runs. These are completely interchangeable as long as the number matches.
+*Legacy Commodore IC's may be marked "CSG" or "MOS", or possibly neighther in the case of contracted runs. These are completely interchangeable as long as the number matches.
 
 ## Acknowledgments
 This project includes prior works shared in other projects.
