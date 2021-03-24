@@ -95,7 +95,7 @@ This project includes prior works shared in other projects.
 
 SukkoPerra - VIDIOT replacment circuit - https://github.com/SukkoPera/OpenAmigaVideoHybrid
 
-Unknown Author - Amiga 500 SRAM Memory Expansion - https://www.techtravels.org/a500-dram-card/
+kr239 - Amiga 500 DRAM replacement - https://github.com/kr239/A500-SRAM-Board
 
 iansbremmer - Amiga IC KiCad footprints - https://github.com/iansbremner/ReAmiga-3000---KiCAD
 
