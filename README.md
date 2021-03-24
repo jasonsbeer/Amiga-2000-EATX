@@ -1,7 +1,7 @@
 # Amiga 2000 EATX PCB
 The purpose of this project is to develop an Amiga 2000 PCB in the EATX form factor. There are one-to-one board replacement projects for the Amiga 2000, but none to change the layout to meet current form factor standards. In addition, the Amiga 2000 made use of connectors and custom parts that are no longer commercially manufactured. This often requires parts to be cannabalized from existing machines. As such, this project will make use of only currently available connectors and parts whenever possible. Essentially, we are going to build an Amiga with as many off the shelf parts as possible.
 
-I beleive having a form factor that meets current industry standards will bring additional interest to the Amiga as a hobbyist and retro-computing option.
+In addition to have a new board replacement option, I believe the ubiquitous ATX form factor will bring additional interest to the Amiga as a hobbyist and retro-computing option.
 
 ## Project Goals
 1. Enter Amiga 2000 Rev 6.4 schematics into KiCad.
