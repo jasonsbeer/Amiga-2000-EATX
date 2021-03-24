@@ -5,7 +5,17 @@ D Power symbol creates a global label with name "+5V"
 K power-flag
 $ENDCMP
 #
+$CMP +AV
+D Power symbol creates a global label with name "+5V"
+K power-flag
+$ENDCMP
+#
 $CMP +VID
+D Power symbol creates a global label with name "+5V"
+K power-flag
+$ENDCMP
+#
+$CMP -AV
 D Power symbol creates a global label with name "+5V"
 K power-flag
 $ENDCMP
@@ -27,6 +37,12 @@ K capacitor cap
 F ~
 $ENDCMP
 #
+$CMP DB9_Male_Stack
+D 9-pin male D-SUB connector
+K connector male D-SUB
+F  ~
+$ENDCMP
+#
 $CMP EMI_Filter_C
 D EMI filter, single capacitor
 K EMI filter feedthrough capacitor
@@ -35,6 +51,21 @@ $ENDCMP
 #
 $CMP Gary
 D Gary
+$ENDCMP
+#
+$CMP MC1489
+D Quad Line EIA-232D
+F https://www.onsemi.com/pub/Collateral/MC1489-D.PDF
+$ENDCMP
+#
+$CMP SN75188DR
+D Quad Line EIA-232D
+F https://www.ti.com/lit/ds/symlink/mc1488.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1616552868480
+$ENDCMP
+#
+$CMP VREF
+D Power symbol creates a global label with name "+5V"
+K power-flag
 $ENDCMP
 #
 $CMP ZorroCardEdge

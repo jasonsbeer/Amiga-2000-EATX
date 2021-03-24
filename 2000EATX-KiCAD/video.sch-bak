@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
-Sheet 6 10
+Sheet 6 11
 Title ""
 Date ""
 Rev ""
@@ -658,7 +658,6 @@ F 3 "" H 15420 4160 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	14360 4260 14940 4260
-Connection ~ 15420 4260
 Wire Wire Line
 	14940 4330 14940 4260
 Connection ~ 14940 4260
@@ -673,10 +672,8 @@ Wire Wire Line
 Connection ~ 14920 2810
 Wire Wire Line
 	14920 2810 15400 2810
-Connection ~ 15400 2810
 Wire Wire Line
 	15420 1470 15420 1490
-Connection ~ 15420 1470
 Wire Wire Line
 	15420 4750 15540 4750
 Wire Wire Line

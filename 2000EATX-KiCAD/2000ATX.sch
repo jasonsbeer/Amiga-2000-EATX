@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 10
+Sheet 1 11
 Title ""
 Date ""
 Rev ""
@@ -68,5 +68,11 @@ S 7100 4700 1400 650
 U 60592F9F
 F0 "Paula" 50
 F1 "paula.sch" 50
+$EndSheet
+$Sheet
+S 5050 4950 1100 700 
+U 6065650A
+F0 "Serial" 50
+F1 "serial.sch" 50
 $EndSheet
 $EndSCHEMATC
