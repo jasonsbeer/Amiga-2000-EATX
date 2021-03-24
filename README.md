@@ -1,7 +1,7 @@
 # Amiga 2000 EATX PCB
 The purpose of this project is to develop an Amiga 2000 PCB in the EATX form factor. There are one-to-one board replacement projects for the Amiga 2000, but none to change the layout to meet current form factor standards. In addition, the Amiga 2000 made use of connectors and custom parts that are no longer commercially manufactured. This often requires parts to be cannabalized from existing machines. As such, this project will make use of only currently available connectors and parts whenever possible. Essentially, we are going to build an Amiga with as many off the shelf parts as possible.
 
-It is my hope that having a form factor that meets current industry standards will bring additional interest to the Amiga as a hobbyist and retro-computing option.
+I beleive having a form factor that meets current industry standards will bring additional interest to the Amiga as a hobbyist and retro-computing option.
 
 ## Project Goals
 1. Enter Amiga 2000 Rev 6.4 schematics into KiCad.
@@ -24,7 +24,7 @@ This board makes use of suface mount devices. Lots of them. This is probably not
 
 Notes:
 1. If you do not intend to use a bridgeboard or the ISA slots, you do not need to install the components shown in the ISA SUPPORT silk screen.
-2. There are three video output options - Original VIDIOT, VIDIOT replacment circuit, and PI Zero HDMI. You need to install at least one of these options for video output.
+2. There are three video output options - VIDIOT, VIDIOT replacment circuit, and PI Zero HDMI. You need to install at least one of these options for video output.
 
 ## BOM
 REALLY BIG!
@@ -43,7 +43,7 @@ Lastly, there is a header to support a Raspberry Pi Zero for the purpose of impl
 The original left/right RCA jacks of the Amiga have been replaced by a 3.5mm stereo audio jack.
 
 ### Disk Drive Support
-The external disk drive port has been removed. Any Amiga compatable double density disk drive will work. Up to two internal disk drives are supported natively. 
+The external disk drive port has been removed. Internally, any Amiga compatable double density disk drive will work. Up to two internal disk drives are supported natively via the internal connector. 
 
 ### ISA Slots
 The number of 16 bit ISA slots has been reduced to three. This was done to provide additional space on the board. Support for ISA cards via a Bridgeboard is unchanged from the Amiga 2000. 
@@ -51,9 +51,18 @@ The number of 16 bit ISA slots has been reduced to three. This was done to provi
 ### Kickstart ROM
 The Kickstart ROM is now a 27C512 EPROM. The original 27C400 EPROMs are no longer manufactured. Burn Kickstart to the 27C512 using an EPROM programmer, such as the common TL866II. There are no special considerations in this process. The two EPROMs are compatable. The pin configuration is different.
 
+### Board Layout
+For obvious reasons, it was necessary to move components relative to one another. Be sure to double check the orientation and position of any IC's before attaching. Most components have the same designation as the Amiga 2000. However, some components have been removed and others have been added with unique designations. The video socket has been relocated to the sixth slot position on the board. Zorro slots occupy positions 1-5 and the CPU slot occupies position 7. It is possible to have every slot populated simultaneously.
+
+### Support for ATX Power Supplies
+The original Amiga 2000 power supply is not supported. New ATX 24-pin power supplies are supported with -5V being supplied on board via a voltage regulator. The power switch header is positioned near the power socket on the board.
+
+### External Reset Switch
+The computer can be reset via CTRL-Amiga-Amiga on an Amiga keyboard or via the reset switch found on ATX computer cases. The reset switch header is found near XXXXXXXX. The external reset switch is valuable for when an Amiga keyboard is not available.
+
 ## What has not changed?
 ### Most External Ports
-The keyboard, joystick, mouse, parallel, serial, and audio ports are all present and function as they did in the Amiga 2000. The parallel, serial, mouse, and joystick ports are present as stacked DB9 and DB25 connectors, respectively. The Amiga keyboard port is a DIN5 connector. 
+The keyboard, joystick, mouse, parallel, serial, and audio ports are all present and function as they did in the Amiga 2000. The parallel, serial, mouse, and joystick ports are present as stacked DB9 and DB25 connectors, respectively. The Amiga keyboard port remains a DIN5 connector. 
 
 ### Zorro II Slots
 There are no changes to the Zorro II slots.
@@ -72,8 +81,14 @@ Table 2. Legacy IC's
 Common Name|Designation|Postion|Package|Notes
 -|-|-|-|-
 Motorola 68000|MC68000|Uxxx|64-DIP|8MHz or greater
-Fatter Agnus|87xx|Uxxx|PLCC 84|87xx should work as well with jumper settings
+Fatter Agnus|MOS 8372A*|Uxxx|PLCC 84|8370 will work with correct jumper settings
+Gary|MOS 5719|Uxxx|48-DIP|GAte aRraY
+Paula|MOS 8364|Uxxx|48-DIP|Sound and disk I/O
+CIA|MOS 8520|Uxxx|40-DIP|Need two
+Buster|MOS 5721|Uxxx|48-DIP|BUS maSTER
+Denise|MOS 8362 or CSG 8373|Uxxx|48-DIP|Video controller
 
+*legacy Commodore IC's may be marked "CSG" or "MOS", or possibly neighther in the case of contracted runs. These are completely interchangeable as long as the number matches.
 
 ## Acknowledgments
 This project includes prior works shared in other projects.
