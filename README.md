@@ -1,11 +1,11 @@
 # Amiga 2000 EATX PCB
-The purpose of this project is to develop an Amiga 2000 PCB in the EATX form factor. There are one-to-one board replacement projects for the Amiga 2000, but none to change the layout to meet current form factor standards. In addition, the Amiga 2000 made use of connectors and custom parts that are no longer commercially manufactured. This often requires parts to be cannabalized from existing machines. As such, this project will make use of only currently available connectors and parts whenever possible. Essentially, we are going to build an Amiga with as many off the shelf parts as possible.
+The purpose of this project is to develop an Amiga 2000 PCB in the EATX form factor. There are one-to-one board replacement projects for the Amiga 2000, but none to change the layout to meet current form factor standards. In addition, the Amiga 2000 made use of connectors and custom parts that are no longer commercially manufactured. This often requires parts to be cannabalized from existing machines. As such, this project will make use of only actively supported components whenever possible. Essentially, we are going to build an Amiga with as many off the shelf parts as possible.
 
-In addition to have a new board replacement option, I believe the ubiquitous ATX form factor will bring additional interest to the Amiga as a hobbyist and retro-computing option.
+In addition to a new board replacement option, I believe the ubiquitous ATX form factor will bring additional interest to the Amiga as a hobbyist and retro-computing option.
 
 ## Project Goals
 1. Enter Amiga 2000 Rev 6.4 schematics into KiCad.
-2. When possible, replace unavailable components with suitable alternatives that are commercially available.
+2. When possible, replace unsupported/end of life components with suitable alternatives that are commercially available.
 3. Layout and route components using the ATX standard as a guide.
 4. Test it and make sure it works.
 
@@ -14,7 +14,6 @@ In addition to have a new board replacement option, I believe the ubiquitous ATX
 2. On-board hard drive support.
 3. On-board 8 megabyte memory expansion.
 4. Support for PC configured disk drives.
-5. Replace the DIP64 68000 with a modern SMD equivalent.
 
 ## Ordering PCBs
 ADD SOME STUFF
@@ -30,7 +29,7 @@ Notes:
 REALLY BIG!
 
 ## Changes from the original Amiga 2000
-### Video Output
+### Video
 This is perhaps the most affected Amiga subsytem in this project. The most obvious change is the move from the DB23 video connector to the HD15 connector. One of the goals of this project is to avoid parts that are not commercially available. The DB23 connector is a prime example. While they can still be obtained, you cannot find them in stock at popular electronic supply houses. Thus, the change to the widely available HD15 connector. The analog RGB outpus along with HSYNC and VSYNC are supplied using the VGA standard pin out configuration. Any VGA cable can be used to supply the video signal to a VGA monitor supporting the 15KHz standard, or widely available VGA to HDMI conversion boxes. Pinouts are shown in Table 1.
 
 This change means other external video signals on the original Amiga are not available on this project. These missing signals are intended to support external Genlocks, video editors, etc. Most of these signals are still available on the internal video slot with the exception of COMP and COMPSYNC. In order to simplify the design, the COMP and COMPSYNC signals have been removed. The composite output of the Amiga 2000 is monochrome only and is not likely to be missed.
@@ -38,6 +37,12 @@ This change means other external video signals on the original Amiga are not ava
 There are two options for the VDAC (VIDIOT) circuit. The first is to make use of an existing VIDIOT by soldering it to the VIDIOT socket. The second option is to supply the circuitry shown on the PCB in the "VIDIOT CIRCUIT" silk screen. You may use either option, but not both. Either should work equally well. It is recommended to use only high quality resistors with 1% tolerance in the VIDIOT replacement circuit.
 
 Lastly, there is a header to support a Raspberry Pi Zero for the purpose of implementing the Pi to HDMI video project directly on the board. If you wish to use the Pi as an HDMI video output source, install the components of the circuit indicated in the Pi -> HDMI silkscreen area. If you intend to use only the Raspberry Pi for video output, you do not need to install the VIDIOT or VIDIOT replacment circuit.
+
+### Memory
+The original 256x4 DRAM has been replaced by a single SRAM.
+
+### Kickstart ROM
+The Kickstart ROM is now a 27C512 EPROM. The original 27C400 EPROMs are no longer manufactured. Burn Kickstart to the 27C512 using an EPROM programmer, such as the common TL866II. There are no special considerations in this process. The two EPROMs are compatable. The pin configuration is different.
 
 ### Audio Output
 The original left/right RCA jacks of the Amiga have been replaced by a 3.5mm stereo audio jack.
@@ -48,13 +53,10 @@ The external disk drive port has been removed. Internally, any Amiga compatable 
 ### ISA Slots
 The number of 16 bit ISA slots has been reduced to three. This was done to provide additional space on the board. Support for ISA cards via a Bridgeboard is unchanged from the Amiga 2000. 
 
-### Kickstart ROM
-The Kickstart ROM is now a 27C512 EPROM. The original 27C400 EPROMs are no longer manufactured. Burn Kickstart to the 27C512 using an EPROM programmer, such as the common TL866II. There are no special considerations in this process. The two EPROMs are compatable. The pin configuration is different.
-
 ### Board Layout
-For obvious reasons, it was necessary to move components relative to one another. Be sure to double check the orientation and position of any IC's before attaching. Most components have the same designation as the Amiga 2000. However, some components have been removed and others have been added with unique designations. The video slot has been relocated to the sixth slot position on the board. Zorro slots occupy positions 1-5 and the CPU slot occupies position 7. It is possible to have every slot populated simultaneously.
+For obvious reasons, it was necessary to move components relative to one another. Be sure to double check the orientation and position of any IC's before attaching. Most components have the same designation as used on the Amiga 2000. However, some components have been removed and others have been added with unique designations. The video slot has been relocated to the sixth slot position on the board. Zorro slots occupy positions 1-5 and the CPU slot occupies position 7. It is possible to have every slot populated simultaneously.
 
-### Support for ATX Power Supplies
+### ATX Power
 The original Amiga 2000 power supply is not supported. New ATX 24-pin power supplies are supported with -5V being supplied on board via a voltage regulator. The power switch header is positioned near the power socket on the board.
 
 ### External Reset Switch
@@ -91,7 +93,7 @@ Denise|MOS 8362 or CSG 8373|Uxxx|48-DIP|Video controller
 *Legacy Commodore IC's may be marked "CSG" or "MOS", or possibly neighther in the case of contracted runs. These are completely interchangeable as long as the number matches.
 
 ## Acknowledgments
-This project includes prior works shared in other projects.
+This project is built on the backs of giants.
 
 SukkoPerra - VIDIOT replacment circuit - https://github.com/SukkoPera/OpenAmigaVideoHybrid
 
