@@ -37,6 +37,12 @@ K capacitor cap
 F ~
 $ENDCMP
 #
+$CMP DB25_Stack_FemaleAndMale
+D 25-pin female D-SUB connector
+K female D-SUB connector
+F  ~
+$ENDCMP
+#
 $CMP DB9_Male_Stack
 D 9-pin male D-SUB connector
 K connector male D-SUB
@@ -53,14 +59,14 @@ $CMP Gary
 D Gary
 $ENDCMP
 #
-$CMP MC1489
-D Quad Line EIA-232D
-F https://www.onsemi.com/pub/Collateral/MC1489-D.PDF
-$ENDCMP
-#
 $CMP SN75188DR
 D Quad Line EIA-232D
 F https://www.ti.com/lit/ds/symlink/mc1488.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1616552868480
+$ENDCMP
+#
+$CMP SN75189DR
+D Quad Line EIA-232D
+F https://www.ti.com/lit/ds/symlink/mc1489a.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1616554587381
 $ENDCMP
 #
 $CMP VREF

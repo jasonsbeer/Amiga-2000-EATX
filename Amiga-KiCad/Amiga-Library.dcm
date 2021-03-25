@@ -37,6 +37,12 @@ K capacitor cap
 F ~
 $ENDCMP
 #
+$CMP DB25_Stack_FemaleAndMale
+D 25-pin female D-SUB connector
+K female D-SUB connector
+F  ~
+$ENDCMP
+#
 $CMP DB9_Male_Stack
 D 9-pin male D-SUB connector
 K connector male D-SUB
