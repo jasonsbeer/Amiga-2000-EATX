@@ -39,7 +39,7 @@ There are two options for the VDAC (VIDIOT) circuit. The first is to make use of
 Lastly, there is a header to support a Raspberry Pi Zero for the purpose of implementing the Pi to HDMI video project directly on the board. If you wish to use the Pi as an HDMI video output source, install the components of the circuit indicated in the Pi -> HDMI silkscreen area. If you intend to use only the Raspberry Pi for video output, you do not need to install the VIDIOT or VIDIOT replacment circuit.
 
 ### Memory
-The original 256x4 DRAM has been replaced by a single SRAM.
+The original 256x4 DRAMs have been replaced by a single SRAM.
 
 ### Kickstart ROM
 The Kickstart ROM is now a 27C512 EPROM. The original 27C400 EPROMs are no longer manufactured. Burn Kickstart to the 27C512 using an EPROM programmer, such as the common TL866II. There are no special considerations in this process. The two EPROMs are compatable. The pin configuration is different.
