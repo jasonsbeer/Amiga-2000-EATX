@@ -5,7 +5,7 @@ In addition to a new board replacement option, I believe the ubiquitous ATX form
 
 ## Project Goals
 1. Enter Amiga 2000 Rev 6.4 schematics into KiCad.
-2. When possible, replace unsupported/end of life components with suitable alternatives that are commercially available.
+2. When possible, replace end of life components with suitable alternatives that are commercially available.
 3. Layout and route components using the ATX standard as a guide.
 4. Test it and make sure it works.
 
