@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
-Sheet 12 12
+Sheet 12 13
 Title ""
 Date ""
 Rev ""
@@ -472,4 +472,27 @@ Wire Wire Line
 Connection ~ 9350 5350
 Wire Wire Line
 	9350 5350 9350 5550
+$Comp
+L Amiga-Library:8520 U2
+U 1 1 605D485E
+P 2150 3650
+F 0 "U2" H 2125 5875 50  0000 C CNN
+F 1 "8520" H 2125 5784 50  0000 C CNN
+F 2 "Package_DIP:DIP-40_W15.24mm" H 2150 5000 50  0001 C CNN
+F 3 "" H 2150 5000 50  0001 C CNN
+	1    2150 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:DIN-5_180degree J1
+U 1 1 605D6665
+P 6800 1500
+F 0 "J1" H 6800 1225 50  0000 C CNN
+F 1 "DIN-5_180degree" H 6800 1134 50  0000 C CNN
+F 2 "AmigaFootprints:DIN5" H 6800 1500 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf" H 6800 1500 50  0001 C CNN
+F 4 "SDS-50J" H 6800 1500 50  0001 C CNN "Part"
+	1    6800 1500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

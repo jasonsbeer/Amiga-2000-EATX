@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 12
+Sheet 1 13
 Title ""
 Date ""
 Rev ""
@@ -80,5 +80,11 @@ S 2150 5300 1050 650
 U 60DF4324
 F0 "Floppy and Parallel" 47
 F1 "floppyparallel.sch" 47
+$EndSheet
+$Sheet
+S 5000 6050 1200 700 
+U 6089B263
+F0 "Memory and Kickstart" 50
+F1 "memory.sch" 50
 $EndSheet
 $EndSCHEMATC

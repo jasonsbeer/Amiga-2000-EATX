@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
-Sheet 6 12
+Sheet 6 13
 Title ""
 Date ""
 Rev ""
@@ -2001,7 +2001,7 @@ $EndComp
 Wire Wire Line
 	2050 6900 2450 6900
 Wire Wire Line
-	1350 7000 1550 7000
+	1300 7000 1550 7000
 Wire Wire Line
 	1550 7000 1550 6900
 Wire Wire Line
