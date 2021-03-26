@@ -89,12 +89,12 @@ Paula|MOS 8364|Uxxx|48-DIP|Sound and disk I/O
 CIA|MOS 8520|Uxxx|40-DIP|Need two
 Buster|MOS 5721|Uxxx|48-DIP|BUS maSTER
 Denise|MOS 8362 or CSG 8373|Uxxx|48-DIP|Video controller
-Kickstart ROM|Commodore ROM or 27C400|Uxxx|40-DIP|v1.2+
+Kickstart|Commodore ROM or 27C400|Uxxx|40-DIP|v1.2+
 
-*Legacy Commodore IC's may be marked "CSG" or "MOS", or possibly neighther in the case of contracted runs. These are completely interchangeable as long as the number matches.
+*Legacy Commodore IC's may be marked "CSG" or "MOS", or possibly neither in the case of contract runs. These are completely interchangeable as long as the number matches.
 
 ## Acknowledgments
-This project is built on the backs of giants.
+This project is built on the backs of giants. A big thanks to everyone that makes the retro computing community great.
 
 SukkoPerra - VIDIOT replacment circuit - https://github.com/SukkoPera/OpenAmigaVideoHybrid
 
