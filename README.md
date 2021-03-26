@@ -79,7 +79,7 @@ Pin|Signal|Pin|Signal|Pin|Signal
 4|NC|9|GND|14|VSYNC
 5|GND|10|GND|15|NC
 
-Table 2. Legacy IC's
+Table 2. Legacy IC's Required
 Common Name|Designation|Postion|Package|Notes
 -|-|-|-|-
 Motorola 68000|MC68000|Uxxx|64-DIP|8MHz or greater
@@ -87,7 +87,7 @@ Fatter Agnus|MOS 8372A*|Uxxx|PLCC 84|8370 will work with correct jumper settings
 Gary|MOS 5719|Uxxx|48-DIP|GAte aRraY
 Paula|MOS 8364|Uxxx|48-DIP|Sound and disk I/O
 CIA|MOS 8520|Uxxx|40-DIP|Need two
-Buster|MOS 5721|Uxxx|48-DIP|BUS maSTER
+Buster|MOS 5721|Uxxx|48-DIP|BUS masTER
 Denise|MOS 8362 or CSG 8373|Uxxx|48-DIP|Video controller
 Kickstart|Commodore ROM or 27C400|Uxxx|40-DIP|v1.2+
 
