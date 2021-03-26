@@ -41,9 +41,6 @@ Lastly, there is a header to support a Raspberry Pi Zero for the purpose of impl
 ### Memory
 The original 256x4 DRAMs have been replaced by a single SRAM.
 
-### Kickstart ROM
-The Kickstart ROM is now a 27C512 EPROM. The original 27C400 EPROMs are no longer manufactured. Burn Kickstart to the 27C512 using an EPROM programmer, such as the common TL866II. There are no special considerations in this process. The two EPROMs are compatable. The pin configuration is different.
-
 ### Audio Output
 The original left/right RCA jacks of the Amiga have been replaced by a 3.5mm stereo audio jack.
 
@@ -69,6 +66,9 @@ The keyboard, joystick, mouse, parallel, serial, and audio ports are all present
 ### Zorro II Slots
 There are no changes to the Zorro II slots.
 
+### Kickstart ROM
+For now, the Kickstart ROM remains the original 27C400. These are no longer made, but are easy to find. In addition, this allows the use of an original Commodore Kickstart mask ROM.
+
 ## Tables
 Table 1. Video Port
 Pin|Signal|Pin|Signal|Pin|Signal
@@ -89,6 +89,7 @@ Paula|MOS 8364|Uxxx|48-DIP|Sound and disk I/O
 CIA|MOS 8520|Uxxx|40-DIP|Need two
 Buster|MOS 5721|Uxxx|48-DIP|BUS maSTER
 Denise|MOS 8362 or CSG 8373|Uxxx|48-DIP|Video controller
+Kickstart ROM|Commodore ROM or 27C400|Uxxx|40-DIP|v1.2+
 
 *Legacy Commodore IC's may be marked "CSG" or "MOS", or possibly neighther in the case of contracted runs. These are completely interchangeable as long as the number matches.
 
