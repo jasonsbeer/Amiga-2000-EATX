@@ -827,4 +827,195 @@ Wire Wire Line
 	2100 1850 2250 1850
 Wire Wire Line
 	1100 6800 2300 6800
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 6079CD83
+P 9100 3500
+F 0 "H1" V 9100 3650 50  0000 L CNN
+F 1 "MountingHole_Pad" V 9145 3650 50  0001 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 9100 3500 50  0001 C CNN
+F 3 "~" H 9100 3500 50  0001 C CNN
+	1    9100 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 607A300A
+P 9100 3700
+F 0 "H4" V 9100 3850 50  0000 L CNN
+F 1 "MountingHole_Pad" V 9145 3850 50  0001 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 9100 3700 50  0001 C CNN
+F 3 "~" H 9100 3700 50  0001 C CNN
+	1    9100 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H7
+U 1 1 607A343C
+P 9100 3900
+F 0 "H7" V 9100 4050 50  0000 L CNN
+F 1 "MountingHole_Pad" V 9145 4050 50  0001 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 9100 3900 50  0001 C CNN
+F 3 "~" H 9100 3900 50  0001 C CNN
+	1    9100 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H10
+U 1 1 607A38D0
+P 9100 4100
+F 0 "H10" V 9100 4250 50  0000 L CNN
+F 1 "MountingHole_Pad" V 9145 4250 50  0001 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 9100 4100 50  0001 C CNN
+F 3 "~" H 9100 4100 50  0001 C CNN
+	1    9100 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 607A449F
+P 9500 3500
+F 0 "H2" V 9500 3650 50  0000 L CNN
+F 1 "MountingHole_Pad" V 9545 3650 50  0001 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 9500 3500 50  0001 C CNN
+F 3 "~" H 9500 3500 50  0001 C CNN
+	1    9500 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H5
+U 1 1 607A48FE
+P 9500 3700
+F 0 "H5" V 9500 3850 50  0000 L CNN
+F 1 "MountingHole_Pad" V 9545 3850 50  0001 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 9500 3700 50  0001 C CNN
+F 3 "~" H 9500 3700 50  0001 C CNN
+	1    9500 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H8
+U 1 1 607A4E77
+P 9500 3900
+F 0 "H8" V 9500 4050 50  0000 L CNN
+F 1 "MountingHole_Pad" V 9545 4050 50  0001 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 9500 3900 50  0001 C CNN
+F 3 "~" H 9500 3900 50  0001 C CNN
+	1    9500 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H11
+U 1 1 607A52EF
+P 9500 4100
+F 0 "H11" V 9500 4250 50  0000 L CNN
+F 1 "MountingHole_Pad" V 9545 4250 50  0001 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 9500 4100 50  0001 C CNN
+F 3 "~" H 9500 4100 50  0001 C CNN
+	1    9500 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 607B44AE
+P 9900 3500
+F 0 "H3" V 9900 3650 50  0000 L CNN
+F 1 "MountingHole_Pad" V 9945 3650 50  0001 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 9900 3500 50  0001 C CNN
+F 3 "~" H 9900 3500 50  0001 C CNN
+	1    9900 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H9
+U 1 1 607B4AE3
+P 9900 3900
+F 0 "H9" V 9900 4050 50  0000 L CNN
+F 1 "MountingHole_Pad" V 9945 4050 50  0001 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 9900 3900 50  0001 C CNN
+F 3 "~" H 9900 3900 50  0001 C CNN
+	1    9900 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H6
+U 1 1 607B5071
+P 9900 3700
+F 0 "H6" V 9900 3850 50  0000 L CNN
+F 1 "MountingHole_Pad" V 9945 3850 50  0001 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 9900 3700 50  0001 C CNN
+F 3 "~" H 9900 3700 50  0001 C CNN
+	1    9900 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H12
+U 1 1 607BA784
+P 9900 4100
+F 0 "H12" V 9900 4250 50  0000 L CNN
+F 1 "MountingHole_Pad" V 9945 4250 50  0001 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 9900 4100 50  0001 C CNN
+F 3 "~" H 9900 4100 50  0001 C CNN
+	1    9900 4100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9400 3500 9400 3700
+Wire Wire Line
+	9400 4400 9000 4400
+Wire Wire Line
+	9000 4400 9000 4100
+Connection ~ 9400 3700
+Wire Wire Line
+	9400 3700 9400 3900
+Connection ~ 9400 3900
+Wire Wire Line
+	9400 3900 9400 4100
+Connection ~ 9400 4100
+Wire Wire Line
+	9400 4100 9400 4400
+Connection ~ 9000 3700
+Wire Wire Line
+	9000 3700 9000 3500
+Connection ~ 9000 3900
+Wire Wire Line
+	9000 3900 9000 3700
+Connection ~ 9000 4100
+Wire Wire Line
+	9000 4100 9000 3900
+Wire Wire Line
+	9800 3500 9800 3700
+Wire Wire Line
+	9800 4400 9400 4400
+Connection ~ 9800 3700
+Wire Wire Line
+	9800 3700 9800 3900
+Connection ~ 9800 3900
+Wire Wire Line
+	9800 3900 9800 4100
+Connection ~ 9800 4100
+Wire Wire Line
+	9800 4100 9800 4400
+Connection ~ 9400 4400
+$Comp
+L power:GND #PWR0357
+U 1 1 607C700A
+P 9400 4400
+F 0 "#PWR0357" H 9400 4150 50  0001 C CNN
+F 1 "GND" H 9405 4227 50  0000 C CNN
+F 2 "" H 9400 4400 50  0001 C CNN
+F 3 "" H 9400 4400 50  0001 C CNN
+	1    9400 4400
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	8800 2800 8800 4700
+Wire Notes Line
+	8800 4700 10250 4700
+Wire Notes Line
+	10250 4700 10250 2800
+Wire Notes Line
+	10250 2800 8800 2800
+Text Notes 9050 3250 0    118  ~ 0
+MOUNTING\nHOLES
 $EndSCHEMATC
