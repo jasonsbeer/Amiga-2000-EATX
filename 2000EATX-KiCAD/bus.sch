@@ -812,13 +812,13 @@ REAL TIME CLOCK
 Wire Wire Line
 	9500 2000 9500 2800
 Text GLabel 7800 8200 0    50   Input ~ 0
-A0
-Text GLabel 7800 8300 0    50   Input ~ 0
-A1
-Text GLabel 7800 8400 0    50   Input ~ 0
 A2
-Text GLabel 7800 8500 0    50   Input ~ 0
+Text GLabel 7800 8300 0    50   Input ~ 0
 A3
+Text GLabel 7800 8400 0    50   Input ~ 0
+A4
+Text GLabel 7800 8500 0    50   Input ~ 0
+A5
 Text GLabel 8850 8500 2    50   Input ~ 0
 D0
 Text GLabel 8850 8600 2    50   Input ~ 0

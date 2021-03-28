@@ -796,13 +796,9 @@ Wire Wire Line
 Wire Wire Line
 	5900 6150 5900 6850
 Wire Wire Line
-	5900 6850 1750 6850
-Wire Wire Line
 	5750 6050 5950 6050
 Wire Wire Line
 	5950 6050 5950 7000
-Wire Wire Line
-	5950 7000 1650 7000
 Wire Wire Line
 	5750 5950 6000 5950
 Wire Wire Line
@@ -823,16 +819,6 @@ Text GLabel 1050 7000 0    50   Output ~ 0
 _UDS
 Text GLabel 1050 7150 0    50   Output ~ 0
 _AS
-Wire Wire Line
-	1750 3950 1750 6850
-Connection ~ 1750 6850
-Wire Wire Line
-	1750 6850 1050 6850
-Wire Wire Line
-	1650 3950 1650 7000
-Connection ~ 1650 7000
-Wire Wire Line
-	1650 7000 1050 7000
 Wire Wire Line
 	1550 3950 1550 6700
 Connection ~ 1550 6700
@@ -1161,4 +1147,18 @@ F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 1550 3750 50  0001 C CNN
 	1    1550 3750
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1050 7000 1750 7000
+Wire Wire Line
+	1050 6850 1650 6850
+Wire Wire Line
+	1750 3950 1750 7000
+Connection ~ 1750 7000
+Wire Wire Line
+	1750 7000 5950 7000
+Wire Wire Line
+	1650 3950 1650 6850
+Connection ~ 1650 6850
+Wire Wire Line
+	1650 6850 5900 6850
 $EndSCHEMATC
