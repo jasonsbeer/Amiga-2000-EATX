@@ -430,19 +430,8 @@ Wire Wire Line
 	4250 4600 3400 4600
 Wire Wire Line
 	3450 2650 4950 2650
-$Comp
-L Jumper:SolderJumper_2_Bridged J900
-U 1 1 60C73DC4
-P 2450 4600
-F 0 "J900" H 2450 4805 50  0000 C CNN
-F 1 "Enable Chip RAM slowdown during DMA" H 2500 4700 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 2450 4600 50  0001 C CNN
-F 3 "~" H 2450 4600 50  0001 C CNN
-	1    2450 4600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	2300 4600 1800 4600
+	2500 4600 1800 4600
 Text GLabel 1800 4600 0    50   Input ~ 0
 _BGACK
 Text GLabel 4950 3400 0    50   Output ~ 0
@@ -1299,4 +1288,15 @@ Wire Wire Line
 Connection ~ 6550 9700
 Wire Wire Line
 	6550 9700 5250 9700
+$Comp
+L Connector:Conn_01x02_Male J900
+U 1 1 60632932
+P 2500 4800
+F 0 "J900" V 2654 4612 50  0000 R CNN
+F 1 "Enable Chip RAM slowdown during DMA" V 2563 4612 50  0000 R CNN
+F 2 "" H 2500 4800 50  0001 C CNN
+F 3 "~" H 2500 4800 50  0001 C CNN
+	1    2500 4800
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
