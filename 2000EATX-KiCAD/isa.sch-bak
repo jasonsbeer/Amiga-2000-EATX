@@ -50,6 +50,8 @@ $Comp
 L Connector:Bus_ISA_8bit CN6
 U 1 1 6056DBD0
 P 7350 2800
+AR Path="/6056DBD0" Ref="CN6"  Part="1" 
+AR Path="/60561B9D/6056DBD0" Ref="CN6"  Part="1" 
 F 0 "CN6" H 7350 4567 50  0000 C CNN
 F 1 "Bus_ISA_8bit" H 7350 4476 50  0000 C CNN
 F 2 "AmigaFootprints:ISA_2x31_P2.54mm_Horizontal" H 7350 2800 50  0001 C CNN
@@ -61,6 +63,8 @@ $Comp
 L Connector:Bus_ISA_8bit CN3
 U 1 1 6056C48C
 P 5200 2850
+AR Path="/6056C48C" Ref="CN3"  Part="1" 
+AR Path="/60561B9D/6056C48C" Ref="CN3"  Part="1" 
 F 0 "CN3" H 5200 4617 50  0000 C CNN
 F 1 "Bus_ISA_8bit" H 5200 4526 50  0000 C CNN
 F 2 "AmigaFootprints:ISA_2x31_P2.54mm_Horizontal" H 5200 2850 50  0001 C CNN
@@ -72,6 +76,8 @@ $Comp
 L Connector:Bus_ISA_8bit CN1
 U 1 1 60564F7E
 P 2950 2850
+AR Path="/60564F7E" Ref="CN1"  Part="1" 
+AR Path="/60561B9D/60564F7E" Ref="CN1"  Part="1" 
 F 0 "CN1" H 2950 4617 50  0000 C CNN
 F 1 "Bus_ISA_8bit" H 2950 4526 50  0000 C CNN
 F 2 "AmigaFootprints:ISA_2x31_P2.54mm_Horizontal" H 2950 2850 50  0001 C CNN
