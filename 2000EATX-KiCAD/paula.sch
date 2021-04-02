@@ -195,111 +195,14 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS157" H 2000 8850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R RN200A1
-U 1 1 605BC900
-P 2600 7350
-F 0 "RN200A1" V 2650 7600 50  0000 L CNN
-F 1 "4.7k" V 2550 7700 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 2530 7350 50  0001 C CNN
-F 3 "~" H 2600 7350 50  0001 C CNN
-	1    2600 7350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R RN200C1
-U 1 1 605BFA91
-P 3000 7350
-F 0 "RN200C1" V 3050 7600 50  0000 L CNN
-F 1 "4.7k" V 2950 7700 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 2930 7350 50  0001 C CNN
-F 3 "~" H 3000 7350 50  0001 C CNN
-	1    3000 7350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R RN200E1
-U 1 1 605BFDD9
-P 3400 7350
-F 0 "RN200E1" V 3450 7600 50  0000 L CNN
-F 1 "4.7k" V 3350 7700 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 3330 7350 50  0001 C CNN
-F 3 "~" H 3400 7350 50  0001 C CNN
-	1    3400 7350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R RN200G1
-U 1 1 605C019F
-P 3800 7350
-F 0 "RN200G1" V 3850 7600 50  0000 L CNN
-F 1 "4.7k" V 3750 7700 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 3730 7350 50  0001 C CNN
-F 3 "~" H 3800 7350 50  0001 C CNN
-	1    3800 7350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R RN200B1
-U 1 1 605C04B3
-P 2800 7350
-F 0 "RN200B1" V 2850 7600 50  0000 L CNN
-F 1 "4.7k" V 2750 7700 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 2730 7350 50  0001 C CNN
-F 3 "~" H 2800 7350 50  0001 C CNN
-	1    2800 7350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R RN200D1
-U 1 1 605C0CA5
-P 3200 7350
-F 0 "RN200D1" V 3250 7600 50  0000 L CNN
-F 1 "4.7k" V 3150 7700 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 3130 7350 50  0001 C CNN
-F 3 "~" H 3200 7350 50  0001 C CNN
-	1    3200 7350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R RN200F1
-U 1 1 605C111D
-P 3600 7350
-F 0 "RN200F1" V 3650 7600 50  0000 L CNN
-F 1 "4.7k" V 3550 7700 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 3530 7350 50  0001 C CNN
-F 3 "~" H 3600 7350 50  0001 C CNN
-	1    3600 7350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3800 7200 3600 7200
-Connection ~ 2600 7200
-Wire Wire Line
-	2600 7200 2300 7200
-Connection ~ 2800 7200
-Wire Wire Line
-	2800 7200 2600 7200
-Connection ~ 3000 7200
-Wire Wire Line
-	3000 7200 2800 7200
-Connection ~ 3200 7200
-Wire Wire Line
-	3200 7200 3000 7200
-Connection ~ 3400 7200
-Wire Wire Line
-	3400 7200 3200 7200
-Connection ~ 3600 7200
-Wire Wire Line
-	3600 7200 3400 7200
-$Comp
 L power:+5V #PWR0258
 U 1 1 605DE558
-P 2300 7200
-F 0 "#PWR0258" H 2300 7050 50  0001 C CNN
-F 1 "+5V" H 2315 7373 50  0000 C CNN
-F 2 "" H 2300 7200 50  0001 C CNN
-F 3 "" H 2300 7200 50  0001 C CNN
-	1    2300 7200
+P 2900 7100
+F 0 "#PWR0258" H 2900 6950 50  0001 C CNN
+F 1 "+5V" H 2915 7273 50  0000 C CNN
+F 2 "" H 2900 7100 50  0001 C CNN
+F 3 "" H 2900 7100 50  0001 C CNN
+	1    2900 7100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -391,8 +294,6 @@ F 3 "~" V 5250 10300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2500 9450 2600 9450
-Wire Wire Line
 	4400 9450 4400 9650
 Wire Wire Line
 	4800 9650 5750 9650
@@ -401,15 +302,11 @@ Wire Wire Line
 Wire Wire Line
 	5750 10300 6300 10300
 Wire Wire Line
-	2500 9350 2800 9350
-Wire Wire Line
 	5550 9350 5650 9350
 Wire Wire Line
 	5650 9350 5650 9900
 Wire Wire Line
 	5650 9900 6300 9900
-Wire Wire Line
-	2500 9150 3000 9150
 Wire Wire Line
 	4950 9150 4950 10200
 Wire Wire Line
@@ -421,8 +318,6 @@ Wire Wire Line
 Wire Wire Line
 	5700 10100 6300 10100
 Wire Wire Line
-	2500 9050 3200 9050
-Wire Wire Line
 	3750 9050 3750 10000
 Wire Wire Line
 	3750 10000 4000 10000
@@ -432,8 +327,6 @@ Wire Wire Line
 	6050 10000 6050 9700
 Wire Wire Line
 	6050 9700 6300 9700
-Wire Wire Line
-	2500 8850 3400 8850
 Wire Wire Line
 	4900 8850 4900 8650
 Wire Wire Line
@@ -449,8 +342,6 @@ Wire Wire Line
 Wire Wire Line
 	5700 8150 6300 8150
 Wire Wire Line
-	2500 8550 3800 8550
-Wire Wire Line
 	4200 8550 4200 7900
 Wire Wire Line
 	4200 7900 4400 7900
@@ -460,8 +351,6 @@ Wire Wire Line
 	5400 7900 5400 8350
 Wire Wire Line
 	5400 8350 6300 8350
-Wire Wire Line
-	2500 8450 4000 8450
 Wire Wire Line
 	4100 8450 4100 7550
 Wire Wire Line
@@ -696,65 +585,9 @@ F 3 "" H 6300 8050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 6300 8250 2    50   ~ 0
-+5V
++5VMOUSE
 Text Label 6300 10000 2    50   ~ 0
-+5V
-Wire Wire Line
-	2600 7500 2600 9450
-Connection ~ 2600 9450
-Wire Wire Line
-	2600 9450 4400 9450
-Wire Wire Line
-	2800 7500 2800 9350
-Connection ~ 2800 9350
-Wire Wire Line
-	2800 9350 5150 9350
-Wire Wire Line
-	3000 7500 3000 9150
-Connection ~ 3000 9150
-Wire Wire Line
-	3000 9150 4950 9150
-Wire Wire Line
-	3200 7500 3200 9050
-Connection ~ 3200 9050
-Wire Wire Line
-	3200 9050 3750 9050
-Wire Wire Line
-	3400 7500 3400 8850
-Connection ~ 3400 8850
-Wire Wire Line
-	3400 8850 4900 8850
-Wire Wire Line
-	3600 7500 3600 8750
-Wire Wire Line
-	2500 8750 3600 8750
-Connection ~ 3600 8750
-Wire Wire Line
-	3600 8750 4400 8750
-Wire Wire Line
-	3800 7500 3800 8550
-Connection ~ 3800 8550
-Wire Wire Line
-	3800 8550 4200 8550
-$Comp
-L Device:R RN200G2
-U 1 1 605CAB95
-P 4000 7350
-F 0 "RN200G2" V 4050 7600 50  0000 L CNN
-F 1 "4.7k" V 3950 7700 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 3930 7350 50  0001 C CNN
-F 3 "~" H 4000 7350 50  0001 C CNN
-	1    4000 7350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4000 7500 4000 8450
-Connection ~ 4000 8450
-Wire Wire Line
-	4000 8450 4100 8450
-Wire Wire Line
-	3800 7200 4000 7200
-Connection ~ 3800 7200
++5VMOUSE
 $Comp
 L Device:R RN204A1
 U 1 1 60B116D5
@@ -806,7 +639,7 @@ M1H
 Text GLabel 1200 8850 0    50   Input ~ 0
 M0V
 Text GLabel 1200 8550 0    50   Input ~ 0
-M1V
+M0H
 Wire Wire Line
 	2500 8150 2500 7250
 Wire Wire Line
@@ -972,7 +805,7 @@ Connection ~ 9700 8100
 Wire Wire Line
 	9100 8100 8950 8100
 Text Label 8950 8100 2    50   ~ 0
-+5V
++5VMOUSE
 Wire Notes Line
 	8650 8650 10150 8650
 Wire Notes Line
@@ -992,7 +825,7 @@ Wire Wire Line
 Wire Wire Line
 	2700 7550 1500 7550
 Text GLabel 1250 7550 0    50   Input ~ 0
-MC1
+_MC1
 $Comp
 L Device:R R900
 U 1 1 60BDEFFB
@@ -1107,7 +940,7 @@ F 1 "+AUD" H 3515 1073 50  0000 C CNN
 F 2 "" H 3500 900 50  0001 C CNN
 F 3 "" H 3500 900 50  0001 C CNN
 	1    3500 900 
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 Text GLabel 3100 1900 2    50   Input ~ 0
 _DKRD
@@ -2226,4 +2059,76 @@ F 3 "" H 13950 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 13950 1850
+$Comp
+L Device:R_Network08 RN200
+U 1 1 61198F66
+P 3300 7300
+F 0 "RN200" H 3688 7346 50  0000 L CNN
+F 1 "4.7k" H 3688 7255 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 3775 7300 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 3300 7300 50  0001 C CNN
+	1    3300 7300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 8450 3600 8450
+Wire Wire Line
+	2500 8550 3500 8550
+Wire Wire Line
+	2500 8750 3400 8750
+Wire Wire Line
+	2500 8850 3300 8850
+Wire Wire Line
+	2500 9050 3200 9050
+Wire Wire Line
+	2500 9150 3100 9150
+Wire Wire Line
+	2500 9350 3000 9350
+Wire Wire Line
+	2500 9450 2900 9450
+Wire Wire Line
+	2900 7500 2900 9450
+Connection ~ 2900 9450
+Wire Wire Line
+	2900 9450 4400 9450
+Wire Wire Line
+	3000 7500 3000 9350
+Connection ~ 3000 9350
+Wire Wire Line
+	3000 9350 5150 9350
+Wire Wire Line
+	3100 7500 3100 9150
+Connection ~ 3100 9150
+Wire Wire Line
+	3100 9150 4950 9150
+Wire Wire Line
+	3200 7500 3200 9050
+Connection ~ 3200 9050
+Wire Wire Line
+	3200 9050 3750 9050
+Wire Wire Line
+	3300 7500 3300 8850
+Connection ~ 3300 8850
+Wire Wire Line
+	3300 8850 4900 8850
+Wire Wire Line
+	3400 7500 3400 8750
+Connection ~ 3400 8750
+Wire Wire Line
+	3400 8750 4400 8750
+Wire Wire Line
+	3500 7500 3500 8550
+Connection ~ 3500 8550
+Wire Wire Line
+	3500 8550 4200 8550
+Wire Wire Line
+	3600 7500 3600 8450
+Connection ~ 3600 8450
+Wire Wire Line
+	3600 8450 4100 8450
+Wire Wire Line
+	9400 5000 9550 5000
+Wire Wire Line
+	9550 5000 9550 4500
+Connection ~ 9550 4500
 $EndSCHEMATC

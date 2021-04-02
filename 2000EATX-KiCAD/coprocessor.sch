@@ -891,17 +891,6 @@ F 3 "" H 3750 7500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Network09 RN903/908
-U 1 1 60B42275
-P 4800 5850
-F 0 "RN903/908" H 4550 6050 50  0000 L CNN
-F 1 "1k" H 4550 6150 50  0000 L CNN
-F 2 "Resistor_THT:R_Array_SIP11" V 5375 5850 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 4800 5850 50  0001 C CNN
-	1    4800 5850
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5V #PWR0135
 U 1 1 60B454E3
 P 4400 5650
@@ -933,34 +922,6 @@ Wire Wire Line
 	4250 6400 4700 6400
 Wire Wire Line
 	4250 6500 4800 6500
-Wire Wire Line
-	4250 6600 4900 6600
-Wire Wire Line
-	4250 6700 5000 6700
-Wire Wire Line
-	4250 6800 5100 6800
-Wire Wire Line
-	5200 6050 5200 6900
-Wire Wire Line
-	4250 6900 5200 6900
-Connection ~ 5200 6900
-Wire Wire Line
-	5200 6900 5700 6900
-Wire Wire Line
-	5100 6050 5100 6800
-Connection ~ 5100 6800
-Wire Wire Line
-	5100 6800 5700 6800
-Wire Wire Line
-	5000 6050 5000 6700
-Connection ~ 5000 6700
-Wire Wire Line
-	5000 6700 5700 6700
-Wire Wire Line
-	4900 6050 4900 6600
-Connection ~ 4900 6600
-Wire Wire Line
-	4900 6600 5700 6600
 Wire Wire Line
 	4800 6050 4800 6500
 Connection ~ 4800 6500
@@ -1555,4 +1516,60 @@ Wire Wire Line
 Connection ~ 8300 2400
 Wire Wire Line
 	8300 2400 9750 2400
+$Comp
+L Device:R_Network05 RN903
+U 1 1 61444A0D
+P 4600 5850
+F 0 "RN903" H 4888 5896 50  0000 L CNN
+F 1 "1k" H 4888 5805 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP6" V 4975 5850 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 4600 5850 50  0001 C CNN
+	1    4600 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Network05 RN908
+U 1 1 61446021
+P 5400 6000
+F 0 "RN908" H 5688 6046 50  0000 L CNN
+F 1 "1k" H 5688 5955 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP6" V 5775 6000 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 5400 6000 50  0001 C CNN
+	1    5400 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 6600 5200 6600
+Wire Wire Line
+	4250 6700 5300 6700
+Wire Wire Line
+	4250 6800 5400 6800
+Wire Wire Line
+	4250 6900 5500 6900
+Wire Wire Line
+	5200 5800 5200 5650
+Wire Wire Line
+	5200 5650 4400 5650
+Connection ~ 4400 5650
+Wire Wire Line
+	5200 6200 5200 6600
+Connection ~ 5200 6600
+Wire Wire Line
+	5200 6600 5700 6600
+Wire Wire Line
+	5300 6200 5300 6700
+Connection ~ 5300 6700
+Wire Wire Line
+	5300 6700 5700 6700
+Wire Wire Line
+	5400 6200 5400 6800
+Connection ~ 5400 6800
+Wire Wire Line
+	5400 6800 5700 6800
+Wire Wire Line
+	5500 6200 5500 6900
+Connection ~ 5500 6900
+Wire Wire Line
+	5500 6900 5700 6900
+NoConn ~ 5600 6200
 $EndSCHEMATC

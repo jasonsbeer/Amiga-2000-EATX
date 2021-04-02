@@ -1566,7 +1566,7 @@ Wire Wire Line
 	1100 3050 2850 3050
 Connection ~ 2850 3050
 Text GLabel 1050 1350 0    50   Input ~ 0
-EC3
+_EC3
 Text GLabel 1050 1250 0    50   Output ~ 0
 _OWN
 Wire Wire Line
