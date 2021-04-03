@@ -1,7 +1,7 @@
 EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr B 17000 11000
 encoding utf-8
 Sheet 2 13
 Title ""
@@ -4116,10 +4116,10 @@ F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 1950 1500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0151
 U 1 1 612D942C
 P 2150 1700
-F 0 "#PWR?" H 2150 1450 50  0001 C CNN
+F 0 "#PWR0151" H 2150 1450 50  0001 C CNN
 F 1 "GND" H 2155 1527 50  0000 C CNN
 F 2 "" H 2150 1700 50  0001 C CNN
 F 3 "" H 2150 1700 50  0001 C CNN

@@ -25,6 +25,11 @@ D Power symbol creates a global label with name "AUDIO" , reference supply groun
 K power-flag
 $ENDCMP
 #
+$CMP CY74FCT821T
+D 10-BIT Bit Bus Interface
+F https://www.ti.com/lit/ds/symlink/cy74fct821t.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1616853456129
+$ENDCMP
+#
 $CMP C_Feedthrough
 D Feedthrough capacitor
 K EMI filter feedthrough capacitor
