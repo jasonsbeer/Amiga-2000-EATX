@@ -940,7 +940,7 @@ F 1 "+AUD" H 3515 1073 50  0000 C CNN
 F 2 "" H 3500 900 50  0001 C CNN
 F 3 "" H 3500 900 50  0001 C CNN
 	1    3500 900 
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 Text GLabel 3100 1900 2    50   Input ~ 0
 _DKRD
