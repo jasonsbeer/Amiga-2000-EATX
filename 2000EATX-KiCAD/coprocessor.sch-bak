@@ -1227,8 +1227,6 @@ Wire Wire Line
 	8250 1800 8250 2400
 Connection ~ 8250 2400
 Wire Wire Line
-	8250 2400 8300 2400
-Wire Wire Line
 	7450 4950 8650 4950
 Wire Wire Line
 	8650 4950 8650 4750
@@ -1511,11 +1509,6 @@ Wire Wire Line
 	8300 4250 8800 4250
 Wire Wire Line
 	7850 4250 7900 4250
-Wire Wire Line
-	8300 3450 8300 2400
-Connection ~ 8300 2400
-Wire Wire Line
-	8300 2400 9750 2400
 $Comp
 L Device:R_Network05 RN903
 U 1 1 61444A0D
@@ -1572,4 +1565,7 @@ Connection ~ 5500 6900
 Wire Wire Line
 	5500 6900 5700 6900
 NoConn ~ 5600 6200
+Wire Wire Line
+	8250 2400 9750 2400
+NoConn ~ 8300 3450
 $EndSCHEMATC
