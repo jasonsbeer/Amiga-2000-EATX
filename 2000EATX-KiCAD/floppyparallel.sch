@@ -2117,4 +2117,6 @@ Wire Wire Line
 Wire Wire Line
 	10650 9400 10250 9400
 Connection ~ 10250 9400
+Text Notes 8650 6050 0    79   ~ 0
+PARALLEL
 $EndSCHEMATC
