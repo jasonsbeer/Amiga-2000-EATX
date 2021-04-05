@@ -384,12 +384,12 @@ Connection ~ 7600 1800
 Wire Wire Line
 	7600 1800 8000 1800
 $Comp
-L Connector:Conn_01x03_Male CN306
+L Connector:Conn_01x02_Male CN306
 U 1 1 60649299
 P 8200 1800
 F 0 "CN306" H 8172 1732 50  0000 R CNN
 F 1 "POWER LED" H 8172 1823 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 8200 1800 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8200 1800 50  0001 C CNN
 F 3 "~" H 8200 1800 50  0001 C CNN
 	1    8200 1800
 	-1   0    0    1   
@@ -407,8 +407,6 @@ F 3 "~" H 7600 1650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7600 2100 8000 2100
-Wire Wire Line
-	8000 2100 8000 1900
 $Comp
 L power:GND #PWR0294
 U 1 1 60661DCA

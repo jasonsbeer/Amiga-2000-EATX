@@ -2065,7 +2065,7 @@ U 1 1 61198F66
 P 3300 7300
 F 0 "RN200" H 3688 7346 50  0000 L CNN
 F 1 "4.7k" H 3688 7255 50  0000 L CNN
-F 2 "Resistor_THT:R_Array_SIP8" V 3775 7300 50  0001 C CNN
+F 2 "Resistor_THT:R_Array_SIP9" V 3775 7300 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 3300 7300 50  0001 C CNN
 	1    3300 7300
 	1    0    0    -1  

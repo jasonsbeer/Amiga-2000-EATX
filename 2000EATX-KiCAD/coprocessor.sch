@@ -644,7 +644,7 @@ _VC1
 Text GLabel 850  1800 0    47   Output ~ 0
 _COPCGF
 Text GLabel 850  2300 0    47   Output ~ 0
-OVR
+_OVR
 Text GLabel 850  2400 0    47   Output ~ 0
 XRDY
 Text GLabel 850  2500 0    47   Output ~ 0
