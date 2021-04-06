@@ -11,12 +11,11 @@ In addition to a new board replacement option, I believe the ubiquitous ATX form
 
 ## Possible Future Goals and Considerations
 1. Support for HID keyboard and mouse.
-2. On-board hard drive support.
-3. On-board 8 megabyte memory expansion.
-4. Support for PC configured disk drives.
+2. On-board 8 megabyte memory expansion.
+3. Support for PC configured disk drives.
 
 ## Ordering PCBs
-ADD SOME STUFF
+Download the Gerber file and send to your favorite PCB manufacturer. This board is 4 layers. See Table 3 for layer descriptions.
 
 ## Assembling the Amiga 2000EATX
 This board makes use of suface mount devices. Lots of them. This is probably not a great project to learn how to solder SMD. The Amiga 2000 made use of a lot of decoupling capacitors and pullup/pulldown resistors. This is reflected in this project. You will need to obtain the legacy IC's shown in Table 2. All other components may be purchased from your favorite electronics supply house. The BOM includes DigiKey part numbers for your reference.
@@ -94,6 +93,14 @@ Kickstart|Commodore ROM or 27C400|Uxxx|40-DIP|v1.2+
 Real Time Clock||Uxxx|
 
 *Legacy Commodore IC's may be marked "CSG" or "MOS", or possibly neither in the case of contract runs. These are completely interchangeable as long as the number matches.
+
+Table 3. Board Layers
+Layer|Description
+-|-
+1|Component and Signal
+2|Ground Plane
+3|Power Plane
+4|Signal
 
 ## Acknowledgments
 This project is built on the backs of giants. A big thanks to everyone that makes the retro computing community great.
