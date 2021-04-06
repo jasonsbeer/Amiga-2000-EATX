@@ -1472,7 +1472,7 @@ E7M
 Text GLabel 1050 6300 0    50   Input ~ 0
 DOE
 Text GLabel 1050 6400 0    50   Input ~ 0
-_BURST
+_BUSRST
 Text GLabel 1050 6500 0    50   Input ~ 0
 _GBG
 Text GLabel 1050 6600 0    50   Output ~ 0
@@ -4036,23 +4036,23 @@ F 3 "" H 7650 1800 50  0001 C CNN
 	1    7650 1800
 	1    0    0    -1  
 $EndComp
-Text Label 2400 750  0    47   ~ 0
-_CFGOUT1
 Text Label 2450 950  0    47   ~ 0
+_CFGOUT1
+Text Label 2450 750  0    47   ~ 0
 _CFGIN1
 Text Label 6400 1150 0    47   ~ 0
-_CFGOUT5
-Text Label 5450 1050 0    47   ~ 0
-_CFGOUT4
-Text Label 4450 950  0    47   ~ 0
-_CFGOUT3
-Text Label 3500 850  0    47   ~ 0
-_CFGOUT2
-Text Label 3550 1050 0    47   ~ 0
-_CFGIN2
-Text Label 4500 1150 0    47   ~ 0
-_CFGIN3
+_CFGIN5
 Text Label 5500 1250 0    47   ~ 0
+_CFGOUT4
+Text Label 4500 1150 0    47   ~ 0
+_CFGOUT3
+Text Label 3550 1050 0    47   ~ 0
+_CFGOUT2
+Text Label 3500 850  0    47   ~ 0
+_CFGIN2
+Text Label 4450 950  0    47   ~ 0
+_CFGIN3
+Text Label 5450 1050 0    47   ~ 0
 _CFGIN4
 Wire Wire Line
 	8550 6150 8550 5650
