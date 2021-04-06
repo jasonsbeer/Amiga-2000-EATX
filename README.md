@@ -83,7 +83,7 @@ Table 2. Legacy IC's Required
 Common Name|Designation|Postion|Package|Notes
 -|-|-|-|-
 Motorola 68000|MC68000|Uxxx|64-DIP|8MHz or greater
-Fatter Agnus|MOS 8372A*|Uxxx|PLCC 84|8370 will work with correct jumper settings
+Fatter Agnus|MOS* 8372A|Uxxx|PLCC 84|8370 will work with correct jumper settings
 Gary|MOS 5719|Uxxx|48-DIP|GAte aRraY
 Paula|MOS 8364|Uxxx|48-DIP|Sound and disk I/O
 CIA|MOS 8520|Uxxx|40-DIP|Need two
