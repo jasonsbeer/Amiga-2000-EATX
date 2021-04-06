@@ -34,12 +34,10 @@ This is perhaps the most affected Amiga subsytem in this project. The most obvio
 
 This change means other external video signals on the original Amiga are not available on this project. These missing signals are intended to support external Genlocks, video editors, etc. Most of these signals are still available on the internal video slot with the exception of COMP and COMPSYNC. In order to simplify the design, the COMP and COMPSYNC signals have been removed. The composite output of the Amiga 2000 is monochrome only and is not likely to be missed.
 
-There are two options for the VDAC (VIDIOT) circuit. The first is to make use of an existing VIDIOT by soldering it to the VIDIOT socket. The second option is to supply the circuitry shown on the PCB in the "VIDIOT CIRCUIT" silk screen. You may use either option, but not both. Either should work equally well. It is recommended to use only high quality resistors with 1% tolerance in the VIDIOT replacement circuit.
-
-Lastly, there is a header to support a Raspberry Pi Zero for the purpose of implementing the Pi to HDMI video project directly on the board. If you wish to use the Pi as an HDMI video output source, install the components of the circuit indicated in the Pi -> HDMI silkscreen area. If you intend to use only the Raspberry Pi for video output, you do not need to install the VIDIOT or VIDIOT replacment circuit.
+There are two options for the VDAC (VIDIOT) circuit. The first is to make use of an existing VIDIOT by soldering it to the VIDIOT socket. The second option is to supply the circuitry shown on the PCB in the "VIDIOT CIRCUIT" silk screen. You may use either option, but not both. It is recommended to use only high quality resistors with 1% tolerance in the VIDIOT replacement circuit.
 
 ### Memory
-The original 256x4 DRAMs have been replaced by a single SRAM.
+The original 256k x 4 DRAMs have been replaced by a single SRAM.
 
 ### Audio Output
 The original left/right RCA jacks of the Amiga have been replaced by a 3.5mm stereo audio jack.
@@ -48,10 +46,10 @@ The original left/right RCA jacks of the Amiga have been replaced by a 3.5mm ste
 The external disk drive port has been removed. Internally, any Amiga compatable double density disk drive will work. Up to two internal disk drives are supported natively via the internal connector. 
 
 ### ISA Slots
-The number of 16 bit ISA slots has been reduced to three. This was done to provide additional space on the board. Support for ISA cards via a Bridgeboard is unchanged from the Amiga 2000. 
+The number of 16 bit ISA slots has been reduced to three. This was done to provide additional space on the board. Support for ISA cards via a Bridgeboard is unchanged from the Amiga 2000.
 
-### Board Layout
-For obvious reasons, it was necessary to move components relative to one another. Be sure to double check the orientation and position of any IC's before attaching. Most components have the same designation as used on the Amiga 2000. However, some components have been removed and others have been added with unique designations. The video slot has been relocated to the sixth slot position on the board. Zorro slots occupy positions 1-5 and the CPU slot occupies position 7. It is possible to have every slot populated simultaneously.
+### PCB and Layout
+For obvious reasons, it was necessary to move components relative to one another. Be sure to double check the orientation and position of any IC's before attaching. Most components have the same designation as used on the Amiga 2000. However, some components have been removed and others have been added with unique designations. The video slot has been relocated to the sixth slot position on the board. Zorro slots occupy positions 1-5, overlapping with 16-bit ISA slots in the first 3 positions, and the CPU slot occupies position 7. It is possible to have every slot position populated simultaneously. This project makes use of a 4 layer board. This solved many issues related to real estate on the smaller footprint.
 
 ### ATX Power
 The original Amiga 2000 power supply is not supported. New ATX 24-pin power supplies are supported with -5V being supplied on board via a voltage regulator. The power switch header is positioned near the power socket on the board.
@@ -59,9 +57,12 @@ The original Amiga 2000 power supply is not supported. New ATX 24-pin power supp
 ### External Reset Switch
 The computer can be reset via CTRL-Amiga-Amiga on an Amiga keyboard or via the reset switch found on ATX computer cases. The reset switch header is found near XXXXXXXX. The external reset switch is valuable for when an Amiga keyboard is not available.
 
+### Real Time Clock
+The real time clock chip has been changed to the XXXXX. This RTC has a built in crystal does not need adjustment. This makes it ideal for projects such as this. In the Amiga, the RTC is written and read by 4 address and 4 data lines. Unfortunately, there are no direct "modern" replacements this type of direct bus driven RTC. As such, this is among the legacy IC's that must be obtained. It is readily available and reasonably priced where these type of legacy IC's are sold.
+
 ## What has not changed?
 ### Most External Ports
-The keyboard, joystick, mouse, parallel, serial, and audio ports are all present and function as they did in the Amiga 2000. The parallel, serial, mouse, and joystick ports are present as stacked DB9 and DB25 connectors, respectively. The Amiga keyboard port remains a DIN5 connector. 
+The keyboard, joystick, mouse, parallel, and serial are all present and function as they did in the Amiga 2000. The parallel, serial, mouse, and joystick ports are stacked DB9 and DB25 connectors, respectively. The Amiga keyboard port remains a DIN5 connector. 
 
 ### Zorro II Slots
 There are no changes to the Zorro II slots.
@@ -90,6 +91,7 @@ CIA|MOS 8520|Uxxx|40-DIP|Need two
 Buster|MOS 5721|Uxxx|48-DIP|BUS masTER
 Denise|MOS 8362 or CSG 8373|Uxxx|48-DIP|Video controller
 Kickstart|Commodore ROM or 27C400|Uxxx|40-DIP|v1.2+
+Real Time Clock||Uxxx|
 
 *Legacy Commodore IC's may be marked "CSG" or "MOS", or possibly neither in the case of contract runs. These are completely interchangeable as long as the number matches.
 
