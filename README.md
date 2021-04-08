@@ -18,7 +18,7 @@ Schematics complete. Routing board.
 3. Support for PC configured disk drives.
 
 ## Ordering PCBs
-Download the Gerber zip file and send to your favorite PCB manufacturer. This board is 4 layers. See Table 3 for layer descriptions. Click here for more specific information.
+See information ***here***. 
 
 ## Assembling the Amiga 2000EATX
 This board makes use of suface mount devices. Lots of them. The Amiga 2000 made use of a lot of decoupling capacitors and pullup/pulldown resistors. This is reflected in this project. You will need to obtain the legacy IC's shown in Table 2. All other components may be purchased from your favorite electronics supply house. The BOM includes DigiKey part numbers for your reference.
@@ -51,7 +51,7 @@ The external disk drive port has been removed. Internally, any Amiga compatable 
 The number of 16 bit ISA slots has been reduced to three. This was done to provide additional space on the board. Support for ISA cards via a Bridgeboard is unchanged from the Amiga 2000.
 
 ### PCB and Layout
-For obvious reasons, it was necessary to move components relative to one another. Be sure to double check the orientation and position of aall IC's before attaching. Most components have the same designation as used on the Amiga 2000. However, some components have been removed and others have been added with unique designations. The video slot has been relocated to the sixth slot position on the board. Zorro slots occupy positions 1-5, overlapping with 16-bit ISA slots in the first 3 positions. The CPU slot occupies position 7. It is possible to have every slot position populated simultaneously. This project makes use of a 4 layer board. This solved many issues related to real estate on the smaller EATX footprint.
+For obvious reasons, it was necessary to move components relative to one another. Be sure to double check the orientation and position of aall IC's before attaching. Components in common with the origianl Amiga 2000 have the same designation as used on the Amiga 2000. However, some components have been removed and others have been added with unique designations. The video slot has been relocated to the sixth slot position on the board. Zorro slots occupy positions 1-5, overlapping with 16-bit ISA slots in the first 3 positions. The CPU slot occupies position 7. It is possible to have every slot position populated simultaneously. This project makes use of a 4 layer board. This solved many issues related to real estate on the smaller EATX footprint.
 
 ### ATX Power
 The original Amiga 2000 power supply is not supported. New ATX 24-pin power supplies are supported with -5V being supplied on board via a voltage regulator. The power switch header is positioned near the power socket on the board.
@@ -96,14 +96,6 @@ Kickstart|Commodore ROM or 27C400|Uxxx|40-DIP|v1.2+
 Real Time Clock||Uxxx|
 
 *Legacy Commodore IC's may be marked "CSG" or "MOS", or possibly neither in the case of contract runs. These are interchangeable as long as the part number matches.
-
-Table 3. Board Layers
-Layer|Description
--|-
-1|Component and Signal
-2|Ground Plane
-3|Power Plane
-4|Signal
 
 ## Revision History
 Rev 0 - Prototype board
