@@ -1,8 +1,8 @@
 ## PCB - Description and Ordering
 
-Download the Gerber zip file and send to your favorite PCB manufacturer. 
+The Amiga 2000 EATX PCB is 4 layers. See Table P1 for layer descriptions. Download the Gerber zip file and send to your favorite PCB manufacturer. 
 
-This board is 4 layers. See Table P1 for layer descriptions.
+The prototype boards were created by JLCPCB and work well.
 
 talk about ordering configuration
 
