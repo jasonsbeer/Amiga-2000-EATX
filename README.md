@@ -18,7 +18,7 @@ Schematics complete. Routing board.
 3. Support for PC configured disk drives.
 
 ## Ordering PCBs
-See information ***here***. 
+See information [here](pcb.md). 
 
 ## Assembling the Amiga 2000EATX
 This board makes use of suface mount devices. Lots of them. The Amiga 2000 made use of a lot of decoupling capacitors and pullup/pulldown resistors. This is reflected in this project. You will need to obtain the legacy IC's shown in Table 2. All other components may be purchased from your favorite electronics supply house. The BOM includes DigiKey part numbers for your reference.
