@@ -6,18 +6,13 @@ In addition to a new board replacement option, I believe the ubiquitous ATX form
 ## Project Status
 Schematics complete. Routing board.
 
-This project is in the proof of concept stage. It may not work at this time. Once the prototype boards are received and assembled, I will be able to correct any discovered issues and update the appropriate drawings.
+This project is in the proof of concept stage. It may not work in its current state. Once the prototype boards are received and assembled, I will be able to correct any discovered issues and update the appropriate drawings.
 
 ## Project Goals
 1. Enter Amiga 2000 Rev 6.4 schematics into KiCad.
 2. When possible, replace end of life components with suitable alternatives that are commercially available.
 3. Layout and route components using the ATX standard as a guide.
 4. Test it and make sure it works.
-
-## Possible Future Goals and Considerations
-1. Support for HID keyboard and mouse.
-2. On-board 8 megabyte memory expansion.
-3. Support for PC configured disk drives.
 
 ## Ordering PCBs
 See information [here](PCB.md). 
@@ -34,7 +29,7 @@ REALLY BIG!
 
 ## Changes from the original Amiga 2000
 ### Video
-This is perhaps the most affected Amiga subsytem in this project. The most obvious change is the move from the DB23 video connector to the HD15 connector. One of the goals of this project is to avoid parts that are not commercially available. The DB23 connector is a prime example. While they can still be obtained, you cannot find them in stock at popular electronic supply houses. Thus, the change to the widely available HD15 connector. The analog RGB outpus along with HSYNC and VSYNC are supplied using the VGA standard pin out configuration. Any VGA cable can be used to supply the video signal to a VGA monitor supporting the 15KHz standard, or widely available VGA to HDMI conversion boxes. Pinouts are shown in Table 1.
+Perhaps the most changed Amiga subsytem in this project, the most obvious difference is removing the DB23 video connector in place of the HD15 connector. One of the goals of this project is to avoid parts that are not commercially available. The DB23 connector is a prime example. While they can still be obtained, you cannot find them in stock at popular electronic supply houses. Thus, the change to the widely available HD15 connector. The analog RGB outpus along with HSYNC and VSYNC are supplied using the VGA standard pin out configuration. Any VGA cable can be used to supply the video signal to a VGA monitor supporting the 15KHz standard, or widely available VGA to HDMI conversion boxes. Pinouts are shown in Table 1.
 
 This change means other external video signals on the original Amiga are not available on this project. These missing signals are intended to support external Genlocks, video editors, etc. These signals are still available on the internal video slot.
 
