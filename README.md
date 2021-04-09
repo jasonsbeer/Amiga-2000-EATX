@@ -6,6 +6,8 @@ In addition to a new board replacement option, I believe the ubiquitous ATX form
 ## Project Status
 Schematics complete. Routing board.
 
+This project is in the proof of concept stage. It may not work at this time. Once the prototype boards are received and assembled, I will be able to correct any discovered issues and update the appropriate drawings. 
+
 ## Project Goals
 1. Enter Amiga 2000 Rev 6.4 schematics into KiCad.
 2. When possible, replace end of life components with suitable alternatives that are commercially available.
@@ -92,10 +94,10 @@ Paula|MOS 8364|Uxxx|48-DIP|Sound and disk I/O
 CIA|MOS 8520|Uxxx|40-DIP|Need two
 Buster|MOS 5721|Uxxx|48-DIP|BUS masTER
 Denise|MOS 8362 or CSG 8373|Uxxx|48-DIP|Video controller
-Kickstart|Commodore ROM or 27C400|Uxxx|40-DIP|v1.2+
-Real Time Clock||Uxxx|
+Kickstart|Commodore ROM or Burned 27C400|Uxxx|40-DIP|v1.2+
+Real Time Clock|RTC-62423|Uxxx|SOP-24|Epson
 
-*Legacy Commodore IC's may be marked "CSG" or "MOS", or possibly neither in the case of contract runs. These are interchangeable as long as the part number matches.
+*Legacy Commodore IC's may be marked "MOS" or "CSG", or possibly neither in the case of contract runs. These are interchangeable by part number.
 
 ## Revision History
 Rev 0 - Prototype board
