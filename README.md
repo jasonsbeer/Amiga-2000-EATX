@@ -36,7 +36,7 @@ This change means other external video signals on the original Amiga are not ava
 There are two options for the VDAC (VIDIOT) circuit. The first is to make use of an existing VIDIOT by soldering it to the VIDIOT socket. The second option is to supply the circuitry shown on the PCB in the "VIDIOT CIRCUIT" silk screen. You may use either option, but not both. It is recommended to use only high quality resistors with 1% tolerance in the VIDIOT replacement circuit.
 
 ### Memory
-The original 256k x 4 DRAMs have been replaced by a single SRAM.
+The original 256k x 4 DRAMs have been replaced by a single SRAM. The board is permanently configured to recognize 1MB chip ram and requires Fatter Agnus (MOS 8372A).
 
 ### Audio Output
 The original left/right RCA jacks of the Amiga have been replaced by a 3.5mm stereo audio jack.
@@ -83,7 +83,7 @@ Table 2. Legacy IC's Required
 Common Name|Designation|Postion|Package|Notes
 -|-|-|-|-
 Motorola 68000|MC68000|Uxxx|64-DIP|8MHz or greater
-Fatter Agnus|MOS* 8372A|Uxxx|PLCC 84|8370 will work with correct jumper settings
+Fatter Agnus|MOS* 8372A|Uxxx|PLCC 84|
 Gary|MOS 5719|Uxxx|48-DIP|GAte aRraY
 Paula|MOS 8364|Uxxx|48-DIP|Sound and disk I/O
 CIA|MOS 8520|Uxxx|40-DIP|Need two
