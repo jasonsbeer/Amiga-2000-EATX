@@ -710,11 +710,9 @@ Wire Wire Line
 Connection ~ 3850 5400
 Wire Wire Line
 	3850 5400 3150 5400
-Wire Wire Line
-	4400 1800 4400 2000
 Connection ~ 4400 3100
 Wire Wire Line
-	4400 3100 6450 3100
+	4400 3100 5100 3100
 Text GLabel 1400 1700 0    50   Input ~ 0
 PSTROBE
 Wire Wire Line
@@ -723,7 +721,6 @@ Wire Wire Line
 	4300 1700 4300 2000
 Wire Wire Line
 	4300 2000 4400 2000
-Connection ~ 4400 2000
 Wire Wire Line
 	4400 2000 4400 3100
 Text GLabel 1400 1800 0    50   Input ~ 0
@@ -1021,9 +1018,7 @@ $EndComp
 Wire Wire Line
 	6250 1750 6250 2000
 Wire Wire Line
-	3150 2500 5200 2500
-Wire Wire Line
-	6050 2250 5100 2250
+	3150 2500 4600 2500
 Wire Wire Line
 	3450 2250 3450 2050
 Wire Wire Line
@@ -1802,18 +1797,6 @@ F 3 "" H 1900 6700 50  0001 C CNN
 	1    1900 6700
 	1    0    0    -1  
 $EndComp
-NoConn ~ 4500 1800
-NoConn ~ 4600 1800
-Wire Wire Line
-	5100 1800 5100 2250
-Connection ~ 5100 2250
-Wire Wire Line
-	5100 2250 3450 2250
-Wire Wire Line
-	5200 1800 5200 2500
-Connection ~ 5200 2500
-Wire Wire Line
-	5200 2500 6350 2500
 Wire Wire Line
 	2650 9500 2650 10050
 Connection ~ 2650 9500
@@ -2119,4 +2102,23 @@ Wire Wire Line
 Connection ~ 10250 9400
 Text Notes 8650 6050 0    79   ~ 0
 PARALLEL
+Wire Wire Line
+	4500 1800 4500 2250
+Connection ~ 4500 2250
+Wire Wire Line
+	4500 2250 3450 2250
+Wire Wire Line
+	4500 2250 6050 2250
+NoConn ~ 5200 1800
+Wire Wire Line
+	4600 1800 4600 2500
+Connection ~ 4600 2500
+Wire Wire Line
+	4600 2500 6350 2500
+NoConn ~ 4400 1800
+Wire Wire Line
+	5100 1800 5100 3100
+Connection ~ 5100 3100
+Wire Wire Line
+	5100 3100 6450 3100
 $EndSCHEMATC
