@@ -2,7 +2,7 @@
 
 The Amiga 2000 EATX PCB is 4 layers. See Table P1 for layer descriptions. Download the Gerber zip file and send to your favorite PCB manufacturer. 
 
-The prototype boards were created by JLCPCB and work well.
+The prototype boards were created by xxxx
 
 talk about ordering configuration
 
