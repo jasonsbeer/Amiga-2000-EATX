@@ -100,8 +100,6 @@ Rev 0 - Prototype board
 ## Acknowledgments
 This project is built on the backs of giants. A big thanks to everyone that makes the retro computing community great.
 
-SukkoPerra - VIDIOT replacment circuit - https://github.com/SukkoPera/OpenAmigaVideoHybrid
-
 kr239 - Amiga 500 DRAM replacement - https://github.com/kr239/A500-SRAM-Board
 
 iansbremmer - Amiga IC KiCad footprints - https://github.com/iansbremner/ReAmiga-3000---KiCAD
