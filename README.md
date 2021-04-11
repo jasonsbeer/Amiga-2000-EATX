@@ -33,8 +33,6 @@ Perhaps the most changed Amiga subsytem in this project, the most obvious differ
 
 This change means other external video signals on the original Amiga are not available on this project. These missing signals are intended to support external Genlocks, video editors, etc. These signals are still available on the internal video slot.
 
-There are two options for the VDAC (VIDIOT) circuit. The first is to make use of an existing VIDIOT by soldering it to the VIDIOT socket. The second option is to supply the circuitry shown on the PCB in the "VIDIOT CIRCUIT" silk screen. You may use either option, but not both. It is recommended to use only high quality resistors with 1% tolerance in the VIDIOT replacement circuit.
-
 ### Memory
 The original 256k x 4 DRAMs have been replaced by a single SRAM. The board is permanently configured to recognize 1MB chip ram and requires Fatter Agnus (MOS 8372A).
 
