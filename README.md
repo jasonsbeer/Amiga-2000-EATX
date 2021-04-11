@@ -22,7 +22,7 @@ This board makes use of suface mount devices. Lots of them. The Amiga 2000 made 
 
 Notes:
 1. If you do not intend to use a bridgeboard or the ISA slots, you do not need to install the components shown in the ISA SUPPORT silk screen.
-2. There are two video output options - VIDIOT, VIDIOT replacment circuit. You need to install at least one of these options for video output.
+2. In the event you need a VIDIOT video hybrid, you can build a new one using the project at this link: https://github.com/SukkoPera/OpenAmigaVideoHybrid
 
 ## BOM
 REALLY BIG!
