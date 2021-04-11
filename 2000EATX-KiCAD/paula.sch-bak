@@ -2073,17 +2073,9 @@ $EndComp
 Wire Wire Line
 	2500 8450 3600 8450
 Wire Wire Line
-	2500 8550 3500 8550
-Wire Wire Line
-	2500 8750 3400 8750
+	2500 8550 3000 8550
 Wire Wire Line
 	2500 8850 3300 8850
-Wire Wire Line
-	2500 9050 3200 9050
-Wire Wire Line
-	2500 9150 3100 9150
-Wire Wire Line
-	2500 9350 3000 9350
 Wire Wire Line
 	2500 9450 2900 9450
 Wire Wire Line
@@ -2092,35 +2084,12 @@ Connection ~ 2900 9450
 Wire Wire Line
 	2900 9450 4400 9450
 Wire Wire Line
-	3000 7500 3000 9350
-Connection ~ 3000 9350
-Wire Wire Line
-	3000 9350 5150 9350
-Wire Wire Line
-	3100 7500 3100 9150
-Connection ~ 3100 9150
-Wire Wire Line
-	3100 9150 4950 9150
-Wire Wire Line
-	3200 7500 3200 9050
-Connection ~ 3200 9050
-Wire Wire Line
-	3200 9050 3750 9050
+	3000 7500 3000 8550
 Wire Wire Line
 	3300 7500 3300 8850
 Connection ~ 3300 8850
 Wire Wire Line
 	3300 8850 4900 8850
-Wire Wire Line
-	3400 7500 3400 8750
-Connection ~ 3400 8750
-Wire Wire Line
-	3400 8750 4400 8750
-Wire Wire Line
-	3500 7500 3500 8550
-Connection ~ 3500 8550
-Wire Wire Line
-	3500 8550 4200 8550
 Wire Wire Line
 	3600 7500 3600 8450
 Connection ~ 3600 8450
@@ -2131,4 +2100,46 @@ Wire Wire Line
 Wire Wire Line
 	9550 5000 9550 4500
 Connection ~ 9550 4500
+$Comp
+L Device:R_Pack05 RNtest1
+U 1 1 60935B3C
+P 1000 9950
+F 0 "RNtest1" H 1288 9996 50  0000 L CNN
+F 1 "R_Pack05" H 1288 9905 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP10" V 1375 9950 50  0001 C CNN
+F 3 "~" H 1000 9950 50  0001 C CNN
+	1    1000 9950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 9050 3400 9050
+Wire Wire Line
+	3500 7500 3500 8750
+Connection ~ 3200 9150
+Wire Wire Line
+	3200 9150 4950 9150
+Wire Wire Line
+	2500 9150 3200 9150
+Wire Wire Line
+	3200 7500 3200 9150
+Connection ~ 3400 9050
+Wire Wire Line
+	2500 8750 3500 8750
+Wire Wire Line
+	3400 7500 3400 9050
+Connection ~ 3500 8750
+Wire Wire Line
+	3500 8750 4400 8750
+Wire Wire Line
+	3400 9050 3750 9050
+Connection ~ 3100 9350
+Wire Wire Line
+	3100 9350 5150 9350
+Connection ~ 3000 8550
+Wire Wire Line
+	2500 9350 3100 9350
+Wire Wire Line
+	3100 7500 3100 9350
+Wire Wire Line
+	3000 8550 4200 8550
 $EndSCHEMATC

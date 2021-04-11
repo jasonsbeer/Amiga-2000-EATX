@@ -2250,14 +2250,6 @@ Wire Wire Line
 Connection ~ 2950 6700
 Wire Wire Line
 	2950 6700 4250 6700
-Wire Wire Line
-	2350 2700 2900 2700
-Wire Wire Line
-	2350 2900 2800 2900
-Wire Wire Line
-	2350 3100 2700 3100
-Wire Wire Line
-	2350 3300 2600 3300
 $Comp
 L Device:R_Network05 RN205
 U 1 1 60E5EB32
@@ -2269,26 +2261,6 @@ F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 2800 3550 50  0001 C CNN
 	1    2800 3550
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	2600 3350 2600 3300
-Connection ~ 2600 3300
-Wire Wire Line
-	2600 3300 3200 3300
-Wire Wire Line
-	2700 3350 2700 3100
-Connection ~ 2700 3100
-Wire Wire Line
-	2700 3100 3200 3100
-Wire Wire Line
-	2800 3350 2800 2900
-Connection ~ 2800 2900
-Wire Wire Line
-	2800 2900 3200 2900
-Wire Wire Line
-	2900 3350 2900 2700
-Connection ~ 2900 2700
-Wire Wire Line
-	2900 2700 3200 2700
 NoConn ~ 3000 3350
 Text Notes 14350 5750 2    47   ~ 0
 Optional. Allows use of Raspberry Pi Zero to output HDMI. See Github for details.
@@ -2434,4 +2406,32 @@ F 3 "~" H 13300 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 13250 3400
+Wire Wire Line
+	2350 3300 2800 3300
+Wire Wire Line
+	2350 3100 2600 3100
+Wire Wire Line
+	2350 2900 2900 2900
+Wire Wire Line
+	2350 2700 2700 2700
+Wire Wire Line
+	2900 3350 2900 2900
+Connection ~ 2900 2900
+Wire Wire Line
+	2900 2900 3200 2900
+Wire Wire Line
+	2800 3350 2800 3300
+Connection ~ 2800 3300
+Wire Wire Line
+	2800 3300 3200 3300
+Wire Wire Line
+	2700 3350 2700 2700
+Connection ~ 2700 2700
+Wire Wire Line
+	2700 2700 3200 2700
+Wire Wire Line
+	2600 3350 2600 3100
+Connection ~ 2600 3100
+Wire Wire Line
+	2600 3100 3200 3100
 $EndSCHEMATC
