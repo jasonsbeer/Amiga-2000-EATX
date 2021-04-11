@@ -22,19 +22,21 @@ This board makes use of suface mount devices. Lots of them. The Amiga 2000 made 
 
 Notes:
 1. If you do not intend to use a bridgeboard or the ISA slots, you do not need to install the components shown in the ISA SUPPORT silk screen.
-2. In the event you need a VIDIOT video hybrid, you can build a new one using the project at this link: https://github.com/SukkoPera/OpenAmigaVideoHybrid
+2. The values of the various components are listed on the board. In the event several components are placed together with the same value, the value may be shown once and the components will be marked together on the silk screen.
 
 ## BOM
 REALLY BIG!
 
 ## Changes from the original Amiga 2000
 ### Video
-Perhaps the most changed Amiga subsytem in this project, the most obvious difference is removing the DB23 video connector in place of the HD15 connector. One of the goals of this project is to avoid parts that are not commercially available. The DB23 connector is a prime example. While they can still be obtained, you cannot find them in stock at popular electronic supply houses. Thus, the change to the widely available HD15 connector. The analog RGB outpus along with HSYNC and VSYNC are supplied using the VGA standard pin out configuration. Any VGA cable can be used to supply the video signal to a VGA monitor supporting the 15KHz standard, or widely available VGA to HDMI conversion boxes. Pinouts are shown in Table 1.
+Perhaps the most changed Amiga subsytem in this project, the most obvious difference is removing the DB23 video connector in place of the HD15 connector. One of the goals of this project is to avoid parts that are not commercially available. The DB23 connector is a prime example. While they can still be obtained, you cannot find them in stock at popular electronic supply houses. Thus, the change to the widely available HD15 connector. The analog RGB outpus along with HSYNC and VSYNC are supplied using the VGA standard pin out configuration. Any VGA cable can be used to supply the video signal to a VGA monitor supporting the 15KHz standard, or widely available VGA to HDMI conversion boxes. Pinouts are shown in Table 1. All other external video signals on the original Amiga are not available. These missing signals are intended to support external Genlocks, video editors, etc.
 
-This change means other external video signals on the original Amiga are not available on this project. These missing signals are intended to support external Genlocks, video editors, etc. These signals are still available on the internal video slot.
+All original signals are available on the internal video slot. 
+
+You will need a video hybrid (VIDIOT) to produce video related signals. In the event you do not have one, you can build one. See the project at this link: https://github.com/SukkoPera/OpenAmigaVideoHybrid
 
 ### Memory
-The original 256k x 4 DRAMs have been replaced by a single SRAM. The board is permanently configured to recognize 1MB chip ram and requires Fatter Agnus (MOS 8372A).
+The original 256k x 4 DRAMs have been replaced by a single SRAM. The 2000 EATX is permanently configured to recognize 1MB chip ram and requires Fatter Agnus (MOS 8372A).
 
 ### Audio Output
 The original left/right RCA jacks of the Amiga have been replaced by a 3.5mm stereo audio jack.
@@ -44,6 +46,9 @@ The external disk drive port has been removed. Internally, any Amiga compatable 
 
 ### ISA Slots
 The number of 16 bit ISA slots has been reduced to three. This was done to provide additional space on the board. Support for ISA cards via a Bridgeboard is unchanged from the Amiga 2000.
+
+### Serial Port
+The internal (infernal) serial port has been removed. The external serial port is present with all signals.
 
 ### PCB and Layout
 For obvious reasons, it was necessary to move components relative to one another. Be sure to double check the orientation and position of all IC's before attaching. Components in common with the origianl Amiga 2000 have the same designation as used on the Amiga 2000. However, some components have been removed and others have been added with unique designations. The video slot has been relocated to the sixth slot position on the board. Zorro slots occupy positions 1-5, overlapping with 16-bit ISA slots in the first 3 positions. The CPU slot occupies position 7. It is possible to have every slot position populated simultaneously. This project makes use of a 4 layer board. This solved many issues related to real estate on the smaller EATX footprint.
@@ -81,13 +86,14 @@ Table 2. Legacy IC's Required
 Common Name|Designation|Postion|Package|Notes
 -|-|-|-|-
 Motorola 68000|MC68000|Uxxx|64-DIP|8MHz or greater
-Fatter Agnus|MOS* 8372A|Uxxx|PLCC 84|
+Fatter Agnus|MOS* 8372A|Uxxx|PLCC 84|MOS 8370 is not supported
 Gary|MOS 5719|Uxxx|48-DIP|GAte aRraY
 Paula|MOS 8364|Uxxx|48-DIP|Sound and disk I/O
 CIA|MOS 8520|Uxxx|40-DIP|Need two
 Buster|MOS 5721|Uxxx|48-DIP|BUS masTER
 Denise|MOS 8362 or CSG 8373|Uxxx|48-DIP|Video controller
 Kickstart|Commodore ROM or Burned 27C400|Uxxx|40-DIP|v1.2+
+Video Hybrid|VIDIOT|HY200|22-SIP|See notes under video section
 Real Time Clock|RTC-62423|Uxxx|SOP-24|Epson
 
 *Legacy Commodore IC's may be marked "MOS" or "CSG", or possibly neither in the case of contract runs. These are interchangeable by part number.
