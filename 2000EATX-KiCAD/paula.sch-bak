@@ -2100,17 +2100,6 @@ Wire Wire Line
 Wire Wire Line
 	9550 5000 9550 4500
 Connection ~ 9550 4500
-$Comp
-L Device:R_Pack05 RNtest1
-U 1 1 60935B3C
-P 1000 9950
-F 0 "RNtest1" H 1288 9996 50  0000 L CNN
-F 1 "R_Pack05" H 1288 9905 50  0000 L CNN
-F 2 "Resistor_THT:R_Array_SIP10" V 1375 9950 50  0001 C CNN
-F 3 "~" H 1000 9950 50  0001 C CNN
-	1    1000 9950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2500 9050 3400 9050
 Wire Wire Line
