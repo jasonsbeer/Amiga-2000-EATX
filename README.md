@@ -83,17 +83,17 @@ Pin|Signal|Pin|Signal|Pin|Signal
 5|GND|10|GND|15|NC
 
 Table 2. Legacy IC's Required
-Common Name|Designation|Postion|Package|Notes
--|-|-|-|-
+Common Name|Designation|Postion|Package|Notes|Replacement Option
+-|-|-|-|-|-
 Motorola 68000|MC68000|Uxxx|64-DIP|8MHz or greater
 Fatter Agnus|MOS* 8372A|Uxxx|PLCC 84|MOS 8370 is not supported
 Gary|MOS 5719|Uxxx|48-DIP|GAte aRraY
 Paula|MOS 8364|Uxxx|48-DIP|Sound and disk I/O
 CIA|MOS 8520|Uxxx|40-DIP|Need two
-Buster|MOS 5721|Uxxx|48-DIP|BUS masTER
+Buster|MOS 5721|Uxxx|48-DIP|BUS masTER|[Bluster](https://github.com/LIV2/Bluster)
 Denise|MOS 8362 or CSG 8373|Uxxx|48-DIP|Video controller
 Kickstart|Commodore ROM or Burned 27C400|Uxxx|40-DIP|v1.2+
-Video Hybrid|VIDIOT|HY200|22-SIP|See notes under video section
+Video Hybrid|VIDIOT|HY200|22-SIP||[Video Hybrid](https://github.com/SukkoPera/OpenAmigaVideoHybrid)
 Real Time Clock|RTC-62423|Uxxx|SOP-24|Epson
 
 *Legacy Commodore IC's may be marked "MOS" or "CSG", or possibly neither in the case of contract runs. These are interchangeable by part number.
