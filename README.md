@@ -33,10 +33,8 @@ Perhaps the most changed Amiga subsytem in this project, the most obvious differ
 
 All original signals are available on the internal video slot. 
 
-You will need a video hybrid (VIDIOT) to produce video related signals. In the event you do not have one, you can build one. See the project at this link: https://github.com/SukkoPera/OpenAmigaVideoHybrid
-
 ### Memory
-The original 256k x 4 DRAMs have been replaced by a single SRAM. The 2000 EATX is permanently configured to recognize 1MB chip ram and requires Fatter Agnus (MOS 8372A).
+The original 256k x 4 DRAMs have been replaced by a single SRAM. The 2000 EATX is permanently configured to recognize 1MB chip ram and requires Fatter Agnus (MOS 8372A). Other Agnus revisions are not supported at this time.
 
 ### Audio Output
 The original left/right RCA jacks of the Amiga have been replaced by a 3.5mm stereo audio jack.
@@ -83,18 +81,18 @@ Pin|Signal|Pin|Signal|Pin|Signal
 5|GND|10|GND|15|NC
 
 Table 2. Legacy IC's Required
-Common Name|Designation|Postion|Package|Notes|Replacement Option
--|-|-|-|-|-
-Motorola 68000|MC68000|Uxxx|64-DIP|8MHz or greater
-Fatter Agnus|MOS* 8372A|Uxxx|PLCC 84|MOS 8370 is not supported
-Gary|MOS 5719|Uxxx|48-DIP|GAte aRraY
-Paula|MOS 8364|Uxxx|48-DIP|Sound and disk I/O
-CIA|MOS 8520|Uxxx|40-DIP|Need two
-Buster|MOS 5721|Uxxx|48-DIP|BUS masTER|[Bluster](https://github.com/LIV2/Bluster)
-Denise|MOS 8362 or CSG 8373|Uxxx|48-DIP|Video controller
-Kickstart|Commodore ROM or Burned 27C400|Uxxx|40-DIP|v1.2+
-Video Hybrid|VIDIOT|HY200|22-SIP||[Video Hybrid](https://github.com/SukkoPera/OpenAmigaVideoHybrid)
-Real Time Clock|RTC-62423|Uxxx|SOP-24|Epson
+Common Name|Designation|Postion|Package|Replacement Option
+-|-|-|-|-
+Motorola 68000|MC68000|Uxxx|64-DIP|
+Fatter Agnus|MOS* 8372A|Uxxx|PLCC 84|
+Gary|MOS 5719|Uxxx|48-DIP|
+Paula|MOS 8364|Uxxx|48-DIP|
+CIA|MOS 8520|Uxxx|40-DIP|
+Buster|MOS 5721|Uxxx|48-DIP|[Bluster](https://github.com/LIV2/Bluster)
+Denise|MOS 8362 or CSG 8373|Uxxx|48-DIP|
+Kickstart|Commodore ROM or Burned 27C400|Uxxx|40-DIP|
+Video Hybrid|VIDIOT|HY200|22-SIP|[Video Hybrid](https://github.com/SukkoPera/OpenAmigaVideoHybrid)
+Real Time Clock|RTC-62423|Uxxx|SOP-24|
 
 *Legacy Commodore IC's may be marked "MOS" or "CSG", or possibly neither in the case of contract runs. These are interchangeable by part number.
 
