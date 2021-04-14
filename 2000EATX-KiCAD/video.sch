@@ -2172,15 +2172,13 @@ $EndComp
 Wire Wire Line
 	2350 5900 2950 5900
 Wire Wire Line
-	2350 5800 2850 5800
-Wire Wire Line
 	2350 5700 2750 5700
 Wire Wire Line
 	2350 5600 2650 5600
 Wire Wire Line
 	2650 5150 2450 5150
 Connection ~ 2450 5150
-NoConn ~ 3050 5550
+NoConn ~ 2850 5550
 Wire Wire Line
 	2650 5550 2650 5600
 Connection ~ 2650 5600
@@ -2191,11 +2189,6 @@ Wire Wire Line
 Connection ~ 2750 5700
 Wire Wire Line
 	2750 5700 4100 5700
-Wire Wire Line
-	2850 5550 2850 5800
-Connection ~ 2850 5800
-Wire Wire Line
-	2850 5800 4200 5800
 Wire Wire Line
 	2950 5550 2950 5900
 Connection ~ 2950 5900
@@ -2430,4 +2423,11 @@ Wire Wire Line
 Connection ~ 2600 3100
 Wire Wire Line
 	2600 3100 3200 3100
+Wire Wire Line
+	3050 5800 3050 5550
+Connection ~ 3050 5800
+Wire Wire Line
+	3050 5800 4200 5800
+Wire Wire Line
+	2350 5800 3050 5800
 $EndSCHEMATC
