@@ -70,7 +70,8 @@ There are no changes to the Zorro II slots.
 ### Kickstart ROM
 For now, the Kickstart ROM remains the original 27C400. These are no longer made, but are easy to find. In addition, this allows the use of an original Commodore Kickstart mask ROM.
 
-### Anything not discussed remains unchanged.
+### Everything Else
+If something is not specifically mentioned, you should expect it to be unchanged in function or component from the original A2000.
 
 ## Tables
 Table 1. Video Port
