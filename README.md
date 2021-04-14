@@ -1,7 +1,7 @@
 # Amiga 2000 EATX PCB
 The purpose of this project is to develop an Amiga 2000 PCB in the EATX form factor. There are one-to-one board replacement projects for the Amiga 2000, but none to change the layout to meet current form factor standards. In addition, the Amiga 2000 made use of connectors and custom parts that are no longer commercially manufactured. This often requires parts to be pulled from existing machines. As such, this project will make use of only actively supported components whenever possible. Essentially, we are going to build an Amiga with as many off the shelf parts as possible.
 
-In addition to a new board replacement option, I believe the ubiquitous ATX form factor will bring additional interest to the Amiga as a hobbyist and retro-computing option. At the time or writting this, the Amiga operating system is still actively developed and supported. In additgion, there is a substantial database of existing software and hardware add-on options.
+In addition to a new board replacement option, I believe the ubiquitous ATX form factor will bring additional interest to the Amiga as a hobbyist and retro-computing option. At the time or writting this, the Amiga operating system is still actively developed and supported. In addition, there is a substantial database of existing software and hardware add-on options.
 
 ## Project Status
 Schematics complete. Routing board.
@@ -49,16 +49,16 @@ The number of 16 bit ISA slots has been reduced to three. This was done to provi
 The internal (infernal) serial port has been removed. The external serial port is present with all signals.
 
 ### PCB and Layout
-For obvious reasons, it was necessary to move components relative to one another. Be sure to double check the orientation and position of all IC's before attaching. Components in common with the origianl Amiga 2000 have the same designation as used on the Amiga 2000. However, some components have been removed and others have been added with unique designations. The video slot has been relocated to the sixth slot position on the board. Zorro slots occupy positions 1-5, overlapping with 16-bit ISA slots in the first 3 positions. The CPU slot occupies position 7. It is possible to have every slot position populated simultaneously. This project makes use of a 4 layer board. This solved many issues related to real estate on the smaller EATX footprint.
+For obvious reasons, it was necessary to move components relative to one another. Be sure to double check the orientation and position of all IC's before attaching. Components in common with the origianl Amiga 2000 have the same designation as used on the Amiga 2000. However, some components have been removed and others have been added with unique designations. The video slot has been relocated to the sixth slot position on the board. Zorro slots occupy positions 1-5, overlapping with 16-bit ISA slots in the first 3 positions. The CPU slot occupies position 7. It is possible to have every slot position populated simultaneously. This project uses a 4 layer board.
 
 ### ATX Power
-The original Amiga 2000 power supply is not supported. New ATX 24-pin power supplies are supported with -5V being supplied on board via a voltage regulator. The power switch header is positioned near the power socket on the board.
+The original Amiga 2000 power supply is not supported. ATX 24-pin power supplies are supported with -5V being supplied on board via a voltage regulator. The power switch header is positioned near the power socket on the board.
 
 ### External Reset Switch
 The computer can be reset via CTRL-Amiga-Amiga on an Amiga keyboard or via the reset switch found on ATX computer cases. The reset switch header is found near XXXXXXXX. The external reset switch is valuable for when an Amiga keyboard is not available.
 
 ### Real Time Clock
-The real time clock (RTC) has been changed to the RTC-62423. This RTC has a built in crystal does not need adjustment. This makes it ideal for projects such as this. In the Amiga, the RTC is written and read by 4 address and 4 data lines. Unfortunately, there are no direct "modern" replacements this type of bus connected RTC. As such, this is among the legacy IC's that must be obtained. It is readily available and reasonably priced where these type of legacy IC's are sold.
+The real time clock (RTC) has been changed to the RTC-62423. This RTC has a built in crystal and does not need adjustment. This makes it ideal for projects such as this. In the Amiga, the RTC is written and read by 4 address and 4 data lines. Unfortunately, there are no direct "modern" replacements this type of bus connected RTC. As such, this is among the legacy IC's that must be obtained. It is readily available and reasonably priced where these type of legacy IC's are sold.
 
 ## What has not changed?
 ### Most External Ports
@@ -69,6 +69,8 @@ There are no changes to the Zorro II slots.
 
 ### Kickstart ROM
 For now, the Kickstart ROM remains the original 27C400. These are no longer made, but are easy to find. In addition, this allows the use of an original Commodore Kickstart mask ROM.
+
+### Anything not discussed remains unchanged.
 
 ## Tables
 Table 1. Video Port
@@ -83,15 +85,15 @@ Pin|Signal|Pin|Signal|Pin|Signal
 Table 2. Legacy IC's Required
 Common Name|Designation|Postion|Package|Replacement Option
 -|-|-|-|-
-Motorola 68000|MC68000|Uxxx|64-DIP|
-Fatter Agnus|MOS* 8372A|Uxxx|PLCC 84|
+Motorola 68000|MC68000|U100|64-DIP|Widely available from legacy retailers
+Fatter Agnus|MOS* 8372A|U101|PLCC 84|
 Gary|MOS 5719|Uxxx|48-DIP|
 Paula|MOS 8364|Uxxx|48-DIP|
 CIA|MOS 8520|Uxxx|40-DIP|
 Buster|MOS 5721|Uxxx|48-DIP|[Bluster](https://github.com/LIV2/Bluster)
 Denise|MOS 8362 or CSG 8373|Uxxx|48-DIP|
-Kickstart|Commodore ROM or Burned 27C400|Uxxx|40-DIP|
-Video Hybrid|VIDIOT|HY200|22-SIP|[Video Hybrid](https://github.com/SukkoPera/OpenAmigaVideoHybrid)
+Kickstart|Commodore ROM or Burned 27C400|Uxxx|40-DIP|Various Amiga suppliers sell the ROM ready to use
+Video Hybrid|Commodore 390229-0x|HY200|22-SIP|[Video Hybrid](https://github.com/SukkoPera/OpenAmigaVideoHybrid)
 Real Time Clock|RTC-62423|Uxxx|SOP-24|
 
 *Legacy Commodore IC's may be marked "MOS" or "CSG", or possibly neither in the case of contract runs. These are interchangeable by part number.
