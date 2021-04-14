@@ -86,7 +86,7 @@ Pin|Signal|Pin|Signal|Pin|Signal
 Table 2. Legacy IC's Required
 Common Name|Designation|Postion|Package|Replacement Option
 -|-|-|-|-
-Motorola 68000|MC68000|U100|64-DIP|Widely available from legacy retailers
+Motorola 68000 8MHz|MC68000|U100|64-DIP|Widely available from legacy retailers
 Fatter Agnus|MOS* 8372A|U101|PLCC 84|
 Gary|MOS 5719|Uxxx|48-DIP|
 Paula|MOS 8364|Uxxx|48-DIP|
