@@ -21,7 +21,7 @@ U 1 1 607C3C6D
 P 10000 5150
 F 0 "CN202" H 10000 6017 50  0000 C CNN
 F 1 "DB15_Female_HighDensity" H 10000 5926 50  0000 C CNN
-F 2 "Connector_Dsub:DSUB-15-HD_Female_Horizontal_P2.29x1.98mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm" H 9050 5550 50  0001 C CNN
+F 2 "AmigaFootprints:DSUB-15-HD_Female_Horizontal_P2.29x1.98mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm" H 9050 5550 50  0001 C CNN
 F 3 " ~" H 9050 5550 50  0001 C CNN
 	1    10000 5150
 	1    0    0    -1  
