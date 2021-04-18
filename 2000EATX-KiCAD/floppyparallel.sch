@@ -69,13 +69,10 @@ Wire Wire Line
 	7200 6550 7200 7450
 Wire Wire Line
 	1850 6000 2300 6000
-Connection ~ 1850 6000
 Wire Wire Line
 	1850 6250 1850 6000
 Wire Wire Line
 	1550 6250 1850 6250
-Wire Wire Line
-	1550 6000 1850 6000
 Text GLabel 1550 6250 0    50   Input ~ 0
 _VSYNC
 Text GLabel 1550 7450 0    50   Input ~ 0
@@ -92,8 +89,6 @@ Text GLabel 1550 7300 0    50   Output ~ 0
 _LED
 Text GLabel 1550 7100 0    50   Output ~ 0
 OVL
-Text GLabel 1550 6000 0    50   Output ~ 0
-TBASE
 $Comp
 L power:+5V #PWR0363
 U 1 1 606771A4

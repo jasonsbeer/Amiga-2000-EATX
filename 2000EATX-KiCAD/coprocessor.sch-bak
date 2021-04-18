@@ -843,12 +843,6 @@ Text Label 850  5100 0    47   ~ 0
 _UDS
 Text Label 850  5200 0    47   ~ 0
 _AS
-Text Label 850  2850 0    47   ~ 0
-FC0
-Text Label 850  2950 0    47   ~ 0
-FC1
-Text Label 850  3050 0    47   ~ 0
-FC2
 Text GLabel 1050 7100 0    47   Input ~ 0
 DMAOUT
 Text Label 3250 6900 2    47   ~ 0

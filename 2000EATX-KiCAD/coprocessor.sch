@@ -614,23 +614,7 @@ D12
 Text Label 2100 5050 0    50   ~ 0
 D11
 Wire Wire Line
-	8750 850  8750 2200
-Text Label 8250 1700 0    47   ~ 0
-D0
-Text Label 8250 1600 0    47   ~ 0
-D1
-Text Label 8250 1500 0    47   ~ 0
-D2
-Text Label 8250 1400 0    47   ~ 0
-D3
-Text Label 8250 1300 0    47   ~ 0
-D7
-Text Label 8250 1200 0    47   ~ 0
-D6
-Text Label 8250 1100 0    47   ~ 0
-D5
-Text Label 8250 1000 0    47   ~ 0
-D4
+	8750 850  8750 1700
 Text GLabel 850  1600 0    47   Input ~ 0
 V7M
 Text GLabel 850  1950 0    47   Input ~ 0
@@ -843,12 +827,6 @@ Text Label 850  5100 0    47   ~ 0
 _UDS
 Text Label 850  5200 0    47   ~ 0
 _AS
-Text Label 850  2850 0    47   ~ 0
-FC0
-Text Label 850  2950 0    47   ~ 0
-FC1
-Text Label 850  3050 0    47   ~ 0
-FC2
 Text GLabel 1050 7100 0    47   Input ~ 0
 DMAOUT
 Text Label 3250 6900 2    47   ~ 0
@@ -1411,19 +1389,17 @@ Connection ~ 4100 3750
 Wire Wire Line
 	4100 3750 4200 3750
 Wire Wire Line
-	8850 850  8850 2100
+	8950 850  8950 1500
 Wire Wire Line
-	8950 850  8950 2000
+	9050 850  9050 1400
 Wire Wire Line
-	9050 850  9050 1900
+	9150 850  9150 1300
 Wire Wire Line
-	9150 850  9150 1800
+	9250 850  9250 1000
 Wire Wire Line
-	9250 850  9250 1700
+	9350 850  9350 1200
 Wire Wire Line
-	9350 850  9350 1600
-Wire Wire Line
-	9450 850  9450 1500
+	9450 850  9450 1100
 Wire Wire Line
 	9450 1500 9750 1500
 Wire Wire Line
@@ -1469,7 +1445,7 @@ L Device:R_Network09 RNX1
 U 1 1 606BE25A
 P 8050 1400
 F 0 "RNX1" V 8675 1400 50  0000 C CNN
-F 1 "2.7k" V 8584 1400 50  0000 C CNN
+F 1 "3.3k" V 8584 1400 50  0000 C CNN
 F 2 "Resistor_THT:R_Array_SIP10" V 8625 1400 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 8050 1400 50  0001 C CNN
 	1    8050 1400
@@ -1480,7 +1456,7 @@ L Device:R_Network09 RNX2
 U 1 1 60701175
 P 8100 3850
 F 0 "RNX2" V 8725 3850 50  0000 C CNN
-F 1 "2.7k" V 8634 3850 50  0000 C CNN
+F 1 "3.3k" V 8634 3850 50  0000 C CNN
 F 2 "Resistor_THT:R_Array_SIP10" V 8675 3850 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 8100 3850 50  0001 C CNN
 	1    8100 3850
@@ -1510,10 +1486,10 @@ Wire Wire Line
 Wire Wire Line
 	7850 4250 7900 4250
 $Comp
-L Device:R_Network05 RN903
+L Device:R_Network05 RN908
 U 1 1 61444A0D
 P 4600 5850
-F 0 "RN903" H 4888 5896 50  0000 L CNN
+F 0 "RN908" H 4888 5896 50  0000 L CNN
 F 1 "1k" H 4888 5805 50  0000 L CNN
 F 2 "Resistor_THT:R_Array_SIP6" V 4975 5850 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 4600 5850 50  0001 C CNN
@@ -1521,10 +1497,10 @@ F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 4600 5850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Network05 RN908
+L Device:R_Network05 RN903
 U 1 1 61446021
 P 5400 6000
-F 0 "RN908" H 5688 6046 50  0000 L CNN
+F 0 "RN903" H 5688 6046 50  0000 L CNN
 F 1 "1k" H 5688 5955 50  0000 L CNN
 F 2 "Resistor_THT:R_Array_SIP6" V 5775 6000 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 5400 6000 50  0001 C CNN
@@ -1568,4 +1544,52 @@ NoConn ~ 5600 6200
 Wire Wire Line
 	8250 2400 9750 2400
 NoConn ~ 8300 3450
+Text Label 850  3050 0    47   ~ 0
+FC2
+Text Label 850  2950 0    47   ~ 0
+FC1
+Text Label 850  2850 0    47   ~ 0
+FC0
+Wire Wire Line
+	8250 1000 9250 1000
+Connection ~ 9250 1000
+Wire Wire Line
+	9250 1000 9250 1700
+Wire Wire Line
+	8250 1100 9450 1100
+Connection ~ 9450 1100
+Wire Wire Line
+	9450 1100 9450 1500
+Wire Wire Line
+	8250 1200 9350 1200
+Connection ~ 9350 1200
+Wire Wire Line
+	9350 1200 9350 1600
+Wire Wire Line
+	8250 1300 9150 1300
+Connection ~ 9150 1300
+Wire Wire Line
+	9150 1300 9150 1800
+Wire Wire Line
+	8250 1400 9050 1400
+Connection ~ 9050 1400
+Wire Wire Line
+	9050 1400 9050 1900
+Wire Wire Line
+	8250 1500 8950 1500
+Connection ~ 8950 1500
+Wire Wire Line
+	8950 1500 8950 2000
+Wire Wire Line
+	8250 1600 8850 1600
+Wire Wire Line
+	8850 850  8850 1600
+Connection ~ 8850 1600
+Wire Wire Line
+	8850 1600 8850 2100
+Wire Wire Line
+	8250 1700 8750 1700
+Connection ~ 8750 1700
+Wire Wire Line
+	8750 1700 8750 2200
 $EndSCHEMATC

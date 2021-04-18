@@ -49,21 +49,21 @@ Wire Wire Line
 Wire Wire Line
 	1050 5300 1950 5300
 Text GLabel 1050 3900 0    50   BiDi ~ 0
-D7
+D15
 Text GLabel 1050 4000 0    50   BiDi ~ 0
-D6
+D14
 Text GLabel 1050 4100 0    50   BiDi ~ 0
-D5
+D13
 Text GLabel 1050 4200 0    50   BiDi ~ 0
-D4
+D12
 Text GLabel 1050 4300 0    50   BiDi ~ 0
-D3
+D11
 Text GLabel 1050 4400 0    50   BiDi ~ 0
-D2
+D10
 Text GLabel 1050 4500 0    50   BiDi ~ 0
-D1
+D9
 Text GLabel 1050 4600 0    50   BiDi ~ 0
-D0
+D8
 Text GLabel 1050 5000 0    50   Input ~ 0
 A11
 Text GLabel 1050 5100 0    50   Input ~ 0
@@ -161,21 +161,21 @@ Wire Wire Line
 	4050 6500 4050 9400
 Wire Wire Line
 	4050 9400 1100 9400
-Text GLabel 1100 8150 0    50   Input ~ 0
+Text GLabel 1100 8150 0    50   Output ~ 0
 _STEP
-Text GLabel 1100 8300 0    50   Input ~ 0
+Text GLabel 1100 8300 0    50   Output ~ 0
 DIR
-Text GLabel 1100 8450 0    50   Input ~ 0
+Text GLabel 1100 8450 0    50   Output ~ 0
 _SIDE
-Text GLabel 1100 8600 0    50   Input ~ 0
+Text GLabel 1100 8600 0    50   Output ~ 0
 _SEL0
-Text GLabel 1100 8800 0    50   Input ~ 0
+Text GLabel 1100 8800 0    50   Output ~ 0
 _SEL1
-Text GLabel 1100 9000 0    50   Input ~ 0
+Text GLabel 1100 9000 0    50   Output ~ 0
 _SEL2
-Text GLabel 1100 9200 0    50   Input ~ 0
+Text GLabel 1100 9200 0    50   Output ~ 0
 _SEL3
-Text GLabel 1100 9400 0    50   Input ~ 0
+Text GLabel 1100 9400 0    50   Output ~ 0
 _MTR
 Wire Wire Line
 	2800 3400 3450 3400
@@ -384,10 +384,10 @@ Connection ~ 7600 1800
 Wire Wire Line
 	7600 1800 8000 1800
 $Comp
-L Connector:Conn_01x02_Male CN306
+L Connector:Conn_01x02_Male J9002
 U 1 1 60649299
 P 8200 1800
-F 0 "CN306" H 8172 1732 50  0000 R CNN
+F 0 "J9002" H 8172 1732 50  0000 R CNN
 F 1 "POWER LED" H 8172 1823 50  0000 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8200 1800 50  0001 C CNN
 F 3 "~" H 8200 1800 50  0001 C CNN
@@ -1004,17 +1004,6 @@ F 3 "~" H 10400 8800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:MMBT3904 Q300
-U 1 1 6073DFBC
-P 9850 8950
-F 0 "Q300" H 10041 8996 50  0000 L CNN
-F 1 "MMBT3904" H 10041 8905 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 10050 8875 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 9850 8950 50  0001 L CNN
-	1    9850 8950
-	-1   0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0314
 U 1 1 6075F7B4
 P 9750 9150
@@ -1071,7 +1060,6 @@ F 3 "" H 10400 9250 50  0001 C CNN
 	1    10400 9250
 	1    0    0    -1  
 $EndComp
-Connection ~ 10050 8950
 Wire Wire Line
 	10050 8950 10400 8950
 Wire Wire Line
@@ -1380,7 +1368,7 @@ L Device:R R802
 U 1 1 608D0853
 P 11000 1900
 F 0 "R802" V 10793 1900 50  0000 C CNN
-F 1 "1k" V 10884 1900 50  0000 C CNN
+F 1 "10k" V 10884 1900 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 10930 1900 50  0001 C CNN
 F 3 "~" H 11000 1900 50  0001 C CNN
 	1    11000 1900
@@ -1402,8 +1390,6 @@ Wire Wire Line
 Connection ~ 11000 2050
 Wire Wire Line
 	11000 2050 11400 2050
-Wire Wire Line
-	11000 3050 10600 3050
 Connection ~ 10050 3050
 Wire Wire Line
 	10600 3050 10600 3100
@@ -1455,9 +1441,6 @@ F 3 "" H 10600 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	11400 3050 11000 3050
-Connection ~ 11000 3050
-Wire Wire Line
 	12000 2150 12150 2150
 Wire Wire Line
 	12250 2050 12250 2150
@@ -1467,7 +1450,7 @@ L Device:R R805
 U 1 1 609496BA
 P 12250 1900
 F 0 "R805" V 12350 1900 50  0000 C CNN
-F 1 "1k" V 12250 1900 50  0000 C CNN
+F 1 "47k" V 12250 1900 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 12180 1900 50  0001 C CNN
 F 3 "~" H 12250 1900 50  0001 C CNN
 	1    12250 1900
@@ -1499,8 +1482,6 @@ Wire Wire Line
 	12600 2350 12600 2650
 Wire Wire Line
 	11400 2250 11400 3050
-Wire Wire Line
-	11000 2350 11000 3050
 Wire Wire Line
 	10050 2150 10050 3050
 Connection ~ 10050 2150
@@ -1536,7 +1517,7 @@ Wire Wire Line
 	12900 2650 13500 2650
 Wire Wire Line
 	13500 2650 13500 2250
-Text GLabel 15650 2500 2    50   Output ~ 0
+Text GLabel 15150 2500 2    50   Output ~ 0
 _KBRST
 Wire Notes Line
 	16050 750  16050 3750
@@ -1843,8 +1824,6 @@ F 3 "" H 13000 1400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	14650 2500 15650 2500
-Wire Wire Line
 	12250 2150 12600 2150
 Wire Wire Line
 	12550 1500 12250 1500
@@ -1876,4 +1855,31 @@ F 3 "" H 12050 1200 50  0001 C CNN
 $EndComp
 Text Label 12150 1200 0    50   ~ 0
 RESET
+$Comp
+L Transistor_BJT:2SC1815 Q300
+U 1 1 609BBF63
+P 9850 8950
+F 0 "Q300" H 10041 8996 50  0000 L CNN
+F 1 "MMBT3904" H 10041 8905 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 10050 8875 50  0001 L CIN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf" H 9850 8950 50  0001 L CNN
+	1    9850 8950
+	-1   0    0    -1  
+$EndComp
+Connection ~ 10050 8950
+Wire Wire Line
+	10600 3050 11400 3050
+$Comp
+L power:GND #PWR0180
+U 1 1 609F7B0F
+P 11000 2350
+F 0 "#PWR0180" H 11000 2100 50  0001 C CNN
+F 1 "GND" H 11005 2177 50  0000 C CNN
+F 2 "" H 11000 2350 50  0001 C CNN
+F 3 "" H 11000 2350 50  0001 C CNN
+	1    11000 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14650 2500 15150 2500
 $EndSCHEMATC

@@ -1123,9 +1123,9 @@ Wire Wire Line
 	8150 9700 6550 9700
 Wire Wire Line
 	8150 9600 5950 9600
-Text GLabel 5250 9600 0    50   Output ~ 0
+Text GLabel 5250 9600 0    50   Input ~ 0
 _XCLKEN
-Text GLabel 5250 9700 0    50   Output ~ 0
+Text GLabel 5250 9700 0    50   Input ~ 0
 XCLK
 $Comp
 L Device:R R109
