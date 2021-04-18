@@ -1882,4 +1882,6 @@ F 3 "" H 11000 2350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	14650 2500 15150 2500
+Text Notes 12300 9850 0    197  ~ 0
+Serial\nAmiga 2000 EATX
 $EndSCHEMATC

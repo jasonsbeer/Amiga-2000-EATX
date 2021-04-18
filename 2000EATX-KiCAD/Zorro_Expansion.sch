@@ -4126,4 +4126,6 @@ F 3 "" H 2150 1700 50  0001 C CNN
 	1    2150 1700
 	1    0    0    -1  
 $EndComp
+Text Notes 12350 9850 0    197  ~ 0
+Zorro 2 Expansion Slots\nAmiga 2000 EATX
 $EndSCHEMATC

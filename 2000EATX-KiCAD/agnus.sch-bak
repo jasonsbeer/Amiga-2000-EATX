@@ -1385,4 +1385,6 @@ Wire Wire Line
 Wire Wire Line
 	2750 7350 2750 8500
 Connection ~ 2750 9800
+Text Notes 12300 9850 0    197  ~ 0
+Agnus\nAmiga 2000 EATX
 $EndSCHEMATC

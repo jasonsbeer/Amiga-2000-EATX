@@ -13,8 +13,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 12330 9600 0    197  ~ 0
-VIDEO
+Text Notes 12350 9850 0    197  ~ 0
+Video\nAmiga 2000 EATX
 $Comp
 L Connector:DB15_Female_HighDensity CN202
 U 1 1 607C3C6D
@@ -619,7 +619,7 @@ R1
 Text GLabel 1750 950  1    50   Input ~ 0
 R0
 Text GLabel 950  1450 0    50   Input ~ 0
-_VSYNC
+TBASE
 $Comp
 L Amiga-Library:C_Small C915
 U 1 1 607FDC60

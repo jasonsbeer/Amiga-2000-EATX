@@ -2121,4 +2121,6 @@ Wire Wire Line
 Connection ~ 1850 6000
 Wire Wire Line
 	1100 6250 1850 6250
+Text Notes 12300 9850 0    197  ~ 0
+Floppy and Parallel\nAmiga 2000 EATX
 $EndSCHEMATC

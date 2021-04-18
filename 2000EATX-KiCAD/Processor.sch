@@ -872,8 +872,8 @@ Wire Wire Line
 Connection ~ 3700 4850
 Wire Wire Line
 	3700 4850 2850 4850
-Text Notes 7100 6700 0    50   ~ 0
-PROCESSOR
+Text Notes 7050 7100 0    197  ~ 0
+Processor\nAmiga 2000 EATX
 Text GLabel 5750 1850 2    50   BiDi ~ 0
 A1
 Text GLabel 5750 1950 2    50   BiDi ~ 0

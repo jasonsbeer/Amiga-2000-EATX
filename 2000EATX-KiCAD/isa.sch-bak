@@ -1650,4 +1650,6 @@ Connection ~ 9500 3800
 Connection ~ 9500 4100
 Wire Wire Line
 	12350 5000 12450 5000
+Text Notes 12300 9850 0    197  ~ 0
+ISA Expansion Slots\nAmiga 2000 EATX
 $EndSCHEMATC

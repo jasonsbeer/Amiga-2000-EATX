@@ -1592,4 +1592,6 @@ Wire Wire Line
 Connection ~ 8750 1700
 Wire Wire Line
 	8750 1700 8750 2200
+Text Notes 7050 7100 0    197  ~ 0
+Coprocessor\nAmiga 2000 EATX
 $EndSCHEMATC
