@@ -4,12 +4,14 @@ The purpose of this project is to develop an Amiga 2000 PCB in the EATX form fac
 In addition to a new board replacement option, I believe the ubiquitous ATX form factor will bring additional interest to the Amiga as a hobbyist and retro-computing option. At the time or writting this, the Amiga operating system is still actively developed and supported. In addition, there is a substantial database of existing software and hardware add-on options.
 
 ## Project Status
-Schematics complete. Routing board.
+Schematics complete. 
+Routing Complete.
+Verifiying Above.
 
 This project is in the proof of concept stage. It may not work in its current state. Once the prototype boards are received and assembled, I will be able to correct any discovered issues and update the appropriate drawings.
 
 ## Project Goals
-1. Enter Amiga 2000 Rev 6.4 schematics into KiCad.
+1. Enter Amiga 2000 Rev 6.2 schematics into KiCad.
 2. When possible, replace end of life components with suitable alternatives that are commercially available.
 3. Layout and route components using the ATX standard as a guide.
 4. Test it and make sure it works.
@@ -76,22 +78,6 @@ Pin|Signal|Pin|Signal|Pin|Signal
 3|Blue|8|GND|13|HSYNC
 4|NC|9|GND|14|VSYNC
 5|GND|10|GND|15|NC
-
-Table 2. Legacy IC's Required
-Common Name|Designation|Postion|Package|Replacement Option
--|-|-|-|-
-Motorola 68000 8MHz|MC68000|U100|64-DIP|Widely available from legacy retailers
-Fatter Agnus|MOS* 8372A|U101|PLCC 84|
-Gary|MOS 5719|Uxxx|48-DIP|
-Paula|MOS 8364|Uxxx|48-DIP|
-CIA|MOS 8520|Uxxx|40-DIP|
-Buster|MOS 5721|Uxxx|48-DIP|[Bluster](https://github.com/LIV2/Bluster)
-Denise|MOS 8362 or CSG 8373|Uxxx|48-DIP|
-Kickstart|Commodore ROM or Burned 27C400|Uxxx|40-DIP|Various Amiga suppliers sell the ROM ready to use
-Video Hybrid|Commodore 390229-0x|HY200|22-SIP|[Video Hybrid](https://github.com/SukkoPera/OpenAmigaVideoHybrid)
-Real Time Clock|RTC-62423|Uxxx|SOP-24|
-
-*Legacy Commodore IC's may be marked "MOS" or "CSG", or possibly neither in the case of contract runs. These are interchangeable by part number.
 
 ## Revision History
 Rev 0 - Prototype board
