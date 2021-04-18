@@ -18,14 +18,8 @@ This project is in the proof of concept stage. It may not work in its current st
 See information [here](PCB.md). 
 
 ## Assembling the Amiga 2000EATX
-This board makes use of suface mount devices. Lots of them. The Amiga 2000 made use of a lot of decoupling capacitors and pullup/pulldown resistors. This is reflected in this project. You will need to obtain the legacy IC's shown in Table 2. All other components may be purchased from your favorite electronics supply house. The BOM includes DigiKey part numbers for your reference.
 
-Notes:
-1. If you do not intend to use a bridgeboard or the ISA slots, you do not need to install the components shown in the ISA SUPPORT silk screen.
-2. The values of the various components are listed on the board. In the event several components are placed together with the same value, the value may be shown once and the components will be marked together on the silk screen.
-
-## BOM
-REALLY BIG!
+See information [here](AssemblyNotes.md)
 
 ## Changes from the original Amiga 2000
 ### Video
