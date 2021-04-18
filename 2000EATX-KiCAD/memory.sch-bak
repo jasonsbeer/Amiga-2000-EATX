@@ -548,12 +548,6 @@ Connection ~ 4900 7000
 Wire Wire Line
 	4150 9700 6100 9700
 Wire Wire Line
-	6100 9700 6100 7500
-Wire Wire Line
-	6100 7500 2900 7500
-Wire Wire Line
-	2900 7500 2900 7100
-Wire Wire Line
 	2900 7100 3050 7100
 $Comp
 L power:GND #PWR0345
@@ -848,13 +842,13 @@ DRA2
 Text GLabel 5800 2150 0    50   Input ~ 0
 DRA3
 Text GLabel 5800 2750 0    50   Input ~ 0
-DRA4
-Text GLabel 5800 2600 0    50   Input ~ 0
-DRA5
-Text GLabel 5800 2450 0    50   Input ~ 0
-DRA6
-Text GLabel 5800 2300 0    50   Input ~ 0
 DRA7
+Text GLabel 5800 2600 0    50   Input ~ 0
+DRA6
+Text GLabel 5800 2450 0    50   Input ~ 0
+DRA5
+Text GLabel 5800 2300 0    50   Input ~ 0
+DRA4
 Text GLabel 5800 2900 0    50   Input ~ 0
 DRA8
 Wire Wire Line
@@ -975,8 +969,8 @@ Wire Notes Line
 	3650 3650 3650 2600
 Wire Notes Line
 	3650 2600 2050 2600
-Text Notes 2250 3550 0    50   ~ 0
-SETTING IS PERMANENTLY \nSET TO 1M CHIP RAM
+Text Notes 2750 3550 0    50   ~ 0
+J500 IS OMITTED\nPERMANENTLY SET \nTO 1M CHIP RAM
 $Comp
 L power:GND #PWR0351
 U 1 1 6085E392
@@ -1707,8 +1701,8 @@ Wire Wire Line
 	16000 1650 15300 1650
 Text Label 13100 2250 0    50   ~ 0
 DRAC6
-Text Notes 2600 10350 0    118  ~ 0
-OPTIONAL 27C4096 EPROM
+Text Notes 3150 10450 0    118  ~ 0
+OPTIONAL 27C4096 EPROM\nFUTURE
 Wire Wire Line
 	16150 5600 16150 3350
 Wire Wire Line
@@ -1795,4 +1789,45 @@ Wire Wire Line
 Connection ~ 11500 2150
 Wire Wire Line
 	11500 2150 12400 2150
+$Comp
+L power:GND #PWR?
+U 1 1 609B0376
+P 8000 3000
+F 0 "#PWR?" H 8000 2750 50  0001 C CNN
+F 1 "GND" H 8005 2827 50  0000 C CNN
+F 2 "" H 8000 3000 50  0001 C CNN
+F 3 "" H 8000 3000 50  0001 C CNN
+	1    8000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 609B0A18
+P 8000 5150
+F 0 "#PWR?" H 8000 4900 50  0001 C CNN
+F 1 "GND" H 8005 4977 50  0000 C CNN
+F 2 "" H 8000 5150 50  0001 C CNN
+F 3 "" H 8000 5150 50  0001 C CNN
+	1    8000 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 2750 8000 2850
+Connection ~ 8000 2850
+Wire Wire Line
+	8000 2850 8000 3000
+Wire Wire Line
+	8000 4850 8000 4950
+Connection ~ 8000 4950
+Wire Wire Line
+	8000 4950 8000 5150
+Wire Wire Line
+	2900 7600 6100 7600
+Wire Wire Line
+	6100 7500 6100 7600
+Connection ~ 6100 7600
+Wire Wire Line
+	6100 7600 6100 9700
+Wire Wire Line
+	2900 7100 2900 7600
 $EndSCHEMATC

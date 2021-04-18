@@ -71,9 +71,7 @@ Wire Wire Line
 	1850 6000 2300 6000
 Wire Wire Line
 	1850 6250 1850 6000
-Wire Wire Line
-	1550 6250 1850 6250
-Text GLabel 1550 6250 0    50   Input ~ 0
+Text GLabel 1100 6250 0    50   Input ~ 0
 _VSYNC
 Text GLabel 1550 7450 0    50   Input ~ 0
 _PACK
@@ -2116,4 +2114,11 @@ Wire Wire Line
 Connection ~ 5100 3100
 Wire Wire Line
 	5100 3100 6450 3100
+Text GLabel 1100 6000 0    50   Output ~ 0
+TBASE
+Wire Wire Line
+	1850 6000 1100 6000
+Connection ~ 1850 6000
+Wire Wire Line
+	1100 6250 1850 6250
 $EndSCHEMATC
