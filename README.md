@@ -19,7 +19,7 @@ This project is in the proof of concept stage. It may not work in its current st
 ## Ordering PCBs
 See information [here](PCB.md). 
 
-## Assembling the Amiga 2000EATX
+## BOM and Assembling the Amiga 2000EATX
 
 See information [here](AssemblyNotes.md)
 
