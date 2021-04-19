@@ -1218,8 +1218,6 @@ F 3 "~" H 11000 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	11000 5350 11000 6000
-Wire Wire Line
 	11000 6000 10800 6000
 $Comp
 L power:+5V #PWR0369
@@ -1390,7 +1388,6 @@ Wire Wire Line
 Wire Wire Line
 	11000 7650 11000 6000
 Connection ~ 11250 7650
-Connection ~ 11000 6000
 Wire Wire Line
 	12950 7850 11450 7850
 Wire Wire Line
@@ -2123,4 +2120,18 @@ Wire Wire Line
 	1100 6250 1850 6250
 Text Notes 12300 9850 0    197  ~ 0
 Floppy and Parallel\nAmiga 2000 EATX
+$Comp
+L Diode:1N4001 D301
+U 1 1 608AF72D
+P 11000 5500
+F 0 "D301" V 10954 5580 50  0000 L CNN
+F 1 "S1MWF-7" V 11045 5580 50  0000 L CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 11000 5325 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 11000 5500 50  0001 C CNN
+	1    11000 5500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11000 6000 11000 5650
+Connection ~ 11000 6000
 $EndSCHEMATC
