@@ -11,6 +11,28 @@ Notes:
 
 The best source of parts for this project is a dead or dying Amiga 2000 board. Otherwise, many of the Amiga legacy IC's and parts can be obatined from various internet suppliers. The only exception seems to be Buster, which is required to control the Zorro bus. It is very difficult to find. There is a replacement option available if you don't mind programming a CPLD. See Table A1.
 
+## Component Orientation
+
+### Diodes
+There are a few single diodes on the board. They are designated Dxxx and marked with a rectangle with one open side. The closed side indicates the cathode. This is often marked on the diode body with a solid line.
+
+<img src="/Images/diode-orientation.png" width="200">
+
+### Capacitors
+The electrolytic caps on the board are polarized and must be installed correctly. The caps will have a black mark that indicates negative (-). Positive (+) is marked on the board. Align the black mark away from the + mark.
+
+<img src="/Images/Capacitor.png" width="200">
+
+### Surface Mount IC's
+Surface mount ICs have a small circle on them indicating pin 1. A small circle next to each surace mount IC on the board to assist with orentation. There are also lines drawn across the top and bottom of the SMD position. The longer line indicates pin 1. 
+
+<img src="/Images/SMD-orientation.png" width="200">
+
+### Through Hole IC's
+Throught hole IC's have a square pad and a "1" marking pin one. Pin one is usually indicated with a small notch on one end of the IC body. Occasionally, there may be a small circle on the IC body indicating pin 1.
+
+<img src="/Images/DIP-orientation.png" width="200">
+
 ## A Word About Logic and Logic Selection
 
 The Amiga primarily made use of LS (5V TTL) and HCT (5V TTL compatable) logic. Fortunately for us, LS and HCT logic are still widely available.
