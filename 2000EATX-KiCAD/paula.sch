@@ -1055,17 +1055,6 @@ Wire Notes Line
 Text Notes 14800 5850 2    50   ~ 0
 Audio Vref
 $Comp
-L Device:C C240
-U 1 1 60C8AE4C
-P 7000 1200
-F 0 "C240" H 7115 1246 50  0000 L CNN
-F 1 "0.1uF" H 7115 1155 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 7038 1050 50  0001 C CNN
-F 3 "~" H 7000 1200 50  0001 C CNN
-	1    7000 1200
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R240
 U 1 1 60C8C8CC
 P 6550 1200
@@ -1076,16 +1065,6 @@ F 3 "~" H 6550 1200 50  0001 C CNN
 	1    6550 1200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7450 1350 7000 1350
-Connection ~ 7000 1350
-Wire Wire Line
-	7000 1350 6550 1350
-Wire Wire Line
-	6550 1050 7000 1050
-Connection ~ 7000 1050
-Wire Wire Line
-	7000 1050 8050 1050
 Wire Wire Line
 	7450 1550 7350 1550
 Wire Wire Line
@@ -1326,30 +1305,9 @@ F 3 "~" H 7400 4250 50  0001 C CNN
 	1    7400 4250
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C C230
-U 1 1 60604EE4
-P 7800 4250
-F 0 "C230" H 7915 4296 50  0000 L CNN
-F 1 "0.1uF" H 7915 4205 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 7838 4100 50  0001 C CNN
-F 3 "~" H 7800 4250 50  0001 C CNN
-	1    7800 4250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8350 4400 7800 4400
 Connection ~ 7400 4400
-Connection ~ 7800 4400
-Wire Wire Line
-	7800 4400 7400 4400
-Wire Wire Line
-	7400 4100 7800 4100
 Wire Wire Line
 	8950 4100 8950 4500
-Connection ~ 7800 4100
-Wire Wire Line
-	7800 4100 8950 4100
 Wire Wire Line
 	8350 4600 8150 4600
 Wire Wire Line
@@ -2173,4 +2131,12 @@ F 3 "" H 9700 7750 50  0001 C CNN
 	1    9700 7750
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7400 4100 8950 4100
+Wire Wire Line
+	7400 4400 8350 4400
+Wire Wire Line
+	6550 1050 8050 1050
+Wire Wire Line
+	6550 1350 7450 1350
 $EndSCHEMATC

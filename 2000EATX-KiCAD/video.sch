@@ -1032,17 +1032,6 @@ F 3 "~" V 8500 5900 50  0001 C CNN
 	1    8500 5900
 	1    0    0    -1  
 $EndComp
-$Comp
-L Amiga-Library:Denise U201
-U 2 1 61235FB8
-P 2050 7250
-F 0 "U201" H 2328 7321 50  0000 L CNN
-F 1 "DENISE" H 2328 7230 50  0000 L CNN
-F 2 "Package_DIP:DIP-48_W15.24mm" H 2050 7250 50  0001 C CNN
-F 3 "" H 2050 7250 50  0001 C CNN
-	2    2050 7250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	900  7000 700  7000
 $Comp
@@ -1079,14 +1068,9 @@ F 3 "" H 2050 7550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2050 6900 2450 6900
-Wire Wire Line
 	1300 7000 1550 7000
 Wire Wire Line
 	1550 7000 1550 6900
-Wire Wire Line
-	1550 6900 2050 6900
-Connection ~ 2050 6900
 $Comp
 L Amiga-Library:C_Feedthrough EMI200
 U 1 1 6136EE88
@@ -1447,137 +1431,10 @@ Connection ~ 9400 5250
 Wire Wire Line
 	9400 5250 9400 5450
 Connection ~ 4300 2550
-$Comp
-L Device:R_Network05 RN904
-U 1 1 607131D9
-P 2800 4550
-F 0 "RN904" H 3088 4596 50  0000 L CNN
-F 1 "4.7k" H 3088 4505 50  0000 L CNN
-F 2 "Resistor_THT:R_Array_SIP6" V 3175 4550 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 2800 4550 50  0001 C CNN
-	1    2800 4550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2350 4800 2600 4800
-Wire Wire Line
-	2350 4900 2700 4900
-Wire Wire Line
-	2350 5000 2800 5000
-Wire Wire Line
-	2350 5100 2900 5100
-Wire Wire Line
-	2450 4350 2600 4350
 Wire Wire Line
 	2350 4400 2350 4250
 Wire Wire Line
 	2350 4250 3500 4250
-Wire Wire Line
-	2600 4750 2600 4800
-Connection ~ 2600 4800
-Wire Wire Line
-	2600 4800 3600 4800
-Wire Wire Line
-	2700 4750 2700 4900
-Connection ~ 2700 4900
-Wire Wire Line
-	2700 4900 3700 4900
-Wire Wire Line
-	2800 4750 2800 5000
-Connection ~ 2800 5000
-Wire Wire Line
-	2800 5000 3800 5000
-Wire Wire Line
-	2900 4750 2900 5100
-Connection ~ 2900 5100
-Wire Wire Line
-	2900 5100 3900 5100
-NoConn ~ 3000 4750
-Wire Wire Line
-	2450 4350 2450 5150
-$Comp
-L Device:R_Network05 RN906
-U 1 1 609E4AA5
-P 2850 5350
-F 0 "RN906" H 3138 5396 50  0000 L CNN
-F 1 "4.7k" H 3138 5305 50  0000 L CNN
-F 2 "Resistor_THT:R_Array_SIP6" V 3225 5350 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 2850 5350 50  0001 C CNN
-	1    2850 5350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2350 5900 2950 5900
-Wire Wire Line
-	2350 5700 2750 5700
-Wire Wire Line
-	2350 5600 2650 5600
-Wire Wire Line
-	2650 5150 2450 5150
-Connection ~ 2450 5150
-NoConn ~ 2850 5550
-Wire Wire Line
-	2650 5550 2650 5600
-Connection ~ 2650 5600
-Wire Wire Line
-	2650 5600 4000 5600
-Wire Wire Line
-	2750 5550 2750 5700
-Connection ~ 2750 5700
-Wire Wire Line
-	2750 5700 4100 5700
-Wire Wire Line
-	2950 5550 2950 5900
-Connection ~ 2950 5900
-Wire Wire Line
-	2950 5900 4300 5900
-Wire Wire Line
-	2350 6400 2650 6400
-Wire Wire Line
-	2350 6500 2750 6500
-Wire Wire Line
-	2350 6600 2850 6600
-Wire Wire Line
-	2350 6700 2950 6700
-Wire Wire Line
-	2450 5150 2450 5950
-$Comp
-L Device:R_Network05 RN905
-U 1 1 60C1E4EE
-P 2850 6150
-F 0 "RN905" H 3138 6196 50  0000 L CNN
-F 1 "4.7k" H 3138 6105 50  0000 L CNN
-F 2 "Resistor_THT:R_Array_SIP6" V 3225 6150 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 2850 6150 50  0001 C CNN
-	1    2850 6150
-	1    0    0    -1  
-$EndComp
-NoConn ~ 3050 6350
-Wire Wire Line
-	2650 5950 2450 5950
-Connection ~ 2450 5950
-Wire Wire Line
-	2450 5950 2450 6900
-Wire Wire Line
-	2650 6350 2650 6400
-Connection ~ 2650 6400
-Wire Wire Line
-	2650 6400 4400 6400
-Wire Wire Line
-	2750 6350 2750 6500
-Connection ~ 2750 6500
-Wire Wire Line
-	2750 6500 3550 6500
-Wire Wire Line
-	2850 6350 2850 6600
-Connection ~ 2850 6600
-Wire Wire Line
-	2850 6600 4050 6600
-Wire Wire Line
-	2950 6350 2950 6700
-Connection ~ 2950 6700
-Wire Wire Line
-	2950 6700 4250 6700
 $Comp
 L Device:R_Network05 RN205
 U 1 1 60E5EB32
@@ -1753,10 +1610,40 @@ Connection ~ 2600 3100
 Wire Wire Line
 	2600 3100 3200 3100
 Wire Wire Line
-	3050 5800 3050 5550
-Connection ~ 3050 5800
+	1550 6900 2050 6900
+$Comp
+L Amiga-Library:Denise U201
+U 2 1 61235FB8
+P 2050 7250
+F 0 "U201" H 2328 7321 50  0000 L CNN
+F 1 "DENISE" H 2328 7230 50  0000 L CNN
+F 2 "Package_DIP:DIP-48_W15.24mm" H 2050 7250 50  0001 C CNN
+F 3 "" H 2050 7250 50  0001 C CNN
+	2    2050 7250
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	3050 5800 4200 5800
+	2350 6400 4400 6400
 Wire Wire Line
-	2350 5800 3050 5800
+	2350 6500 3550 6500
+Wire Wire Line
+	2350 6600 4050 6600
+Wire Wire Line
+	2350 6700 4250 6700
+Wire Wire Line
+	2350 5600 4000 5600
+Wire Wire Line
+	2350 5700 4100 5700
+Wire Wire Line
+	2350 5900 4300 5900
+Wire Wire Line
+	2350 5800 4200 5800
+Wire Wire Line
+	2350 4800 3600 4800
+Wire Wire Line
+	2350 4900 3700 4900
+Wire Wire Line
+	2350 5000 3800 5000
+Wire Wire Line
+	2350 5100 3900 5100
 $EndSCHEMATC

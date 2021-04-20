@@ -1154,22 +1154,6 @@ Wire Wire Line
 Wire Wire Line
 	850  10050 850  6400
 Wire Wire Line
-	850  6400 1900 6400
-$Comp
-L Device:C C909
-U 1 1 609F275F
-P 1900 6550
-F 0 "C909" H 2015 6596 50  0000 L CNN
-F 1 "0.1uF" H 2015 6505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 1938 6400 50  0001 C CNN
-F 3 "~" H 1900 6550 50  0001 C CNN
-	1    1900 6550
-	1    0    0    -1  
-$EndComp
-Connection ~ 1900 6400
-Wire Wire Line
-	1900 6400 2300 6400
-Wire Wire Line
 	3500 8100 1550 8100
 Wire Wire Line
 	3500 8100 3500 8850
@@ -1776,17 +1760,6 @@ Text GLabel 1100 5600 0    50   Output ~ 0
 _INT2
 Wire Wire Line
 	2300 5600 1100 5600
-$Comp
-L power:GND #PWR0377
-U 1 1 612A3945
-P 1900 6700
-F 0 "#PWR0377" H 1900 6450 50  0001 C CNN
-F 1 "GND" H 1905 6527 50  0000 C CNN
-F 2 "" H 1900 6700 50  0001 C CNN
-F 3 "" H 1900 6700 50  0001 C CNN
-	1    1900 6700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2650 9500 2650 10050
 Connection ~ 2650 9500
@@ -2134,4 +2107,6 @@ $EndComp
 Wire Wire Line
 	11000 6000 11000 5650
 Connection ~ 11000 6000
+Wire Wire Line
+	850  6400 2300 6400
 $EndSCHEMATC
