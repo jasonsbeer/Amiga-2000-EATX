@@ -9,7 +9,7 @@ In addition to a new board replacement option, I believe the ubiquitous ATX form
 Schematics complete. 
 Routing Complete.
 Verifiying Components and Routing.
-Submitted for fabrication.
+Ready to submit for fabrication.
 
 This project is in the proof of concept stage. It may not work in its current state. Once the prototype boards are received and assembled, I will be able to correct any discovered issues and update the appropriate drawings.
 
