@@ -28,7 +28,7 @@ See information [here](AssemblyNotes.md)
 
 ## Changes from the original Amiga 2000
 ### Video
-Perhaps the most changed Amiga subsytem in this project, the most obvious difference is removing the DB23 video connector in place of the HD15 connector. One of the goals of this project is to avoid parts that are not commercially available. The DB23 connector is a prime example. While they can still be obtained, you cannot find them in stock at popular electronic supply houses. Thus, the change to the widely available HD15 connector. The analog RGB outpus along with HSYNC and VSYNC are supplied using the VGA standard pin out configuration. Any VGA cable can be used to supply the video signal to a VGA monitor supporting the 15KHz standard, or widely available VGA to HDMI conversion boxes. Pinouts are shown in Table 1. All other external video signals on the original Amiga are not available. These missing signals are intended to support external Genlocks, video editors, etc.
+The most obvious difference is removing the DB23 video connector in place of the HD15 connector. One of the goals of this project is to avoid parts that are not commercially available. The D-Sub 23 connector is a prime example. They are not stocked at popular electronic supply houses. Thus, the change to the widely available HD15 connector. The analog RGB outpus along with HSYNC and VSYNC are supplied using the VGA standard pin out configuration. Any VGA cable can be used to supply the video signal to a VGA monitor supporting the 15KHz standard, or widely available VGA conversion boxes. Pinouts are shown in Table 1. All other external video signals on the original Amiga are not available. These missing signals were intended to support external Genlocks, video editors, etc, among other hardware.
 
 All original signals are available on the internal video slot. 
 
@@ -48,16 +48,16 @@ The number of 16 bit ISA slots has been reduced to three. This was done to provi
 The internal (infernal) serial port has been removed. The external serial port is present with all signals.
 
 ### PCB and Layout
-For obvious reasons, it was necessary to move components relative to one another. Be sure to double check the orientation and position of all IC's before attaching. Components in common with the origianl Amiga 2000 have the same designation as used on the Amiga 2000. However, some components have been removed and others have been added with unique designations. The video slot has been relocated to the sixth slot position on the board. Zorro slots occupy positions 1-5, overlapping with 16-bit ISA slots in the first 3 positions. The CPU slot occupies position 7. It is possible to have every slot position populated simultaneously. This project uses a 4 layer board.
+For obvious reasons, it was necessary to move components relative to one another. Always verify the orientation and location of all IC's before attaching. Components in common with the origianl Amiga 2000 generally have the same designation as used on the Amiga 2000. However, some components have been removed and others have been added with unique designations. The video slot has been relocated to the sixth slot position on the board. Zorro slots occupy positions 1-5, overlapping with ISA slots in the first 3 positions. The CPU slot occupies position 7. It is possible to have every slot position populated simultaneously. This project uses a 4 layer board.
 
 ### ATX Power
 The original Amiga 2000 power supply is not supported. ATX 24-pin power supplies are supported with -5V being supplied on board via a voltage regulator. The power switch header is positioned near the power socket on the board.
 
 ### External Reset Switch
-The computer can be reset via CTRL-Amiga-Amiga on an Amiga keyboard or via the reset switch found on ATX computer cases. The reset switch header is found near XXXXXXXX. The external reset switch is valuable for when an Amiga keyboard is not available.
+The computer can be reset via CTRL-Amiga-Amiga on an Amiga keyboard or via the reset switch found on ATX computer cases. The external reset switch is valuable for when an Amiga keyboard is not available.
 
 ### Real Time Clock
-The real time clock (RTC) has been changed to the RTC-62423. This RTC has a built in crystal and does not need adjustment. This makes it ideal for projects such as this. In the Amiga, the RTC is written and read by 4 address and 4 data lines. Unfortunately, there are no direct "modern" replacements this type of bus connected RTC. As such, this is among the legacy IC's that must be obtained. It is readily available and reasonably priced where these type of legacy IC's are sold.
+The real time clock (RTC) has been changed to the RTC-62423. This RTC has a built in crystal and does not need adjustment. This makes it ideal for projects such as this. In the Amiga, the RTC is written and read by 4 address and 4 data lines. Unfortunately, there are no direct "modern" replacements for this type of bus connected RTC. As such, this is among the legacy IC's that must be obtained. It is readily available and reasonably priced where these type of legacy IC's are sold.
 
 ## What has not changed?
 ### Most External Ports
