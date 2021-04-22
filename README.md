@@ -51,13 +51,13 @@ The number of 16 bit ISA slots has been reduced to three. This was done to provi
 The internal (infernal) serial port has been removed. The external serial port is present with all signals.
 
 ### PCB and Layout
-For obvious reasons, it was necessary to move components relative to one another. Always verify the orientation and location of all IC's before attaching. Components in common with the origianl Amiga 2000 generally have the same designation as used on the Amiga 2000. However, some components have been removed and others have been added with unique designations. The video slot has been relocated to the sixth slot position on the board. Zorro slots occupy positions 1-5, overlapping with ISA slots in the first 3 positions. The CPU slot occupies position 7. It is possible to have every slot position populated simultaneously. This project uses a 4 layer board.
+For obvious reasons, it was necessary to move components relative to one another. The video slot has been relocated to the sixth slot position on the board. Zorro slots occupy positions 1-5, overlapping with ISA slots in the first 3 positions. The CPU slot occupies position 7. It is possible to have every slot position populated simultaneously. This project uses a 4 layer board.
 
 ### ATX Power
-The original Amiga 2000 power supply is not supported. ATX 24-pin power supplies are supported with -5V being supplied on board via a voltage regulator. The power switch header is positioned near the power socket on the board.
+The original Amiga 2000 power supply is not supported. ATX 24-pin power supplies are supported with -5V being supplied on board via a voltage regulator.
 
 ### External Reset Switch
-The computer can be reset via CTRL-Amiga-Amiga on an Amiga keyboard or via the reset switch found on ATX computer cases. The external reset switch is valuable for when an Amiga keyboard is not available.
+The computer can be reset via CTRL-Amiga-Amiga on an Amiga keyboard or via the reset switch found on ATX computer cases.
 
 ### Real Time Clock
 The real time clock (RTC) has been changed to the RTC-62423. This RTC has a built in crystal and does not need adjustment. This makes it ideal for projects such as this. In the Amiga, the RTC is written and read by 4 address and 4 data lines. Unfortunately, there are no direct "modern" replacements for this type of bus connected RTC. As such, this is among the legacy IC's that must be obtained. It is readily available and reasonably priced where these type of legacy IC's are sold.
