@@ -6,6 +6,7 @@ Notes:
 1. If you do not intend to use a bridgeboard or the ISA slots, you do not need to install the components shown in the ISA SUPPORT silk screen.
 2. The values of the various components are listed on the board. In the event several components are placed together with the same value, the value may be shown once and the components will be marked together on the silk screen.
 3. All end-of-life (no longer manufactured) components for this project are listed in table A1.
+4. Always verify the orientation and location of all IC's before attaching. Components in common with the origianl Amiga 2000 generally have the same designation as used on the Amiga 2000. However, some components have been removed and others have been added with unique designations. 
 
 ## Where To Get Amiga Custom ICs and Parts
 
@@ -19,7 +20,7 @@ There are a few single diodes on the board. They are designated Dxxx and marked 
 <img src="/Images/diode-orientation.png" width="200">
 
 ### Capacitors
-The electrolytic caps on the board are polarized and must be installed correctly. The caps will have a black mark that indicates negative (-). Positive (+) is marked on the board. Align the black mark away from the + mark.
+The electrolytic caps on the board are polarized and must be installed correctly. Electrolytic caps have a black mark that indicates negative (-). Positive (+) is marked on the board. Align the black mark away from the + mark. Ceramic capacitors are not polarized and may be installed in either direction
 
 <img src="/Images/Capacitor.png" width="200">
 
@@ -40,7 +41,7 @@ The Amiga primarily made use of LS (5V TTL) and HCT (5V TTL compatable) logic. F
 In the event you are unable to get the logic family specified in the BOM, you can swap it for a compatable part number. To exchange LS for HCT, simply replace the 'LS' with 'HCT' or vice versa. For example, 74LS00 becomes 74HCT00. To further the discussion, the [TI Logic Guide](https://www.ti.com/lit/sg/sdyu001ab/sdyu001ab.pdf) states these logic families are also 5V TTL compatable and can probably be used in a pinch: ABT, AHCT, ACT, LV1T, and LV4T.
 
 ## BOM
-REALLY BIG!
+Under construction.
 
 ## Tables
 Table A1. Legacy Parts Required
