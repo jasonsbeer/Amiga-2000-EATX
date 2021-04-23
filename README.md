@@ -1,5 +1,5 @@
 # Amiga 2000 EATX PCB
-The purpose of this project is to develop an Amiga 2000 PCB in the EATX form factor. There are one-to-one board replacement projects for the Amiga 2000, but none to change the layout to meet current form factor standards. In addition, the Amiga 2000 made use of connectors and custom parts that are no longer commercially manufactured. This often requires parts to be pulled from existing machines. As such, this project will make use of only actively supported components whenever possible. Essentially, we are going to build an Amiga with as many off the shelf parts as possible.
+The purpose of this project is to develop an Amiga 2000 PCB in the EATX form factor. There are one-to-one board replacement projects for the Amiga 2000, but none to change the layout to meet current form factor standards. In addition, the Amiga 2000 made use of connectors and custom parts that are no longer commercially manufactured. This often requires parts to be pulled from existing machines. As such, this project will make use of only actively supported components whenever possible.
 
 In addition to a new board replacement option, I believe the ubiquitous ATX form factor will bring additional interest to the Amiga as a hobbyist and retro-computing option. At the time or writting this, the Amiga operating system is still actively developed and supported. In addition, there is a substantial database of existing software and hardware add-on options and a very active community.
 
@@ -89,8 +89,6 @@ Pin|Signal|Pin|Signal|Pin|Signal
 Rev 0 - Prototype board
 
 ## Acknowledgments
-This project is built on the backs of giants. A big thanks to everyone that makes the retro computing community great.
-
 kr239 - Amiga 500 DRAM replacement - https://github.com/kr239/A500-SRAM-Board
 
 iansbremmer - Amiga IC KiCad footprints - https://github.com/iansbremner/ReAmiga-3000---KiCAD
