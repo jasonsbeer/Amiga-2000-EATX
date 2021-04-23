@@ -36,12 +36,16 @@ Throught hole IC's have a square pad and a "1" marking pin one. Pin one is usual
 
 ## A Word About Logic and Logic Selection
 
-The Amiga primarily made use of LS (5V TTL) and HCT (5V TTL compatable) logic. Fortunately for us, LS and HCT logic are still widely available.
+The Amiga primarily made use of LS (5V TTL) and HCT (5V TTL compatable) logic. Fortunately for us, LS and HCT logic are still widely available. The BOM for this project is almost all 74HCT logic. It seems more plentiful and often somewhat less expensive.
 
-In the event you are unable to get the logic family specified in the BOM, you can swap it for a compatable part number. To exchange LS for HCT, simply replace the 'LS' with 'HCT' or vice versa. For example, 74LS00 becomes 74HCT00. To further the discussion, the [TI Logic Guide](https://www.ti.com/lit/sg/sdyu001ab/sdyu001ab.pdf) states these logic families are also 5V TTL compatable and can probably be used in a pinch: ABT, AHCT, ACT, LV1T, and LV4T.
+In the event you are unable to get the logic family specified in the BOM, you can swap it for a compatable part number. To exchange HCT for LS, simply replace the 'HCT' with 'LS' or vice versa. For example, 74HCT00 becomes 74LS00. To further the discussion, the [TI Logic Guide](https://www.ti.com/lit/sg/sdyu001ab/sdyu001ab.pdf) states these logic families are also 5V TTL compatable and can probably be used in a pinch: ABT, AHCT, ACT, LV1T, and LV4T.
 
 ## BOM
-Under construction.
+The individual line items of non-legacy components with Digi-Key and manufacturer part numbers can be found [here](/BOM/ShoppingList.csv). This file can be used as a reference for ordering. There are 98 individual part numbers. This CSV file may be uploaded into your Digi-Key cart, automatically adding the required items to your cart. It will also tell you when bumping the quantity to the next price break will save you money. Quite nice!
+
+Each individual component and PCB reference can be found [here](/BOM/ComponentList.csv). This is a useful reference for placing parts, especially for those locations where labeling the component value was not possible.
+
+In addition to the items in the BOM, you will need to obtain the legacy components shown in Table A1.
 
 ## Tables
 Table A1. Legacy Parts Required
@@ -49,13 +53,15 @@ Common Name|Designation|Postion|Package|Replacement Option
 -|-|-|-|-
 Motorola 68000 8MHz|MC68000|U100|64-DIP|Widely available from legacy retailers
 Fatter Agnus|MOS* 8372A|U101|PLCC 84|
-Gary|MOS 5719|Uxxx|48-DIP|
-Paula|MOS 8364|Uxxx|48-DIP|
-CIA|MOS 8520|Uxxx|40-DIP|
-Buster|MOS 5721|Uxxx|48-DIP|[Bluster](https://github.com/LIV2/Bluster)
-Denise|MOS 8362 or CSG 8373|Uxxx|48-DIP|
-Kickstart|Commodore ROM or Burned 27C400|Uxxx|40-DIP|Various Amiga suppliers sell the ROM ready to use
+Gary|MOS 5719|U102|48-DIP|
+Paula|MOS 8364|U200|48-DIP|
+Denise|MOS 8362 or CSG 8373|U201|48-DIP|
+CIA|MOS 8520|U300 and U301|40-DIP|
+Buster|MOS 5721|U800|48-DIP|[Bluster](https://github.com/LIV2/Bluster)
+Kickstart|Commodore ROM or Burned 27C400|U500|40-DIP|Various Amiga suppliers sell the ROM ready to use
 Video Hybrid|Commodore 390229-0x|HY200|22-SIP|[Video Hybrid](https://github.com/SukkoPera/OpenAmigaVideoHybrid)
-Real Time Clock|RTC-62423|Uxxx|SOP-24|
+Real Time Clock|RTC-62423|U801|SOP-24|
+28.636363 MHz Oscillator|NTSC Oscillator|X1|14-DIP|Populate X2 with a 5.0x3.2mm footprint 3.3V CMOS oscillator
+28.37516 MHz Oscillator|PAL Oscillator|X1|14-DIP|Populate X2 with a 5.0x3.2mm footprint 3.3V CMOS oscillator
 
 *Legacy Commodore IC's may be marked "MOS" or "CSG", or possibly neither in the case of contract runs. These are interchangeable by part number.
