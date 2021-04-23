@@ -10,7 +10,9 @@ Notes:
 
 ## Where To Get Amiga Custom ICs and Parts
 
-The best source of parts for this project is a dead or dying Amiga 2000 board. Otherwise, many of the Amiga legacy IC's and parts can be obatined from various internet suppliers. The only exception seems to be Buster, which is required to control the Zorro bus. It is very difficult to find. There is a replacement option available if you don't mind programming a CPLD. See Table A1.
+The best source of parts for this project is a dead or dying Amiga 2000 board. Otherwise, many of the Amiga legacy IC's and parts can be obatined from various internet suppliers. The only exception seems to be Buster. It is very difficult to find. Beware the original Buster revision (318075-01) has a buffering error and cannot be used without a "Buster Tower". Be sure to use the one specifically listed in Table A1 or build a replacement option.
+
+Likewise, be sure to obtain the correct CIA part numbers. The "A" or "A1" version is for the Amiga. The non-"A" version was used in Commodore's 8-bit hardware.
 
 ## Component Orientation
 
@@ -49,16 +51,16 @@ In addition to the items in the BOM, you will need to obtain the legacy componen
 
 ## Tables
 Table A1. Legacy Parts Required
-Common Name|Designation|Postion|Package|Replacement Option
+Common Name|Designation/Part Number|Postion|Package|Replacement Option
 -|-|-|-|-
 Motorola 68000 8MHz|MC68000|U100|64-DIP|Widely available from legacy retailers
-Fatter Agnus|MOS* 8372A|U101|PLCC 84|
+Fatter Agnus|MOS* 8372A/318069-02|U101|PLCC 84|
 Gary|MOS 5719|U102|48-DIP|
 Paula|MOS 8364|U200|48-DIP|
 Denise|MOS 8362 or CSG 8373|U201|48-DIP|
-CIA|MOS 8520|U300 and U301|40-DIP|
-Buster|MOS 5721|U800|48-DIP|[Bluster](https://github.com/LIV2/Bluster)
-Kickstart|Commodore ROM or Burned 27C400|U500|40-DIP|Various Amiga suppliers sell the ROM ready to use
+CIA|MOS 8520A|U300 and U301|40-DIP|
+Buster|MOS 5721/318075-02|U800|48-DIP|[Bluster](https://github.com/LIV2/Bluster)
+Kickstart|Commodore ROM or Burned 27C400/V1.2+|U500|40-DIP|Various Amiga suppliers sell ROMs ready to use
 Video Hybrid|Commodore 390229-0x|HY200|22-SIP|[Video Hybrid](https://github.com/SukkoPera/OpenAmigaVideoHybrid)
 Real Time Clock|RTC-62423|U801|SOP-24|
 28.636363 MHz Oscillator|NTSC Oscillator|X1|14-DIP|Populate X2 with a 5.0x3.2mm footprint 3.3V CMOS oscillator
