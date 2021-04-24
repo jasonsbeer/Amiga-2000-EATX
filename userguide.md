@@ -25,9 +25,9 @@ You will need a computer case that will accept EATX boards as well as an ATX pow
 6. Power up system.
 
 ## Connectors/Ports
-The Amiga 2000 EATX is intended to be used with legacy Amiga keyboards and mice. In the event you do not have those, there are options available using PC mice and keyboards. As discussion of those options is not in the scope of this project or document, a search of Amiga specific community sites will be useful in learnig more about those options.
+The Amiga 2000 EATX is intended to be used with legacy Amiga keyboards and mice. In the event you do not have those, there are options to use PC mice and keyboards. Discussion of those options is not in the scope of this project or document. A search of Amiga specific community sites will yield useful information in that regard.
 
-more here....
+more here....add pics of ports w/labels, etc...
 
 ## Powering Cards and Hardware
 The +12V pins on the card slots will support approximately 2.5 amps total on the Zorro slots and 1 amp total on the ISA slots. If you intend to use multiple high current draw devices, such as mechanical hard drives, it is recommended you power them directly from the power supply. The +5V pins will support approximately 2.5 amps per slot. The -5V and -12V pins will support approximately 1 amp total between all slots.
