@@ -4,9 +4,9 @@ This Amiga EATX PCB makes use of many surface mount components. These and the ot
 
 Notes:
 1. If you do not intend to use a bridgeboard or the ISA slots, you do not need to install the components shown in the ISA SUPPORT silk screen.
-2. The values of the various components are listed on the board. In the event several components are placed together with the same value, the value may be shown once and the components will be marked together on the silk screen.
+2. When space was available, the values of components are listed on the PCB. In the event several components are placed together with the same value, the value may be shown once and the components will be marked together on the silk screen.
 3. All end-of-life (no longer manufactured) components for this project are listed in table A1.
-4. Always verify the orientation and location of all IC's before attaching. Components in common with the origianl Amiga 2000 generally have the same designation as used on the Amiga 2000. However, some components have been removed and others have been added with unique designations. 
+4. Always verify the orientation and location of all IC's before attaching. Components in common with the origianl Amiga 2000 generally have the same reference as used on the Amiga 2000. However, some components have been removed and others have been added with unique references. 
 
 ## Where To Get Amiga Custom ICs and Parts
 
