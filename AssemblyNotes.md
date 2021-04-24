@@ -1,5 +1,7 @@
 # Assembly Notes, BOM, and Random Thoughts
 
+IMPORTANT INFORMATION. Please read this entire secion.
+
 This Amiga EATX PCB makes use of many surface mount components. These and the other standard components are available from most any good electronics supply house. The BOM includes Digi-Key part numbers for your reference. In addition, you will need to obtain the legacy components shown in Table A1. 
 
 Notes:
