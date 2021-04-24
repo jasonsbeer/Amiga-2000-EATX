@@ -1,7 +1,9 @@
 # Amiga 2000 EATX PCB
-The purpose of this project is to develop an Amiga 2000 PCB in the EATX form factor. There are one-to-one board replacement projects for the Amiga 2000, but none to change the layout to meet current form factor standards. In addition, the Amiga 2000 made use of connectors and custom parts that are no longer commercially manufactured. This often requires parts to be pulled from existing machines. As such, this project will make use of only actively supported components whenever possible.
+The purpose of this project is to develop an open source Amiga 2000 PCB in the EATX form factor. What is EATX? It is an ATX variant that allows slightly deeper PCBs, measuring 12 x 13 inches (305 × 330 mm). These are referred to as Extended ATX, or, EATX. The length of Zorro II cards, not to mention the abundance of components on the Amiga 2000, makes EATX the only choice for this project.
 
-In addition to a new board replacement option, I believe the ubiquitous ATX form factor will bring additional interest to the Amiga as a hobbyist and retro-computing option. At the time or writting this, the Amiga operating system is still actively developed and supported. In addition, there is a substantial database of existing software and hardware add-on options and a very active community.
+There are one-to-one board replacement projects for the Amiga 2000, but none to change the layout to meet current form factor standards. In addition, the Amiga 2000 made use of connectors and custom parts that are no longer commercially manufactured. This often requires parts to be pulled from existing machines. As such, this project will make use of only actively supported components whenever possible.
+
+In addition to a new board replacement option, I believe the ubiquitous ATX standard will bring additional interest to the Amiga as a hobbyist and retro-computing option. At the time or writting this, the Amiga operating system is still actively developed and supported. In addition, there is a substantial database of existing software and hardware add-on options and a very active community.
 
 <img src="/Images/2000ATX.png" width="800">
 
@@ -14,7 +16,7 @@ Verifiying Components and Routing.
 
 PCB submitted for fabrication.
 
-This project is in the proof of concept stage. It may not work in its current state. Once the prototype boards are received and assembled, I will be able to correct any discovered issues and update the appropriate drawings.
+This project is in the proof of concept stage. It may not work in its current state. There may be errors in the BOM or other parts of this text. Once the prototype boards are received and assembled, I will be able to correct any discovered issues and update the appropriate drawings. Once things are proven to be working, I will release the Gerber files. In the meantime, you are welcome to review the KiCAD files and follow this project.
 
 ## Project Goals
 1. Enter Amiga 2000 Rev 6.4 schematics into KiCad, including all known A2000 Rev 6.x PCB updates.
