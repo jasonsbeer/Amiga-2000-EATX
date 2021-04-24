@@ -45,7 +45,7 @@ In the event you are unable to get the logic family specified in the BOM, you ca
 ## BOM
 The individual line items of non-legacy components with Digi-Key and manufacturer part numbers can be found [here](/BOM/ShoppingList.csv). This file can be used as a reference for ordering. There are 98 individual part numbers. This CSV file can be uploaded into your Digi-Key cart, automatically adding the required items to your cart. It will also tell you when bumping the quantity to the next price break will save you money. Quite nice!
 
-Each individual component and PCB reference can be found [here](/BOM/ComponentList.csv). This is a useful reference for placing parts, especially for those locations where labeling the component value was not possible.
+Each individual component and PCB reference can be found [here](/BOM/2000ATX-References.csv). This is a useful reference for placing parts, especially for those locations where labeling the component value was not possible.
 
 In addition to the items in the BOM, you will need to obtain the legacy components shown in Table A1. Select a single oscillator that matches the region you are targeting.
 
