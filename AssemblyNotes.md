@@ -8,11 +8,13 @@ Notes:
 3. All end-of-life (no longer manufactured) components for this project are listed in table A1.
 4. Always verify the orientation and location of all IC's before attaching. Components in common with the origianl Amiga 2000 generally have the same reference as used on the Amiga 2000. However, some components have been removed and others have been added with unique references. 
 
-## Where To Get Amiga Custom ICs and Parts
+## Where To Get Amiga Custom ICs and Legacy Parts
 
 The best source of parts for this project is a dead or dying Amiga 2000 board. Otherwise, many of the Amiga legacy IC's and parts can be obatined from various internet suppliers. The only exception seems to be Buster. It is very difficult to find. Beware the original Buster revision (318075-01) has a buffering error and cannot be used without a "Buster Tower". Be sure to use the one specifically listed in Table A1 or build a replacement option.
 
-Likewise, be sure to obtain the correct CIA part numbers. The "A" or "A1" version is for the Amiga. The non-"A" version was used in Commodore's 8-bit hardware.
+Likewise, be sure to obtain the correct CIA part numbers. The "A" or "A1" version is for the Amiga. The non-"A" version was used in Commodore 8-bit hardware.
+
+You will need an oscillator installed at X1 or X2 to generate a clock signal. You can find 5V TTL oscillators from various legacy suppliers in the 14-DIP format. In the event you cannot find one, you can use a 3.3V CMOS oscillator of the same frequency in position X2. See Table A1. Install only one. Do not populate both X1 and X2.
 
 ## Component Orientation
 
@@ -45,7 +47,7 @@ In the event you are unable to get the logic family specified in the BOM, you ca
 ## BOM
 The individual line items of non-legacy components with Digi-Key and manufacturer part numbers can be found [here](/BOM/ShoppingList.csv). This file can be used as a reference for ordering. There are 98 individual part numbers. This CSV file can be uploaded into your Digi-Key cart, automatically adding the required items to your cart. It will also tell you when bumping the quantity to the next price break will save you money. Quite nice!
 
-Each individual component and PCB reference can be found [here](/BOM/2000ATX-References.csv). This is a useful reference for placing parts, especially for those locations where labeling the component value was not possible.
+Each individual component and PCB reference can be found [here](/BOM/2000ATX-Reference.csv). This is a useful reference for placing parts, especially for those locations where labeling the component value was not possible.
 
 In addition to the items in the BOM, you will need to obtain the legacy components shown in Table A1. Select a single oscillator that matches the region you are targeting.
 
@@ -63,7 +65,7 @@ Buster|MOS 5721/318075-02|U800|48-DIP|[Bluster](https://github.com/LIV2/Bluster)
 Kickstart|Commodore ROM or Burned 27C400/V1.2+|U500|40-DIP|Various Amiga suppliers sell ROMs ready to use
 Video Hybrid|Commodore 390229-0x|HY200|22-SIP|[Video Hybrid](https://github.com/SukkoPera/OpenAmigaVideoHybrid)
 Real Time Clock|RTC-62423|U801|SOP-24|
-28.636363 MHz Oscillator|NTSC Oscillator|X1|14-DIP|Populate X2 with a 5.0x3.2mm footprint 3.3V CMOS oscillator
-28.37516 MHz Oscillator|PAL Oscillator|X1|14-DIP|Populate X2 with a 5.0x3.2mm footprint 3.3V CMOS oscillator
+28.636363 MHz Oscillator|NTSC Oscillator, 5V TTL|X1|14-DIP|Populate X2 with a 5.0x3.2mm footprint 3.3V CMOS oscillator
+28.37516 MHz Oscillator|PAL Oscillator, 5V TTL|X1|14-DIP|Populate X2 with a 5.0x3.2mm footprint 3.3V CMOS oscillator
 
 *Legacy Commodore IC's may be marked "MOS" or "CSG", or possibly neither in the case of contract runs. These are interchangeable by part number.
