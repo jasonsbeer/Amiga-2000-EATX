@@ -1,7 +1,6 @@
 # User Guide
 Under construction.
 
-
 Here you will find basic information on setting up your Amiga 2000 EATX computer. The process to assemble the Amiga 2000 EATX computer system is nearly identical to assembling any other ATX-based computer system. 
 
 ## Jumper Settings
