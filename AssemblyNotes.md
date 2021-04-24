@@ -1,6 +1,6 @@
 # Assembly Notes, BOM, and Random Thoughts
 
-IMPORTANT INFORMATION. Please read this entire secion.
+IMPORTANT INFORMATION. Please read this entire page.
 
 This Amiga EATX PCB makes use of many surface mount components. These and the other standard components are available from most any good electronics supply house. The BOM includes Digi-Key part numbers for your reference. In addition, you will need to obtain the legacy components shown in Table A1. 
 
@@ -14,9 +14,9 @@ Notes:
 
 The best source of parts for this project is a dead or dying Amiga 2000 board. Otherwise, many of the Amiga legacy IC's and parts can be obatined from various internet suppliers. The only exception seems to be Buster. It is very difficult to find. Beware the original Buster revision (318075-01) has a buffering error and cannot be used without a "Buster Tower". Be sure to use the one specifically listed in Table A1 or build a replacement option.
 
-Likewise, be sure to obtain the correct CIA part numbers. The "A" or "A1" version is for the Amiga. The non-"A" version was used in Commodore 8-bit hardware.
+Likewise, be sure to obtain the correct CIA 8520A part numbers. The "A" or "A1" version is for the Amiga. The non-"A" 8520 version was used in Commodore 8-bit hardware.
 
-You will need an oscillator installed at X1 or X2 to generate a clock signal. You can find 5V TTL oscillators from various legacy suppliers in the 14-DIP format. In the event you cannot find one, you can use a 3.3V CMOS oscillator of the same frequency in position X2. See Table A1. Install only one. Do not populate both X1 and X2.
+You will need an oscillator installed at X1 or X2 to generate a clock signal. You can find 5V TTL oscillators from various legacy suppliers in the 14-DIP format. In the event you cannot find one, you can use a 3.3V CMOS oscillator of the same frequency in position X2. See Table A1. Do not populate both X1 and X2.
 
 ## Component Orientation
 
