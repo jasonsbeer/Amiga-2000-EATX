@@ -27,6 +27,8 @@ You will need a computer case that will accept EATX boards as well as an ATX pow
 ## Connectors/Ports
 The Amiga 2000 EATX is intended to be used with legacy Amiga keyboards and mice. In the event you do not have those, there are options to use PC mice and keyboards. Discussion of those options is not in the scope of this project or document. A search of Amiga specific community sites will yield useful information in that regard.
 
+The video port supplies a 15KHz analog RGB signal via the HD15 connector. The pins are in the standard VGA configuration. Use a standard VGA cable to connect to a 15KHz compatable monitor or conversion box. See Table 1.
+
 more here....add pics of ports w/labels, etc...
 
 ## Powering Cards and Hardware
@@ -34,3 +36,13 @@ The +12V pins on the card slots will support approximately 2.5 amps total on the
 
 ## Resetting Your Amiga 2000 EATX
 On an Amiga keyboard, the Left Amiga-Right Amiga-Ctrl keys are pressed simultaneously. This signals the computer to complete any pending tasks and then reset. You also have the option to use the reset button on the computer case. Pressing this button will activate the same signals internally and will result in a reset in the same way. This is especially useful if you do not have an Amiga keyboard.
+
+## Tables
+Table 1. Video Port
+Pin|Signal|Pin|Signal|Pin|Signal
+-|-|-|-|-|-
+1|Red|6|GND|11|NC
+2|Green|7|GND|12|NC
+3|Blue|8|GND|13|HSYNC
+4|NC|9|GND|14|VSYNC
+5|GND|10|GND|15|NC
