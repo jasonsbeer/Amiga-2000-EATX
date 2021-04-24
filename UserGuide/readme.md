@@ -11,7 +11,7 @@ Jumper|Description|Detail
 -|-|-
 J102|NTSC/PAL Timing|Place jumper when using an NTSC oscillator
 J301|DF1 Presence|Place jumper when using two internal disk drives
-J900|DMA Slowdown|Place jumper (factory default). No idea what this is intended for.
+J900|Chip RAM DMA Slowdown|Place jumper (factory default). No idea what this is intended for.
 J9000|Power Switch|Attach ATX case power switch
 J9001|Reset|Attach ATX case reset switch
 J9002|Power LED|Attach ATX power LED
