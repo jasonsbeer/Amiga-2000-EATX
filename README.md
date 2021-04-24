@@ -29,11 +29,11 @@ See information [here](PCB.md).
 
 ## BOM and Assembling the Amiga 2000 EATX PCB
 
-See information [here](AssemblyNotes.md)
+See information [here](AssemblyNotes.md).
 
 ## Setting up the Amiga 2000 EATX
 
-See information [here].(userguide.md)
+See information [here](userguide.md).
 
 ## Changes from the original Amiga 2000
 ### Video
