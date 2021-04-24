@@ -16,7 +16,7 @@ Verifiying Components and Routing.
 
 PCB submitted for fabrication.
 
-This project is in the proof of concept stage. It may not work in its current state. There may be errors in the BOM or other parts of this text. Once the prototype boards are received and assembled, I will be able to correct any discovered issues and update the appropriate drawings. Once things are proven to be working, I will release the Gerber files. In the meantime, you are welcome to review the KiCAD files and follow this project.
+This project is in the proof of concept stage. It may work...or maybe not. There may be errors in the schematics or this text. Once the prototype boards are received and assembled, I will correct any discovered issues and update the appropriate drawings. Once things are proven to be working, I will release the Gerber files. In the meantime, you are welcome to review the KiCAD files and follow this project.
 
 ## Project Goals
 1. Enter Amiga 2000 Rev 6.4 schematics into KiCad, including all known A2000 Rev 6.x PCB updates.
@@ -37,7 +37,7 @@ See information [here](userguide.md).
 
 ## Changes from the original Amiga 2000
 ### Video
-The most obvious difference is removing the DB23 video connector in place of the HD15 connector. One of the goals of this project is to avoid parts that are not commercially available. The D-Sub 23 connector is a prime example. They are not stocked at popular electronic supply houses. Thus, the change to the widely available HD15 connector. The analog RGB outpus along with HSYNC and VSYNC are supplied using the VGA standard pin out configuration. Any VGA cable can be used to supply the video signal to a VGA monitor supporting the 15KHz standard, or widely available VGA conversion boxes. Pinouts are shown in Table 1. All other external video signals on the original Amiga are not available. These missing signals were intended to support external Genlocks, video editors, etc, among other hardware.
+The most obvious difference is removing the DB23 video connector in place of the HD15 connector. One of the goals of this project is to avoid parts that are not commercially available. The D-Sub 23 connector is a prime example. They are not stocked at popular electronic supply houses. Thus, the change to the widely available HD15 connector. The analog RGB outpus along with HSYNC and VSYNC are supplied using the VGA standard pin out configuration. Any VGA cable can be used to supply the video signal to a VGA monitor supporting the 15KHz standard, or widely available VGA conversion boxes. All other external video signals on the original Amiga are not available. These missing signals were intended to support external Genlocks, video editors, etc, among other hardware.
 
 All original signals are available on the internal video slot. 
 
@@ -80,16 +80,6 @@ For now, the Kickstart ROM remains the original 27C400. These are no longer made
 
 ### Everything Else
 If something is not specifically mentioned, you should expect it to be unchanged in function or component from the original A2000.
-
-## Tables
-Table 1. Video Port
-Pin|Signal|Pin|Signal|Pin|Signal
--|-|-|-|-|-
-1|Red|6|GND|11|NC
-2|Green|7|GND|12|NC
-3|Blue|8|GND|13|HSYNC
-4|NC|9|GND|14|VSYNC
-5|GND|10|GND|15|NC
 
 ## Revision History
 Rev 0 - Prototype board
