@@ -38,7 +38,7 @@ Throught hole IC's have a square pad and a "1" marking pin one. Pin one is usual
 
 ## A Word About Logic and Logic Selection
 
-The Amiga primarily made use of LS (TTL) and HCT (TTL compatable) logic. Fortunately for us, LS and HCT logic are still widely available. The BOM for this project is almost all 74HCT logic. It seems more plentiful and is often somewhat less expensive.
+The Amiga 2000 primarily made use of LS (TTL) and and some HCT (TTL compatable) logic. LS and HCT logic are still widely available. The BOM for this project is almost all 74HCT logic. It seems more plentiful and is often somewhat less expensive.
 
 In the event you are unable to get the logic family specified in the BOM, you can swap it for a compatable part number. To exchange HCT for LS, simply replace the 'HCT' with 'LS' or vice versa. For example, 74HCT00 becomes 74LS00. To further the discussion, the [TI Logic Guide](https://www.ti.com/lit/sg/sdyu001ab/sdyu001ab.pdf) states these logic families are TTL compatable and can be used in a pinch: ABT, AHCT, ACT, LV1T, and LV4T.
 
