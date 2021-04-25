@@ -14,7 +14,7 @@ J9001|Reset|Attach EATX case reset switch
 J9002|Power LED|Attach EATX case power LED
 
 ## Connecting your Amiga 2000 EATX
-You will need a computer case that will accept EATX boards as well as an ATX power supply. If you are planning to buy a power supply, look for look for one in the 300 - 400 watt range. Connect the Amiga 2000 EATX as you would any other ATX board.
+You will need a computer case that will accept EATX boards as well as an ATX power supply. Connect the Amiga 2000 EATX as you would any other ATX board.
 
 1. Ensure the power supply is not plugged in.
 2. Attach the ATX power supply connection to the power connector on the computer board.
