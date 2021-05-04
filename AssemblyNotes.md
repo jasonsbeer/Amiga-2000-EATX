@@ -57,17 +57,17 @@ In addition to the items in the BOM, you will need to obtain the legacy componen
 Table A1. Legacy Parts Required
 Common Name|Designation/Part Number|Postion|Package|Replacement Option
 -|-|-|-|-
-Motorola 68000 8MHz|MC68000|U100|64-DIP|Widely available from legacy retailers
-Fatter Agnus|MOS* 8372A/318069-02|U101|PLCC 84|
-Gary|MOS 5719|U102|48-DIP|
-Paula|MOS 8364|U200|48-DIP|
-Denise|MOS 8362 or CSG 8373|U201|48-DIP|
-CIA|MOS 8520A|U300 and U301|40-DIP|
-Buster|MOS 5721/318075-02|U800|48-DIP|[Bluster](https://github.com/LIV2/Bluster)
-Kickstart|Commodore ROM or Burned 27C400/V1.2+|U500|40-DIP|Various Amiga suppliers sell ROMs ready to use
-Video Hybrid|Commodore 390229-0x|HY200|22-SIP|[Video Hybrid](https://github.com/SukkoPera/OpenAmigaVideoHybrid)
+Motorola 68000 8MHz|MC68000|U100|DIP-64|Widely available from legacy retailers
+Fatter Agnus|MOS* 8372A/318069-02|U101|PLCC-84|
+Gary|MOS 5719|U102|DIP-48|
+Paula|MOS 8364|U200|DIP-48|
+Denise|MOS 8362 or CSG 8373|U201|DIP-48|
+CIA|MOS 8520A|U300 and U301|DIP-40|
+Buster|MOS 5721/318075-02|U800|DIP-48|[Bluster](https://github.com/LIV2/Bluster)
+Kickstart|Commodore ROM or Burned 27C400/V1.2+|U500|DIP-40|Various Amiga suppliers sell ROMs ready to use
+Video Hybrid|Commodore 390229-0x|HY200|SIP-22|[Video Hybrid](https://github.com/SukkoPera/OpenAmigaVideoHybrid)
 Real Time Clock|RTC-62423|U801|SOP-24|
-28.636363 MHz Oscillator|NTSC Oscillator, 5V TTL|X1|14-DIP|Populate X2 with a 5.0x3.2mm footprint 3.3V CMOS oscillator
-28.37516 MHz Oscillator|PAL Oscillator, 5V TTL|X1|14-DIP|Populate X2 with a 5.0x3.2mm footprint 3.3V CMOS oscillator
+28.636363 MHz Oscillator|NTSC Oscillator, 5V TTL|X1|DIP-14|Populate X2 with a 5.0x3.2mm footprint 3.3V CMOS oscillator
+28.37516 MHz Oscillator|PAL Oscillator, 5V TTL|X1|DIP-14|Populate X2 with a 5.0x3.2mm footprint 3.3V CMOS oscillator
 
-*Legacy Commodore IC's may be marked "MOS" or "CSG", or possibly neither in the case of contract runs. These are interchangeable by part number.
+*Commodore IC's may be marked "MOS" or "CSG", or possibly neither in the case of contract runs. These are interchangeable by part number.
