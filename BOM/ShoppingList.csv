@@ -24,6 +24,7 @@ Quantity,Description,Digi-Key Part Number,Manufacturer Part Number,Manufacturer,
 1,CONN D-SUB HD RCPT 15P R/A SLDR,AE11024-ND,AHDF15A-KG-TAXB,Assmann WSW Components,Video Port,1.3,$1.30
 1,CONN D-SUB PLUG 9POS R/A SLDR,L17H2112120-ND,L17H2112120,Amphenol ICC (Commercial Products),Mouse/Joy,6.44,$6.44
 1,CONN D-SUB PLUG/RCPT 25P R/A SLD,AE10996-ND,ASUB-277-25TP24,Assmann WSW Components,Serial/Parallel,6.69,$6.69
+10,JACK SCREW 4-40,2092-JSX-1055-5.9-ND,JSX-1055-5.9,Kycon Inc.,D-Sub Jack Screws,0.242,$2.42
 5,CONN EDGE DUAL FMALE 100POS .100,A121376-ND,5645235-3,TE Connectivity AMP Connectors,Zorro Slot,7.2,$36.00
 1,CONN HEADER VERT 34POS 2.54MM,S2011EC-17-ND,PRPC017DAAN-RC,Sullins Connector Solutions,"Floppy header",0.76,$0.76
 1,CONN HEADER VERT 24POS 4.2MM,WM3811-ND,39281243,Molex,ATX Power Connector,3.69,$3.69
