@@ -41,7 +41,9 @@ See information [here](userguide.md).
 ### Video
 The most obvious difference is removing the DB23 video connector in favor of the HD15 connector. One of the goals of this project is to avoid parts that are not commercially available. The D-Sub 23 connector is a prime example. They are not stocked at popular electronic supply houses. Thus, the change to the widely available HD15 connector. The analog RGB outpus along with HSYNC and VSYNC are supplied using the VGA standard pin out configuration. Any VGA cable can be used to supply the video signal to a VGA monitor supporting the 15KHz standard, or widely available VGA conversion boxes. All other external video signals are not supplied to the HD15 connector. These missing signals were intended to support external Genlocks, video editors, etc, among other hardware.
 
-All original signals are available on the internal video slot. 
+The internal video slot is complete with all signals.
+
+The external composite video jack has been removed.
 
 ### Memory
 The original 256k x 4 DRAMs have been replaced by a single SRAM. The 2000 EATX is permanently configured to recognize 1MB chip ram and requires Fatter Agnus (MOS 8372A). Other Agnus revisions are not supported at this time.
