@@ -16,7 +16,9 @@ Verifiying Components and Routing.
 
 PCB submitted for fabrication.
 
-PCBs Received. Initial inspection is good. Beginning assembly.
+PCBs Received. Initial inspection is good.
+
+Upon further inspection, there are issues with the placement of most slots. Working on designing next revision.
 
 This project is in the proof of concept stage. It may work...or maybe not. There may be errors in the schematics or this text. Once the prototype boards are received and assembled, I will correct any discovered issues and update the appropriate drawings. Once things are proven to be working, I will release the Gerber files. In the meantime, you are welcome to review the KiCAD files and follow this project.
 
