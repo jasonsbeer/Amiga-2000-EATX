@@ -544,8 +544,6 @@ _EINT7
 Text GLabel 8000 3950 0    50   Input ~ 0
 _EINT1
 Wire Wire Line
-	8000 3950 8550 3950
-Wire Wire Line
 	10800 3950 10800 2000
 Wire Wire Line
 	10800 2000 11300 2000
@@ -554,41 +552,15 @@ _EINT4
 Text GLabel 8000 4150 0    50   Input ~ 0
 _EINT5
 Wire Wire Line
-	8000 4050 8650 4050
-Wire Wire Line
 	10750 4050 10750 2650
 Wire Wire Line
 	10750 2650 11300 2650
-Wire Wire Line
-	8000 4150 8750 4150
 Wire Wire Line
 	11050 4150 11050 3250
 Wire Wire Line
 	11050 3250 11300 3250
 Wire Wire Line
-	8000 4250 8850 4250
-Wire Wire Line
 	11300 4250 11300 3850
-Wire Wire Line
-	8850 1750 8850 4250
-Connection ~ 8850 4250
-Wire Wire Line
-	8850 4250 11300 4250
-Wire Wire Line
-	8750 1750 8750 4150
-Connection ~ 8750 4150
-Wire Wire Line
-	8750 4150 11050 4150
-Wire Wire Line
-	8650 1750 8650 4050
-Connection ~ 8650 4050
-Wire Wire Line
-	8650 4050 10750 4050
-Wire Wire Line
-	8550 1750 8550 3950
-Connection ~ 8550 3950
-Wire Wire Line
-	8550 3950 10800 3950
 $Comp
 L Device:C C803
 U 1 1 6061C46C
@@ -1094,4 +1066,32 @@ F 3 "~" H 10700 7250 50  0001 C CNN
 	1    10700 7250
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	8000 4050 8650 4050
+Wire Wire Line
+	8000 4150 8750 4150
+Wire Wire Line
+	8000 4250 8850 4250
+Wire Wire Line
+	8000 3950 8550 3950
+Wire Wire Line
+	8550 1750 8550 3950
+Connection ~ 8550 3950
+Wire Wire Line
+	8550 3950 10800 3950
+Wire Wire Line
+	8650 1750 8650 4050
+Connection ~ 8650 4050
+Wire Wire Line
+	8650 4050 10750 4050
+Wire Wire Line
+	8750 1750 8750 4150
+Connection ~ 8750 4150
+Wire Wire Line
+	8750 4150 11050 4150
+Wire Wire Line
+	8850 1750 8850 4250
+Connection ~ 8850 4250
+Wire Wire Line
+	8850 4250 11300 4250
 $EndSCHEMATC
