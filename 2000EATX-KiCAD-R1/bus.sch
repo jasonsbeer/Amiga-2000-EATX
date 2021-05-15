@@ -913,7 +913,7 @@ U 1 1 6061DAE9
 P 9100 7350
 F 0 "BT800" H 9218 7446 50  0000 L CNN
 F 1 "Battery_Cell" H 9218 7355 50  0000 L CNN
-F 2 "Battery:BatteryHolder_ComfortableElectronic_CH273-2450_1x2450" V 9100 7410 50  0001 C CNN
+F 2 "Battery:BatteryHolder_Keystone_106_1x20mm" V 9100 7410 50  0001 C CNN
 F 3 "~" V 9100 7410 50  0001 C CNN
 	1    9100 7350
 	1    0    0    -1  

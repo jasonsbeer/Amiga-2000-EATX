@@ -1,722 +1,302 @@
-163677599113241
-Capacitor_SMD
-CP_Elec_3x5.3
-SMT capacitor, aluminium electrolytic, 3x5.3, Cornell Dubilier Electronics 
-Capacitor Electrolytic
+68331424872731
+Battery
+BatteryHolder_Bulgin_BX0036_1xC
+Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
+Bulgin BX0036
 0
 2
 2
-Capacitor_SMD
-CP_Elec_3x5.4
-SMD capacitor, aluminum electrolytic, Nichicon, 3.0x5.4mm
-capacitor electrolytic
+Battery
+BatteryHolder_ComfortableElectronic_CH273-2450_1x2450
+Comfortable Electronic CR2450 battery holder, http://www.comf.com.tw/ProductDetail.asp?no=148
+Comfortable Electronic CR2450
 0
 2
 2
-Capacitor_SMD
-CP_Elec_4x3
-SMD capacitor, aluminum electrolytic, Nichicon, 4.0x3mm
-capacitor electrolytic
+Battery
+BatteryHolder_Eagle_12BH611-GR
+https://eu.mouser.com/datasheet/2/209/EPD-200766-1274481.pdf
+9V Battery Holder
 0
 2
 2
-Capacitor_SMD
-CP_Elec_4x3.9
-SMD capacitor, aluminum electrolytic, Nichicon, 4.0x3.9mm
-capacitor electrolytic
+Battery
+BatteryHolder_Keystone_103_1x20mm
+http://www.keyelco.com/product-pdf.cfm?p=719
+Keystone type 103 battery holder
 0
 2
 2
-Capacitor_SMD
-CP_Elec_4x4.5
-SMD capacitor, aluminum electrolytic, Nichicon, 4.0x4.5mm
-capacitor electrolytic
+Battery
+BatteryHolder_Keystone_104_1x23mm
+http://www.keyelco.com/product-pdf.cfm?p=744
+Keystone type 104 battery holder
 0
 2
 2
-Capacitor_SMD
-CP_Elec_4x5.3
-SMD capacitor, aluminum electrolytic, Vishay, 4.0x5.3mm
-capacitor electrolytic
+Battery
+BatteryHolder_Keystone_105_1x2430
+http://www.keyelco.com/product-pdf.cfm?p=745
+Keystone type 105 battery holder
 0
 2
 2
-Capacitor_SMD
-CP_Elec_4x5.4
-SMD capacitor, aluminum electrolytic, Panasonic A5 / Nichicon, 4.0x5.4mm
-capacitor electrolytic
+Battery
+BatteryHolder_Keystone_106_1x20mm
+http://www.keyelco.com/product-pdf.cfm?p=720
+Keystone type 106 battery holder
 0
 2
 2
-Capacitor_SMD
-CP_Elec_4x5.7
-SMD capacitor, aluminum electrolytic, United Chemi-Con, 4.0x5.7mm
-capacitor electrolytic
+Battery
+BatteryHolder_Keystone_107_1x23mm
+http://www.keyelco.com/product-pdf.cfm?p=746
+Keystone type 107 battery holder
 0
 2
 2
-Capacitor_SMD
-CP_Elec_4x5.8
-SMD capacitor, aluminum electrolytic, Panasonic, 4.0x5.8mm
-capacitor electrolytic
+Battery
+BatteryHolder_Keystone_500
+Keystone #500, CR1220 battery holder, http://www.keyelco.com/product-pdf.cfm?p=710
+CR1220 battery holder
 0
 2
 2
-Capacitor_SMD
-CP_Elec_5x3
-SMD capacitor, aluminum electrolytic, Nichicon, 5.0x3.0mm
-capacitor electrolytic
+Battery
+BatteryHolder_Keystone_1042_1x18650
+Battery holder for 18650 cylindrical cells http://www.keyelco.com/product.cfm/product_id/918
+18650 Keystone 1042 Li-ion
 0
 2
 2
-Capacitor_SMD
-CP_Elec_5x3.9
-SMD capacitor, aluminum electrolytic, Nichicon, 5.0x3.9mm
-capacitor electrolytic
+Battery
+BatteryHolder_Keystone_1058_1x2032
+http://www.keyelco.com/product-pdf.cfm?p=14028
+Keystone type 1058 coin cell retainer
 0
 2
 2
-Capacitor_SMD
-CP_Elec_5x4.4
-SMD capacitor, aluminum electrolytic, Panasonic B45, 5.0x4.4mm
-capacitor electrolytic
+Battery
+BatteryHolder_Keystone_1060_1x2032
+http://www.keyelco.com/product-pdf.cfm?p=726
+CR2032 BR2032 BatteryHolder Battery
 0
 2
 2
-Capacitor_SMD
-CP_Elec_5x4.5
-SMD capacitor, aluminum electrolytic, Nichicon, 5.0x4.5mm
-capacitor electrolytic
+Battery
+BatteryHolder_Keystone_2460_1xAA
+https://www.keyelco.com/product-pdf.cfm?p=1025
+AA battery cell holder
 0
 2
 2
-Capacitor_SMD
-CP_Elec_5x5.3
-SMD capacitor, aluminum electrolytic, Nichicon, 5.0x5.3mm
-capacitor electrolytic
+Battery
+BatteryHolder_Keystone_2462_2xAA
+2xAA cell battery holder, Keystone P/N 2462, https://www.keyelco.com/product-pdf.cfm?p=1027
+AA battery cell holder
 0
 2
 2
-Capacitor_SMD
-CP_Elec_5x5.4
-SMD capacitor, aluminum electrolytic, Nichicon, 5.0x5.4mm
-capacitor electrolytic
+Battery
+BatteryHolder_Keystone_2466_1xAAA
+1xAAA Battery Holder, Keystone, Plastic Case, http://www.keyelco.com/product-pdf.cfm?p=1031
+AAA battery holder Keystone
 0
 2
 2
-Capacitor_SMD
-CP_Elec_5x5.7
-SMD capacitor, aluminum electrolytic, United Chemi-Con, 5.0x5.7mm
-capacitor electrolytic
+Battery
+BatteryHolder_Keystone_2468_2xAAA
+2xAAA cell battery holder, Keystone P/N 2468, http://www.keyelco.com/product-pdf.cfm?p=1033
+AAA battery cell holder
 0
 2
 2
-Capacitor_SMD
-CP_Elec_5x5.8
-SMD capacitor, aluminum electrolytic, Panasonic, 5.0x5.8mm
-capacitor electrolytic
+Battery
+BatteryHolder_Keystone_2479_3xAAA
+Keystone Battery Holder, 2479, Battery Type 3xAAA (Script generated with StandardBox.py) (Keystone Battery Holder, 2479, Battery Type 3xAAA)
+Keystone Battery Holder 2479 Battery Type 3xAAA
 0
 2
 2
-Capacitor_SMD
-CP_Elec_5x5.9
-SMD capacitor, aluminum electrolytic, Panasonic B6, 5.0x5.9mm
-capacitor electrolytic
+Battery
+BatteryHolder_Keystone_2993
+http://www.keyelco.com/product-pdf.cfm?p=776
+Keystone type 2993 negative battery contact
 0
-2
-2
-Capacitor_SMD
-CP_Elec_6.3x3
-SMD capacitor, aluminum electrolytic, Nichicon, 6.3x3.0mm
-capacitor electrolytic
-0
-2
-2
-Capacitor_SMD
-CP_Elec_6.3x3.9
-SMD capacitor, aluminum electrolytic, Nichicon, 6.3x3.9mm
-capacitor electrolytic
-0
-2
-2
-Capacitor_SMD
-CP_Elec_6.3x4.5
-SMD capacitor, aluminum electrolytic, Nichicon, 6.3x4.5mm
-capacitor electrolytic
-0
-2
-2
-Capacitor_SMD
-CP_Elec_6.3x4.9
-SMD capacitor, aluminum electrolytic, Panasonic C5, 6.3x4.9mm
-capacitor electrolytic
-0
-2
-2
-Capacitor_SMD
-CP_Elec_6.3x5.2
-SMD capacitor, aluminum electrolytic, United Chemi-Con, 6.3x5.2mm
-capacitor electrolytic
-0
-2
-2
-Capacitor_SMD
-CP_Elec_6.3x5.3
-SMD capacitor, aluminum electrolytic, Cornell Dubilier, 6.3x5.3mm
-capacitor electrolytic
-0
-2
-2
-Capacitor_SMD
-CP_Elec_6.3x5.4
-SMD capacitor, aluminum electrolytic, Panasonic C55, 6.3x5.4mm
-capacitor electrolytic
-0
-2
-2
-Capacitor_SMD
-CP_Elec_6.3x5.4_Nichicon
-SMD capacitor, aluminum electrolytic, Nichicon, 6.3x5.4mm
-capacitor electrolytic
-0
-2
-2
-Capacitor_SMD
-CP_Elec_6.3x5.7
-SMD capacitor, aluminum electrolytic, United Chemi-Con, 6.3x5.7mm
-capacitor electrolytic
-0
-2
-2
-Capacitor_SMD
-CP_Elec_6.3x5.8
-SMD capacitor, aluminum electrolytic, Nichicon, 6.3x5.8mm
-capacitor electrolytic
-0
-2
-2
-Capacitor_SMD
-CP_Elec_6.3x5.9
-SMD capacitor, aluminum electrolytic, Panasonic C6, 6.3x5.9mm
-capacitor electrolytic
-0
-2
-2
-Capacitor_SMD
-CP_Elec_6.3x7.7
-SMD capacitor, aluminum electrolytic, Nichicon, 6.3x7.7mm
-capacitor electrolytic
-0
-2
-2
-Capacitor_SMD
-CP_Elec_6.3x9.9
-SMD capacitor, aluminum electrolytic, Panasonic C10, 6.3x9.9mm
-capacitor electrolytic
-0
-2
-2
-Capacitor_SMD
-CP_Elec_8x5.4
-SMD capacitor, aluminum electrolytic, Nichicon, 8.0x5.4mm
-capacitor electrolytic
-0
-2
-2
-Capacitor_SMD
-CP_Elec_8x6.2
-SMD capacitor, aluminum electrolytic, Nichicon, 8.0x6.2mm
-capacitor electrolytic
-0
-2
-2
-Capacitor_SMD
-CP_Elec_8x6.5
-SMD capacitor, aluminum electrolytic, Rubycon, 8.0x6.5mm
-capacitor electrolytic
-0
-2
-2
-Capacitor_SMD
-CP_Elec_8x6.7
-SMD capacitor, aluminum electrolytic, United Chemi-Con, 8.0x6.7mm
-capacitor electrolytic
-0
-2
-2
-Capacitor_SMD
-CP_Elec_8x6.9
-SMD capacitor, aluminum electrolytic, Panasonic E7, 8.0x6.9mm
-capacitor electrolytic
-0
-2
-2
-Capacitor_SMD
-CP_Elec_8x10
-SMD capacitor, aluminum electrolytic, Nichicon, 8.0x10mm
-capacitor electrolytic
-0
-2
-2
-Capacitor_SMD
-CP_Elec_8x10.5
-SMD capacitor, aluminum electrolytic, Vishay 0810, 8.0x10.5mm, http://www.vishay.com/docs/28395/150crz.pdf
-capacitor electrolytic
-0
-2
-2
-Capacitor_SMD
-CP_Elec_8x11.9
-SMD capacitor, aluminum electrolytic, Panasonic E12, 8.0x11.9mm
-capacitor electrolytic
-0
-2
-2
-Capacitor_SMD
-CP_Elec_10x7.7
-SMD capacitor, aluminum electrolytic, Nichicon, 10.0x7.7mm
-capacitor electrolytic
-0
-2
-2
-Capacitor_SMD
-CP_Elec_10x7.9
-SMD capacitor, aluminum electrolytic, Panasonic F8, 10.0x7.9mm
-capacitor electrolytic
-0
-2
-2
-Capacitor_SMD
-CP_Elec_10x10
-SMD capacitor, aluminum electrolytic, Nichicon, 10.0x10.0mm
-capacitor electrolytic
-0
-2
-2
-Capacitor_SMD
-CP_Elec_10x10.5
-SMD capacitor, aluminum electrolytic, Vishay 1010, 10.0x10.5mm, http://www.vishay.com/docs/28395/150crz.pdf
-capacitor electrolytic
-0
-2
-2
-Capacitor_SMD
-CP_Elec_10x12.5
-SMD capacitor, aluminum electrolytic, Vishay 1012, 10.0x12.5mm, http://www.vishay.com/docs/28395/150crz.pdf
-capacitor electrolytic
-0
-2
-2
-Capacitor_SMD
-CP_Elec_10x12.6
-SMD capacitor, aluminum electrolytic, Panasonic F12, 10.0x12.6mm
-capacitor electrolytic
-0
-2
-2
-Capacitor_SMD
-CP_Elec_10x14.3
-SMD capacitor, aluminum electrolytic, Vishay 1014, 10.0x14.3mm, http://www.vishay.com/docs/28395/150crz.pdf
-capacitor electrolytic
-0
-2
-2
-Capacitor_SMD
-CP_Elec_16x17.5
-SMD capacitor, aluminum electrolytic, Vishay 1616, 16.0x17.5mm, http://www.vishay.com/docs/28395/150crz.pdf
-capacitor electrolytic
-0
-2
-2
-Capacitor_SMD
-CP_Elec_16x22
-SMD capacitor, aluminum electrolytic, Vishay 1621, 16.0x22.0mm, http://www.vishay.com/docs/28395/150crz.pdf
-capacitor electrolytic
-0
-2
-2
-Capacitor_SMD
-CP_Elec_18x17.5
-SMD capacitor, aluminum electrolytic, Vishay 1816, 18.0x17.5mm, http://www.vishay.com/docs/28395/150crz.pdf
-capacitor electrolytic
-0
-2
-2
-Capacitor_SMD
-CP_Elec_18x22
-SMD capacitor, aluminum electrolytic, Vishay 1821, 18.0x22.0mm, http://www.vishay.com/docs/28395/150crz.pdf
-capacitor electrolytic
-0
-2
-2
-Capacitor_SMD
-C_0201_0603Metric
-Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
-capacitor
-0
-4
-2
-Capacitor_SMD
-C_0402_1005Metric
-Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-capacitor
-0
-2
-2
-Capacitor_SMD
-C_0603_1608Metric
-Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-capacitor
-0
-2
-2
-Capacitor_SMD
-C_0603_1608Metric_Pad1.05x0.95mm_HandSolder
-Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-capacitor handsolder
-0
-2
-2
-Capacitor_SMD
-C_0805_2012Metric
-Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
-capacitor
-0
-2
-2
-Capacitor_SMD
-C_0805_2012Metric_Pad1.15x1.40mm_HandSolder
-Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
-capacitor handsolder
-0
-2
-2
-Capacitor_SMD
-C_01005_0402Metric
-Capacitor SMD 01005 (0402 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.vishay.com/docs/20056/crcw01005e3.pdf), generated with kicad-footprint-generator
-capacitor
-0
-4
-2
-Capacitor_SMD
-C_1206_3216Metric
-Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-capacitor
-0
-2
-2
-Capacitor_SMD
-C_1206_3216Metric_Pad1.42x1.75mm_HandSolder
-Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-capacitor handsolder
-0
-2
-2
-Capacitor_SMD
-C_1210_3225Metric
-Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-capacitor
-0
-2
-2
-Capacitor_SMD
-C_1210_3225Metric_Pad1.42x2.65mm_HandSolder
-Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-capacitor handsolder
-0
-2
-2
-Capacitor_SMD
-C_1806_4516Metric
-Capacitor SMD 1806 (4516 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.modelithics.com/models/Vendor/MuRata/BLM41P.pdf), generated with kicad-footprint-generator
-capacitor
-0
-2
-2
-Capacitor_SMD
-C_1806_4516Metric_Pad1.57x1.80mm_HandSolder
-Capacitor SMD 1806 (4516 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://www.modelithics.com/models/Vendor/MuRata/BLM41P.pdf), generated with kicad-footprint-generator
-capacitor handsolder
-0
-2
-2
-Capacitor_SMD
-C_1812_4532Metric
-Capacitor SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator
-capacitor
-0
-2
-2
-Capacitor_SMD
-C_1812_4532Metric_Pad1.30x3.40mm_HandSolder
-Capacitor SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator
-capacitor handsolder
-0
-2
-2
-Capacitor_SMD
-C_1825_4564Metric
-Capacitor SMD 1825 (4564 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf), generated with kicad-footprint-generator
-capacitor
+1
+1
+Battery
+BatteryHolder_Keystone_2998_1x6.8mm
+www.keyelco.com/product-pdf.cfm?p=763
+Keystone type 2998 battery holder
 0
+3
 2
-2
-Capacitor_SMD
-C_1825_4564Metric_Pad1.88x6.70mm_HandSolder
-Capacitor SMD 1825 (4564 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf), generated with kicad-footprint-generator
-capacitor handsolder
-0
-2
-2
-Capacitor_SMD
-C_2010_5025Metric
-Capacitor SMD 2010 (5025 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-capacitor
-0
-2
-2
-Capacitor_SMD
-C_2010_5025Metric_Pad1.52x2.65mm_HandSolder
-Capacitor SMD 2010 (5025 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-capacitor handsolder
-0
-2
-2
-Capacitor_SMD
-C_2220_5650Metric
-Capacitor SMD 2220 (5650 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf), generated with kicad-footprint-generator
-capacitor
-0
-2
-2
-Capacitor_SMD
-C_2220_5650Metric_Pad1.97x5.40mm_HandSolder
-Capacitor SMD 2220 (5650 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf), generated with kicad-footprint-generator
-capacitor handsolder
-0
-2
-2
-Capacitor_SMD
-C_2225_5664Metric
-Capacitor SMD 2225 (5664 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf), generated with kicad-footprint-generator
-capacitor
-0
-2
-2
-Capacitor_SMD
-C_2225_5664Metric_Pad1.80x6.60mm_HandSolder
-Capacitor SMD 2225 (5664 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf), generated with kicad-footprint-generator
-capacitor handsolder
-0
-2
-2
-Capacitor_SMD
-C_2512_6332Metric
-Capacitor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-capacitor
-0
-2
-2
-Capacitor_SMD
-C_2512_6332Metric_Pad1.52x3.35mm_HandSolder
-Capacitor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-capacitor handsolder
-0
-2
-2
-Capacitor_SMD
-C_2816_7142Metric
-Capacitor SMD 2816 (7142 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/30100/wsl.pdf), generated with kicad-footprint-generator
-capacitor
-0
-2
-2
-Capacitor_SMD
-C_2816_7142Metric_Pad3.20x4.45mm_HandSolder
-Capacitor SMD 2816 (7142 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size from: https://www.vishay.com/docs/30100/wsl.pdf), generated with kicad-footprint-generator
-capacitor handsolder
-0
-2
-2
-Capacitor_SMD
-C_3640_9110Metric
-Capacitor SMD 3640 (9110 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf), generated with kicad-footprint-generator
-capacitor
+Battery
+BatteryHolder_Keystone_3000_1x12mm
+http://www.keyelco.com/product-pdf.cfm?p=777
+Keystone type 3000 coin cell retainer
 0
+3
 2
-2
-Capacitor_SMD
-C_3640_9110Metric_Pad2.10x10.45mm_HandSolder
-Capacitor SMD 3640 (9110 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf), generated with kicad-footprint-generator
-capacitor handsolder
+Battery
+BatteryHolder_Keystone_3001_1x12mm
+http://www.keyelco.com/product-pdf.cfm?p=778
+Keystone type 3001 coin cell retainer
 0
-2
+3
 2
-Capacitor_SMD
-C_Elec_3x5.4
-SMD capacitor, aluminum electrolytic nonpolar, 3.0x5.4mm
-capacitor electrolyic nonpolar
+Battery
+BatteryHolder_Keystone_3002_1x2032
+https://www.tme.eu/it/Document/a823211ec201a9e209042d155fe22d2b/KEYS2996.pdf
+BR2016 CR2016 DL2016 BR2020 CL2020 BR2025 CR2025 DL2025 DR2032 CR2032 DL2032
 0
+3
 2
-2
-Capacitor_SMD
-C_Elec_4x5.4
-SMD capacitor, aluminum electrolytic nonpolar, 4.0x5.4mm
-capacitor electrolyic nonpolar
+Battery
+BatteryHolder_Keystone_3008_1x2450
+http://www.keyelco.com/product-pdf.cfm?p=786
+Keystone type 3008 coin cell retainer
 0
+3
 2
-2
-Capacitor_SMD
-C_Elec_4x5.8
-SMD capacitor, aluminum electrolytic nonpolar, 4.0x5.8mm
-capacitor electrolyic nonpolar
+Battery
+BatteryHolder_Keystone_3009_1x2450
+http://www.keyelco.com/product-pdf.cfm?p=787
+Keystone type 3009 coin cell retainer
 0
-2
+3
 2
-Capacitor_SMD
-C_Elec_5x5.4
-SMD capacitor, aluminum electrolytic nonpolar, 5.0x5.4mm
-capacitor electrolyic nonpolar
+Battery
+BatteryHolder_Keystone_3034_1x20mm
+Keystone 3034 SMD battery holder for 2020, 2025 and 2032 coincell batteries. http://www.keyelco.com/product-pdf.cfm?p=798
+Keystone type 3034 coin cell retainer
 0
+3
 2
-2
-Capacitor_SMD
-C_Elec_5x5.8
-SMD capacitor, aluminum electrolytic nonpolar, 5.0x5.8mm
-capacitor electrolyic nonpolar
+Battery
+BatteryHolder_LINX_BAT-HLD-012-SMT
+SMT battery holder for CR1216/1220/1225, https://linxtechnologies.com/wp/wp-content/uploads/bat-hld-012-smt.pdf
+battery holder coin cell cr1216 cr1220 cr1225
 0
+3
 2
-2
-Capacitor_SMD
-C_Elec_6.3x5.4
-SMD capacitor, aluminum electrolytic nonpolar, 6.3x5.4mm
-capacitor electrolyic nonpolar
+Battery
+BatteryHolder_MPD_BA9VPC_1xPP3
+1xPP3 (9V) battery holder, Memory Protection Devices P/N BA9VPC, http://www.memoryprotectiondevices.com/datasheets/BA9VPC-datasheet.pdf
+PP3 Battery Holder BA9VPC 9V
 0
 2
 2
-Capacitor_SMD
-C_Elec_6.3x5.8
-SMD capacitor, aluminum electrolytic nonpolar, 6.3x5.8mm
-capacitor electrolyic nonpolar
+Battery
+BatteryHolder_MPD_BC2AAPC_2xAA
+2xAA cell battery holder, Memory Protection Devices P/N BC2AAPC, http://www.memoryprotectiondevices.com/datasheets/BC2AAPC-datasheet.pdf
+AA battery cell holder
 0
 2
 2
-Capacitor_SMD
-C_Elec_6.3x7.7
-SMD capacitor, aluminum electrolytic nonpolar, 6.3x7.7mm
-capacitor electrolyic nonpolar
+Battery
+BatteryHolder_MPD_BC12AAPC_2xAA
+2xAA cell battery holder, Memory Protection Devices P/N BC12AAPC, http://www.memoryprotectiondevices.com/datasheets/BC12AAPC-datasheet.pdf
+AA battery cell holder
 0
 2
 2
-Capacitor_SMD
-C_Elec_8x5.4
-SMD capacitor, aluminum electrolytic nonpolar, 8.0x5.4mm
-capacitor electrolyic nonpolar
+Battery
+BatteryHolder_MPD_BC2003_1x2032
+http://www.memoryprotectiondevices.com/datasheets/BC-2003-datasheet.pdf
+BC2003 CR2032 2032 Battery Holder
 0
-2
+3
 2
-Capacitor_SMD
-C_Elec_8x6.2
-SMD capacitor, aluminum electrolytic nonpolar, 8.0x6.2mm
-capacitor electrolyic nonpolar
+Battery
+BatteryHolder_MPD_BH-18650-PC2
+18650 Battery Holder (http://www.memoryprotectiondevices.com/datasheets/BK-18650-PC2-datasheet.pdf)
+18650 Battery Holder
 0
 2
 2
-Capacitor_SMD
-C_Elec_8x10.2
-SMD capacitor, aluminum electrolytic nonpolar, 8.0x10.2mm
-capacitor electrolyic nonpolar
+Battery
+BatteryHolder_Seiko_MS621F
+Seiko MS621F, https://www.sii.co.jp/en/me/files/2014/02/file_EXTENDED_PRDCT_SPEC_75_FILE_11.jpg
+Seiko MS621F
 0
 2
 2
-Capacitor_SMD
-C_Elec_10x10.2
-SMD capacitor, aluminum electrolytic nonpolar, 10.0x10.2mm
-capacitor electrolyic nonpolar
+Battery
+BatteryHolder_TruPower_BH-331P_3xAA
+Keystone Battery Holder BH-331P Battery Type 3xAA (Script generated with StandardBox.py) (Keystone Battery Holder BH-331P Battery Type 3xAA)
+Battery Holder BH-331P Battery Type 3xAA
 0
 2
 2
-Capacitor_SMD
-C_Trimmer_Murata_TZB4-A
-trimmer capacitor SMD horizontal, http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/trimmer/t13e.ashx?la=en-gb
- Murata TZB4 TZB4-A
+Battery
+Battery_CR1225
+CR1225 battery
+battery CR1225 coin cell
 0
-2
-2
-Capacitor_SMD
-C_Trimmer_Murata_TZB4-B
-trimmer capacitor SMD horizontal, http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/trimmer/t13e.ashx?la=en-gb
- Murata TZB4 TZB4-A
 0
-2
-2
-Capacitor_SMD
-C_Trimmer_Murata_TZC3
-trimmer capacitor SMD horizontal, http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/trimmer/t13e.ashx?la=en-gb
- Murata TZC3
 0
-2
-2
-Capacitor_SMD
-C_Trimmer_Murata_TZR1
-trimmer capacitor SMD horizontal, http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/trimmer/t13e.ashx?la=en-gb
- Murata TZR1
+Battery
+Battery_Panasonic_CR1025-VSK_Vertical_CircularHoles
+Panasonic CR-1025/VSK battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D140.pdf
+battery CR-1025 coin cell vertical
 0
 2
 2
-Capacitor_SMD
-C_Trimmer_Murata_TZW4
-trimmer capacitor SMD horizontal, http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/trimmer/t13e.ashx?la=en-gb
- Murata TZW4
+Battery
+Battery_Panasonic_CR1220-VCN_Vertical_CircularHoles
+Panasonic CR-1220/VCN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D140.pdf
+battery CR-1220 coin cell vertical
 0
 2
 2
-Capacitor_SMD
-C_Trimmer_Murata_TZY2
-trimmer capacitor SMD horizontal, http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/trimmer/t13e.ashx?la=en-gb
- Murata TZY2
+Battery
+Battery_Panasonic_CR1632-V1AN_Vertical_CircularHoles
+Panasonic CR-1632-V1AN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D140.pdf
+battery CR-1632 coin cell vertical
 0
 2
 2
-Capacitor_SMD
-C_Trimmer_Sprague-Goodman_SGC3
-trimmer capacitor SMD horizontal, http://media.wix.com/ugd/d86717_38d9821e12823a7aa9cef38c6c2a73cc.pdf
- Sprague Goodman SGC3
+Battery
+Battery_Panasonic_CR2025-V1AK_Vertical_CircularHoles
+Panasonic CR-2025/V1AK battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D140.pdf
+battery CR-2025 coin cell vertical
 0
 2
 2
-Capacitor_SMD
-C_Trimmer_Voltronics_JN
-trimmer capacitor SMD horizontal, http://www.knowlescapacitors.com/File%20Library/Voltronics/English/GlobalNavigation/Products/Trimmer%20Capacitors/CerChipTrimCap.pdf
- Voltronics JN
+Battery
+Battery_Panasonic_CR2032-VS1N_Vertical_CircularHoles
+Panasonic CR-2032/VS1N battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D140.pdf
+battery CR-2032 coin cell vertical
 0
 2
 2
-Capacitor_SMD
-C_Trimmer_Voltronics_JQ
-trimmer capacitor SMD horizontal, http://www.knowlescapacitors.com/File%20Library/Voltronics/English/GlobalNavigation/Products/Trimmer%20Capacitors/CerChipTrimCap.pdf
- Voltronics JQ
+Battery
+Battery_Panasonic_CR2354-VCN_Vertical_CircularHoles
+Panasonic CR-2354/VCN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D140.pdf
+battery CR-2354/VCN coin cell vertical
 0
 2
 2
-Capacitor_SMD
-C_Trimmer_Voltronics_JR
-trimmer capacitor SMD horizontal, http://www.knowlescapacitors.com/File%20Library/Voltronics/English/GlobalNavigation/Products/Trimmer%20Capacitors/CerChipTrimCap.pdf
- Voltronics JR
+Battery
+Battery_Panasonic_CR2450-VAN_Vertical_CircularHoles
+Panasonic CR-2450/VAN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D140.pdf
+battery CR-2450 coin cell
 0
 2
 2
-Capacitor_SMD
-C_Trimmer_Voltronics_JV
-trimmer capacitor SMD horizontal, http://www.knowlescapacitors.com/File%20Library/Voltronics/English/GlobalNavigation/Products/Trimmer%20Capacitors/CerChipTrimCap.pdf
- Voltronics JV
+Battery
+Battery_Panasonic_CR2477-VCN_Vertical_CircularHoles
+Panasonic CR-2477/VCN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D140.pdf
+battery CR-2477 coin cell vertical
 0
 2
 2
-Capacitor_SMD
-C_Trimmer_Voltronics_JZ
-trimmer capacitor SMD horizontal, http://www.knowlescapacitors.com/File%20Library/Voltronics/English/GlobalNavigation/Products/Trimmer%20Capacitors/CerChipTrimCap.pdf
- Voltronics JR
+Battery
+Battery_Panasonic_CR3032-VCN_Vertical_CircularHoles
+Panasonic CR-3032/VCN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D140.pdf
+battery CR-3032 coin cell vertical
 0
 2
 2
