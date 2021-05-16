@@ -5,22 +5,24 @@ There are one-to-one board replacement projects for the Amiga 2000, but none to 
 
 In addition to a new board replacement option, I believe the ubiquitous (E)ATX standard will bring additional interest to the Amiga as a hobbyist and retro-computing option. At the time or writting this, the Amiga operating system is still actively developed and supported. In addition, there is a substantial database of existing software and hardware add-on options and a very active community.
 
-<img src="/Images/2000ATX.png" width="800">
+<img src="/Images/A2000EATX.png" width="500">
 
 ## Project Status
+This project is in the proof of concept stage. It may work...or maybe not. There may be errors in the schematics or this text. Once the prototype boards are received and assembled, I will correct any discovered issues and update the appropriate drawings. Once things are proven to be working, I will release the Gerber files. In the meantime, you are welcome to review the KiCAD files and follow this project.
+
 Schematics complete. 
 
 Routing Complete.
 
 Verifiying Components and Routing.
 
-PCB submitted for fabrication.
+Revision 0 PCB submitted for fabrication.
 
 PCBs Received. Initial inspection is good.
 
-There are issues with the placement of most slots on the Rev 0 PCB. Working on next revision.
+There are issues with the placement of most slots on the Revision 0 PCB. Working on next revision.
 
-This project is in the proof of concept stage. It may work...or maybe not. There may be errors in the schematics or this text. Once the prototype boards are received and assembled, I will correct any discovered issues and update the appropriate drawings. Once things are proven to be working, I will release the Gerber files. In the meantime, you are welcome to review the KiCAD files and follow this project.
+May 16, 2021 - Revision 1 complete. After some double checks, it will submitted for fabrication.
 
 ## Project Goals
 1. Enter Amiga 2000 Rev 6.4 schematics into KiCad, including all known A2000 Rev 6.x PCB updates.
@@ -90,6 +92,10 @@ If something is not specifically mentioned, you should expect it to be unchanged
 ## Revision History
 Rev 0 - Prototype board
 
+Rev 1 
+1. Adjusted postion of slots and several other components
+2. Moved ATX On/Off circuit to back of board
+   
 ## Acknowledgments
 kr239 - Amiga 500 DRAM replacement - https://github.com/kr239/A500-SRAM-Board
 
