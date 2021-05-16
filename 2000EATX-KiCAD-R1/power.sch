@@ -822,7 +822,7 @@ U 1 1 6079CD83
 P 9100 3500
 F 0 "H1" V 9100 3650 50  0000 L CNN
 F 1 "MountingHole_Pad" V 9145 3650 50  0001 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 9100 3500 50  0001 C CNN
+F 2 "AmigaFootprints:MountingHole_Pad" H 9100 3500 50  0001 C CNN
 F 3 "~" H 9100 3500 50  0001 C CNN
 	1    9100 3500
 	0    1    1    0   
@@ -833,7 +833,7 @@ U 1 1 607A300A
 P 9100 3700
 F 0 "H4" V 9100 3850 50  0000 L CNN
 F 1 "MountingHole_Pad" V 9145 3850 50  0001 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 9100 3700 50  0001 C CNN
+F 2 "AmigaFootprints:MountingHole_Pad" H 9100 3700 50  0001 C CNN
 F 3 "~" H 9100 3700 50  0001 C CNN
 	1    9100 3700
 	0    1    1    0   
@@ -844,7 +844,7 @@ U 1 1 607A343C
 P 9100 3900
 F 0 "H7" V 9100 4050 50  0000 L CNN
 F 1 "MountingHole_Pad" V 9145 4050 50  0001 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 9100 3900 50  0001 C CNN
+F 2 "AmigaFootprints:MountingHole_Pad" H 9100 3900 50  0001 C CNN
 F 3 "~" H 9100 3900 50  0001 C CNN
 	1    9100 3900
 	0    1    1    0   
@@ -855,7 +855,7 @@ U 1 1 607A38D0
 P 9100 4100
 F 0 "H10" V 9100 4250 50  0000 L CNN
 F 1 "MountingHole_Pad" V 9145 4250 50  0001 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 9100 4100 50  0001 C CNN
+F 2 "AmigaFootprints:MountingHole_Pad" H 9100 4100 50  0001 C CNN
 F 3 "~" H 9100 4100 50  0001 C CNN
 	1    9100 4100
 	0    1    1    0   
@@ -866,7 +866,7 @@ U 1 1 607A449F
 P 9500 3500
 F 0 "H2" V 9500 3650 50  0000 L CNN
 F 1 "MountingHole_Pad" V 9545 3650 50  0001 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 9500 3500 50  0001 C CNN
+F 2 "AmigaFootprints:MountingHole_Pad" H 9500 3500 50  0001 C CNN
 F 3 "~" H 9500 3500 50  0001 C CNN
 	1    9500 3500
 	0    1    1    0   
@@ -877,20 +877,9 @@ U 1 1 607A48FE
 P 9500 3700
 F 0 "H5" V 9500 3850 50  0000 L CNN
 F 1 "MountingHole_Pad" V 9545 3850 50  0001 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 9500 3700 50  0001 C CNN
+F 2 "AmigaFootprints:MountingHole_Pad" H 9500 3700 50  0001 C CNN
 F 3 "~" H 9500 3700 50  0001 C CNN
 	1    9500 3700
-	0    1    1    0   
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H8
-U 1 1 607A4E77
-P 9500 3900
-F 0 "H8" V 9500 4050 50  0000 L CNN
-F 1 "MountingHole_Pad" V 9545 4050 50  0001 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 9500 3900 50  0001 C CNN
-F 3 "~" H 9500 3900 50  0001 C CNN
-	1    9500 3900
 	0    1    1    0   
 $EndComp
 $Comp
@@ -899,20 +888,9 @@ U 1 1 607A52EF
 P 9500 4100
 F 0 "H11" V 9500 4250 50  0000 L CNN
 F 1 "MountingHole_Pad" V 9545 4250 50  0001 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 9500 4100 50  0001 C CNN
+F 2 "AmigaFootprints:MountingHole_Pad" H 9500 4100 50  0001 C CNN
 F 3 "~" H 9500 4100 50  0001 C CNN
 	1    9500 4100
-	0    1    1    0   
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H3
-U 1 1 607B44AE
-P 9900 3500
-F 0 "H3" V 9900 3650 50  0000 L CNN
-F 1 "MountingHole_Pad" V 9945 3650 50  0001 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 9900 3500 50  0001 C CNN
-F 3 "~" H 9900 3500 50  0001 C CNN
-	1    9900 3500
 	0    1    1    0   
 $EndComp
 $Comp
@@ -921,7 +899,7 @@ U 1 1 607B4AE3
 P 9900 3900
 F 0 "H9" V 9900 4050 50  0000 L CNN
 F 1 "MountingHole_Pad" V 9945 4050 50  0001 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 9900 3900 50  0001 C CNN
+F 2 "AmigaFootprints:MountingHole_Pad" H 9900 3900 50  0001 C CNN
 F 3 "~" H 9900 3900 50  0001 C CNN
 	1    9900 3900
 	0    1    1    0   
@@ -932,7 +910,7 @@ U 1 1 607B5071
 P 9900 3700
 F 0 "H6" V 9900 3850 50  0000 L CNN
 F 1 "MountingHole_Pad" V 9945 3850 50  0001 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 9900 3700 50  0001 C CNN
+F 2 "AmigaFootprints:MountingHole_Pad" H 9900 3700 50  0001 C CNN
 F 3 "~" H 9900 3700 50  0001 C CNN
 	1    9900 3700
 	0    1    1    0   
@@ -943,7 +921,7 @@ U 1 1 607BA784
 P 9900 4100
 F 0 "H12" V 9900 4250 50  0000 L CNN
 F 1 "MountingHole_Pad" V 9945 4250 50  0001 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 9900 4100 50  0001 C CNN
+F 2 "AmigaFootprints:MountingHole_Pad" H 9900 4100 50  0001 C CNN
 F 3 "~" H 9900 4100 50  0001 C CNN
 	1    9900 4100
 	0    1    1    0   
@@ -955,11 +933,6 @@ Wire Wire Line
 Wire Wire Line
 	9000 4400 9000 4100
 Connection ~ 9400 3700
-Wire Wire Line
-	9400 3700 9400 3900
-Connection ~ 9400 3900
-Wire Wire Line
-	9400 3900 9400 4100
 Connection ~ 9400 4100
 Wire Wire Line
 	9400 4100 9400 4400
@@ -1069,4 +1042,17 @@ Wire Wire Line
 	7450 5100 7450 5500
 Wire Wire Line
 	7450 5800 7450 6300
+Wire Wire Line
+	9400 3700 9400 4100
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 607B44AE
+P 9900 3500
+F 0 "H3" V 9900 3650 50  0000 L CNN
+F 1 "MountingHole_Pad" V 9945 3650 50  0001 L CNN
+F 2 "AmigaFootprints:MountingHole_Pad" H 9900 3500 50  0001 C CNN
+F 3 "~" H 9900 3500 50  0001 C CNN
+	1    9900 3500
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

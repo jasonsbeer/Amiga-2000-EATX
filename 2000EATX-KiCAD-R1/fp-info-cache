@@ -1,302 +1,120 @@
-68331424872731
-Battery
-BatteryHolder_Bulgin_BX0036_1xC
-Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
-Bulgin BX0036
+27374401775559
+AmigaFootprints
+2x18_P2.54mm_Horizontal
+Samtec HLE .100" Tiger Beam Cost-effective Single Beam Socket Strip, HLE-150-02-xx-DV-TE, 50 Pins per row (http://suddendocs.samtec.com/prints/hle-1xx-02-xx-dv-xe-xx-mkt.pdf, http://suddendocs.samtec.com/prints/hle-thru.pdf), generated with kicad-footprint-generator
+connector Samtec HLE top entry
 0
-2
-2
-Battery
-BatteryHolder_ComfortableElectronic_CH273-2450_1x2450
-Comfortable Electronic CR2450 battery holder, http://www.comf.com.tw/ProductDetail.asp?no=148
-Comfortable Electronic CR2450
+36
+36
+AmigaFootprints
+A2000_CPUSLOT_MALE
+Connecteur Bus AT ISA 16 bits
+CONN BUS AMIGA
 0
-2
-2
-Battery
-BatteryHolder_Eagle_12BH611-GR
-https://eu.mouser.com/datasheet/2/209/EPD-200766-1274481.pdf
-9V Battery Holder
+86
+86
+AmigaFootprints
+Amiga 2x18 Card Edge Male
+
+
 0
-2
-2
-Battery
-BatteryHolder_Keystone_103_1x20mm
-http://www.keyelco.com/product-pdf.cfm?p=719
-Keystone type 103 battery holder
+36
+36
+AmigaFootprints
+C_1206_3216_Feedthrough
+Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+capacitor
 0
-2
-2
-Battery
-BatteryHolder_Keystone_104_1x23mm
-http://www.keyelco.com/product-pdf.cfm?p=744
-Keystone type 104 battery holder
+4
+3
+AmigaFootprints
+DIN5
+
+
 0
-2
-2
-Battery
-BatteryHolder_Keystone_105_1x2430
-http://www.keyelco.com/product-pdf.cfm?p=745
-Keystone type 105 battery holder
+7
+6
+AmigaFootprints
+DSUB-9_Male_Stack
+9-pin D-Sub connector, horizontal/angled (90 deg), THT-mount, male, pitch 2.77x2.84mm, pin-PCB-offset 7.699999999999999mm, distance of mounting holes 25mm, distance of mounting holes to PCB edge 9.12mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf
+9-pin D-Sub connector horizontal angled 90deg THT male pitch 2.77x2.84mm pin-PCB-offset 7.699999999999999mm mounting-holes-distance 25mm mounting-hole-offset 25mm
 0
-2
-2
-Battery
-BatteryHolder_Keystone_106_1x20mm
-http://www.keyelco.com/product-pdf.cfm?p=720
-Keystone type 106 battery holder
+22
+19
+AmigaFootprints
+DSUB-15-HD_Female_Horizontal_P2.29x1.98mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm
+15-pin D-Sub connector, horizontal/angled (90 deg), THT-mount, female, pitch 2.29x1.98mm, pin-PCB-offset 8.35mm, distance of mounting holes 25mm, distance of mounting holes to PCB edge 10.889999999999999mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf
+15-pin D-Sub connector horizontal angled 90deg THT female pitch 2.29x1.98mm pin-PCB-offset 8.35mm mounting-holes-distance 25mm mounting-hole-offset 25mm
 0
-2
-2
-Battery
-BatteryHolder_Keystone_107_1x23mm
-http://www.keyelco.com/product-pdf.cfm?p=746
-Keystone type 107 battery holder
+17
+16
+AmigaFootprints
+DSUB-25_Stack_Female_Bottom_Male_Top
+25-pin D-Sub connector, horizontal/angled (90 deg), THT-mount, female, pitch 2.77x2.84mm, pin-PCB-offset 4.9399999999999995mm, distance of mounting holes 47.1mm, distance of mounting holes to PCB edge 7.4799999999999995mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf
+25-pin D-Sub connector horizontal angled 90deg THT female pitch 2.77x2.84mm pin-PCB-offset 4.9399999999999995mm mounting-holes-distance 47.1mm mounting-hole-offset 47.1mm
 0
-2
-2
-Battery
-BatteryHolder_Keystone_500
-Keystone #500, CR1220 battery holder, http://www.keyelco.com/product-pdf.cfm?p=710
-CR1220 battery holder
+54
+51
+AmigaFootprints
+ISA_16-BIT_P2.54mm_Horizontal
+Samtec HLE .100" Tiger Beam Cost-effective Single Beam Socket Strip, HLE-131-02-xx-DV-TE, 31 Pins per row (http://suddendocs.samtec.com/prints/hle-1xx-02-xx-dv-xe-xx-mkt.pdf, http://suddendocs.samtec.com/prints/hle-thru.pdf), generated with kicad-footprint-generator
+connector Samtec HLE top entry
 0
-2
-2
-Battery
-BatteryHolder_Keystone_1042_1x18650
-Battery holder for 18650 cylindrical cells http://www.keyelco.com/product.cfm/product_id/918
-18650 Keystone 1042 Li-ion
-0
-2
-2
-Battery
-BatteryHolder_Keystone_1058_1x2032
-http://www.keyelco.com/product-pdf.cfm?p=14028
-Keystone type 1058 coin cell retainer
-0
-2
-2
-Battery
-BatteryHolder_Keystone_1060_1x2032
-http://www.keyelco.com/product-pdf.cfm?p=726
-CR2032 BR2032 BatteryHolder Battery
-0
-2
-2
-Battery
-BatteryHolder_Keystone_2460_1xAA
-https://www.keyelco.com/product-pdf.cfm?p=1025
-AA battery cell holder
-0
-2
-2
-Battery
-BatteryHolder_Keystone_2462_2xAA
-2xAA cell battery holder, Keystone P/N 2462, https://www.keyelco.com/product-pdf.cfm?p=1027
-AA battery cell holder
-0
-2
-2
-Battery
-BatteryHolder_Keystone_2466_1xAAA
-1xAAA Battery Holder, Keystone, Plastic Case, http://www.keyelco.com/product-pdf.cfm?p=1031
-AAA battery holder Keystone
-0
-2
-2
-Battery
-BatteryHolder_Keystone_2468_2xAAA
-2xAAA cell battery holder, Keystone P/N 2468, http://www.keyelco.com/product-pdf.cfm?p=1033
-AAA battery cell holder
-0
-2
-2
-Battery
-BatteryHolder_Keystone_2479_3xAAA
-Keystone Battery Holder, 2479, Battery Type 3xAAA (Script generated with StandardBox.py) (Keystone Battery Holder, 2479, Battery Type 3xAAA)
-Keystone Battery Holder 2479 Battery Type 3xAAA
-0
-2
-2
-Battery
-BatteryHolder_Keystone_2993
-http://www.keyelco.com/product-pdf.cfm?p=776
-Keystone type 2993 negative battery contact
+98
+98
+AmigaFootprints
+MountingHole_Pad
+Mounting Hole 4.3mm, M4, DIN965
+mounting hole 4.3mm m4 din965
 0
 1
 1
-Battery
-BatteryHolder_Keystone_2998_1x6.8mm
-www.keyelco.com/product-pdf.cfm?p=763
-Keystone type 2998 battery holder
-0
-3
-2
-Battery
-BatteryHolder_Keystone_3000_1x12mm
-http://www.keyelco.com/product-pdf.cfm?p=777
-Keystone type 3000 coin cell retainer
-0
-3
-2
-Battery
-BatteryHolder_Keystone_3001_1x12mm
-http://www.keyelco.com/product-pdf.cfm?p=778
-Keystone type 3001 coin cell retainer
-0
-3
-2
-Battery
-BatteryHolder_Keystone_3002_1x2032
-https://www.tme.eu/it/Document/a823211ec201a9e209042d155fe22d2b/KEYS2996.pdf
-BR2016 CR2016 DL2016 BR2020 CL2020 BR2025 CR2025 DL2025 DR2032 CR2032 DL2032
-0
-3
-2
-Battery
-BatteryHolder_Keystone_3008_1x2450
-http://www.keyelco.com/product-pdf.cfm?p=786
-Keystone type 3008 coin cell retainer
-0
-3
-2
-Battery
-BatteryHolder_Keystone_3009_1x2450
-http://www.keyelco.com/product-pdf.cfm?p=787
-Keystone type 3009 coin cell retainer
-0
-3
-2
-Battery
-BatteryHolder_Keystone_3034_1x20mm
-Keystone 3034 SMD battery holder for 2020, 2025 and 2032 coincell batteries. http://www.keyelco.com/product-pdf.cfm?p=798
-Keystone type 3034 coin cell retainer
-0
-3
-2
-Battery
-BatteryHolder_LINX_BAT-HLD-012-SMT
-SMT battery holder for CR1216/1220/1225, https://linxtechnologies.com/wp/wp-content/uploads/bat-hld-012-smt.pdf
-battery holder coin cell cr1216 cr1220 cr1225
-0
-3
-2
-Battery
-BatteryHolder_MPD_BA9VPC_1xPP3
-1xPP3 (9V) battery holder, Memory Protection Devices P/N BA9VPC, http://www.memoryprotectiondevices.com/datasheets/BA9VPC-datasheet.pdf
-PP3 Battery Holder BA9VPC 9V
-0
-2
-2
-Battery
-BatteryHolder_MPD_BC2AAPC_2xAA
-2xAA cell battery holder, Memory Protection Devices P/N BC2AAPC, http://www.memoryprotectiondevices.com/datasheets/BC2AAPC-datasheet.pdf
-AA battery cell holder
-0
-2
-2
-Battery
-BatteryHolder_MPD_BC12AAPC_2xAA
-2xAA cell battery holder, Memory Protection Devices P/N BC12AAPC, http://www.memoryprotectiondevices.com/datasheets/BC12AAPC-datasheet.pdf
-AA battery cell holder
-0
-2
-2
-Battery
-BatteryHolder_MPD_BC2003_1x2032
-http://www.memoryprotectiondevices.com/datasheets/BC-2003-datasheet.pdf
-BC2003 CR2032 2032 Battery Holder
-0
-3
-2
-Battery
-BatteryHolder_MPD_BH-18650-PC2
-18650 Battery Holder (http://www.memoryprotectiondevices.com/datasheets/BK-18650-PC2-datasheet.pdf)
-18650 Battery Holder
-0
-2
-2
-Battery
-BatteryHolder_Seiko_MS621F
-Seiko MS621F, https://www.sii.co.jp/en/me/files/2014/02/file_EXTENDED_PRDCT_SPEC_75_FILE_11.jpg
-Seiko MS621F
-0
-2
-2
-Battery
-BatteryHolder_TruPower_BH-331P_3xAA
-Keystone Battery Holder BH-331P Battery Type 3xAA (Script generated with StandardBox.py) (Keystone Battery Holder BH-331P Battery Type 3xAA)
-Battery Holder BH-331P Battery Type 3xAA
-0
-2
-2
-Battery
-Battery_CR1225
-CR1225 battery
-battery CR1225 coin cell
+AmigaFootprints
+Mug
+
+
 0
 0
 0
-Battery
-Battery_Panasonic_CR1025-VSK_Vertical_CircularHoles
-Panasonic CR-1025/VSK battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D140.pdf
-battery CR-1025 coin cell vertical
+AmigaFootprints
+RaspberryPiZerowithHoles
+
+
 0
 2
-2
-Battery
-Battery_Panasonic_CR1220-VCN_Vertical_CircularHoles
-Panasonic CR-1220/VCN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D140.pdf
-battery CR-1220 coin cell vertical
+1
+AmigaFootprints
+Samtec_HLE-150-02-xx-DV-TE_2x43_P2.54mm_Horizontal
+Samtec HLE .100" Tiger Beam Cost-effective Single Beam Socket Strip, HLE-150-02-xx-DV-TE, 50 Pins per row (http://suddendocs.samtec.com/prints/hle-1xx-02-xx-dv-xe-xx-mkt.pdf, http://suddendocs.samtec.com/prints/hle-thru.pdf), generated with kicad-footprint-generator
+connector Samtec HLE top entry
 0
-2
-2
-Battery
-Battery_Panasonic_CR1632-V1AN_Vertical_CircularHoles
-Panasonic CR-1632-V1AN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D140.pdf
-battery CR-1632 coin cell vertical
+86
+86
+AmigaFootprints
+Samtec_HLE-150-02-xx-DV-TE_2x50_P2.54mm_Horizontal
+Samtec HLE .100" Tiger Beam Cost-effective Single Beam Socket Strip, HLE-150-02-xx-DV-TE, 50 Pins per row (http://suddendocs.samtec.com/prints/hle-1xx-02-xx-dv-xe-xx-mkt.pdf, http://suddendocs.samtec.com/prints/hle-thru.pdf), generated with kicad-footprint-generator
+connector Samtec HLE top entry
 0
-2
-2
-Battery
-Battery_Panasonic_CR2025-V1AK_Vertical_CircularHoles
-Panasonic CR-2025/V1AK battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D140.pdf
-battery CR-2025 coin cell vertical
+100
+100
+AmigaFootprints
+TSOP-II-50_P0.8mm
+54-lead TSOP typ II package
+TSOPII TSOP2
 0
-2
-2
-Battery
-Battery_Panasonic_CR2032-VS1N_Vertical_CircularHoles
-Panasonic CR-2032/VS1N battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D140.pdf
-battery CR-2032 coin cell vertical
+50
+50
+AmigaFootprints
+VIA-0.6mm
+
+
 0
-2
-2
-Battery
-Battery_Panasonic_CR2354-VCN_Vertical_CircularHoles
-Panasonic CR-2354/VCN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D140.pdf
-battery CR-2354/VCN coin cell vertical
+1
+1
+AmigaFootprints
+ZorroCardEdge
+Amiga Zorro 2-3 Edge Connector
+Amiga Zorro 2-3 Edge Connector
 0
-2
-2
-Battery
-Battery_Panasonic_CR2450-VAN_Vertical_CircularHoles
-Panasonic CR-2450/VAN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D140.pdf
-battery CR-2450 coin cell
-0
-2
-2
-Battery
-Battery_Panasonic_CR2477-VCN_Vertical_CircularHoles
-Panasonic CR-2477/VCN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D140.pdf
-battery CR-2477 coin cell vertical
-0
-2
-2
-Battery
-Battery_Panasonic_CR3032-VCN_Vertical_CircularHoles
-Panasonic CR-3032/VCN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D140.pdf
-battery CR-3032 coin cell vertical
-0
-2
-2
+100
+100
