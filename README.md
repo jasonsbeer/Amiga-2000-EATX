@@ -1,5 +1,5 @@
 # Amiga 2000 EATX PCB
-The purpose of this project is to develop an open source Amiga 2000 PCB in the EATX form factor. What is EATX? It is an ATX variant that allows slightly deeper PCBs, measuring 12 x 13 inches (305 × 330 mm). These are referred to as Extended ATX, or, EATX (see [Enterprise Electronics Bay Specification](/DataSheets/SSI%20EEB%202011%201.0.1.pdf)). The length of Zorro II cards, not to mention the abundance of components on the Amiga 2000, makes EATX the best choice for this project.
+The purpose of this project is to develop an open source Amiga 2000 PCB in the EATX form factor. What is EATX? It is an ATX variant that allows slightly deeper PCBs, measuring 12 x 13 inches (305 × 330 mm). These are referred to as Extended ATX, or, EATX (see [Enterprise Electronics Bay Specification](/DataSheets/SSI%20EEB%202011%201.0.1.pdf)). The length of Zorro II cards and the abundance of components on the Amiga 2000 makes EATX the best choice for this project.
 
 There are one-to-one board replacement projects for the Amiga 2000, but none to change the layout to meet current form factor standards. In addition, the Amiga 2000 made use of connectors and custom parts that are no longer commercially manufactured. This often requires parts to be pulled from existing machines. As such, this project will make use of only actively supported components whenever possible.
 
@@ -22,7 +22,7 @@ PCBs Received. Initial inspection is good.
 
 There are issues with the placement of most slots on the Revision 0 PCB. Working on next revision.
 
-May 16, 2021 - Revision 1 complete. After some double checks, it will submitted for fabrication.
+May 16, 2021 - Revision 1 complete. Submitted for fabrication.
 
 ## Project Goals
 1. Enter Amiga 2000 Rev 6.4 schematics into KiCad, including all known A2000 Rev 6.x PCB updates.
@@ -43,7 +43,7 @@ See information [here](userguide.md).
 
 ## Changes from the original Amiga 2000
 ### Video
-The most obvious difference is removing the DB23 video connector in favor of the HD15 connector. One of the goals of this project is to avoid parts that are not commercially available. The D-Sub 23 connector is a prime example. They are not stocked at popular electronic supply houses. Thus, the change to the widely available HD15 connector. The analog RGB outpus along with HSYNC and VSYNC are supplied using the VGA standard pin out configuration. Any VGA cable can be used to supply the video signal to a VGA monitor supporting the 15KHz standard, or widely available VGA conversion boxes. All other external video signals are not supplied to the HD15 connector. These missing signals were intended to support external Genlocks, video editors, etc, among other hardware.
+The most obvious difference is removing the DB23 video connector in favor of the HD15 connector. One of the goals of this project is to avoid parts that are not commercially available. The D-Sub 23 connector is a prime example. They are not stocked at popular electronic supply houses. Thus, the change to the widely available HD15 connector. The analog RGB outpus along with HSYNC and VSYNC are supplied using the VGA standard pin out configuration. Any VGA cable can be used to supply the video signal to a VGA monitor or conversion box supporting the 15KHz standard. All other external video signals are not supplied to the HD15 connector. These missing signals were intended to support external genlocks, video editors, etc, among other hardware.
 
 The internal video slot is complete with all signals.
 
