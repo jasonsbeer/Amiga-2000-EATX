@@ -1055,4 +1055,50 @@ F 3 "~" H 9900 3500 50  0001 C CNN
 	1    9900 3500
 	0    1    1    0   
 $EndComp
+$Comp
+L Connector:Conn_01x03_Male J9003
+U 1 1 60AB20F4
+P 6500 3500
+F 0 "J9003" H 6472 3478 50  0000 R CNN
+F 1 "Fan Header" H 6472 3523 50  0001 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6500 3500 50  0001 C CNN
+F 3 "~" H 6500 3500 50  0001 C CNN
+	1    6500 3500
+	-1   0    0    1   
+$EndComp
+NoConn ~ 6300 3400
+$Comp
+L power:GND #PWR?
+U 1 1 60AC5C20
+P 6300 3600
+F 0 "#PWR?" H 6300 3350 50  0001 C CNN
+F 1 "GND" H 6305 3427 50  0000 C CNN
+F 2 "" H 6300 3600 50  0001 C CNN
+F 3 "" H 6300 3600 50  0001 C CNN
+	1    6300 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 3500 6150 3500
+$Comp
+L power:+12V #PWR?
+U 1 1 60ACBAE9
+P 6150 3500
+F 0 "#PWR?" H 6150 3350 50  0001 C CNN
+F 1 "+12V" H 6165 3673 50  0000 C CNN
+F 2 "" H 6150 3500 50  0001 C CNN
+F 3 "" H 6150 3500 50  0001 C CNN
+	1    6150 3500
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	6000 2950 6000 4500
+Wire Notes Line
+	6000 4500 8000 4500
+Wire Notes Line
+	8000 4500 8000 2950
+Wire Notes Line
+	8000 2950 6000 2950
+Text Notes 6100 3150 0    118  ~ 0
+FAN HEADERS
 $EndSCHEMATC

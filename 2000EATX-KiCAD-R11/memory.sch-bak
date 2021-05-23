@@ -1819,23 +1819,23 @@ F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 11450 4050 50  0001 C CNN
 	1    11450 4050
 	1    0    0    -1  
 $EndComp
-Text Label 12400 3950 2    50   ~ 0
-DRAB0
-Text Label 12400 4050 2    50   ~ 0
-DRAB1
-Text Label 12400 4150 2    50   ~ 0
-DRAB2
-Text Label 12400 4250 2    50   ~ 0
-DRAB3
 Text Label 12400 4350 2    50   ~ 0
-DRAB4
+DRAB0
 Text Label 12400 4450 2    50   ~ 0
-DRAB5
+DRAB1
 Text Label 12400 4550 2    50   ~ 0
-DRAB6
+DRAB2
 Text Label 12400 4650 2    50   ~ 0
-DRAB7
+DRAB3
 Text Label 12400 4750 2    50   ~ 0
+DRAB4
+Text Label 12400 4250 2    50   ~ 0
+DRAB5
+Text Label 12400 4150 2    50   ~ 0
+DRAB6
+Text Label 12400 4050 2    50   ~ 0
+DRAB7
+Text Label 12400 3950 2    50   ~ 0
 DRAB8
 Wire Wire Line
 	12400 5000 12400 4850
@@ -1874,23 +1874,23 @@ Text Label 12400 2550 2    50   ~ 0
 _MRAS1
 Text Label 13100 2550 0    50   ~ 0
 _DRAS1
-Text Label 13100 3950 0    50   ~ 0
-DRAD0
-Text Label 13100 4050 0    50   ~ 0
-DRAD1
-Text Label 13100 4150 0    50   ~ 0
-DRAD2
-Text Label 13100 4250 0    50   ~ 0
-DRAD3
 Text Label 13100 4350 0    50   ~ 0
-DRAD4
+DRAD0
 Text Label 13100 4450 0    50   ~ 0
-DRAD5
+DRAD1
 Text Label 13100 4550 0    50   ~ 0
-DRAD6
+DRAD2
 Text Label 13100 4650 0    50   ~ 0
-DRAD7
+DRAD3
 Text Label 13100 4750 0    50   ~ 0
+DRAD4
+Text Label 13100 4250 0    50   ~ 0
+DRAD5
+Text Label 13100 4150 0    50   ~ 0
+DRAD6
+Text Label 13100 4050 0    50   ~ 0
+DRAD7
+Text Label 13100 3950 0    50   ~ 0
 DRAD8
 Wire Wire Line
 	11050 4500 11050 4700
