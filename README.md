@@ -25,7 +25,7 @@ There are issues with the placement of most slots on the Revision 0 PCB. Working
 May 16, 2021 - Revision 1 complete. Submitted for fabrication.
 
 ## Project Goals
-1. Enter Amiga 2000 Rev 6.4 schematics into KiCad, including all known A2000 Rev 6.x PCB updates.
+1. Enter Amiga 2000 Rev 6.2 schematics into KiCad, including all known A2000 Rev 6.x PCB updates.
 2. When possible, replace end of life components with suitable alternatives that are commercially available.
 3. Layout and route components using the ATX standard as a guide.
 4. Test it and make sure it works.
