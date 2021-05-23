@@ -18,7 +18,7 @@ J301|DF1 Presence|Place jumper when using two internal disk drives
 J900|Chip RAM DMA Slowdown|Place jumper (factory default)
 J9001|Reset|Attach EATX case reset switch
 J9002|Power LED|Attach EATX case power LED
-J9003|Case Fam|Supports 12V cooling fan
+J9003|Case Fan|Attach 12V cooling fan
 J9100|Power Switch|Attach EATX case power switch
 
 ## Connecting your Amiga 2000 EATX
