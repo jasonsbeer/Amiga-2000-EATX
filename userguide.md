@@ -10,6 +10,9 @@ As you can see, full length Zorro II and coprocessor PICs exceed the maximum dep
 
 For the purposes of testing, the Phanteks Enthoo EATX case was used and will accomodate full length Amiga 2000 PICs. The lower two drive bays are removable and were removed to create extra space. This case is able to accomodate the A2630 coprocessor and A2090 SCSI/MFM Zorro II PICs. Both are full length.
 
+## Coprocessor and Video Slot Plug In Cards
+The Amiga 2000 used a proprietary bracket for the coprocessor and video slot cards. These brackets are not compatable with standard card slot brackets. It is recommended you obtain, or create, a bracket adapter to accomodate the difference. I have supplied STL files so that you can print and adapter or replacement brackets for specific plug in cards. You can find the STL files here [THIS IS A WORK IN PROGRESS. THE FILES ARE NOT YET AVAILABLE](/STL/). Please note that Zorro II plug in card brackets do not require any modification.
+
 ## Jumper Settings
 Jumper|Description|Detail
 -|-|-
