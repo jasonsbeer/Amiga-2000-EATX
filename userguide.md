@@ -22,15 +22,17 @@ J9003|Case Fan|Attach 12V cooling fan
 J9100|Power Switch|Attach EATX case power switch
 
 ## Connecting your Amiga 2000 EATX
-You will need a computer case that will accept EATX boards as well as an ATX power supply. Connect the Amiga 2000 EATX as you would any other ATX board.
+You will need a computer case that will accept EATX boards as well as an ATX power supply (see Case Considerations, above). Connect the Amiga 2000 EATX as you would any other ATX board.
 
 1. Ensure the power supply is not plugged in.
-2. Attach the ATX power supply connection to the power connector on the computer board.
-3. Attach the case power button, reset switch, and power LED to J9000, J9001, and J9002, respectively.
-4. Attach floppy drive(s) with the appropriate ribbon cable to CN303, noting pin 1.
-5. Attach power supply connections to any peripherals.
-6. Attach keyboard, mouse, and 15KHz video.
-7. Power up system.
+2. Mount the Amiga 2000 EATX mother board to the case.
+3. Attach the ATX power supply connection to the power connector on the computer board.
+4. Attach the case power button, reset button, and power LED to J9100, J9001, and J9002, respectively.
+5. Attach case fan to J9003.
+6. Attach floppy drive(s) with the appropriate ribbon cable to CN303, noting pin 1.
+7. Attach power supply connections to any peripherals.
+8. Attach keyboard, mouse, and 15KHz video.
+9. Power up system.
 
 ## Connectors/Ports
 The Amiga 2000 EATX is intended to be used with legacy Amiga keyboards and mice. In the event you do not have those, there are options to use PC mice and keyboards. Discussion of those options is not in the scope of this project or document. A search of Amiga specific community sites will yield useful information in that regard.
