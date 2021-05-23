@@ -6,9 +6,9 @@ Here you will find basic information on setting up your Amiga 2000 EATX computer
 ## Case Considerations
 When selecting a case, considerations must be made for accomodating full size PICs. The Amiga 2000 EATX motherboard is 12x13 inches (305 × 330 mm) in size and will fit in any EATX or ATX case with sufficient room for this size PCB. However, full length plug in cards (PICs) for the Amiga 2000 are very large by today's standards. Zorro II PICs are up to 337.19mm in length, Coprocessor cards up to 356 mm in length, and video slot PICs up to 210mm (see [Amiga 500 and 2000 Technical Reference Manual](/DataSheets/Amiga_A500_A2000_Technical_Reference_Manual_1987.pdf)). 
 
-As you can see, full length Zorro II and Coprocessor PICs exceed the depth of the EATX specification. It is recommended you consider a case that has additional space between the "front" of the PCB and the case in the area of the slots. This will allow additional room to accomodate full length PICs. Many EATX cases are already quite large, but may have premanent drive bays that conflict with PICs. If the case has removable drive bays or an open area, you should be fine.
+As you can see, full length Zorro II and Coprocessor PICs exceed the depth of the EATX specification. It is recommended you consider a case that has additional space between the "front" of the PCB and the case in the solt area. This will allow room to accomodate full length PICs. EATX cases are already quite large, but may have premanent drive bays that conflict with full length PICs. If the case has removable drive bays or an open area, you should be fine.
 
-For the purposes of testing, the Phanteks Enthoo case was used and can accomodate full length PICs. The lower two drive bays were removed to create extra space and was able to accomodate the A2630 coprocessor and A2090 SCSI/MFM Zorro II PICs. Both are full length.
+For the purposes of testing, the Phanteks Enthoo EATX case was used and can accomodate full length Amiga 2000 PICs. The lower two drive bays were removed to create extra space and was able to accomodate the A2630 coprocessor and A2090 SCSI/MFM Zorro II PICs. Both are full length.
 
 ## Jumper Settings
 Jumper|Description|Detail
