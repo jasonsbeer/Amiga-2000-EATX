@@ -3,15 +3,22 @@ Under construction.
 
 Here you will find basic information on setting up your Amiga 2000 EATX computer. The process to assemble the Amiga 2000 EATX computer system is nearly identical to assembling any other ATX-based computer system. 
 
+## Case Considerations
+When selecting a case, considerations must be made for accomodating full size PICs. The Amiga 2000 EATX motherboard is 12x13 inches (305 × 330 mm) in size and will fit in any EATX or ATX case with sufficient room for this size PCB. However, full length plug in cards (PICs) for the Amiga 2000 are very large by today's standards. Zorro II PICs are up to 337.19mm in length, Coprocessor cards up to 356 mm in length, and video slot PICs up to 210mm (see [Amiga 500 and 2000 Technical Reference Manual](/DataSheets/Amiga_A500_A2000_Technical_Reference_Manual_1987.pdf)). 
+
+As you can see, full length Zorro II and Coprocessor PICs exceed the depth of the EATX specification. It is recommended you consider a case that has additional space between the "front" of the PCB and the case in the area of the slots. This will allow additional room to accomodate full length PICs. Many EATX cases are already quite large, but may have premanent drive bays that conflict with PICs. If the case has removable drive bays or an open area, you should be fine.
+
+For the purposes of testing, the Phanteks Enthoo case was used and can accomodate full length PICs. The lower two drive bays were removed to create extra space and was able to accomodate the A2630 coprocessor and A2090 SCSI/MFM Zorro II PICs. Both are full length.
+
 ## Jumper Settings
 Jumper|Description|Detail
 -|-|-
 J102|NTSC/PAL Timing|Place jumper when using an NTSC oscillator
 J301|DF1 Presence|Place jumper when using two internal disk drives
-J900|Chip RAM DMA Slowdown|Place jumper (factory default). No idea what this is intended for.
-J9000|Power Switch|Attach EATX case power switch
+J900|Chip RAM DMA Slowdown|Place jumper (factory default)
 J9001|Reset|Attach EATX case reset switch
 J9002|Power LED|Attach EATX case power LED
+J9100|Power Switch|Attach EATX case power switch
 
 ## Connecting your Amiga 2000 EATX
 You will need a computer case that will accept EATX boards as well as an ATX power supply. Connect the Amiga 2000 EATX as you would any other ATX board.
