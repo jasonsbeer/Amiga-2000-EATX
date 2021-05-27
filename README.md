@@ -30,6 +30,9 @@ May 16, 2021 - Revision 1 complete. Submitted for fabrication.
 3. Layout and route components using the ATX standard as a guide.
 4. Test it and make sure it works.
 
+## User Guide and Considerations
+Review [this information](userguide.md) to ensure a smooth and happy experience when assembling an Amiga 2000 EATX system. It will answer many questions and inform you as to the physical requirements of the Amiga 2000 EATX PCB, various Amiga plug in cards, etc.
+
 ## Ordering PCBs
 See information [here](PCB.md). 
 
@@ -43,20 +46,20 @@ See information [here](userguide.md).
 
 ## Changes from the original Amiga 2000
 ### Video
-The most obvious difference is removing the DB23 video connector in favor of the HD15 connector. One of the goals of this project is to avoid parts that are not commercially available. The D-Sub 23 connector is a prime example. They are not stocked at popular electronic supply houses. Thus, the change to the widely available HD15 connector. The analog RGB outpus along with HSYNC and VSYNC are supplied using the VGA standard pin out configuration. Any VGA cable can be used to supply the video signal to a VGA monitor or conversion box supporting the 15KHz standard. All other external video signals are not supplied to the HD15 connector. These missing signals were intended to support external genlocks, video editors, etc, among other hardware.
+The DB23 video connector has been removed in favor of the HD15 connector. One of the goals of this project is to avoid parts that are not commercially available. The D-Sub 23 connector is a prime example. They are not stocked at popular electronic supply houses. Thus, the change to the widely available HD15 connector. The analog RGB outpus along with HSYNC and VSYNC are supplied using the VGA standard pin out configuration. Any VGA cable can be used to supply the video signal to a VGA monitor or conversion box supporting the 15KHz standard. All other external video signals are not supplied to the HD15 connector. These missing signals were intended to support external genlocks, video editors, etc, among other hardware.
 
 The internal video slot is complete with all signals.
 
 The external composite video jack has been removed.
 
 ### Memory
-The original 256k x 4 DRAMs have been replaced by a single SRAM. The 2000 EATX is permanently configured to recognize 1MB chip ram and requires Fatter Agnus (MOS 8372A). Other Agnus revisions are not supported at this time.
+The original 256Kx4 DRAMs have been replaced by a single SRAM. The 2000 EATX is permanently configured to recognize 1MB chip ram and requires Fatter Agnus (MOS 8372A). Other Agnus revisions are not supported at this time.
 
 ### Audio Output
-The original left/right RCA jacks of the Amiga have been replaced by a 3.5mm stereo audio jack.
+The left/right RCA jacks of the Amiga have been replaced by a 3.5mm stereo audio jack.
 
 ### Disk Drive Support
-The external disk drive port has been removed. Internally, any Amiga compatable double density disk drive is supported. Up to two internal disk drives may be connected to the internal floppy connector. 
+Internally, any Amiga compatable double density disk drive is supported. Up to two internal disk drives may be connected to the internal floppy connector. The external disk drive port has been removed.
 
 ### ISA Slots
 The number of 16 bit ISA slots has been reduced to three. This was done to provide additional space on the board. Support for ISA cards via a Bridgeboard is unchanged from the Amiga 2000.
@@ -97,9 +100,11 @@ Rev 1
 2. Moved ATX On/Off circuit to back of board
    
 ## Acknowledgments
-kr239 - Amiga 500 DRAM replacement - https://github.com/kr239/A500-SRAM-Board
+kr239 - for the Amiga 500 DRAM replacement project (https://github.com/kr239/A500-SRAM-Board) and LIV2 and texneus for making it work.
 
 iansbremmer - Amiga IC KiCad footprints - https://github.com/iansbremner/ReAmiga-3000---KiCAD
 
 skiselev - ATX Power On/Off Circuit - https://github.com/skiselev/isa8_backplane
+
+DarrenHD - Pics and measurements of the Amiga 3000 video slot bracket adapter - https://eab.abime.net/showthread.php?t=106928
 
