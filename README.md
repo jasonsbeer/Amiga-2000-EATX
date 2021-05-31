@@ -10,7 +10,9 @@ In addition to a new board replacement option, I believe the ubiquitous (E)ATX s
 ## Project Status
 This project is in the proof of concept stage. It may work...or maybe not. There may be errors in the schematics or this text. Once the prototype boards are received and assembled, I will correct any discovered issues and update the appropriate drawings. Once things are proven to be working, I will release the Gerber files. In the meantime, you are welcome to review the KiCAD files and follow this project.
 
-May 30, 2021 - Revision 1.0 board is mostly assembled and currently being evaluating. Finding some issues and making fixes for the next revision.
+May 30, 2021 - Revision 1.0 board is mostly assembled and being evaluated. Finding some issues and making fixes for the next revision. Getting a green screen, but making progress.
+
+<img src="/Images/Green.jpg" width="250">
 
 ## Project Goals
 1. Enter Amiga 2000 Rev 6.2 schematics into KiCad, including all known A2000 Rev 6.x PCB updates.
