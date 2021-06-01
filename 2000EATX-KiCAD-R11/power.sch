@@ -1086,5 +1086,19 @@ Wire Notes Line
 Text Notes 6100 3150 0    118  ~ 0
 FAN HEADERS
 Wire Wire Line
-	9800 3700 9800 4100
+	9800 3700 9800 3900
+$Comp
+L Mechanical:MountingHole_Pad H9
+U 1 1 60B60FCB
+P 9900 3900
+F 0 "H9" V 9900 4050 50  0000 L CNN
+F 1 "MountingHole_Pad" V 9945 4050 50  0001 L CNN
+F 2 "AmigaFootprints:MountingHole_Pad" H 9900 3900 50  0001 C CNN
+F 3 "~" H 9900 3900 50  0001 C CNN
+	1    9900 3900
+	0    1    1    0   
+$EndComp
+Connection ~ 9800 3900
+Wire Wire Line
+	9800 3900 9800 4100
 $EndSCHEMATC
