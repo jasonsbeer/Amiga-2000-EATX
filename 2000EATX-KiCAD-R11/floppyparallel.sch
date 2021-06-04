@@ -1419,17 +1419,6 @@ Wire Wire Line
 Wire Wire Line
 	12500 5500 12850 5500
 $Comp
-L Transistor_BJT:2N3904 Q301
-U 1 1 60D03916
-P 13650 5500
-F 0 "Q301" H 13841 5546 50  0000 L CNN
-F 1 "MMBT3906" H 13841 5455 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 13850 5425 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 13650 5500 50  0001 L CNN
-	1    13650 5500
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0371
 U 1 1 60D096A6
 P 13750 5700
@@ -2109,4 +2098,15 @@ Wire Wire Line
 Connection ~ 11000 6000
 Wire Wire Line
 	850  6400 2300 6400
+$Comp
+L Transistor_BJT:MMBT3906 Q301
+U 1 1 60EC67CE
+P 13650 5500
+F 0 "Q301" H 13841 5546 50  0000 L CNN
+F 1 "MMBT3906" H 13841 5455 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 13850 5425 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf" H 13650 5500 50  0001 L CNN
+	1    13650 5500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

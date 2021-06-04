@@ -1465,18 +1465,6 @@ F 3 "~" H 9200 6100 50  0001 C CNN
 	1    9200 6100
 	1    0    0    -1  
 $EndComp
-$Comp
-L Transistor_BJT:2N3906 Q202
-U 1 1 606A3F54
-P 10650 5750
-F 0 "Q202" H 10841 5704 50  0000 L CNN
-F 1 "MMBT3906" H 10841 5795 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 10850 5675 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf" H 10650 5750 50  0001 L CNN
-F 4 "MMBT3906-7-F" H 10650 5750 50  0001 C CNN "Part"
-	1    10650 5750
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	10850 5750 11000 5750
 $Comp
@@ -2139,4 +2127,15 @@ Wire Wire Line
 	6550 1050 8050 1050
 Wire Wire Line
 	6550 1350 7450 1350
+$Comp
+L Transistor_BJT:MMBT3906 Q202
+U 1 1 60E68FB6
+P 10650 5750
+F 0 "Q202" H 10841 5704 50  0000 L CNN
+F 1 "MMBT3906" H 10841 5795 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 10850 5675 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf" H 10650 5750 50  0001 L CNN
+	1    10650 5750
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
