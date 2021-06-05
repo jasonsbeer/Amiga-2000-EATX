@@ -13,7 +13,7 @@ For the purposes of testing, the Phanteks Enthoo EATX case was used and will acc
 ## Coprocessor and Video Slot Plug In Cards
 The Amiga 2000 used a proprietary bracket for the coprocessor and video slot cards. These brackets are not compatable with standard card slot brackets. It is recommended you obtain, or create, a bracket adapter to accomodate the difference. I have supplied STL files so that you can print and adapter or replacement brackets for specific plug in cards. You can find the STL files here [THIS IS A WORK IN PROGRESS](/STL/). Please note that Zorro II plug in card brackets are standard brackets and do not require modification.
 
-<b>Special note on the A26x0 coprocessor cards:</b> These cards have a RAM expansion connector on the non-component side of the card. In the event you have this card, especially with a RAM expansion unit, it may interfere with the placement a video card. 
+<b>Special note on the A26x0 coprocessor cards:</b> These cards have a RAM expansion connector on the non-component side of the card. In the event you have this card, especially with a RAM expansion unit, it may interfere with the placement of a video card. 
 
 ## Jumper Settings
 Jumper|Description|Detail
