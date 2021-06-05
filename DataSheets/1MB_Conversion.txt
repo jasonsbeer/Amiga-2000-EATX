@@ -4,4 +4,4 @@ To convert an Amiga 2000 to 1MB chip ram with the 8372A Fatter Agnus.
 
 1) J101 - Set to short pins 2 and 3 (default is pins 1 and 2, which is 512k chip ram)
 2) J500 - Cut
-3) J102 - Cut
+3) J102 - Cut on PAL machines only
