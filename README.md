@@ -89,9 +89,15 @@ If something is not specifically mentioned, you should expect it to be unchanged
 ## Revision History
 Rev 0 - Prototype board
 
-Rev 1 
+Rev 1.0
 1. Adjusted postion of slots and several other components
 2. Moved ATX On/Off circuit to back of board
+   
+Rev 1.1
+1. New ATX on/off circuit
+2. Modified SRAM circuit
+3. Added case fan header
+4. Cleaned up silk screen
    
 ## Acknowledgments
 kr239 - for the Amiga 500 DRAM replacement project (https://github.com/kr239/A500-SRAM-Board) and LIV2 and texneus for the modifications used in this project.
