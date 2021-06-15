@@ -5,7 +5,7 @@ There are one-to-one board replacement projects for the Amiga 2000, but none to 
 
 In addition to a new board replacement option, I believe the ubiquitous (E)ATX standard will bring additional interest to the Amiga as a hobbyist and retro-computing option. At the time or writting this, the Amiga operating system is still actively developed and supported. In addition, there is a substantial database of existing software and hardware add-on options and a very active community.
 
-<img src="/Images/A2000EATX.png" width="500">
+<img src="/Images/rev11.png" width="500">
 
 ## Project Status
 This project is in the proof of concept stage. It may work...or maybe not. There may be errors in the schematics or this text. Once the prototype boards are received and assembled, I will correct any discovered issues and update the appropriate drawings. Once things are proven to be working, I will release the Gerber files. In the meantime, you are welcome to review the KiCAD files and follow this project.
@@ -15,6 +15,8 @@ May 30, 2021 - Revision 1.0 board is mostly assembled and being evaluated. Findi
 June 4, 2021 - I have gone about as far as I can with Rev 1.0. I am going to take a few days to finalize the next revision.
 
 <img src="/Images/Green.jpg" width="250">
+
+June 14, 2021 - Revision 1.1 submitted for fabrication.
 
 ## Project Goals
 1. Enter Amiga 2000 Rev 6.2 schematics into KiCad, including all known A2000 Rev 6.x PCB updates.
@@ -96,7 +98,7 @@ kr239 - for the Amiga 500 DRAM replacement project (https://github.com/kr239/A50
 
 iansbremmer - Amiga IC KiCad footprints - https://github.com/iansbremner/ReAmiga-3000---KiCAD
 
-skiselev - ATX Power On/Off Circuit - https://github.com/skiselev/isa8_backplane
+texneus - ATX ON/OFF circuit
 
 DarrenHD - Pics and measurements of the Amiga 3000 video slot bracket adapter - https://eab.abime.net/showthread.php?t=106928
 
