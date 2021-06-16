@@ -34,10 +34,6 @@ See information [here](PCB.md).
 
 See information [here](AssemblyNotes.md).
 
-## Setting up the Amiga 2000 EATX
-
-See information [here](userguide.md).
-
 ## Changes from the original Amiga 2000
 ### Video
 The DB23 video connector has been removed in favor of the HD15 connector. One of the goals of this project is to avoid parts that are not commercially available. The D-Sub 23 connector is a prime example. They are not stocked at popular electronic supply houses. Thus, the change to the widely available HD15 connector. The analog RGB outpus along with HSYNC and VSYNC are supplied using the VGA standard pin out configuration. Any VGA cable can be used to supply the video signal to a VGA monitor or conversion box supporting the 15KHz standard. All other external video signals are not supplied to the HD15 connector. These missing signals were intended to support external genlocks, video editors, etc, among other hardware.
