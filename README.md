@@ -93,7 +93,9 @@ Rev 1.1
 1. New ATX on/off circuit
 2. Modified SRAM circuit
 3. Added case fan header
-4. Cleaned up silk screen
+4. Fixed U100 footprint
+5. Moved some components
+6. Cleaned up silk screen
    
 ## Acknowledgments
 kr239 - for the Amiga 500 DRAM replacement project (https://github.com/kr239/A500-SRAM-Board) and LIV2 and texneus for the modifications used in this project.
