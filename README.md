@@ -36,7 +36,7 @@ See information [here](AssemblyNotes.md).
 
 ## Changes from the original Amiga 2000
 ### Video
-The DB23 video connector has been removed in favor of the HD15 connector. One of the goals of this project is to avoid parts that are not commercially available. The D-Sub 23 connector is a prime example. They are not stocked at popular electronic supply houses. Thus, the change to the widely available HD15 connector. The analog RGB outpus along with HSYNC and VSYNC are supplied using the VGA standard pin out configuration. Any VGA cable can be used to supply the video signal to a VGA monitor or conversion box supporting the 15KHz standard. All other external video signals are not supplied to the HD15 connector. These missing signals were intended to support external genlocks, video editors, etc, among other hardware.
+The DB23 video connector has been removed in favor of the HD15 connector. One of the goals of this project is to avoid parts that are not commercially available. The D-Sub 23 connector is a prime example. They are not stocked at popular electronic supply houses. Thus, the change to the widely available HD15 connector. Analog red, green, blue, HSYNC, and VSYNC are supplied using the VGA standard pin out configuration. Other external video port signals are not supplied. Any VGA cable can be used to supply the video signal to a VGA monitor or conversion box supporting the 15KHz standard. 
 
 The internal video slot is complete with all signals.
 
@@ -93,7 +93,7 @@ Rev 1.1
 1. New ATX on/off circuit
 2. Modified SRAM circuit
 3. Added case fan header
-4. Fixed U100 footprint
+4. Fixed U100 and other footprints
 5. Moved some components
 6. Cleaned up silk screen
    
