@@ -12,9 +12,7 @@ Notes:
 
 ## Where To Get Amiga Custom ICs and Legacy Parts
 
-The best source of parts for this project is a dead or dying Amiga 2000 board. Otherwise, many of the Amiga legacy IC's and parts can be obatined from various internet suppliers. The only exception seems to be Buster. It is very difficult to find. Beware the original Buster revision (318075-01) has a buffering error and cannot be used without a "Buster Tower". Be sure to use the one specifically listed in Table A1 or build a replacement option.
-
-Likewise, be sure to obtain the correct CIA 8520A part numbers. The "A" or "A1" version is for the Amiga. The non-"A" 8520 version was used in Commodore 8-bit hardware.
+The best source of parts for this project is a dead or dying Amiga 2000 board. Otherwise, many of the Amiga legacy IC's and parts can be obatined from various internet suppliers. Unfortunately, Buster (MOS 5721) can be difficult to find. Beware the original Buster revision (318075-01) has a buffering error and cannot be used without a "Buster Tower". Be sure to use the one specifically listed in Table A1 or build a replacement option.
 
 You will need an oscillator installed at X1 or X2 to generate a clock signal. You can find 5V TTL oscillators from various legacy suppliers in the 14-DIP format. In the event you cannot find one, you can use a 3.3V CMOS oscillator of the same frequency in position X2. See Table A1. Do not populate both X1 and X2.
 
