@@ -67,7 +67,7 @@ Buster|MOS 5721/318075-02|U800|DIP-48|[Bluster](https://github.com/LIV2/Bluster)
 Kickstart|Commodore ROM or Burned 27C400/V1.2+|U500|DIP-40|Various Amiga suppliers sell ROMs ready to use
 Video Hybrid|Commodore 390229-0x|HY200|SIP-22|[Video Hybrid](https://github.com/SukkoPera/OpenAmigaVideoHybrid)
 Real Time Clock|RTC-62423|U801|SOP-24|
-28.636363 MHz Oscillator|NTSC Oscillator, 5V TTL|X1|DIP-14|Populate X2 with a 5.0x3.2mm footprint 3.3V CMOS oscillator
-28.37516 MHz Oscillator|PAL Oscillator, 5V TTL|X1|DIP-14|Populate X2 with a 5.0x3.2mm footprint 3.3V CMOS oscillator
+28.636363 MHz Oscillator|NTSC Oscillator, 5V TTL|X1|DIP-14|Alternatively, populate X2 with a 5.0x3.2mm footprint 3.3V CMOS oscillator
+28.37516 MHz Oscillator|PAL Oscillator, 5V TTL|X1|DIP-14|Alternatively, populate X2 with a 5.0x3.2mm footprint 3.3V CMOS oscillator
 
 *Commodore IC's may be marked "MOS" or "CSG", or possibly neither in the case of contract runs. These are interchangeable by part number.
