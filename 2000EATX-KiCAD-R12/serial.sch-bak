@@ -805,14 +805,6 @@ F 3 "" H 10750 7300 50  0001 C CNN
 	1    10750 7300
 	1    0    0    -1  
 $EndComp
-Text Label 11500 5250 2    50   ~ 0
-TxD
-Text Label 11500 5450 2    50   ~ 0
-RxD
-Text Label 11500 5650 2    50   ~ 0
-RTS
-Text Label 11500 6050 2    50   ~ 0
-DSR
 Wire Wire Line
 	11500 5050 11500 4700
 Wire Wire Line
@@ -828,14 +820,6 @@ F 3 "" H 12200 4700 50  0001 C CNN
 	1    12200 4700
 	1    0    0    -1  
 $EndComp
-Text Label 11500 5850 2    50   ~ 0
-CTS
-Text Label 11500 6250 2    50   ~ 0
-DG
-Text Label 11500 6450 2    50   ~ 0
-CD
-Text Label 12100 6350 0    50   ~ 0
-DTR
 Wire Wire Line
 	12100 6350 12400 6350
 Wire Wire Line
@@ -962,8 +946,6 @@ F 3 "" H 15600 6650 50  0001 C CNN
 	1    15600 6650
 	1    0    0    -1  
 $EndComp
-Text Label 12100 6750 0    50   ~ 0
-RI
 Wire Wire Line
 	14050 7150 14650 7150
 $Comp
@@ -1539,12 +1521,12 @@ $EndComp
 $Comp
 L power:GND #PWR0327
 U 1 1 60A7BF0B
-P 12250 2450
-F 0 "#PWR0327" H 12250 2200 50  0001 C CNN
-F 1 "GND" H 12255 2277 50  0000 C CNN
-F 2 "" H 12250 2450 50  0001 C CNN
-F 3 "" H 12250 2450 50  0001 C CNN
-	1    12250 2450
+P 12100 2450
+F 0 "#PWR0327" H 12100 2200 50  0001 C CNN
+F 1 "GND" H 12105 2277 50  0000 C CNN
+F 2 "" H 12100 2450 50  0001 C CNN
+F 3 "" H 12100 2450 50  0001 C CNN
+	1    12100 2450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1691,14 +1673,6 @@ NoConn ~ 12100 5750
 NoConn ~ 12100 5550
 NoConn ~ 12100 5350
 NoConn ~ 12100 5150
-Text Label 11500 6650 2    47   ~ 0
-+V
-Text Label 11500 6850 2    47   ~ 0
--V
-Text Label 11500 7050 2    47   ~ 0
-AO
-Text Label 12100 5950 0    47   ~ 0
-AI
 Wire Wire Line
 	8900 5950 10150 5950
 Wire Wire Line
@@ -1740,7 +1714,7 @@ $Comp
 L Device:R_Pack05_SIP_Split RN802
 U 4 1 6170D051
 P 12750 2650
-F 0 "RN802" V 12850 2650 50  0000 C CNN
+F 0 "RN802" V 12850 2700 50  0000 C CNN
 F 1 "1k" V 12750 2650 50  0000 C CNN
 F 2 "Resistor_THT:R_Array_SIP10" V 12670 2650 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 12750 2650 50  0001 C CNN
@@ -1908,4 +1882,6 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf" H 6400 1600 50  000
 	1    6400 1600
 	1    0    0    1   
 $EndComp
+Wire Wire Line
+	12100 2450 12250 2450
 $EndSCHEMATC
