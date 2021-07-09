@@ -581,8 +581,6 @@ Wire Wire Line
 Connection ~ 6850 1450
 Wire Wire Line
 	6850 1450 8850 1450
-Wire Wire Line
-	6850 1000 7550 1000
 $Comp
 L power:+5V #PWR0248
 U 1 1 60CF64E1
@@ -594,7 +592,6 @@ F 3 "" H 7550 1000 50  0001 C CNN
 	1    7550 1000
 	1    0    0    -1  
 $EndComp
-Connection ~ 7550 1000
 $Comp
 L 74xx:7400 U900
 U 3 1 60CF8B16
@@ -1387,4 +1384,15 @@ Wire Wire Line
 Connection ~ 2750 9800
 Text Notes 12300 9850 0    197  ~ 0
 Agnus\nAmiga 2000 EATX
+$Comp
+L power:+5V #PWR?
+U 1 1 60EBF4D7
+P 6850 1000
+F 0 "#PWR?" H 6850 850 50  0001 C CNN
+F 1 "+5V" H 6865 1173 50  0000 C CNN
+F 2 "" H 6850 1000 50  0001 C CNN
+F 3 "" H 6850 1000 50  0001 C CNN
+	1    6850 1000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

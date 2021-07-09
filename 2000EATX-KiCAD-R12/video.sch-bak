@@ -1635,4 +1635,8 @@ Wire Wire Line
 	12000 4300 12000 4150
 Wire Wire Line
 	12000 4300 12350 4300
+Text Notes 11650 5650 0    118  ~ 0
+COMPVID is composite video. The monochrome \ncomposite jack has been removed from this \nproject, but is still available on the video slot.
+Text Notes 11650 6150 0    118  ~ 0
+SYNC is the analog composite sync signal, \nwhich is different from _CSYNC or _COMPSYNC.
 $EndSCHEMATC

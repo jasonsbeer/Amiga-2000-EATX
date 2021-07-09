@@ -86,19 +86,6 @@ Text GLabel 1850 6200 0    50   Input ~ 0
 C3
 Text GLabel 1850 6450 0    50   Input ~ 0
 _RST
-Wire Wire Line
-	4300 6450 4300 6550
-$Comp
-L power:GND #PWR0257
-U 1 1 605A38FC
-P 4300 6550
-F 0 "#PWR0257" H 4300 6300 50  0001 C CNN
-F 1 "GND" H 4305 6377 50  0000 C CNN
-F 2 "" H 4300 6550 50  0001 C CNN
-F 3 "" H 4300 6550 50  0001 C CNN
-	1    4300 6550
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:C C210
 U 1 1 60596B2A
@@ -147,8 +134,6 @@ Wire Wire Line
 	4100 6250 4100 6450
 Connection ~ 4100 6450
 Wire Wire Line
-	4100 6450 4300 6450
-Wire Wire Line
 	3600 6350 3600 6450
 Connection ~ 3600 6450
 Wire Wire Line
@@ -179,10 +164,7 @@ Wire Wire Line
 	3150 6150 3150 5300
 Connection ~ 3150 5300
 Wire Wire Line
-	4300 6450 4600 6450
-Wire Wire Line
 	4600 6450 4600 6400
-Connection ~ 4300 6450
 $Comp
 L 74xx:74LS157 U202
 U 1 1 605B5C47
@@ -558,7 +540,7 @@ Wire Wire Line
 Connection ~ 10150 9950
 Wire Wire Line
 	10150 9950 10150 9750
-Text Notes 10250 10200 0    50   ~ 0
+Text Notes 9750 10300 0    79   ~ 0
 JUMPER 200 OMITTED AND FIXED \nTO "STANDARD" ("A500") CONFIGURATION
 Text GLabel 10400 9150 2    50   Output ~ 0
 _FIR0
@@ -2138,4 +2120,18 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf" H 10650 5750 50  00
 	1    10650 5750
 	-1   0    0    1   
 $EndComp
+$Comp
+L Amiga-Library:AUDIO #PWR?
+U 1 1 60EEDA6C
+P 4600 6450
+F 0 "#PWR?" H 4600 6200 50  0001 C CNN
+F 1 "AUDIO" H 4605 6277 50  0000 C CNN
+F 2 "" H 4600 6450 50  0001 C CNN
+F 3 "" H 4600 6450 50  0001 C CNN
+	1    4600 6450
+	1    0    0    -1  
+$EndComp
+Connection ~ 4600 6450
+Wire Wire Line
+	4100 6450 4600 6450
 $EndSCHEMATC
