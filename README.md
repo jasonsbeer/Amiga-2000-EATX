@@ -10,7 +10,7 @@ In addition to a new board replacement option, I believe the ubiquitous (E)ATX s
 ## Project Status
 This project is in the proof of concept stage. It may work...or maybe not. There may be errors in the schematics or this text. Once the prototype boards are received and assembled, I will correct any discovered issues and update the appropriate drawings. Once things are proven to be working, I will release the Gerber files. In the meantime, you are welcome to review the KiCAD files and follow this project.
 
-July 10, 2021 - LIFE! I have video output via a Pi HDMI card and Diagrom is running. There are still some issues to address.
+July 10, 2021 - LIFE! I have video output via a [Pi HDMI card](https://github.com/jasonsbeer/Amiga-HDMI-Through-Hole) and Diagrom is running. There are still some issues to address.
 
 <img src="/Images/rev11-work.jpg" width="250">
 
