@@ -200,38 +200,6 @@ F 3 "~" H 2800 4150 50  0001 C CNN
 	1    2800 4150
 	1    0    0    -1  
 $EndComp
-Text Label 5750 4250 0    50   ~ 0
-D0
-Text Label 5750 4350 0    50   ~ 0
-D1
-Text Label 5750 4450 0    50   ~ 0
-D2
-Text Label 5750 4550 0    50   ~ 0
-D3
-Text Label 5750 4650 0    50   ~ 0
-D4
-Text Label 5750 4750 0    50   ~ 0
-D5
-Text Label 5750 4850 0    50   ~ 0
-D6
-Text Label 5750 4950 0    50   ~ 0
-D7
-Text Label 5750 5050 0    50   ~ 0
-D8
-Text Label 5750 5150 0    50   ~ 0
-D9
-Text Label 5750 5250 0    50   ~ 0
-D10
-Text Label 5750 5350 0    50   ~ 0
-D11
-Text Label 5750 5450 0    50   ~ 0
-D12
-Text Label 5750 5550 0    50   ~ 0
-D13
-Text Label 5750 5650 0    50   ~ 0
-D14
-Text Label 5750 5750 0    50   ~ 0
-D15
 Wire Wire Line
 	4750 1650 4850 1650
 $Comp
@@ -509,38 +477,6 @@ Text Label 9350 4800 2    50   ~ 0
 DRD6
 Text Label 9350 4900 2    50   ~ 0
 DRD7
-Text Label 8400 4750 0    50   ~ 0
-DRD0
-Text Label 8400 4850 0    50   ~ 0
-DRD1
-Text Label 8400 4950 0    50   ~ 0
-DRD2
-Text Label 8400 5050 0    50   ~ 0
-DRD3
-Text Label 8400 5150 0    50   ~ 0
-DRD4
-Text Label 8400 5250 0    50   ~ 0
-DRD5
-Text Label 8400 5350 0    50   ~ 0
-DRD6
-Text Label 8400 5450 0    50   ~ 0
-DRD7
-Text Label 8400 2600 0    50   ~ 0
-DRD8
-Text Label 8400 2700 0    50   ~ 0
-DRD9
-Text Label 8400 2800 0    50   ~ 0
-DRD10
-Text Label 8400 2900 0    50   ~ 0
-DRD11
-Text Label 8400 3000 0    50   ~ 0
-DRD12
-Text Label 8400 3100 0    50   ~ 0
-DRD13
-Text Label 8400 3200 0    50   ~ 0
-DRD14
-Text Label 8400 3300 0    50   ~ 0
-DRD15
 Wire Wire Line
 	7300 4200 7150 4200
 Wire Wire Line

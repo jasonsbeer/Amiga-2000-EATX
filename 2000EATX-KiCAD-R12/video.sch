@@ -139,10 +139,10 @@ F 4 "ILHB1206ER750V" V 9100 4950 50  0001 C CNN "Part"
 	0    1    1    0   
 $EndComp
 $Comp
-L Amiga-Library:Amiga-2000-Video-Slot CN203
+L Amiga-Library:Amiga-2000-Video-Slot CN207
 U 1 1 605B0131
 P 3350 1850
-F 0 "CN203" V 3715 1775 50  0000 C CNN
+F 0 "CN207" V 3715 1775 50  0000 C CNN
 F 1 "Amiga-2000-Video-Slot" V 3624 1775 50  0000 C CNN
 F 2 "AmigaFootprints:2x18_P2.54mm_Horizontal" H 3300 1850 50  0001 C CNN
 F 3 "" H 3400 2250 50  0001 C CNN
@@ -150,10 +150,10 @@ F 3 "" H 3400 2250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Amiga-Library:Amiga-2000-Video-Slot CN201
+L Amiga-Library:Amiga-2000-Video-Slot CN203
 U 1 1 605B2844
 P 7900 1850
-F 0 "CN201" V 8265 1775 50  0000 C CNN
+F 0 "CN203" V 8265 1775 50  0000 C CNN
 F 1 "Amiga-2000-Video-Slot" V 8174 1775 50  0000 C CNN
 F 2 "AmigaFootprints:2x18_P2.54mm_Horizontal" H 7850 1850 50  0001 C CNN
 F 3 "" H 7950 2250 50  0001 C CNN
@@ -445,7 +445,7 @@ F 3 "~" H 10800 1300 50  0001 C CNN
 	1    10800 1300
 	0    1    1    0   
 $EndComp
-Text GLabel 10900 1300 2    50   Input ~ 0
+Text GLabel 10900 1300 2    50   Output ~ 0
 XCLK
 Wire Wire Line
 	9500 1750 9500 2050
@@ -730,8 +730,6 @@ Wire Wire Line
 	5500 3150 7400 3150
 Wire Wire Line
 	7500 1750 7500 3150
-Text Label 7500 2400 1    50   ~ 0
-_COMPSYNC
 Wire Wire Line
 	2350 4200 4200 4200
 Wire Wire Line
@@ -907,22 +905,6 @@ Wire Wire Line
 	4500 3550 3900 3550
 Wire Wire Line
 	3900 3550 3900 5100
-Text Label 5500 5850 0    50   ~ 0
-G3
-Text Label 5500 5950 0    50   ~ 0
-G2
-Text Label 5500 6050 0    50   ~ 0
-G1
-Text Label 5500 6150 0    50   ~ 0
-G0
-Text Label 5500 6250 0    50   ~ 0
-B3
-Text Label 5500 6350 0    50   ~ 0
-B2
-Text Label 5500 6450 0    50   ~ 0
-B1
-Text Label 5500 6550 0    50   ~ 0
-B0
 Wire Wire Line
 	5500 6550 5700 6550
 Wire Wire Line
@@ -1107,10 +1089,7 @@ F 3 "" H 5550 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5000 2550 5350 2550
-Wire Wire Line
 	5350 2550 5350 2450
-Connection ~ 5000 2550
 $Comp
 L Amiga-Library:+VID #PWR0200
 U 1 1 6152C59D
@@ -1157,14 +1136,6 @@ Wire Wire Line
 	8050 6100 8050 5500
 Wire Wire Line
 	8050 3200 8700 3200
-Text Label 5500 3250 0    50   ~ 0
-R3
-Text Label 5500 3350 0    50   ~ 0
-R2
-Text Label 5500 3450 0    50   ~ 0
-R1
-Text Label 5500 3550 0    50   ~ 0
-R0
 Wire Wire Line
 	5500 3550 5700 3550
 Wire Wire Line
@@ -1271,8 +1242,6 @@ Wire Wire Line
 Text Notes 11950 1790 0    118  ~ 0
 VIDIOT
 Wire Wire Line
-	4300 2550 5000 2550
-Wire Wire Line
 	4300 2550 4300 4150
 Text Label 1300 6600 2    47   ~ 0
 7M
@@ -1334,7 +1303,6 @@ Wire Wire Line
 	8000 850  8000 1850
 Wire Wire Line
 	7700 900  7700 1750
-Connection ~ 4300 2550
 $Comp
 L Device:R_Network05 RN205
 U 1 1 60E5EB32
@@ -1636,7 +1604,19 @@ Wire Wire Line
 Wire Wire Line
 	12000 4300 12350 4300
 Text Notes 11650 5650 0    118  ~ 0
-COMPVID is composite video. The monochrome \ncomposite jack has been removed from this \nproject, but is still available on the video slot.
-Text Notes 11650 6150 0    118  ~ 0
-SYNC is the analog composite sync signal, \nwhich is different from _CSYNC or _COMPSYNC.
+COMPVID is composite video. The composite \njack has been removed from this project, \nbut signal is still available on the video slot.
+Text Notes 7600 2150 1    47   ~ 0
+BLUE
+Text Notes 7200 2200 1    47   ~ 0
+GREEN
+Text Notes 6800 2100 1    47   ~ 0
+RED
+Wire Wire Line
+	5350 2550 5000 2550
+Wire Wire Line
+	5000 2550 4300 2550
+Connection ~ 5000 2550
+Connection ~ 4300 2550
+Text Label 7500 1950 3    39   ~ 0
+_COMPSYNC
 $EndSCHEMATC

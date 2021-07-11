@@ -626,7 +626,7 @@ VCDAC
 Text GLabel 850  2150 0    47   Input ~ 0
 _VC1
 Text GLabel 850  1800 0    47   Output ~ 0
-_COPCGF
+_COPCFG
 Text GLabel 850  2300 0    47   Output ~ 0
 _OVR
 Text GLabel 850  2400 0    47   Output ~ 0

@@ -144,18 +144,6 @@ Wire Wire Line
 Wire Wire Line
 	3500 8800 1100 8800
 Wire Wire Line
-	2800 6900 3650 6900
-Wire Wire Line
-	3650 6900 3650 9000
-Wire Wire Line
-	3650 9000 1100 9000
-Wire Wire Line
-	2800 6700 3850 6700
-Wire Wire Line
-	3850 6700 3850 9200
-Wire Wire Line
-	3850 9200 1100 9200
-Wire Wire Line
 	2800 6500 4050 6500
 Wire Wire Line
 	4050 6500 4050 9400
@@ -171,10 +159,6 @@ Text GLabel 1100 8600 0    50   Output ~ 0
 _SEL0
 Text GLabel 1100 8800 0    50   Output ~ 0
 _SEL1
-Text GLabel 1100 9000 0    50   Output ~ 0
-_SEL2
-Text GLabel 1100 9200 0    50   Output ~ 0
-_SEL3
 Text GLabel 1100 9400 0    50   Output ~ 0
 _MTR
 Wire Wire Line
@@ -1884,4 +1868,6 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf" H 6400 1600 50  000
 $EndComp
 Wire Wire Line
 	12100 2450 12250 2450
+NoConn ~ 2800 6900
+NoConn ~ 2800 6700
 $EndSCHEMATC
