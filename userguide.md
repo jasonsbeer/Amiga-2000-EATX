@@ -24,6 +24,7 @@ J900|Chip RAM DMA Slowdown|Place jumper (factory default)
 J9001|Reset|Attach EATX case reset switch
 J9002|Power LED|Attach EATX case power LED
 J9003|Case Fan|Attach 12V cooling fan
+J9004|HSYNC/COMPSYNC|Sends Composite Sync or HSYNC on video port
 J9100|Power Switch|Attach EATX case power switch
 
 ## Connecting your Amiga 2000 EATX
@@ -42,7 +43,10 @@ You will need a computer case that will accept EATX boards as well as an ATX pow
 ## Connectors/Ports
 The Amiga 2000 EATX is intended to be used with legacy Amiga keyboards and mice. In the event you do not have those, there are options to use PC mice and keyboards. Discussion of those options is not in the scope of this project or document. A search of Amiga specific community sites will yield useful information in that regard.
 
+### Video
 The video port supplies a 15KHz analog RGB signal via the HD15 connector. The pins are in the standard VGA configuration. Use a standard VGA cable to connect to a 15KHz compatable monitor or conversion box. See Table 1.
+
+Certain video adapters, such as the GBS 8220, require a composite sync signal instead of an HSYNC signal. If you are using such an adapter, you can provide composite sync on pin 13 of the video port by setting J9104. Set J9104 for HSYNC when using 15KHz compatble VGA monitors.
 
 more here....add pics of ports w/labels, etc...
 
@@ -58,6 +62,6 @@ Pin|Signal|Pin|Signal|Pin|Signal
 -|-|-|-|-|-
 1|Red|6|GND|11|NC
 2|Green|7|GND|12|NC
-3|Blue|8|GND|13|HSYNC
-4|NC|9|GND|14|VSYNC
+3|Blue|8|GND|13|HSYNC or COMPSYNC
+4|NC|9|NC|14|VSYNC
 5|GND|10|GND|15|NC
