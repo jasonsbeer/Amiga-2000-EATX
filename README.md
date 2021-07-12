@@ -14,6 +14,10 @@ July 10, 2021 - LIFE! I have video output via a [Pi HDMI card](https://github.co
 
 <img src="/Images/rev11-work.jpg" width="250">
 
+July 10, 2021 - A beautiful sight! After checking on some video issues, which turned out to be nothing, I had to chase down a random crash. Turned out to be a cold solder joint on a resistor tied to Gary. We are making positive progress!
+
+<img src="/Images/rev11-ks.jpg" width="250">
+
 ## Project Goals
 1. Enter Amiga 2000 Rev 6.2 schematics into KiCad, including all known A2000 Rev 6.x PCB updates.
 2. When possible, replace end of life components with suitable alternatives that are commercially available.
