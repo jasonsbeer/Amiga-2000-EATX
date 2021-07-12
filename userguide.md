@@ -46,7 +46,7 @@ The Amiga 2000 EATX is intended to be used with legacy Amiga keyboards and mice.
 ### Video
 The video port supplies a 15KHz analog RGB signal via the HD15 connector. The pins are in the standard VGA configuration. Use a standard VGA cable to connect to a 15KHz compatable monitor or conversion box.
 
-Certain video adapters, such as the GBS 8220, require a composite sync signal instead of an HSYNC signal. If you are using such an adapter, you can provide composite sync on pin 13 of the video port by setting J9104. Set J9104 for HSYNC when using 15KHz compatble VGA monitors. See Table 1.
+Certain video adapters, such as the GBS 8220, require a composite sync signal instead of an HSYNC signal. If you are using such an adapter, you can provide composite sync on pin 13 of the video port by setting J9104. Set J9104 for HSYNC when using 15KHz compatble VGA monitors or video adapters that support HSYNC and VSYNC. See Table 1.
 
 more here....add pics of ports w/labels, etc...
 
