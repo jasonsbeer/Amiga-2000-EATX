@@ -596,12 +596,12 @@ $Comp
 L 74xx:7400 U900
 U 3 1 60CF8B16
 P 6850 3900
-F 0 "U900" H 6850 3583 50  0000 C CNN
-F 1 "74HCT00" H 6850 3674 50  0000 C CNN
+F 0 "U900" H 6850 4250 50  0000 C CNN
+F 1 "74HCT00" H 6850 4150 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 6850 3900 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn7400" H 6850 3900 50  0001 C CNN
 	3    6850 3900
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L 74xx:7400 U900
@@ -614,17 +614,6 @@ F 3 "http://www.ti.com/lit/gpn/sn7400" H 7700 3800 50  0001 C CNN
 	4    7700 3800
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	7150 3800 7400 3800
-Wire Wire Line
-	6250 1850 7250 1850
-Wire Wire Line
-	7150 4000 7250 4000
-Wire Wire Line
-	7250 4000 7250 1850
-Connection ~ 7250 1850
-Wire Wire Line
-	7250 1850 8850 1850
 Wire Wire Line
 	5750 3700 5750 3900
 Wire Wire Line
@@ -1395,4 +1384,15 @@ F 3 "" H 6850 1000 50  0001 C CNN
 	1    6850 1000
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6250 1850 7150 1850
+Wire Wire Line
+	7150 4000 7400 4000
+Wire Wire Line
+	7400 4000 7400 3800
+Wire Wire Line
+	7150 3800 7150 1850
+Connection ~ 7150 1850
+Wire Wire Line
+	7150 1850 8850 1850
 $EndSCHEMATC

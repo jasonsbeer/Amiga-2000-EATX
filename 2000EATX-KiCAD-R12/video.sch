@@ -33,12 +33,6 @@ GREEN
 Text Label 8500 5150 2    47   ~ 0
 BLUE
 Wire Wire Line
-	8700 5800 10750 5800
-Wire Wire Line
-	10750 5800 10750 5150
-Wire Wire Line
-	10750 5150 10300 5150
-Wire Wire Line
 	9250 6100 10900 6100
 Wire Wire Line
 	10900 6100 10900 5350
@@ -53,17 +47,6 @@ F 1 "GND" H 9055 6127 50  0000 C CNN
 F 2 "" H 9050 6300 50  0001 C CNN
 F 3 "" H 9050 6300 50  0001 C CNN
 	1    9050 6300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0174
-U 1 1 607D21D2
-P 8500 6000
-F 0 "#PWR0174" H 8500 5750 50  0001 C CNN
-F 1 "GND" H 8505 5827 50  0000 C CNN
-F 2 "" H 8500 6000 50  0001 C CNN
-F 3 "" H 8500 6000 50  0001 C CNN
-	1    8500 6000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -448,9 +431,6 @@ $EndComp
 Text GLabel 10900 1300 2    50   Output ~ 0
 XCLK
 Wire Wire Line
-	9500 1750 9500 2050
-Connection ~ 9500 1750
-Wire Wire Line
 	5050 1850 5050 950 
 Wire Wire Line
 	4850 1850 4850 950 
@@ -607,7 +587,7 @@ R1
 Text GLabel 1750 950  1    50   Input ~ 0
 R0
 Text GLabel 950  1450 0    50   Input ~ 0
-TBASE
+_VSYNC
 $Comp
 L Amiga-Library:C_Small C915
 U 1 1 607FDC60
@@ -641,22 +621,6 @@ Wire Wire Line
 	1150 1450 1450 1450
 Text Label 9100 2050 3    50   ~ 0
 PIXELSW
-Wire Wire Line
-	9000 1850 9000 2050
-Connection ~ 9000 1850
-Wire Wire Line
-	8900 1750 8900 2050
-Text Label 8900 2050 3    50   ~ 0
-SYNC
-Wire Wire Line
-	8800 1850 8800 2050
-Connection ~ 8800 1850
-Wire Wire Line
-	8600 1850 8600 2050
-Connection ~ 8600 1850
-Wire Wire Line
-	8400 1850 8400 2050
-Connection ~ 8400 1850
 Text GLabel 7700 900  1    50   Output ~ 0
 _XCLKEN
 Wire Wire Line
@@ -729,7 +693,7 @@ M0H
 Wire Wire Line
 	5500 3150 7400 3150
 Wire Wire Line
-	7500 1750 7500 3150
+	7500 1750 7500 2850
 Wire Wire Line
 	2350 4200 4200 4200
 Wire Wire Line
@@ -962,13 +926,13 @@ $EndComp
 $Comp
 L Amiga-Library:C_Feedthrough EMI206
 U 1 1 6122A7AD
-P 8500 5900
-F 0 "EMI206" H 8500 6205 50  0000 C CNN
-F 1 "100pF" H 8500 6114 50  0000 C CNN
-F 2 "AmigaFootprints:C_1206_3216_Feedthrough" V 8500 5900 50  0001 C CNN
-F 3 "~" V 8500 5900 50  0001 C CNN
-	1    8500 5900
-	1    0    0    -1  
+P 10850 4600
+F 0 "EMI206" H 10850 4905 50  0000 C CNN
+F 1 "100pF" H 10850 4814 50  0000 C CNN
+F 2 "AmigaFootprints:C_1206_3216_Feedthrough" V 10850 4600 50  0001 C CNN
+F 3 "~" V 10850 4600 50  0001 C CNN
+	1    10850 4600
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	12350 8100 12150 8100
@@ -1152,21 +1116,6 @@ Text GLabel 5700 3450 2    50   Output ~ 0
 R1
 Text GLabel 5700 3550 2    50   Output ~ 0
 R0
-NoConn ~ 8400 2050
-NoConn ~ 8600 2050
-NoConn ~ 8800 2050
-NoConn ~ 9000 2050
-Text Label 8400 2050 3    50   ~ 0
-DI_(B0)
-Text Label 8600 2050 3    50   ~ 0
-DB_(B3)
-Text Label 8800 2050 3    50   ~ 0
-DG_(G3)
-Text Label 9000 2050 3    50   ~ 0
-DR_(R3)
-NoConn ~ 9500 2050
-Text Label 9500 2050 3    50   ~ 0
-_C1
 Text GLabel 10650 2700 2    50   Input ~ 0
 _HSYNC
 Wire Wire Line
@@ -1179,7 +1128,7 @@ Wire Wire Line
 	10650 2700 10200 2700
 Connection ~ 8300 2700
 Wire Wire Line
-	8300 2700 8300 5300
+	8300 2700 8300 3550
 Wire Wire Line
 	10650 3100 8700 3100
 Connection ~ 8700 3100
@@ -1261,16 +1210,14 @@ Wire Wire Line
 $Comp
 L Device:R_Small R203B1
 U 1 1 6204E80B
-P 8300 5400
-F 0 "R203B1" V 8200 5300 39  0000 L CNN
-F 1 "47" V 8300 5350 39  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" H 8300 5400 50  0001 C CNN
-F 3 "~" H 8300 5400 50  0001 C CNN
-	1    8300 5400
+P 10950 4100
+F 0 "R203B1" V 10850 4000 39  0000 L CNN
+F 1 "47" V 10950 4050 39  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 10950 4100 50  0001 C CNN
+F 3 "~" H 10950 4100 50  0001 C CNN
+	1    10950 4100
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	8300 5500 8300 5800
 $Comp
 L Amiga-Library:C_Small C914
 U 1 1 6205F8C3
@@ -1315,44 +1262,29 @@ F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 2800 3550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 NoConn ~ 3000 3350
-Text Label 12200 2150 2    47   ~ 0
+Text Label 12650 2150 2    47   ~ 0
 COMPVID
-Text Label 12200 2050 2    47   ~ 0
+Text Label 12650 2050 2    47   ~ 0
 SYNC
-Wire Wire Line
-	12650 2050 12200 2050
-Wire Wire Line
-	12650 2150 12200 2150
 Text Label 12650 2350 2    47   ~ 0
 BLUE
 Text Label 12650 2850 2    47   ~ 0
 GREEN
 Text Label 12650 3350 2    47   ~ 0
 RED
-Wire Wire Line
-	12250 1850 12650 1850
-Wire Wire Line
-	12250 3950 12250 1850
-Wire Wire Line
-	12650 3950 12250 3950
 $Comp
 L power:GND #PWR0206
 U 1 1 60CF6FB1
-P 12650 3950
-F 0 "#PWR0206" H 12650 3700 50  0001 C CNN
-F 1 "GND" H 12655 3777 50  0000 C CNN
-F 2 "" H 12650 3950 50  0001 C CNN
-F 3 "" H 12650 3950 50  0001 C CNN
-	1    12650 3950
+P 13050 1750
+F 0 "#PWR0206" H 13050 1500 50  0001 C CNN
+F 1 "GND" H 13055 1577 50  0000 C CNN
+F 2 "" H 13050 1750 50  0001 C CNN
+F 3 "" H 13050 1750 50  0001 C CNN
+	1    13050 1750
 	1    0    0    -1  
 $EndComp
-Connection ~ 12350 3850
 Wire Wire Line
-	12350 1950 12650 1950
-Wire Wire Line
-	12350 3850 12350 1950
-Wire Wire Line
-	12350 3850 12350 4300
+	12350 3850 12350 4150
 Wire Wire Line
 	12650 3850 12350 3850
 $Comp
@@ -1437,7 +1369,6 @@ F 3 "~" H 12750 4500 50  0001 C CNN
 	1    12750 4500
 	1    0    0    -1  
 $EndComp
-Connection ~ 12650 3950
 Wire Wire Line
 	2350 3300 2800 3300
 Wire Wire Line
@@ -1603,8 +1534,8 @@ Wire Wire Line
 	12000 4300 12000 4150
 Wire Wire Line
 	12000 4300 12350 4300
-Text Notes 11650 5650 0    118  ~ 0
-COMPVID is composite video. The composite \njack has been removed from this project, \nbut signal is still available on the video slot.
+Text Notes 11450 6550 0    118  ~ 0
+COMPVID is composite video. The composite \njack has been removed from this project, \nbut signal is still available on the video slot.\n\nJ9004 can be set to supply HSYNC or COMPSYNC\nto pin 13 of the video port. This is useful to\nsupport most any compatible monitor or \nadapter.
 Text Notes 7600 2150 1    47   ~ 0
 BLUE
 Text Notes 7200 2200 1    47   ~ 0
@@ -1619,4 +1550,91 @@ Connection ~ 5000 2550
 Connection ~ 4300 2550
 Text Label 7500 1950 3    39   ~ 0
 _COMPSYNC
+Wire Wire Line
+	10800 2050 10800 2500
+Wire Wire Line
+	10800 2500 8900 2500
+Wire Wire Line
+	8900 2500 8900 1750
+Wire Wire Line
+	10800 2050 12650 2050
+Wire Wire Line
+	12650 1850 12650 1750
+Wire Wire Line
+	12650 1750 13050 1750
+Wire Wire Line
+	13200 1750 13200 4050
+Wire Wire Line
+	13200 4050 12650 4050
+Wire Wire Line
+	12650 4050 12650 3950
+Connection ~ 13050 1750
+Wire Wire Line
+	13050 1750 13200 1750
+Wire Wire Line
+	12650 1950 12550 1950
+Wire Wire Line
+	12550 1950 12550 1600
+Wire Wire Line
+	12550 1600 13300 1600
+Wire Wire Line
+	13300 1600 13300 4150
+Wire Wire Line
+	13300 4150 12350 4150
+Connection ~ 12350 4150
+Wire Wire Line
+	12350 4150 12350 4300
+Wire Wire Line
+	12650 2250 11350 2250
+Wire Wire Line
+	11350 2250 11350 2850
+Wire Wire Line
+	11350 2850 7500 2850
+Connection ~ 7500 2850
+Wire Wire Line
+	7500 2850 7500 3150
+$Comp
+L Jumper:Jumper_3_Bridged12 JP9004
+U 1 1 60ED3751
+P 9950 3550
+F 0 "JP9004" H 9950 3754 50  0000 C CNN
+F 1 "HSYNC/COMPSYNC" H 9950 3663 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 9950 3550 50  0001 C CNN
+F 3 "~" H 9950 3550 50  0001 C CNN
+	1    9950 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10950 4000 9950 4000
+Wire Wire Line
+	9950 4000 9950 3700
+Wire Wire Line
+	10950 4200 10950 4400
+Wire Wire Line
+	10950 4800 10950 5150
+Wire Wire Line
+	10300 5150 10950 5150
+$Comp
+L power:GND #PWR0174
+U 1 1 60F42009
+P 10750 4600
+F 0 "#PWR0174" H 10750 4350 50  0001 C CNN
+F 1 "GND" H 10755 4427 50  0000 C CNN
+F 2 "" H 10750 4600 50  0001 C CNN
+F 3 "" H 10750 4600 50  0001 C CNN
+	1    10750 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10200 3550 11350 3550
+Wire Wire Line
+	11350 3550 11350 2850
+Connection ~ 11350 2850
+Wire Wire Line
+	8300 3550 9700 3550
+NoConn ~ 10300 5550
+NoConn ~ 10300 4950
+NoConn ~ 10300 4750
+NoConn ~ 9700 5250
+NoConn ~ 9700 5350
 $EndSCHEMATC

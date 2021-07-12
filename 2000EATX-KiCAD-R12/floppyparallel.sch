@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text Notes 4750 8800 0    118  ~ 0
-NOTE: J300 IS OMITTED IN FAVOR OF\nUSING THE _VSYNC SIGNAL FOR TICK.\nA500 Style!
+NOTE: J300 IS OMITTED IN FAVOR OF\nUSING THE _VSYNC SIGNAL FOR TICK.\nA500 STYLE, BABY!
 Text GLabel 1400 1250 0    50   BiDi ~ 0
 PPD5
 Text GLabel 1400 1450 0    50   BiDi ~ 0
@@ -68,10 +68,8 @@ Wire Wire Line
 Wire Wire Line
 	7200 6550 7200 7450
 Wire Wire Line
-	1850 6000 2300 6000
-Wire Wire Line
-	1850 6250 1850 6000
-Text GLabel 1100 6250 0    50   Input ~ 0
+	1100 6000 2300 6000
+Text GLabel 1100 6000 0    50   Input ~ 0
 _VSYNC
 Text GLabel 1550 7450 0    50   Input ~ 0
 _PACK
@@ -936,7 +934,7 @@ Wire Wire Line
 Wire Wire Line
 	7700 2250 7050 2250
 Text Label 6350 2250 0    50   ~ 0
-KBCLK
+_KBCLK
 NoConn ~ 8200 2100
 Wire Wire Line
 	8500 1800 7200 1800
@@ -945,8 +943,8 @@ Wire Wire Line
 Wire Wire Line
 	7200 2500 6650 2500
 Connection ~ 6650 2500
-Text Label 6650 2500 0    50   ~ 0
-KBDATA
+Text Label 6700 2500 0    50   ~ 0
+_KBDATA
 Wire Wire Line
 	7050 2650 7050 2250
 Connection ~ 7050 2250
@@ -1024,37 +1022,37 @@ Connection ~ 3450 2250
 Text GLabel 1400 2050 0    50   Output ~ 0
 _KBCLK
 Text Label 12300 4300 2    50   ~ 0
-RDY
+_RDY
 Text Label 12300 4200 2    50   ~ 0
-SIDE
+_SIDE
 Text Label 12300 4100 2    50   ~ 0
-DKRD
+_DKRD
 Text Label 12300 4000 2    50   ~ 0
-WPROT
+_WPROT
 Text Label 12300 3900 2    50   ~ 0
-TRK0
+_TRK0
 Text Label 12300 3800 2    50   ~ 0
-DKWEB
+_DKWEB
 Text Label 12300 3700 2    50   ~ 0
-DKWDB
+_DKWDB
 Text Label 12300 3600 2    50   ~ 0
-STEP
+_STEP
 Text Label 12300 3500 2    50   ~ 0
 DIR
 Text Label 12300 3400 2    50   ~ 0
-MTROD
+_MTROD
 Text Label 12300 3200 2    50   ~ 0
-SEL1
+_SEL1
 Text Label 12300 3100 2    50   ~ 0
-SEL0
+_SEL0
 Text Label 12300 3000 2    50   ~ 0
-INDEX
+_INDEX
 Text Label 12300 2900 2    50   ~ 0
 _INUSE0
 Text Label 12300 2800 2    50   ~ 0
-INUSE1
+_INUSE1
 Text Label 12300 2700 2    50   ~ 0
-CHNG
+_CHNG
 Wire Wire Line
 	12300 3300 11800 3300
 Wire Wire Line
@@ -1111,17 +1109,6 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 3200 9400 50  0001 C CNN
 	3    3200 9400
 	1    0    0    -1  
 $EndComp
-$Comp
-L 74xx:74LS08 U607
-U 2 1 6097128E
-P 3200 9950
-F 0 "U607" H 3200 10275 50  0000 C CNN
-F 1 "74HCT08" H 3200 10184 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3200 9950 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 3200 9950 50  0001 C CNN
-	2    3200 9950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2650 9500 2900 9500
 Wire Wire Line
@@ -1133,11 +1120,6 @@ Wire Wire Line
 Connection ~ 2750 8750
 Wire Wire Line
 	2750 8750 2750 8450
-Wire Wire Line
-	2750 9300 2750 9850
-Wire Wire Line
-	2750 9850 2900 9850
-Connection ~ 2750 9300
 $Comp
 L power:+5V #PWR0368
 U 1 1 609E2992
@@ -1150,8 +1132,6 @@ F 3 "" H 2750 8450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2900 10050 2650 10050
-Wire Wire Line
 	850  10050 850  6400
 Wire Wire Line
 	3500 8100 1550 8100
@@ -1163,9 +1143,6 @@ Wire Wire Line
 	10600 5200 10600 6800
 Text Label 3500 9400 0    50   ~ 0
 _IORST
-Text Label 3500 9950 0    50   ~ 0
-_DKRST
-NoConn ~ 3500 9950
 Wire Wire Line
 	12300 3500 11600 3500
 Wire Wire Line
@@ -1260,7 +1237,7 @@ U 3 1 60B4CD6E
 P 13550 8250
 F 0 "U102" H 13550 8915 50  0000 C CNN
 F 1 "GARY" H 13550 8824 50  0000 C CNN
-F 2 "Package_DIP:DIP-48_W15.24mm_Socket" H 13550 8250 50  0001 C CNN
+F 2 "Package_DIP:DIP-48_W15.24mm" H 13550 8250 50  0001 C CNN
 F 3 "" H 13350 9200 50  0001 C CNN
 	3    13550 8250
 	1    0    0    -1  
@@ -1310,19 +1287,6 @@ F 3 "" H 15250 7550 50  0001 C CNN
 	1    15250 7550
 	1    0    0    -1  
 $EndComp
-Text Label 14150 8150 0    50   ~ 0
-SEL0
-$Comp
-L 74xx:74LS38 U203
-U 1 1 60BC5C9F
-P 11350 7200
-F 0 "U203" V 11396 7020 50  0000 R CNN
-F 1 "74LS38" V 11305 7020 50  0000 R CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 11350 7200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS38" H 11350 7200 50  0001 C CNN
-	1    11350 7200
-	0    -1   -1   0   
-$EndComp
 $Comp
 L 74xx:74LS38 U203
 U 4 1 60BCA123
@@ -1361,21 +1325,10 @@ Wire Wire Line
 Wire Wire Line
 	12650 7650 11950 7650
 Wire Wire Line
-	11250 7650 11250 7500
-Wire Wire Line
 	11950 7500 11950 7650
 Connection ~ 11950 7650
 Wire Wire Line
-	11950 7650 11250 7650
-Wire Wire Line
-	11250 7650 11000 7650
-Wire Wire Line
 	11000 7650 11000 6000
-Connection ~ 11250 7650
-Wire Wire Line
-	12950 7850 11450 7850
-Wire Wire Line
-	11450 7850 11450 7500
 Wire Wire Line
 	12950 8450 12850 8450
 Wire Wire Line
@@ -1384,15 +1337,13 @@ Wire Wire Line
 	12950 8600 12150 8600
 Wire Wire Line
 	12150 8600 12150 7500
-NoConn ~ 11350 6900
+NoConn ~ 12950 7850
 Wire Wire Line
 	12300 3800 11800 3800
 Wire Wire Line
 	11800 3800 11800 6900
 Wire Wire Line
 	11800 6900 12050 6900
-Text Label 11350 6900 1    50   ~ 0
-_MTRX
 Wire Wire Line
 	12300 3700 11750 3700
 Wire Wire Line
@@ -1477,9 +1428,7 @@ Connection ~ 12500 6150
 Wire Wire Line
 	12500 6150 12500 8000
 Wire Wire Line
-	14600 6050 14800 6050
-Text Label 14800 6050 0    50   ~ 0
-_INUSE0
+	14600 6050 14700 6050
 $Comp
 L power:+5V #PWR0372
 U 1 1 60D9CF86
@@ -1613,8 +1562,6 @@ F 3 "" H 11400 1600 50  0001 C CNN
 	1    11400 1600
 	1    0    0    -1  
 $EndComp
-Text Label 15350 7100 0    50   ~ 0
-SEL1
 $Comp
 L Device:R_Network05 RN301
 U 1 1 60F780E4
@@ -1664,21 +1611,21 @@ Wire Wire Line
 Connection ~ 10150 2700
 Wire Wire Line
 	10150 2700 12300 2700
-Text GLabel 1400 3200 0    50   Input ~ 0
+Text GLabel 1400 3200 0    50   BiDi ~ 0
 D3
-Text GLabel 1400 2800 0    50   Input ~ 0
+Text GLabel 1400 2800 0    50   BiDi ~ 0
 D7
-Text GLabel 1400 2900 0    50   Input ~ 0
+Text GLabel 1400 2900 0    50   BiDi ~ 0
 D6
-Text GLabel 1400 3000 0    50   Input ~ 0
+Text GLabel 1400 3000 0    50   BiDi ~ 0
 D5
-Text GLabel 1400 3100 0    50   Input ~ 0
+Text GLabel 1400 3100 0    50   BiDi ~ 0
 D4
-Text GLabel 1400 3300 0    50   Input ~ 0
+Text GLabel 1400 3300 0    50   BiDi ~ 0
 D2
-Text GLabel 1400 3400 0    50   Input ~ 0
+Text GLabel 1400 3400 0    50   BiDi ~ 0
 D1
-Text GLabel 1400 3500 0    50   Input ~ 0
+Text GLabel 1400 3500 0    50   BiDi ~ 0
 D0
 Wire Wire Line
 	1400 3500 2300 3500
@@ -1752,7 +1699,6 @@ Wire Wire Line
 Wire Wire Line
 	2650 9500 2650 10050
 Connection ~ 2650 9500
-Connection ~ 2650 10050
 Wire Wire Line
 	2650 10050 850  10050
 Wire Wire Line
@@ -2047,13 +1993,6 @@ Wire Wire Line
 Connection ~ 5100 3100
 Wire Wire Line
 	5100 3100 6450 3100
-Text GLabel 1100 6000 0    50   Output ~ 0
-TBASE
-Wire Wire Line
-	1850 6000 1100 6000
-Connection ~ 1850 6000
-Wire Wire Line
-	1100 6250 1850 6250
 Text Notes 12300 9850 0    197  ~ 0
 Floppy and Parallel\nAmiga 2000 EATX
 $Comp
@@ -2083,4 +2022,14 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf" H 13650 5500 50  00
 	1    13650 5500
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	12300 2900 11950 2900
+Wire Wire Line
+	11950 2900 11950 5150
+Wire Wire Line
+	11950 5150 14700 5150
+Wire Wire Line
+	14700 5150 14700 6050
+Wire Wire Line
+	11000 7650 11950 7650
 $EndSCHEMATC

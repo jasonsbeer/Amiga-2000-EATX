@@ -690,150 +690,150 @@ Wire Wire Line
 $Comp
 L Mechanical:MountingHole_Pad H1
 U 1 1 6079CD83
-P 9100 3500
-F 0 "H1" V 9100 3650 50  0000 L CNN
-F 1 "MountingHole_Pad" V 9145 3650 50  0001 L CNN
-F 2 "AmigaFootprints:MountingHole_Pad" H 9100 3500 50  0001 C CNN
-F 3 "~" H 9100 3500 50  0001 C CNN
-	1    9100 3500
+P 9750 5100
+F 0 "H1" V 9750 5250 50  0000 L CNN
+F 1 "MountingHole_Pad" V 9795 5250 50  0001 L CNN
+F 2 "AmigaFootprints:MountingHole_Pad" H 9750 5100 50  0001 C CNN
+F 3 "~" H 9750 5100 50  0001 C CNN
+	1    9750 5100
 	0    1    1    0   
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H4
 U 1 1 607A300A
-P 9100 3700
-F 0 "H4" V 9100 3850 50  0000 L CNN
-F 1 "MountingHole_Pad" V 9145 3850 50  0001 L CNN
-F 2 "AmigaFootprints:MountingHole_Pad" H 9100 3700 50  0001 C CNN
-F 3 "~" H 9100 3700 50  0001 C CNN
-	1    9100 3700
+P 9750 5300
+F 0 "H4" V 9750 5450 50  0000 L CNN
+F 1 "MountingHole_Pad" V 9795 5450 50  0001 L CNN
+F 2 "AmigaFootprints:MountingHole_Pad" H 9750 5300 50  0001 C CNN
+F 3 "~" H 9750 5300 50  0001 C CNN
+	1    9750 5300
 	0    1    1    0   
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H7
 U 1 1 607A343C
-P 9100 3900
-F 0 "H7" V 9100 4050 50  0000 L CNN
-F 1 "MountingHole_Pad" V 9145 4050 50  0001 L CNN
-F 2 "AmigaFootprints:MountingHole_Pad" H 9100 3900 50  0001 C CNN
-F 3 "~" H 9100 3900 50  0001 C CNN
-	1    9100 3900
+P 9750 5500
+F 0 "H7" V 9750 5650 50  0000 L CNN
+F 1 "MountingHole_Pad" V 9795 5650 50  0001 L CNN
+F 2 "AmigaFootprints:MountingHole_Pad" H 9750 5500 50  0001 C CNN
+F 3 "~" H 9750 5500 50  0001 C CNN
+	1    9750 5500
 	0    1    1    0   
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H10
 U 1 1 607A38D0
-P 9100 4100
-F 0 "H10" V 9100 4250 50  0000 L CNN
-F 1 "MountingHole_Pad" V 9145 4250 50  0001 L CNN
-F 2 "AmigaFootprints:MountingHole_Pad" H 9100 4100 50  0001 C CNN
-F 3 "~" H 9100 4100 50  0001 C CNN
-	1    9100 4100
+P 9750 5700
+F 0 "H10" V 9750 5850 50  0000 L CNN
+F 1 "MountingHole_Pad" V 9795 5850 50  0001 L CNN
+F 2 "AmigaFootprints:MountingHole_Pad" H 9750 5700 50  0001 C CNN
+F 3 "~" H 9750 5700 50  0001 C CNN
+	1    9750 5700
 	0    1    1    0   
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H2
 U 1 1 607A449F
-P 9500 3500
-F 0 "H2" V 9500 3650 50  0000 L CNN
-F 1 "MountingHole_Pad" V 9545 3650 50  0001 L CNN
-F 2 "AmigaFootprints:MountingHole_Pad" H 9500 3500 50  0001 C CNN
-F 3 "~" H 9500 3500 50  0001 C CNN
-	1    9500 3500
+P 10150 5100
+F 0 "H2" V 10150 5250 50  0000 L CNN
+F 1 "MountingHole_Pad" V 10195 5250 50  0001 L CNN
+F 2 "AmigaFootprints:MountingHole_Pad" H 10150 5100 50  0001 C CNN
+F 3 "~" H 10150 5100 50  0001 C CNN
+	1    10150 5100
 	0    1    1    0   
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H5
 U 1 1 607A48FE
-P 9500 3700
-F 0 "H5" V 9500 3850 50  0000 L CNN
-F 1 "MountingHole_Pad" V 9545 3850 50  0001 L CNN
-F 2 "AmigaFootprints:MountingHole_Pad" H 9500 3700 50  0001 C CNN
-F 3 "~" H 9500 3700 50  0001 C CNN
-	1    9500 3700
+P 10150 5300
+F 0 "H5" V 10150 5450 50  0000 L CNN
+F 1 "MountingHole_Pad" V 10195 5450 50  0001 L CNN
+F 2 "AmigaFootprints:MountingHole_Pad" H 10150 5300 50  0001 C CNN
+F 3 "~" H 10150 5300 50  0001 C CNN
+	1    10150 5300
 	0    1    1    0   
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H11
 U 1 1 607A52EF
-P 9500 4100
-F 0 "H11" V 9500 4250 50  0000 L CNN
-F 1 "MountingHole_Pad" V 9545 4250 50  0001 L CNN
-F 2 "AmigaFootprints:MountingHole_Pad" H 9500 4100 50  0001 C CNN
-F 3 "~" H 9500 4100 50  0001 C CNN
-	1    9500 4100
+P 10150 5700
+F 0 "H11" V 10150 5850 50  0000 L CNN
+F 1 "MountingHole_Pad" V 10195 5850 50  0001 L CNN
+F 2 "AmigaFootprints:MountingHole_Pad" H 10150 5700 50  0001 C CNN
+F 3 "~" H 10150 5700 50  0001 C CNN
+	1    10150 5700
 	0    1    1    0   
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H6
 U 1 1 607B5071
-P 9900 3700
-F 0 "H6" V 9900 3850 50  0000 L CNN
-F 1 "MountingHole_Pad" V 9945 3850 50  0001 L CNN
-F 2 "AmigaFootprints:MountingHole_Pad" H 9900 3700 50  0001 C CNN
-F 3 "~" H 9900 3700 50  0001 C CNN
-	1    9900 3700
+P 10550 5300
+F 0 "H6" V 10550 5450 50  0000 L CNN
+F 1 "MountingHole_Pad" V 10595 5450 50  0001 L CNN
+F 2 "AmigaFootprints:MountingHole_Pad" H 10550 5300 50  0001 C CNN
+F 3 "~" H 10550 5300 50  0001 C CNN
+	1    10550 5300
 	0    1    1    0   
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H12
 U 1 1 607BA784
-P 9900 4100
-F 0 "H12" V 9900 4250 50  0000 L CNN
-F 1 "MountingHole_Pad" V 9945 4250 50  0001 L CNN
-F 2 "AmigaFootprints:MountingHole_Pad" H 9900 4100 50  0001 C CNN
-F 3 "~" H 9900 4100 50  0001 C CNN
-	1    9900 4100
+P 10550 5700
+F 0 "H12" V 10550 5850 50  0000 L CNN
+F 1 "MountingHole_Pad" V 10595 5850 50  0001 L CNN
+F 2 "AmigaFootprints:MountingHole_Pad" H 10550 5700 50  0001 C CNN
+F 3 "~" H 10550 5700 50  0001 C CNN
+	1    10550 5700
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	9400 3500 9400 3700
+	10050 5100 10050 5300
 Wire Wire Line
-	9400 4400 9000 4400
+	10050 6000 9650 6000
 Wire Wire Line
-	9000 4400 9000 4100
-Connection ~ 9400 3700
-Connection ~ 9400 4100
+	9650 6000 9650 5700
+Connection ~ 10050 5300
+Connection ~ 10050 5700
 Wire Wire Line
-	9400 4100 9400 4400
-Connection ~ 9000 3700
+	10050 5700 10050 6000
+Connection ~ 9650 5300
 Wire Wire Line
-	9000 3700 9000 3500
-Connection ~ 9000 3900
+	9650 5300 9650 5100
+Connection ~ 9650 5500
 Wire Wire Line
-	9000 3900 9000 3700
-Connection ~ 9000 4100
+	9650 5500 9650 5300
+Connection ~ 9650 5700
 Wire Wire Line
-	9000 4100 9000 3900
+	9650 5700 9650 5500
 Wire Wire Line
-	9800 3500 9800 3700
+	10450 5100 10450 5300
 Wire Wire Line
-	9800 4400 9400 4400
-Connection ~ 9800 3700
-Connection ~ 9800 4100
+	10450 6000 10050 6000
+Connection ~ 10450 5300
+Connection ~ 10450 5700
 Wire Wire Line
-	9800 4100 9800 4400
-Connection ~ 9400 4400
+	10450 5700 10450 6000
+Connection ~ 10050 6000
 $Comp
 L power:GND #PWR0357
 U 1 1 607C700A
-P 9400 4400
-F 0 "#PWR0357" H 9400 4150 50  0001 C CNN
-F 1 "GND" H 9405 4227 50  0000 C CNN
-F 2 "" H 9400 4400 50  0001 C CNN
-F 3 "" H 9400 4400 50  0001 C CNN
-	1    9400 4400
+P 10050 6000
+F 0 "#PWR0357" H 10050 5750 50  0001 C CNN
+F 1 "GND" H 10055 5827 50  0000 C CNN
+F 2 "" H 10050 6000 50  0001 C CNN
+F 3 "" H 10050 6000 50  0001 C CNN
+	1    10050 6000
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
-	8800 2800 8800 4700
+	9450 4400 9450 6300
 Wire Notes Line
-	8800 4700 10250 4700
+	9450 6300 10900 6300
 Wire Notes Line
-	10250 4700 10250 2800
+	10900 6300 10900 4400
 Wire Notes Line
-	10250 2800 8800 2800
-Text Notes 9050 3250 0    118  ~ 0
+	10900 4400 9450 4400
+Text Notes 9700 4850 0    118  ~ 0
 MOUNTING\nHOLES
 $Comp
 L power:GND #PWR0177
@@ -898,16 +898,16 @@ Wire Wire Line
 Wire Wire Line
 	7450 5800 7450 6300
 Wire Wire Line
-	9400 3700 9400 4100
+	10050 5300 10050 5700
 $Comp
 L Mechanical:MountingHole_Pad H3
 U 1 1 607B44AE
-P 9900 3500
-F 0 "H3" V 9900 3650 50  0000 L CNN
-F 1 "MountingHole_Pad" V 9945 3650 50  0001 L CNN
-F 2 "AmigaFootprints:MountingHole_Pad" H 9900 3500 50  0001 C CNN
-F 3 "~" H 9900 3500 50  0001 C CNN
-	1    9900 3500
+P 10550 5100
+F 0 "H3" V 10550 5250 50  0000 L CNN
+F 1 "MountingHole_Pad" V 10595 5250 50  0001 L CNN
+F 2 "AmigaFootprints:MountingHole_Pad" H 10550 5100 50  0001 C CNN
+F 3 "~" H 10550 5100 50  0001 C CNN
+	1    10550 5100
 	0    1    1    0   
 $EndComp
 $Comp
@@ -957,21 +957,21 @@ Wire Notes Line
 Text Notes 6100 3150 0    118  ~ 0
 FAN HEADERS
 Wire Wire Line
-	9800 3700 9800 3900
+	10450 5300 10450 5500
 $Comp
 L Mechanical:MountingHole_Pad H9
 U 1 1 60B60FCB
-P 9900 3900
-F 0 "H9" V 9900 4050 50  0000 L CNN
-F 1 "MountingHole_Pad" V 9945 4050 50  0001 L CNN
-F 2 "AmigaFootprints:MountingHole_Pad" H 9900 3900 50  0001 C CNN
-F 3 "~" H 9900 3900 50  0001 C CNN
-	1    9900 3900
+P 10550 5500
+F 0 "H9" V 10550 5650 50  0000 L CNN
+F 1 "MountingHole_Pad" V 10595 5650 50  0001 L CNN
+F 2 "AmigaFootprints:MountingHole_Pad" H 10550 5500 50  0001 C CNN
+F 3 "~" H 10550 5500 50  0001 C CNN
+	1    10550 5500
 	0    1    1    0   
 $EndComp
-Connection ~ 9800 3900
+Connection ~ 10450 5500
 Wire Wire Line
-	9800 3900 9800 4100
+	10450 5500 10450 5700
 Wire Wire Line
 	2000 5650 3350 5650
 $Comp
@@ -1195,4 +1195,78 @@ Wire Wire Line
 	3200 6350 3700 6350
 Wire Wire Line
 	3200 6650 3200 6800
+$Comp
+L 74xx:74LS08 U607
+U 2 1 60FCEC3E
+P 10150 3650
+F 0 "U607" H 10150 3975 50  0000 C CNN
+F 1 "74HCT08" H 10150 3884 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 10150 3650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 10150 3650 50  0001 C CNN
+	2    10150 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0220
+U 1 1 6102ADE1
+P 9850 3900
+F 0 "#PWR0220" H 9850 3650 50  0001 C CNN
+F 1 "GND" H 9855 3727 50  0000 C CNN
+F 2 "" H 9850 3900 50  0001 C CNN
+F 3 "" H 9850 3900 50  0001 C CNN
+	1    9850 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9850 3900 9850 3750
+Connection ~ 9850 3750
+Wire Wire Line
+	9850 3750 9850 3550
+NoConn ~ 10450 3650
+Text Notes 9700 850  0    118  ~ 0
+SPARES
+$Comp
+L 74xx:74LS38 U203
+U 1 1 61051305
+P 10150 3050
+F 0 "U203" H 10150 3375 50  0000 C CNN
+F 1 "74LS38" H 10150 3284 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 10150 3050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS38" H 10150 3050 50  0001 C CNN
+	1    10150 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9850 3550 9850 3150
+Connection ~ 9850 3550
+Connection ~ 9850 3150
+Wire Wire Line
+	9850 3150 9850 2950
+NoConn ~ 10450 3050
+$Comp
+L 74xx:74LS00 U501
+U 4 1 6111BB1B
+P 10150 2450
+F 0 "U501" H 10150 2775 50  0000 C CNN
+F 1 "74HCT00" H 10150 2684 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 10150 2450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 10150 2450 50  0001 C CNN
+	4    10150 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9850 2950 9850 2550
+Connection ~ 9850 2950
+Connection ~ 9850 2550
+Wire Wire Line
+	9850 2550 9850 2350
+NoConn ~ 10450 2450
+Wire Notes Line
+	9350 600  9350 4200
+Wire Notes Line
+	9350 4200 10850 4200
+Wire Notes Line
+	9350 600  10850 600 
+Wire Notes Line
+	10850 600  10850 4200
 $EndSCHEMATC
