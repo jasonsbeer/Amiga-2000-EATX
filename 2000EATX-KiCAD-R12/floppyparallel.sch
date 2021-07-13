@@ -1989,17 +1989,6 @@ Wire Wire Line
 Connection ~ 11000 6000
 Wire Wire Line
 	850  6400 2300 6400
-$Comp
-L Transistor_BJT:MMBT3906 Q301
-U 1 1 60EC67CE
-P 13650 5500
-F 0 "Q301" H 13841 5546 50  0000 L CNN
-F 1 "MMBT3906" H 13841 5455 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 13850 5425 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf" H 13650 5500 50  0001 L CNN
-	1    13650 5500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	12300 2900 11950 2900
 Wire Wire Line
@@ -2028,4 +2017,17 @@ Wire Wire Line
 Connection ~ 7950 2050
 Wire Wire Line
 	7950 2050 7950 2000
+Text Notes 6700 1350 0    118  ~ 0
+The original A2000 keyboard \nschematics are messed up.\nThis is correct.
+$Comp
+L Transistor_BJT:MMBT3904 Q301
+U 1 1 60F6D6BF
+P 13650 5500
+F 0 "Q301" H 13841 5546 50  0000 L CNN
+F 1 "MMBT3904" H 13841 5455 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 13850 5425 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 13650 5500 50  0001 L CNN
+	1    13650 5500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

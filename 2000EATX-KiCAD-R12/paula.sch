@@ -532,8 +532,6 @@ _LPEN
 Text GLabel 10400 9950 2    50   Output ~ 0
 _FIR1
 Wire Wire Line
-	6300 10450 9100 10450
-Wire Wire Line
 	10150 9750 10400 9750
 Wire Wire Line
 	10150 9950 10400 9950
@@ -1240,25 +1238,12 @@ Wire Wire Line
 $Comp
 L Amiga-Library:DB9_Male_Stack CN200
 U 1 1 605BDCC9
-P 6600 9900
-F 0 "CN200" H 6780 9946 50  0000 L CNN
-F 1 "DB9_Male_Stack" H 6780 9855 50  0000 L CNN
-F 2 "AmigaFootprints:DSUB-9_Male_Stack" H 6600 9900 50  0001 C CNN
-F 3 " ~" H 6600 9900 50  0001 C CNN
-	1    6600 9900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6300 10200 6300 10450
-$Comp
-L Amiga-Library:DB9_Male_Stack CN200
-U 2 1 605DF9E0
 P 6600 8150
 F 0 "CN200" H 6780 8196 50  0000 L CNN
 F 1 "DB9_Male_Stack" H 6780 8105 50  0000 L CNN
 F 2 "AmigaFootprints:DSUB-9_Male_Stack" H 6600 8150 50  0001 C CNN
 F 3 " ~" H 6600 8150 50  0001 C CNN
-	2    6600 8150
+	1    6600 8150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2134,4 +2119,21 @@ F 3 "" H 15250 2950 50  0001 C CNN
 	1    15250 2950
 	1    0    0    -1  
 $EndComp
+$Comp
+L Amiga-Library:DB9_Male_Stack CN200
+U 2 1 605DF9E0
+P 6600 9900
+F 0 "CN200" H 6780 9946 50  0000 L CNN
+F 1 "DB9_Male_Stack" H 6780 9855 50  0000 L CNN
+F 2 "AmigaFootprints:DSUB-9_Male_Stack" H 6600 9900 50  0001 C CNN
+F 3 " ~" H 6600 9900 50  0001 C CNN
+	2    6600 9900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 10450 6100 10200
+Wire Wire Line
+	6100 10200 6300 10200
+Wire Wire Line
+	6100 10450 9100 10450
 $EndSCHEMATC
