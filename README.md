@@ -96,6 +96,12 @@ Rev 1.1
 4. Fixed U100 and other footprints
 5. Moved some components
 6. Cleaned up silk screen
+
+Rev 1.2
+1. Fixed traces on the keyboard connector
+2. Deleted some extra traces that were not needed
+3. Added HSYNC/COMPSYNC selection jumper
+4. Cleaned up parts of the schematics
    
 ## Acknowledgments
 kr239 - for the Amiga 500 DRAM replacement project (https://github.com/kr239/A500-SRAM-Board) and LIV2 and texneus for the modifications used in this project.
@@ -105,4 +111,6 @@ iansbremmer - Amiga IC KiCad footprints - https://github.com/iansbremner/ReAmiga
 texneus - ATX ON/OFF circuit
 
 DarrenHD - Pics and measurements of the Amiga 3000 video slot bracket adapter - https://eab.abime.net/showthread.php?t=106928
+
+Chucky - Amiga Diagrom...a priceless diagnostic tool - http://www.diagrom.com/
 
