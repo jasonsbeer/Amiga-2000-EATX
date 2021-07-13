@@ -1534,8 +1534,8 @@ Wire Wire Line
 	12000 4300 12000 4150
 Wire Wire Line
 	12000 4300 12350 4300
-Text Notes 11650 5650 0    118  ~ 0
-COMPVID is composite video. The composite \njack has been removed from this project, \nbut signal is still available on the video slot.
+Text Notes 11450 6550 0    118  ~ 0
+COMPVID is composite video. The composite \njack has been removed from this project, \nbut signal is still available on the video slot.\n\nJ9004 can be set to supply HSYNC or COMPSYNC\nto pin 13 of the video port. This is useful to\nsupport most any compatible monitor or \nadapter.
 Text Notes 7600 2150 1    47   ~ 0
 BLUE
 Text Notes 7200 2200 1    47   ~ 0

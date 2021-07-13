@@ -172,14 +172,14 @@ Wire Wire Line
 $Comp
 L Connector:DIN-5_180degree CN300
 U 1 1 605D6665
-P 8500 2100
-F 0 "CN300" H 8500 1825 50  0000 C CNN
-F 1 "KEYBOARD" H 8500 1734 50  0000 C CNN
-F 2 "AmigaFootprints:DIN5" H 8500 2100 50  0001 C CNN
-F 3 "http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf" H 8500 2100 50  0001 C CNN
-F 4 "SDS-50J" H 8500 2100 50  0001 C CNN "Part"
-	1    8500 2100
-	1    0    0    -1  
+P 8500 1950
+F 0 "CN300" H 8500 1675 50  0000 C CNN
+F 1 "KEYBOARD" H 8500 1584 50  0000 C CNN
+F 2 "AmigaFootprints:DIN5" H 8500 1950 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf" H 8500 1950 50  0001 C CNN
+F 4 "SDS-50J" H 8500 1950 50  0001 C CNN "Part"
+	1    8500 1950
+	-1   0    0    1   
 $EndComp
 $Comp
 L Amiga-Library:8520 U300
@@ -912,38 +912,22 @@ F 3 "~" H 7950 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8200 2000 7950 2000
-Wire Wire Line
 	7450 2500 7450 2000
 Connection ~ 7450 2000
 Wire Wire Line
 	7450 2000 6650 2000
 Wire Wire Line
-	7950 2500 7950 2000
-Connection ~ 7950 2000
+	7950 2500 7950 2050
 Wire Wire Line
 	7950 2000 7450 2000
-Wire Wire Line
-	8800 2100 8950 2100
-Wire Wire Line
-	8950 2100 8950 1500
-Wire Wire Line
-	8950 1500 7700 1500
 Wire Wire Line
 	7700 1500 7700 2250
 Wire Wire Line
 	7700 2250 7050 2250
 Text Label 6350 2250 0    50   ~ 0
 _KBCLK
-NoConn ~ 8200 2100
-Wire Wire Line
-	8500 1800 7200 1800
-Wire Wire Line
-	7200 1800 7200 2500
-Wire Wire Line
-	7200 2500 6650 2500
-Connection ~ 6650 2500
-Text Label 6700 2500 0    50   ~ 0
+NoConn ~ 8200 1950
+Text Label 6650 2400 0    50   ~ 0
 _KBDATA
 Wire Wire Line
 	7050 2650 7050 2250
@@ -977,11 +961,7 @@ F 3 "" H 7950 2950 50  0001 C CNN
 $EndComp
 Connection ~ 7950 2950
 Wire Wire Line
-	7950 2950 9100 2950
-Wire Wire Line
-	9100 2950 9100 2000
-Wire Wire Line
-	9100 2000 8800 2000
+	7950 2950 8800 2950
 Wire Wire Line
 	6350 2000 6250 2000
 $Comp
@@ -2032,4 +2012,22 @@ Wire Wire Line
 	14700 5150 14700 6050
 Wire Wire Line
 	11000 7650 11950 7650
+Wire Wire Line
+	8800 2050 8800 2950
+Wire Wire Line
+	8800 1950 8800 1500
+Wire Wire Line
+	8800 1500 7700 1500
+Wire Wire Line
+	6650 2500 6650 2400
+Wire Wire Line
+	6650 2400 8500 2400
+Wire Wire Line
+	8500 2250 8500 2400
+Connection ~ 6650 2500
+Wire Wire Line
+	8200 2050 7950 2050
+Connection ~ 7950 2050
+Wire Wire Line
+	7950 2050 7950 2000
 $EndSCHEMATC
