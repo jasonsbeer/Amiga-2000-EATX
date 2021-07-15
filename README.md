@@ -104,10 +104,13 @@ Rev 1.1
 6. Cleaned up silk screen
 
 Rev 1.2
-1. Fixed traces on the keyboard connector
-2. Deleted some extra traces that were not needed
-3. Added HSYNC/COMPSYNC selection jumper
-4. Cleaned up parts of the schematics
+1. Fixed traces on the keyboard connector (error on the C= schematic)
+2. Added missing _COPCFG trace
+3. Deleted some extra traces that were not needed
+4. Added HSYNC/COMPSYNC selection jumper
+5. Cleaned up parts of the schematics
+6. Widened U801 footprint (RTC62423 is wider than the standard SOIC package)
+7. Added support for 1 and 2 MB Kickstart ROMs (512k still supported)
    
 ## Acknowledgments
 kr239 - for the Amiga 500 DRAM replacement project inspiration and LIV2 and texneus for the modifications used in this project
