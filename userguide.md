@@ -13,7 +13,7 @@ For the purposes of testing, the Phanteks Enthoo EATX case was used and will acc
 ## Coprocessor and Video Slot Plug In Cards
 The Amiga 2000 used a proprietary bracket for the coprocessor and video slot cards. These brackets are not compatable with standard card slot brackets. It is recommended you obtain or create a bracket adapter to accomodate the difference. I have supplied STL files so that you can print an adapter or replacement brackets for specific plug in cards. You can find the STL files here [THIS IS A WORK IN PROGRESS](/STL/). Please note that Zorro II plug in card brackets are standard brackets and do not require modification.
 
-<b>Special note on the A26x0 coprocessor cards:</b> These cards have a RAM expansion connector on the non-component side of the card. In the event you have this card, especially with a RAM expansion unit, it may interfere with the placement of a video card. 
+<b>Special note on the A26x0 coprocessor cards:</b> These cards have a RAM expansion connector on the non-component side of the card. In the event you have this card, especially with a RAM expansion unit, it may interfere with the placement of a card in the video slot. 
 
 ## Jumper Settings
 Jumper|Description|Detail
@@ -46,7 +46,7 @@ The Amiga 2000 EATX is intended to be used with legacy Amiga keyboards and mice.
 ### Video
 The video port supplies a 15KHz analog RGB signal via the HD15 connector. The pins are in the standard VGA configuration. Use a standard VGA cable to connect to a 15KHz compatable monitor or conversion box.
 
-Certain video adapters, such as the GBS 8220, require a composite sync signal instead of an HSYNC signal. If you are using such an adapter, you can provide composite sync on pin 13 of the video port by setting J9104. Set J9104 for HSYNC when using 15KHz compatble VGA monitors or video adapters that support HSYNC and VSYNC. See Table 1.
+Certain video adapters, such as the GBS 8220, require a composite sync signal instead of the HSYNC signal. If you are using such an adapter, you can provide composite sync on pin 13 of the video port by setting J9104. Set J9104 for HSYNC when using 15KHz compatble VGA monitors or video adapters that support HSYNC and VSYNC. See Table 1.
 
 more here....add pics of ports w/labels, etc...
 
