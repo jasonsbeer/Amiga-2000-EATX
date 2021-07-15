@@ -27,7 +27,7 @@ As a side note, there is an error on the Amiga 2000 schematics related to keyboa
 ## Project Goals
 1. Enter Amiga 2000 Rev 6.2 schematics into KiCad, including all known A2000 Rev 6.x PCB updates.
 2. When possible, replace end of life components with suitable alternatives that are commercially available.
-3. Layout and route components using the ATX standard as a guide.
+3. Layout and route components using the EATX standard as a guide.
 4. Test it and make sure it works.
 
 ## User Guide and Considerations
