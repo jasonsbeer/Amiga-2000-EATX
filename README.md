@@ -20,6 +20,8 @@ July 11, 2021 - A beautiful sight! After checking on some video issues, which tu
 
 July 14, 2021 - Over the last two days I was able to confirm the Zorro 2 bus and coprocessor slot are working. I am currently running a Supra Wordsync SCSI card, a Commodore A2630 accelerator, and a [Pi HDMI video card](https://github.com/jasonsbeer/Amiga-HDMI-Through-Hole). AIBB can be seen on the screen. I allowed the Amiga 2000 EATX to run for several hours without a single issue. I have tested both an Amiga floppy drive and a Gotek floppy emulator with great success. The keyboard is connected and working well (with a bodge). The mouse and joystick ports work as expected. The only items left to test are the parallel port and real time clock.
 
+As a side note, there is an error on the Amiga 2000 schematics related to keyboard port pin numbers. They are mirrored on both the A2000 and A3000 schematics, hence my keyboard bodge.
+
 <img src="/Images/aibb.jpg" width="500">
 
 ## Project Goals
