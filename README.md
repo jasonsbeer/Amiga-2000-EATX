@@ -18,6 +18,10 @@ July 11, 2021 - A beautiful sight! After checking on some video issues, which tu
 
 <img src="/Images/rev11-ks.jpg" width="250">
 
+July 14, 2021 - Today I was able to confirm the Zorro 2 bus and coprocessor slot are working. I am currently running a Supra Wordsync SCSI card, a Commodore A2630 accelerator, and a [Pi HDMI video card](https://github.com/jasonsbeer/Amiga-HDMI-Through-Hole). AIBB can be seen on the screen. I allowed the Amiga 2000 EATX to run for several hours without a single issue. The only items left to test are the parallel port and real time clock.
+
+<img src="/Images/aibb.jpg" width="500">
+
 ## Project Goals
 1. Enter Amiga 2000 Rev 6.2 schematics into KiCad, including all known A2000 Rev 6.x PCB updates.
 2. When possible, replace end of life components with suitable alternatives that are commercially available.
@@ -104,7 +108,7 @@ Rev 1.2
 4. Cleaned up parts of the schematics
    
 ## Acknowledgments
-kr239 - for the Amiga 500 DRAM replacement project (https://github.com/kr239/A500-SRAM-Board) and LIV2 and texneus for the modifications used in this project.
+kr239 - for the Amiga 500 DRAM replacement project inspiration and LIV2 and texneus for the modifications used in this project
 
 iansbremmer - Amiga IC KiCad footprints - https://github.com/iansbremner/ReAmiga-3000---KiCAD
 
