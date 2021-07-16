@@ -42,20 +42,20 @@ See information [here](AssemblyNotes.md).
 
 ## Changes from the original Amiga 2000
 ### Video
-The DB23 video connector has been removed in favor of the HD15 connector. One of the goals of this project is to avoid parts that are not commercially available. The D-Sub 23 connector is a prime example. They are not stocked at popular electronic supply houses. Thus, the change to the widely available HD15 connector. Analog red, green, blue, HSYNC, and VSYNC are supplied using the VGA standard pin out configuration. Other external video port signals are not supplied. Any VGA cable can be used to supply the video signal to a VGA monitor or conversion box supporting the 15KHz standard. 
+The DB23 video connector has been removed in favor of the HD15 connector. One of the goals of this project is to avoid parts that are not commercially available. The D-Sub 23 connector is a prime example. They are not stocked at popular electronic supply houses. Thus, the change to the widely available HD15 connector. Analog red, green, blue, HSYNC or COMPSYNC (jumper selectable), and VSYNC are supplied using the VGA standard pin out configuration. Other external video port signals are not supplied. Any VGA cable can be used to supply the video signal to a VGA monitor or conversion box supporting the 15KHz standard. 
 
 The internal video slot is complete with all signals.
 
 The external composite video jack has been removed.
 
 ### Memory
-The original 256Kx4 DRAMs have been replaced by a single SRAM. The 2000 EATX is permanently configured to recognize 1MB chip ram and requires Fatter Agnus (MOS 8372A). Other Agnus revisions are not supported at this time.
+The original 256Kx4 DRAMs have been replaced by a single SRAM. The 2000 EATX is permanently configured to recognize 1MB chip ram and requires Fatter Agnus (MOS 8372A). Other Agnus revisions are not supported at this time. If drop-in Agnus replacements become available in the future, it should be possible to include support for 2MB chip RAM.
 
 ### Audio Output
 The left/right RCA jacks of the Amiga have been replaced by a 3.5mm stereo audio jack.
 
 ### Disk Drive Support
-Internally, any Amiga compatable double density disk drive is supported. Up to two internal disk drives may be connected to the internal floppy connector. The external disk drive port has been removed.
+Internally, any Amiga compatable double density disk drive or Gotek floppy emulator is supported. Up to two internal disk drives may be connected to the internal floppy connector. The external disk drive port has been removed.
 
 ### ISA Slots
 The number of 16 bit ISA slots has been reduced to three. This was done to provide additional space on the board. Support for ISA cards via a Bridgeboard is unchanged from the Amiga 2000.
@@ -64,7 +64,7 @@ The number of 16 bit ISA slots has been reduced to three. This was done to provi
 The internal (infernal) serial port has been removed. The external serial port is present with all signals.
 
 ### PCB Layout
-For obvious reasons, it was necessary to move components relative to one another. Zorro slots occupy positions 1-5, overlapping with ISA slots in the first 3 positions. The video slot occupies the sixth slot position on the board.  The CPU slot occupies position 7. It is possible to have every slot position populated simultaneously.
+For obvious reasons, it was necessary to move components relative to one another. Zorro slots occupy slot positions 1-5, overlapping with ISA slots in the first 3 positions. The video slot occupies the sixth slot position on the board.  The CPU slot occupies position 7. It is possible to have every slot position populated simultaneously.
 
 ### ATX Power
 ATX 24-pin power supplies are supported with -5V being supplied on board via a voltage regulator. The original Amiga 2000 power supply is not supported.
@@ -77,13 +77,13 @@ The real time clock (RTC) has been changed to the RTC-62423. This RTC has a buil
 
 ## What has not changed?
 ### Most External Ports
-The keyboard, joystick, mouse, parallel, and serial are all present and function as they did in the Amiga 2000. The parallel, serial, mouse, and joystick ports are stacked DB9 and DB25 connectors, respectively. The Amiga keyboard port remains a DIN5 connector.
+The keyboard, joystick, mouse, parallel, and serial ports are all present and function as they did in the Amiga 2000. The parallel, serial, mouse, and joystick ports are stacked DB9 and DB25 connectors, respectively. The Amiga keyboard port remains a DIN5 connector.
 
 ### Zorro II Slots
 There are no changes to the Zorro II slots.
 
 ### Kickstart ROM
-For now, the Kickstart ROM remains the original 27C400. These are no longer made, but are easy to find. In addition, this allows the use of an original Commodore Kickstart mask ROM.
+For now, the Kickstart ROM remains the original 27C400. These are no longer made, but are easy to find. In addition, this allows the use of an original Commodore Kickstart mask ROM. Revision 1.2 added support for 1MB (27C800) and 2MB (27C160) EPROMs for custom Kickstart ROMs.
 
 ### Everything Else
 If something is not specifically mentioned, you should expect it to be unchanged in function or component from the original A2000.
