@@ -34,7 +34,7 @@ The electrolytic caps on the board are polarized and must be installed correctly
 <img src="/Images/Capacitor.png" width="200">
 
 ### Surface Mount IC's
-Surface mount ICs have a small circle on them indicating pin 1. A small circle next to each surace mount IC on the board to assist with orentation. There are also lines drawn across the top and bottom of the SMD position. The longer line indicates pin 1. 
+Pin 1 of surface mount ICs may be marked in a number of different ways. A small circle, notch, line, or text alignment can indicate pin 1. If in doubt, check the data sheet. A small circle marking pin 1 has been placed next to each surace mount IC on the board to assist with orentation. There are also lines drawn across the top and bottom of the SMD position. The longer line indicates pin 1. 
 
 <img src="/Images/SMD-orientation.png" width="200">
 
