@@ -2,13 +2,13 @@
 
 IMPORTANT INFORMATION. Please read this entire page. (under construction)
 
-This Amiga EATX PCB makes use of many surface mount components. These and the other standard components are available from most any good electronics supply house. The BOM includes Digi-Key part numbers for your reference. In addition, you will need to obtain the legacy components shown in Table A1. 
+This Amiga EATX PCB makes use of many modern surface mount components. These and the other standard components are available from most any good electronics supply house. The BOM includes Digi-Key part numbers for your reference. In addition, you will need to obtain the legacy components shown in Table A1. 
 
 Notes:
 1. If you do not intend to use a bridgeboard or the ISA slots, you do not need to install the components shown in the ISA SUPPORT silk screen.
 2. When space was available, the values of components are listed on the PCB. In the event several components are placed together with the same value, the value may be shown once and the components will be marked together on the silk screen.
 3. All end-of-life (no longer manufactured) components for this project are listed in table A1.
-4. Always verify the orientation and location of all IC's before attaching. Components in common with the origianl Amiga 2000 generally have the same reference as used on the Amiga 2000. However, some components have been removed and others have been added with unique references. 
+4. Always verify the orientation and location of all IC's before attaching. Never assume the orientation matches the original A2000.
 
 ## Where To Get Amiga Custom ICs and Legacy Parts
 
@@ -16,10 +16,13 @@ The best source of parts for this project is a dead or dying Amiga 2000 board. O
 
 You will need an oscillator installed at X1 or X2 to generate a clock signal. You can find 5V TTL oscillators from various legacy suppliers in the 14-DIP format. In the event you cannot find one, you can use a 3.3V CMOS oscillator of the same frequency in position X2. See Table A1. Do not populate both X1 and X2.
 
-### Kickstart - Special Notes
-The Amiga 2000 EATX is provisioned to accept 512k (27C400, 40 pin), 1MB (27C800, 42 pin), and 2MB (27C160, 42 pin) Kickstart EPROMs. The Kickstart socket (U500) is a 42 pin DIP footprint that supports all three types. A standard Amiga Kickstart ROM is based on the 27C400 EPROM. When installing a 27C400 EPROM, you must install it toward the bottom of the socket, leaving pins 1 and 42 empty. This will correctly align the pins. **Installing the 27C400 EPROM incorrectly may damage it!** Install the 27C800 and 27C160 as normal. Use of 1MB and larger EPROMs should be considered experimental. Guides to create custom Kickstart ROMs can be found on Amiga community sites.
+## Kickstart Installation
+The Amiga 2000 EATX is provisioned to accept 512k (27C400, 40 pin), 1MB (27C800, 42 pin), and 2MB (27C160, 42 pin) Kickstart EPROMs. The Kickstart socket (U500) is a 42 pin DIP footprint that supports all three types. A standard Amiga Kickstart ROM is based on the 27C400 EPROM. When installing a 27C400 EPROM, you must install it toward the bottom of the socket, leaving pins 1 and 42 of the socket empty. This is noted on the silk screen and will correctly align the pins. **Installing the 27C400 EPROM incorrectly may damage it!** Install 27C800 and 27C160 EPROMs as normal. Use of 1MB and larger EPROMs is considered experimental. Guides to create custom Kickstart ROMs can be found on Amiga community sites.
 
 INCLUDE IMAGES!
+
+## Locating Components
+There may be times when you have difficulty identifying the location of specific components on the silk screen. When this happens, the best way to identify component locations is to download the KiCAD files and use the find function on the PCB layout editor. It will highlight the component location you are searching for, reducing the time to place components. 
 
 ## Component Orientation
 
@@ -54,7 +57,7 @@ The individual line items of non-legacy components with Digi-Key and manufacture
 
 Each individual component and PCB reference can be found [here](/BOM/2000ATX-Reference.csv). This is a useful reference for placing parts, especially for those locations where labeling the component value was not possible.
 
-In addition to the items in the BOM, you will need to obtain the legacy components shown in Table A1. Select a single oscillator that matches the region you are targeting.
+In addition to the items in the BOM, you will need to obtain the legacy components shown in Table A1. Select a single oscillator that matches the video standard you desire.
 
 ## Tables
 Table A1. Legacy Parts Required
