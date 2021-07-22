@@ -5,7 +5,7 @@ There are one-to-one board replacement projects for the Amiga 2000, but none to 
 
 In addition to a new board replacement option, I believe the ubiquitous EATX standard will bring additional interest to the Amiga as a hobbyist and retro-computing option. At the time or writting this, the Amiga operating system is still actively developed and supported. In addition, there is a substantial database of existing software and hardware add-on options and a very active community.
 
-<img src="/Images/A2000EATX-REV12.png" width="500">
+<img src="/Images/REV12.png" width="500">
 
 ## Project Status
 July 21, 2021
@@ -103,6 +103,7 @@ Rev 1.2 **PRODUCTION CANDIDATE**
 5. Cleaned up parts of the schematics
 6. Widened U801 footprint (RTC62423 is wider than the standard SOIC package)
 7. Added support for 1 and 2 MB Kickstart ROMs (512k still supported)
+8. Added some space around the external ports...they were crowded
    
 ## Acknowledgments
 kr239 - for the Amiga 500 DRAM replacement project inspiration and LIV2 and texneus for the modifications used in this project
