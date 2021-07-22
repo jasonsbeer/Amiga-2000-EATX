@@ -3,24 +3,16 @@ The purpose of this project is to develop an open source Amiga 2000 PCB in the E
 
 There are one-to-one board replacement projects for the Amiga 2000, but none to change the layout to meet current form factor standards. In addition, the Amiga 2000 made use of connectors and custom parts that are no longer commercially manufactured. This often requires parts to be pulled from existing machines. As such, this project will make use of only actively supported components when possible.
 
-In addition to a new board replacement option, I believe the ubiquitous (E)ATX standard will bring additional interest to the Amiga as a hobbyist and retro-computing option. At the time or writting this, the Amiga operating system is still actively developed and supported. In addition, there is a substantial database of existing software and hardware add-on options and a very active community.
+In addition to a new board replacement option, I believe the ubiquitous EATX standard will bring additional interest to the Amiga as a hobbyist and retro-computing option. At the time or writting this, the Amiga operating system is still actively developed and supported. In addition, there is a substantial database of existing software and hardware add-on options and a very active community.
 
-<img src="/Images/rev11.png" width="500">
+<img src="/Images/A2000EATX-REV12.png" width="500">
 
 ## Project Status
-This project is in the proof of concept stage. It may work...or maybe not. There may be errors in the schematics or this text. Once the prototype boards are received and assembled, I will correct any discovered issues and update the appropriate drawings. Once things are proven to be working, I will release the Gerber files. In the meantime, you are welcome to review the KiCAD files and follow this project.
+July 21, 2021
 
-July 10, 2021 - LIFE! I have video output via a [Pi HDMI card](https://github.com/jasonsbeer/Amiga-HDMI-Through-Hole) and Diagrom is running. There are still some issues to address.
+**Revision 1.2 is the production candidate.**
 
-<img src="/Images/rev11-work.jpg" width="250">
-
-July 11, 2021 - A beautiful sight! After checking on some video issues, which turned out to be nothing, I had to chase down a random crash. Turned out to be a cold solder joint on a resistor tied to Gary. We are making positive progress!
-
-<img src="/Images/rev11-ks.jpg" width="250">
-
-July 14, 2021 - Over the last two days I was able to confirm the Zorro 2 bus and coprocessor slot are working. I am currently running a Supra Wordsync SCSI card, a Commodore A2630 accelerator, and a [Pi HDMI video card](https://github.com/jasonsbeer/Amiga-HDMI-Through-Hole). AIBB can be seen on the screen. I allowed the Amiga 2000 EATX to run for several hours without a single issue. I have tested both an Amiga floppy drive and a Gotek floppy emulator with great success. The keyboard is connected and working well (with a bodge). The mouse and joystick ports work as expected. The only items left to test are the parallel port and real time clock.
-
-As a side note, there is an error on the Amiga 2000 schematics related to keyboard port pin numbers. They are mirrored on both the A2000 and A3000 schematics, hence my keyboard bodge.
+I am currently running a Supra Wordsync SCSI card, a Commodore A2630 accelerator, and a [Pi HDMI video card](https://github.com/jasonsbeer/Amiga-HDMI-Through-Hole) on the Amiga 2000 EATX. AIBB can be seen on the screen. I allowed the Amiga 2000 EATX to run for several hours playing games and running memory tests without issue. All the external ports are working as expected.
 
 <img src="/Images/aibb.jpg" width="500">
 
@@ -55,7 +47,7 @@ The original 256Kx4 DRAMs have been replaced by a single SRAM. The 2000 EATX is 
 The left/right RCA jacks of the Amiga have been replaced by a 3.5mm stereo audio jack.
 
 ### Disk Drive Support
-Internally, any Amiga compatable double density disk drive or Gotek floppy emulator is supported. Up to two internal disk drives may be connected to the internal floppy connector. The external disk drive port has been removed.
+Internally, any Amiga compatable double density disk drive or properly configured Gotek floppy emulator is supported. Up to two internal disk drives may be connected to the internal floppy connector. The external disk drive port has been removed.
 
 ### ISA Slots
 The number of 16 bit ISA slots has been reduced to three. This was done to provide additional space on the board. Support for ISA cards via a Bridgeboard is unchanged from the Amiga 2000.
@@ -70,10 +62,10 @@ For obvious reasons, it was necessary to move components relative to one another
 ATX 24-pin power supplies are supported with -5V being supplied on board via a voltage regulator. The original Amiga 2000 power supply is not supported.
 
 ### External Reset Switch
-The computer can be reset via CTRL-Amiga-Amiga on an Amiga keyboard or via the reset switch found on ATX computer cases.
+The computer can be reset via CTRL-Amiga-Amiga on an Amiga keyboard or via the reset switch found on EATX computer cases.
 
 ### Real Time Clock
-The real time clock (RTC) has been changed to the RTC-62423. This RTC has a built in crystal and does not need adjustment. In the Amiga, the RTC is written and read by 4 address and 4 data lines. Unfortunately, there are no direct "modern" replacements for this type of bus connected RTC. As such, this is among the legacy IC's that must be obtained. It is readily available and reasonably priced where these type of legacy IC's are sold.
+The real time clock (RTC) has been changed to the RTC-62423. This RTC has a built in crystal and does not need adjustment. In the Amiga, the RTC is written and read by 4 address and 4 data lines. Unfortunately, there are no direct "modern" replacements for this type of bus connected RTC. As such, this is among the legacy IC's that must be obtained. It is readily available where these type of legacy IC's are sold.
 
 ## What has not changed?
 ### Most External Ports
@@ -103,7 +95,7 @@ Rev 1.1
 5. Moved some components
 6. Cleaned up silk screen
 
-Rev 1.2
+Rev 1.2 **PRODUCTION CANDIDATE**
 1. Fixed traces on the keyboard connector (error on the C= schematic)
 2. Added missing _COPCFG trace
 3. Deleted some extra traces that were not needed
