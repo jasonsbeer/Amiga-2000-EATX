@@ -2030,4 +2030,34 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 13650 5500 50  00
 	1    13650 5500
 	1    0    0    -1  
 $EndComp
+Text Notes 9100 4900 0    39   ~ 0
+_STROBE
+Text Notes 9300 5100 0    39   ~ 0
+D0
+Text Notes 9300 5300 0    39   ~ 0
+D1
+Text Notes 9300 5500 0    39   ~ 0
+D2
+Text Notes 9300 5700 0    39   ~ 0
+D3
+Text Notes 9300 5900 0    39   ~ 0
+D4
+Text Notes 9300 6100 0    39   ~ 0
+D5
+Text Notes 9300 6300 0    39   ~ 0
+D6
+Text Notes 9300 6500 0    39   ~ 0
+D7
+Text Notes 9200 6700 0    39   ~ 0
+_ACK
+Text Notes 9200 6900 0    39   ~ 0
+BUSY
+Text Notes 9200 7100 0    39   ~ 0
+POUT
+Text Notes 9250 7300 0    39   ~ 0
+SEL
+Text Notes 9950 5000 0    39   ~ 0
+_AUTOLINEFEED
+Text Notes 9950 5400 0    39   ~ 0
+_INIT
 $EndSCHEMATC
