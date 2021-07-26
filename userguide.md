@@ -1,7 +1,7 @@
 # User Guide
 Under construction.
 
-Here you will find basic information on setting up your Amiga 2000 EATX computer. The process to assemble the Amiga 2000 EATX computer system is nearly identical to assembling any other ATX-based computer system. 
+Here you will find basic information on final set up of your Amiga 2000 EATX computer. For information on building an Amiga 2000 EATX PCB, see [here](AssemblyNotes.md).
 
 ## Case Considerations
 When selecting a case, considerations must be made for accomodating full size plug in cards (PICs). The Amiga 2000 EATX motherboard is 12x13 inches (305 × 330 mm) in size and will fit any EATX or ATX case with sufficient room for this size PCB. However, full length PICs for the Amiga 2000 are very large by today's standards. Zorro II PICs are up to 337.19mm in length, coprocessor cards up to 356 mm in length, and video slot PICs up to 210mm (see [Amiga 500 and 2000 Technical Reference Manual](/DataSheets/Amiga_A500_A2000_Technical_Reference_Manual_1987.pdf)). 
@@ -49,6 +49,23 @@ The video port supplies a 15KHz analog RGB signal via the HD15 connector. The pi
 Certain video adapters, such as the GBS 8220, require a composite sync signal instead of the HSYNC signal. If you are using such an adapter, you can provide composite sync on pin 13 of the video port by setting J9104. Set J9104 for HSYNC when using 15KHz compatble VGA monitors or video adapters that support HSYNC and VSYNC. See Table 1.
 
 more here....add pics of ports w/labels, etc...
+
+## Floppy Drive(s)
+The Amiga uses a 34 pin cable to attach up to two internal floppy drives or floppy drive emulators. The Amiga floppy cable is different from a PC floppy cable. The cable must be oriented and drives attached in the correct order for full functionality. Ensure correct alignment of pin 1 at each connection.
+
+### Setting Device IDs
+The Amiga requires the device ID be designated on the floppy drive. This is accomplished through the use of jumpers on the drive. Drive DF0 must be jumpered as S0. DF1 must be jumpered as S1.
+
+### Connecting One Floppy Drive
+To connect one floppy drive (DF0), use any straight through 34 pin cable. In the event you are using an Amiga two drive cable, use the first connection.
+
+### Connecting Two Floppy Drives
+Drive DF0 must be at the end of the cable, past the twist. DF1 must be physically first on the cable, before the twist. In the event the drives are reversed on the cable, the drive lights will not operate independently.
+
+### Amiga Floppy Cable Twist
+To build an Amiga floppy cable, the first connection is straight through. Wires 4-6 are twisted before the second connection.
+
+<img src="/Images/amiga-floppy-cable.jpg" width="500">
 
 ## Powering Cards and Hardware
 The +12V pins on the card slots will support approximately 2.5 amps total on the Zorro slots and 1 amp total on the ISA slots. If you intend to use multiple high current draw devices, such as mechanical hard drives, it is recommended you power them directly from the power supply. The +5V pins will support approximately 2.5 amps per slot. The -5V and -12V pins will support approximately 1 amp total between all slots.
