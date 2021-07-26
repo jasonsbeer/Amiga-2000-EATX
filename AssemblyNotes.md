@@ -21,6 +21,12 @@ The Amiga 2000 EATX is provisioned to accept 512k (27C400, 40 pin), 1MB (27C800,
 
 INCLUDE IMAGES!
 
+## Floppy Drive Header
+Pin 3 of CN303 is a key. That is, factory Amiga floppy drive cables often have a pin socket blocked to ensure the cable is oriented correctly before installing. As such, it is recommended you remove pin 3 from the header before installing on the board. You can often pull it out with needle nose pliers. Alternatively, you can cut it off with a wire cutter.
+
+
+<img src="/Images/floppyheader.jpg" width="500">
+
 ## BOM
 The individual line items of non-legacy components with Digi-Key and manufacturer part numbers can be found [here](/BOM/AMIGA_2000_EATX_REV12_SHOPPINGLIST.csv). This file can be used as a reference for ordering. This CSV file can be uploaded into your Digi-Key cart, automatically adding the required items to your cart. It will also tell you when bumping the quantity to the next price break will save you money. Quite nice!
 
@@ -28,7 +34,7 @@ Each individual component and PCB reference can be found [here](/BOM/2000ATX-REF
 
 In addition to the items in the BOM, you will need to obtain the legacy components shown in Table A1. Select a single oscillator that matches the video standard you desire.
 
-## Locating Components
+## Locating Components on the PCB
 There may be times when you have difficulty identifying the location of specific components on the silk screen. When this happens, the best way to identify component locations is to download the KiCAD files and use the find function on the PCB layout editor. It will highlight the component location you are searching for, reducing the time to place components. 
 
 ## Component Orientation
