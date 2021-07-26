@@ -57,7 +57,7 @@ The Amiga uses a 34 pin cable to attach up to two internal floppy drives or flop
 The Amiga requires the device ID be designated on the floppy drive. This is accomplished through the use of jumpers on the drive. Drive DF0 must be jumpered as S0. DF1 must be jumpered as S1.
 
 ### Connecting One Floppy Drive
-To connect one floppy drive (DF0), use any straight through 34 pin cable. In the event you are using an Amiga two drive cable, use the first connection.
+To connect one floppy drive (DF0), use any straight through 34 pin cable. In the event you are using an Amiga two drive cable, use either connection.
 
 ### Connecting Two Floppy Drives
 Drive DF0 must be at the end of the cable, past the twist. DF1 must be physically first on the cable, before the twist. In the event the drives are reversed on the cable, the drive lights will not operate independently.
