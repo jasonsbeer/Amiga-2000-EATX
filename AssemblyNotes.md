@@ -21,6 +21,13 @@ The Amiga 2000 EATX is provisioned to accept 512k (27C400, 40 pin), 1MB (27C800,
 
 INCLUDE IMAGES!
 
+## BOM
+The individual line items of non-legacy components with Digi-Key and manufacturer part numbers can be found [here](/BOM/AMIGA_2000_EATX_REV12_SHOPPINGLIST.csv). This file can be used as a reference for ordering. This CSV file can be uploaded into your Digi-Key cart, automatically adding the required items to your cart. It will also tell you when bumping the quantity to the next price break will save you money. Quite nice!
+
+Each individual component and PCB reference can be found [here](/BOM/2000ATX-REFERENCE_REV12.csv). This is a useful reference for placing parts, especially for those locations where labeling the component value was not possible.
+
+In addition to the items in the BOM, you will need to obtain the legacy components shown in Table A1. Select a single oscillator that matches the video standard you desire.
+
 ## Locating Components
 There may be times when you have difficulty identifying the location of specific components on the silk screen. When this happens, the best way to identify component locations is to download the KiCAD files and use the find function on the PCB layout editor. It will highlight the component location you are searching for, reducing the time to place components. 
 
@@ -45,13 +52,6 @@ Pin 1 of surface mount ICs may be marked in a number of different ways. A small 
 Throught hole IC's have a square pad and a "1" marking pin one. Pin one is usually indicated with a small notch on one end of the IC body. Occasionally, there may be a small circle on the IC body indicating pin 1.
 
 <img src="/Images/DIP-orientation.png" width="200">
-
-## BOM
-The individual line items of non-legacy components with Digi-Key and manufacturer part numbers can be found [here](/BOM/ShoppingList.csv). This file can be used as a reference for ordering. This CSV file can be uploaded into your Digi-Key cart, automatically adding the required items to your cart. It will also tell you when bumping the quantity to the next price break will save you money. Quite nice!
-
-Each individual component and PCB reference can be found [here](/BOM/2000ATX-Reference.csv). This is a useful reference for placing parts, especially for those locations where labeling the component value was not possible.
-
-In addition to the items in the BOM, you will need to obtain the legacy components shown in Table A1. Select a single oscillator that matches the video standard you desire.
 
 ## Tables
 Table A1. Legacy Parts Required
