@@ -72,7 +72,7 @@ CIA|MOS 8520A, 8520A-1, 8520R2, or 8520PD|U300 and U301|DIP-40|These are all int
 Buster|MOS 5721/318075-02|U800|DIP-48|[Bluster](https://github.com/LIV2/Bluster)
 Kickstart|Commodore ROM or Burned 27C400/V1.2+|U500|DIP-40|Various Amiga suppliers sell ROMs ready to use
 Video Hybrid|Commodore 390229-0x|HY200|SIP-22|[Video Hybrid](https://github.com/SukkoPera/OpenAmigaVideoHybrid)
-Real Time Clock|RTC-62423|U801|SOP-24|
+Real Time Clock|RTC-62423A|U801|SOP-24|"A" revision is more accurate, but non-A version can be used
 28.636363 MHz Oscillator|NTSC Oscillator, 5V TTL|X1|DIP-14|Alternatively, populate X2 with a 5.0x3.2mm footprint 3.3V CMOS oscillator
 28.37516 MHz Oscillator|PAL Oscillator, 5V TTL|X1|DIP-14|Alternatively, populate X2 with a 5.0x3.2mm footprint 3.3V CMOS oscillator
 
