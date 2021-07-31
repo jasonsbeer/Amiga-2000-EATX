@@ -27,6 +27,11 @@ J9003|Case Fan|Attach 12V cooling fan
 J9004|HSYNC/COMPSYNC|Sends Composite Sync or HSYNC on video port
 J9100|Power Switch|Attach EATX case power switch
 
+
+Jumper Locations (click to enlarge)
+
+<img src="/Images/2000EATX-Jumpers.png" width="750">
+
 ## Connecting your Amiga 2000 EATX
 You will need a computer case that will accept EATX boards as well as an ATX power supply (see Case Considerations, above). Connect the Amiga 2000 EATX as you would any other ATX board.
 
