@@ -1,0 +1,548 @@
+Reference,Value,Device
+BT800,Battery_Cell,BATTERY HOLDER
+C204,0.01uF,Capacitor
+C401,0.01uf,Capacitor
+C407,0.01uf,Capacitor
+C413,0.01uf,Capacitor
+C210,0.047uF,Capacitor
+C211,0.047uF,Capacitor
+C212,0.047uF,Capacitor
+C213,0.047uF,Capacitor
+C100,0.1uF,Capacitor
+C101,0.1uF,Capacitor
+C102,0.1uF,Capacitor
+C103,0.1uF,Capacitor
+C104,0.1uF,Capacitor
+C105,0.1uF,Capacitor
+C106,0.1uF,Capacitor
+C107,0.1uF,Capacitor
+C108,0.1uF,Capacitor
+C110,0.1uF,Capacitor
+C200,0.1uF,Capacitor
+C202,0.1uF,Capacitor
+C203,0.1uF,Capacitor
+C205,0.1uF,Capacitor
+C206,0.1uF,Capacitor
+C218,0.1uF,Capacitor
+C234,0.1uF,Capacitor
+C244,0.1uF,Capacitor
+C300,0.1uF,Capacitor
+C301,0.1uF,Capacitor
+C302,0.1uF,Capacitor
+C303,0.1uF,Capacitor
+C305,0.1uF,Capacitor
+C409,0.1uF,Capacitor
+C501,0.1uF,Capacitor
+C502,0.1uF,Capacitor
+C503,0.1uF,Capacitor
+C504,0.1uF,Capacitor
+C540,0.1uF,Capacitor
+C541,0.1uF,Capacitor
+C600,0.1uF,Capacitor
+C601,0.1uF,Capacitor
+C602,0.1uF,Capacitor
+C603,0.1uF,Capacitor
+C604,0.1uF,Capacitor
+C605,0.1uF,Capacitor
+C606,0.1uF,Capacitor
+C607,0.1uF,Capacitor
+C800,0.1uF,Capacitor
+C802,0.1uF,Capacitor
+C803,0.1uF,Capacitor
+C804,0.1uF,Capacitor
+C805,0.1uF,Capacitor
+C812,0.1uF,Capacitor
+C815,0.1uF,Capacitor
+C900,0.1uF,Capacitor
+C901,0.1uF,Capacitor
+C903,0.1uF,Capacitor
+C906,0.1uF,Capacitor
+C910,0.1uF,Capacitor
+C9101,0.1uF,Capacitor
+C9102,0.1uF,Capacitor
+C915,0.1uF,Capacitor
+C916,0.1uF,Capacitor
+C918,0.1uF,Capacitor
+C919,0.1uF,Capacitor
+CX2,0.1uF,Capacitor
+C201,0.22uF,Capacitor
+C219,0.22uF,Capacitor
+C220,0.22uF,Capacitor
+C221,0.22uF,Capacitor
+C500,0.22uF,Capacitor
+C700,0.22uF,Capacitor
+C702,0.22uF,Capacitor
+C703,0.22uF,Capacitor
+C704,0.22uF,Capacitor
+C705,0.22uF,Capacitor
+C9001,0.33uF,Capacitor
+C310,1000pF,Capacitor
+C311,1000pF,Capacitor
+C312,1000pF,Capacitor
+C313,1000pF,Capacitor
+C314,1000pF,Capacitor
+C315,1000pF,Capacitor
+C316,1000pF,Capacitor
+C617,1000pF,Capacitor
+C619,1000pF,Capacitor
+C620,1000pF,Capacitor
+C621,1000pF,Capacitor
+C622,1000pF,Capacitor
+C623,1000pF,Capacitor
+C624,1000pF,Capacitor
+C625,1000pF,Capacitor
+C626,1000pF,Capacitor
+C627,1000pF,Capacitor
+C628,1000pF,Capacitor
+C629,1000pF,Capacitor
+C630,1000pF,Capacitor
+C631,1000pF,Capacitor
+C632,1000pF,Capacitor
+C633,1000pF,Capacitor
+C635,1000pF,Capacitor
+C637,1000pF,Capacitor
+C639,1000pF,Capacitor
+C641,1000pF,Capacitor
+C645,1000pF,Capacitor
+C647,1000pF,Capacitor
+C649,1000pF,Capacitor
+C650,1000pF,Capacitor
+C651,1000pF,Capacitor
+C652,1000pF,Capacitor
+C654,1000pF,Capacitor
+C655,1000pF,Capacitor
+C657,1000pF,Capacitor
+C658,1000pF,Capacitor
+C659,1000pF,Capacitor
+C660,1000pF,Capacitor
+C661,1000pF,Capacitor
+C662,1000pF,Capacitor
+C663,1000pF,Capacitor
+C664,1000pF,Capacitor
+C665,1000pF,Capacitor
+C666,1000pF,Capacitor
+C667,1000pF,Capacitor
+C668,1000pF,Capacitor
+C669,1000pF,Capacitor
+C670,1000pF,Capacitor
+C671,1000pF,Capacitor
+C672,1000pF,Capacitor
+C673,1000pF,Capacitor
+C674,1000pF,Capacitor
+C675,1000pF,Capacitor
+C711,1000pF,Capacitor
+C713,1000pF,Capacitor
+C714,1000pF,Capacitor
+C716,1000pF,Capacitor
+C717,1000pF,Capacitor
+C719,1000pF,Capacitor
+C720,1000pF,Capacitor
+C722,1000pF,Capacitor
+C726,1000pF,Capacitor
+C728,1000pF,Capacitor
+C730,1000pF,Capacitor
+C732,1000pF,Capacitor
+C734,1000pF,Capacitor
+C736,1000pF,Capacitor
+C738,1000pF,Capacitor
+C740,1000pF,Capacitor
+C742,1000pF,Capacitor
+C744,1000pF,Capacitor
+C746,1000pF,Capacitor
+C748,1000pF,Capacitor
+C750,1000pF,Capacitor
+C752,1000pF,Capacitor
+C754,1000pF,Capacitor
+C756,1000pF,Capacitor
+C758,1000pF,Capacitor
+C760,1000pF,Capacitor
+C762,1000pF,Capacitor
+C764,1000pF,Capacitor
+C766,1000pF,Capacitor
+C768,1000pF,Capacitor
+C770,1000pF,Capacitor
+C776,1000pF,Capacitor
+C778,1000pF,Capacitor
+C780,1000pF,Capacitor
+C782,1000pF,Capacitor
+C784,1000pF,Capacitor
+C786,1000pF,Capacitor
+C787,1000pF,Capacitor
+C789,1000pF,Capacitor
+C790,1000pF,Capacitor
+C791,1000pF,Capacitor
+C793,1000pF,Capacitor
+C794,1000pF,Capacitor
+C796,1000pF,Capacitor
+C259,100pF,Capacitor
+C260,100pF,Capacitor
+C261,100pF,Capacitor
+C304,100pF,Capacitor
+C306,100pF,Capacitor
+C904,100pF,Capacitor
+C905,100pF,Capacitor
+C907,100pF,Capacitor
+C914,100pF,Capacitor
+C920,100pF,Capacitor
+EMI200,100pF,Capacitor
+EMI206,100pF,Capacitor
+EMI207,100pF,Capacitor
+EMI229,100pF,Capacitor
+EMI230,100pF,Capacitor
+EMI231,100pF,Capacitor
+EMI232,100pF,Capacitor
+EMI233,100pF,Capacitor
+EMI234,100pF,Capacitor
+EMI235,100pF,Capacitor
+EMI236,100pF,Capacitor
+EMI237,100pF,Capacitor
+EMI238,100pF,Capacitor
+EMI239,100pF,Capacitor
+EMI240,100pF,Capacitor
+EMI241,100pF,Capacitor
+EMI242,100pF,Capacitor
+EMI243,100pF,Capacitor
+EMI300,100pF,Capacitor
+EMI301,100pF,Capacitor
+EMI302,100pF,Capacitor
+EMI303,100pF,Capacitor
+EMI304,100pF,Capacitor
+EMI305,100pF,Capacitor
+EMI306,100pF,Capacitor
+EMI307,100pF,Capacitor
+EMI308,100pF,Capacitor
+EMI309,100pF,Capacitor
+EMI310,100pF,Capacitor
+EMI325,100pF,Capacitor
+EMI326,100pF,Capacitor
+EMI327,100pF,Capacitor
+EMI328,100pF,Capacitor
+EMI329,100pF,Capacitor
+EMI330,100pF,Capacitor
+EMI331,100pF,Capacitor
+EMI332,100pF,Capacitor
+EMI333,100pF,Capacitor
+EMI334,100pF,Capacitor
+EMI335,100pF,Capacitor
+EMI336,100pF,Capacitor
+EMI337,100pF,Capacitor
+EMI338,100pF,Capacitor
+C9103,10uF,Capacitor
+C9104,10uF,Capacitor
+C9105,10uF,Capacitor
+C9000,1uF,Capacitor
+C400,220uF,Capacitor
+C416,220uF,Capacitor
+C417,220uF,Capacitor
+C418,220uF,Capacitor
+C419,220uF,Capacitor
+C233,22uF,Capacitor
+C243,22uF,Capacitor
+C317,22uF,Capacitor
+C318,22uF,Capacitor
+C701,22uF,Capacitor
+C813,22uF,Capacitor
+C814,22uF,Capacitor
+XC1,270pf,Capacitor
+C232,3900pF,Capacitor
+C242,3900pF,Capacitor
+C224,4.7uF,Capacitor
+C415,4.7uF,Capacitor
+C811,4.7uF,Capacitor
+C214,470uF,Capacitor
+C225,470uF,Capacitor
+C226,470uF,Capacitor
+C912,470uF,Capacitor
+C908,47pF,Capacitor
+C913,47pF,Capacitor
+C222,47uF,Capacitor
+C223,47uF,Capacitor
+C402,47uF,Capacitor
+C403,47uF,Capacitor
+C404,47uF,Capacitor
+C405,47uF,Capacitor
+C406,47uF,Capacitor
+C408,47uF,Capacitor
+C412,47uF,Capacitor
+C420,47uF,Capacitor
+C421,47uF,Capacitor
+C422,47uF,Capacitor
+C231,6800pF,Capacitor
+C241,6800pF,Capacitor
+CN600,Amiga-2000-CPU-Slot,CARD EDGE FEMALE
+CN203,Amiga-2000-Video-Slot,CARD EDGE FEMALE
+CN207,Amiga-2000-Video-Slot,CARD EDGE FEMALE
+CN601,Amiga-2000-Zorro-Slot,CARD EDGE FEMALE
+CN602,Amiga-2000-Zorro-Slot,CARD EDGE FEMALE
+CN603,Amiga-2000-Zorro-Slot,CARD EDGE FEMALE
+CN604,Amiga-2000-Zorro-Slot,CARD EDGE FEMALE
+CN605,Amiga-2000-Zorro-Slot,CARD EDGE FEMALE
+CN700,ISA-16-BIT-Slot,CARD EDGE FEMALE
+CN701,ISA-16-BIT-Slot,CARD EDGE FEMALE
+CN702,ISA-16-BIT-Slot,CARD EDGE FEMALE
+U300,8520,COMMODORE IC
+U301,8520,COMMODORE IC
+U101,8372A_FATTER_AGNUS,COMMODORE IC
+U800,BUSTER,COMMODORE IC
+U201,DENISE,COMMODORE IC
+U102,GARY,COMMODORE IC
+U500,KICKSTART,COMMODORE IC
+U200,PAULA,COMMODORE IC
+CN400,ATX-24,Connector
+CN205,AudioJack,Connector
+J9003,Case Fan,Connector
+J900,Enable Chip RAM slowdown during DMA,Connector
+CN303,FLOPPY,Connector
+J9004,HSYNC/COMPSYNC,Connector
+J9002,POWER LED,Connector
+J9100,POWER_SWITCH,Connector
+J9001,RESET,Connector
+J301,SHORT FOR DF1,Connector
+J102,SHORT FOR NTSC,Connector
+HY200,VIDIOT,Connector
+CN300,KEYBOARD,DIN5 FEMALE
+D300,1N4148,Diode
+D9100,1N4148,Diode
+D200,S1MWF-7,Diode
+D301,S1MWF-7,Diode
+D400,S1MWF-7,Diode
+D401,S1MWF-7,Diode
+FB101,80 OHM,Ferrite_Bead
+FB102,80 OHM,Ferrite_Bead
+FB215,80 OHM,Ferrite_Bead
+FB301,80 OHM,Ferrite_Bead
+FB302,80 OHM,Ferrite_Bead
+FB303,80 OHM,Ferrite_Bead
+FB401,80 OHM,Ferrite_Bead
+FB900,80 OHM,Ferrite_Bead
+FB901,80 OHM,Ferrite_Bead
+FB902,80 OHM,Ferrite_Bead
+FB907,80 OHM,Ferrite_Bead
+F1,4A,FUSE
+F2,4A,FUSE
+CN202,DB15_Female_HighDensity,HD15
+U205,74AHCT244,LOGIC
+U206,74AHCT244,LOGIC
+U540,74AHCT244,LOGIC
+U541,74AHCT244,LOGIC
+U501,74HCT00,LOGIC
+U900,74HCT00,LOGIC
+U107,74HCT04,LOGIC
+U303,74HCT08,LOGIC
+U607,74HCT08,LOGIC
+U803,74HCT08,LOGIC
+U802,74HCT138,LOGIC
+U9101,74HCT14,LOGIC
+U202,74HCT157,LOGIC
+U103,74HCT245,LOGIC
+U105,74HCT245,LOGIC
+U600,74HCT245,LOGIC
+U601,74HCT245,LOGIC
+U602,74HCT245,LOGIC
+U603,74HCT245,LOGIC
+U604,74HCT245,LOGIC
+U605,74HCT245,LOGIC
+U302,74HCT32,LOGIC
+U606,74HCT32,LOGIC
+U104,74HCT373,LOGIC
+U106,74HCT373,LOGIC
+U108,74HCT74,LOGIC
+U9102,74HCT74,LOGIC
+U804,74LS148,LOGIC
+U203,74LS38,LOGIC
+U502,CY74FCT821T,LOGIC
+U504,CY74FCT821T,LOGIC
+U100,MC68000,MOTOROLA 68000
+X1,28.63636MHz,OSCILLATOR
+X2,7C-28.63636MBB-T,OSCILLATOR
+R914,1 0.5W,Resistor
+R200,1 OHMS,Resistor
+R215,1 OHMS,Resistor
+R209,1.2k,Resistor
+R210,1.2k,Resistor
+R207,10 OHMS,Resistor
+R208,10 OHMS,Resistor
+R202,10k,Resistor
+R203,10k,Resistor
+R206,10k,Resistor
+R211,10k,Resistor
+R214,10k,Resistor
+R216,10k,Resistor
+R231,10k,Resistor
+R232,10k,Resistor
+R241,10k,Resistor
+R242,10k,Resistor
+R305,10k,Resistor
+R306,10k,Resistor
+R802,10k,Resistor
+R804,10k,Resistor
+RN300,10k,Resistor
+RN600,10k,Resistor
+R233,1k,Resistor
+R243,1k,Resistor
+R301,1k,Resistor
+R302,1k,Resistor
+R311,1k,Resistor
+R312,1k,Resistor
+R601,1k,Resistor
+R601A1,1k,Resistor
+R601B1,1k,Resistor
+R601C1,1k,Resistor
+R601D1,1k,Resistor
+R601E1,1k,Resistor
+R601F1,1k,Resistor
+R601G1,1k,Resistor
+R601H1,1k,Resistor
+R601I1,1k,Resistor
+R602,1k,Resistor
+R602A1,1k,Resistor
+R602B1,1k,Resistor
+R602C1,1k,Resistor
+R602D1,1k,Resistor
+R602E1,1k,Resistor
+R602F1,1k,Resistor
+R602G1,1k,Resistor
+R602H1,1k,Resistor
+R602I1,1k,Resistor
+R603,1k,Resistor
+R603A1,1k,Resistor
+R603B1,1k,Resistor
+R603C1,1k,Resistor
+R603D1,1k,Resistor
+R603E1,1k,Resistor
+R603F1,1k,Resistor
+R603G1,1k,Resistor
+R603H1,1k,Resistor
+R603I1,1k,Resistor
+R604,1k,Resistor
+R604A1,1k,Resistor
+R604B1,1k,Resistor
+R604C1,1k,Resistor
+R604D1,1k,Resistor
+R604E1,1k,Resistor
+R604F1,1k,Resistor
+R604G1,1k,Resistor
+R604H1,1k,Resistor
+R604I1,1k,Resistor
+R605,1k,Resistor
+R605A1,1k,Resistor
+R605B1,1k,Resistor
+R605C1,1k,Resistor
+R605D1,1k,Resistor
+R605E1,1k,Resistor
+R605F1,1k,Resistor
+R605G1,1k,Resistor
+R605H1,1k,Resistor
+R605I1,1k,Resistor
+R800,1k,Resistor
+R900,1k,Resistor
+RN205,1k,Resistor
+RN301,1k,Resistor
+RN607,1k,Resistor
+RN700,1k,Resistor
+RN701,1k,Resistor
+RN702,1k,Resistor
+RN703,1k,Resistor
+RN704,1k,Resistor
+RN800,1k,Resistor
+RN802,1k,Resistor
+RN903,1k,Resistor
+RN908,1k,Resistor
+R213,2.7k,Resistor
+RN101,2.7k,Resistor
+R308,200 OHMS,Resistor
+R105,22 OHMS,Resistor
+R106,22 OHMS,Resistor
+R212,22 OHMS,Resistor
+R500E1,22 OHMS,Resistor
+R502A1,22 OHMS,Resistor
+R502B1,22 OHMS,Resistor
+R502D1,22 OHMS,Resistor
+RNX1,3.3k,Resistor
+RNX2,3.3k,Resistor
+R9100,30k,Resistor
+R9102,30k,Resistor
+R9105,30k,Resistor
+R110,330 OHMS,Resistor
+R114,330 OHMS,Resistor
+R115,330 OHMS,Resistor
+R230,360 OHMS,Resistor
+R240,360 OHMS,Resistor
+R234,390 OHMS,Resistor
+R244,390 OHMS,Resistor
+R101,4.7k,Resistor
+R104,4.7k,Resistor
+R109,4.7k,Resistor
+R201,4.7k,Resistor
+R300,4.7k,Resistor
+R309,4.7k,Resistor
+R500,4.7k,Resistor
+R806,4.7k,Resistor
+R807,4.7k,Resistor
+R902,4.7k,Resistor
+R9104,4.7k,Resistor
+R916,4.7k,Resistor
+RN100,4.7k,Resistor
+RN200,4.7k,Resistor
+RN705,4.7k,Resistor
+RN801,4.7k,Resistor
+R310,47 0.5W,Resistor
+R203A1,47 OHMS,Resistor
+R203B1,47 OHMS,Resistor
+R500A1,47 OHMS,Resistor
+R500B1,47 OHMS,Resistor
+R500C1,47 OHMS,Resistor
+R500D1,47 OHMS,Resistor
+R500E2,47 OHMS,Resistor
+R501A1,47 OHMS,Resistor
+R501B1,47 OHMS,Resistor
+R501C1,47 OHMS,Resistor
+R501D1,47 OHMS,Resistor
+R502C1,47 OHMS,Resistor
+R904,47 OHMS,Resistor
+R905,47 OHMS,Resistor
+RN102,47 OHMS,Resistor
+RN201A1,47 OHMS,Resistor
+RN201B1,47 OHMS,Resistor
+RN201C1,47 OHMS,Resistor
+RN201D1,47 OHMS,Resistor
+RN203E1,47 OHMS,Resistor
+RN902,47 OHMS,Resistor
+RN907A1,47 OHMS,Resistor
+RN907B1,47 OHMS,Resistor
+RN907C1,47 OHMS,Resistor
+R1000,470 OHMS,Resistor
+R111,470 OHMS,Resistor
+R801,470 OHMS,Resistor
+R803,470 OHMS,Resistor
+R917,470 OHMS,Resistor
+RN503,470 OHMS,Resistor
+R204,470k,Resistor
+R205,470k,Resistor
+R805,47k,Resistor
+R9103,47k,Resistor
+R9101,6.2k,Resistor
+R307,68 OHMS,Resistor
+RN204A1,68 OHMS,Resistor
+RN204B1,68 OHMS,Resistor
+RN204C1,68 OHMS,Resistor
+RN204D1,68 OHMS,Resistor
+XR1,68 OHMS,Resistor
+U801,RTC62423,SOIC-24W
+U503,CY62157,SRAM
+CN305,DB25_Stack_FemaleAndMale,STACKED DB25
+CN200,DB9_Male_Stack,STACKED DB9
+Q200,MMBFJ211,TRANSISTOR
+Q201,MMBFJ211,TRANSISTOR
+Q300,MMBT3904,TRANSISTOR
+Q301,MMBT3904,TRANSISTOR
+Q9100,MMBT3904,TRANSISTOR
+Q202,MMBT3906,TRANSISTOR
+Q302,MMBT3906,TRANSISTOR
+D800,BAT54C,
+XU1,DS1813,
+U204,LF347,
+U805,LM339,
+U9000,MC7905,
+U304,SN75188DR,
+U305,SN75189DR,
