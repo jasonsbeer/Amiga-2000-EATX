@@ -11,9 +11,13 @@ As you can see, full length Zorro II and coprocessor PICs exceed the maximum dep
 For the purposes of testing, the Phanteks Enthoo EATX case was used and will accomodate full length Amiga 2000 PICs. The lower two drive bays are removable and were removed to create extra space. This case is able to accomodate the A2630 coprocessor and A2090 SCSI/MFM Zorro II PICs. Both are full length.
 
 ## Coprocessor and Video Slot Plug In Cards
-The Amiga 2000 used a proprietary bracket for the coprocessor and video slot cards. These brackets are not compatable with standard card slot brackets. It is recommended you obtain or create a bracket adapter to accomodate the difference. I have supplied STL files so that you can print an adapter or replacement brackets for specific plug in cards. You can find the STL files here [THIS IS A WORK IN PROGRESS](/STL/). Please note that Zorro II plug in card brackets are standard brackets and do not require modification.
+The Amiga 2000 used a proprietary bracket for the coprocessor and video slot cards. These brackets are not compatable with standard card slot brackets. It is recommended you obtain or create a bracket adapter to accomodate the difference. I have supplied STL files so that you can print an adapter or replacement brackets for specific plug in cards. You can find the STL files [here](/STL/). Note that Zorro II plug in card brackets are standard brackets and do not require modification.
+
+The board surface to surface clearance between the coprocessor and video slot is approximately 21mm.
 
 <b>Special note on the A26x0 coprocessor cards:</b> These cards have a RAM expansion connector on the non-component side of the card. In the event you have this card, especially with a RAM expansion unit, it may interfere with the placement of a card in the video slot. 
+
+<img src="/Images/COP-Video-Clearance.jpg" width="500">
 
 ## Jumper Settings
 Jumper|Description|Detail
@@ -68,7 +72,7 @@ To connect one floppy drive (DF0), use any straight through 34 pin cable. In the
 Drive DF0 must be at the end of the cable, past the twist. DF1 must be physically first on the cable, before the twist. In the event the drives are reversed on the cable, the drive lights will not operate independently.
 
 ### Amiga Floppy Cable Twist
-To build an Amiga floppy cable, the first connection is straight through. Wires 4-6 are twisted before the second connection.
+To build an Amiga floppy cable, the first connection is straight through. Conductors 4-6 are twisted before the second connection.
 
 <img src="/Images/amiga-floppy-cable.jpg" width="500">
 
