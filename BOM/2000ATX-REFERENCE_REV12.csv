@@ -376,8 +376,6 @@ R305,10k,Resistor
 R306,10k,Resistor
 R802,10k,Resistor
 R804,10k,Resistor
-RN300,10k,Resistor
-RN600,10k,Resistor
 R233,1k,Resistor
 R243,1k,Resistor
 R301,1k,Resistor
@@ -436,20 +434,7 @@ R605H1,1k,Resistor
 R605I1,1k,Resistor
 R800,1k,Resistor
 R900,1k,Resistor
-RN205,1k,Resistor
-RN301,1k,Resistor
-RN607,1k,Resistor
-RN700,1k,Resistor
-RN701,1k,Resistor
-RN702,1k,Resistor
-RN703,1k,Resistor
-RN704,1k,Resistor
-RN800,1k,Resistor
-RN802,1k,Resistor
-RN903,1k,Resistor
-RN908,1k,Resistor
 R213,2.7k,Resistor
-RN101,2.7k,Resistor
 R308,200 OHMS,Resistor
 R105,22 OHMS,Resistor
 R106,22 OHMS,Resistor
@@ -458,8 +443,6 @@ R500E1,22 OHMS,Resistor
 R502A1,22 OHMS,Resistor
 R502B1,22 OHMS,Resistor
 R502D1,22 OHMS,Resistor
-RNX1,3.3k,Resistor
-RNX2,3.3k,Resistor
 R9100,30k,Resistor
 R9102,30k,Resistor
 R9105,30k,Resistor
@@ -482,10 +465,6 @@ R807,4.7k,Resistor
 R902,4.7k,Resistor
 R9104,4.7k,Resistor
 R916,4.7k,Resistor
-RN100,4.7k,Resistor
-RN200,4.7k,Resistor
-RN705,4.7k,Resistor
-RN801,4.7k,Resistor
 R310,47 0.5W,Resistor
 R203A1,47 OHMS,Resistor
 R203B1,47 OHMS,Resistor
@@ -501,13 +480,11 @@ R501D1,47 OHMS,Resistor
 R502C1,47 OHMS,Resistor
 R904,47 OHMS,Resistor
 R905,47 OHMS,Resistor
-RN102,47 OHMS,Resistor
 RN201A1,47 OHMS,Resistor
 RN201B1,47 OHMS,Resistor
 RN201C1,47 OHMS,Resistor
 RN201D1,47 OHMS,Resistor
 RN203E1,47 OHMS,Resistor
-RN902,47 OHMS,Resistor
 RN907A1,47 OHMS,Resistor
 RN907B1,47 OHMS,Resistor
 RN907C1,47 OHMS,Resistor
@@ -516,7 +493,6 @@ R111,470 OHMS,Resistor
 R801,470 OHMS,Resistor
 R803,470 OHMS,Resistor
 R917,470 OHMS,Resistor
-RN503,470 OHMS,Resistor
 R204,470k,Resistor
 R205,470k,Resistor
 R805,47k,Resistor
@@ -528,6 +504,30 @@ RN204B1,68 OHMS,Resistor
 RN204C1,68 OHMS,Resistor
 RN204D1,68 OHMS,Resistor
 XR1,68 OHMS,Resistor
+RN300,10k,Resistor Network
+RN600,10k,Resistor Network
+RN205,1k,Resistor Network
+RN301,1k,Resistor Network
+RN607,1k,Resistor Network
+RN700,1k,Resistor Network
+RN701,1k,Resistor Network
+RN702,1k,Resistor Network
+RN703,1k,Resistor Network
+RN704,1k,Resistor Network
+RN800,1k,Resistor Network
+RN802,1k,Resistor Network
+RN903,1k,Resistor Network
+RN908,1k,Resistor Network
+RN101,2.7k,Resistor Network
+RNX1,3.3k,Resistor Network
+RNX2,3.3k,Resistor Network
+RN100,4.7k,Resistor Network
+RN200,4.7k,Resistor Network
+RN705,4.7k,Resistor Network
+RN801,4.7k,Resistor Network
+RN102,47 OHMS,Resistor Network
+RN902,47 OHMS,Resistor Network
+RN503,470 OHMS,Resistor Network
 U801,RTC62423,SOIC-24W
 U503,CY62157,SRAM
 CN305,DB25_Stack_FemaleAndMale,STACKED DB25
