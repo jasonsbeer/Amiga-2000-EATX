@@ -15,6 +15,8 @@ Rev 1.2 shown.
 
 <img src="/Images/Rev12-Complete.png" width="500">
 
+<img src="/Images/lemmings.png" width="500">
+
 ## User Guide and Considerations
 Review [this information](userguide.md) to ensure a smooth and happy experience when assembling an Amiga 2000 EATX system. It will answer many questions and inform you as to the physical requirements of the Amiga 2000 EATX PCB, various Amiga plug in cards, etc.
 
