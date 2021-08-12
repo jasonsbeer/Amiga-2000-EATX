@@ -1,7 +1,6 @@
 # User Guide
-Under construction.
 
-Here you will find basic information on final set up of your Amiga 2000 EATX computer. For information on building an Amiga 2000 EATX PCB, see [here](AssemblyNotes.md).
+Here you will find basic information on final set up of your Amiga 2000 EATX computer. For information on building an Amiga 2000 EATX PCB, see [here](AssemblyNotes.md). For general information on the Amiga 2000 not covered here, refer to the [Amiga 500 and 2000 Technical Reference Manual](/DataSheets/Amiga_A500_A2000_Technical_Reference_Manual_1987.pdf).
 
 ## Case Considerations
 When selecting a case, considerations must be made for accomodating full size plug in cards (PICs). The Amiga 2000 EATX motherboard is 12x13 inches (305 × 330 mm) in size and will fit any EATX or ATX case with sufficient room for this size PCB. However, full length PICs for the Amiga 2000 are very large by today's standards. Zorro II PICs are up to 337.19mm in length, coprocessor cards up to 356 mm in length, and video slot PICs up to 210mm (see [Amiga 500 and 2000 Technical Reference Manual](/DataSheets/Amiga_A500_A2000_Technical_Reference_Manual_1987.pdf)). 
@@ -13,7 +12,7 @@ For the purposes of testing, the Phanteks Enthoo EATX case was used and will acc
 ## Coprocessor and Video Slot Plug In Cards
 The Amiga 2000 used a proprietary bracket for the coprocessor and video slot cards. These brackets are not compatable with standard card slot brackets. It is recommended you obtain or create a bracket adapter to accomodate the difference. I have supplied STL files so that you can print an adapter or replacement brackets for specific plug in cards. You can find the STL files [here](/STL/). Note that Zorro II plug in card brackets are standard brackets and do not require modification.
 
-The board surface to surface clearance between the coprocessor and video slot is approximately 21mm.
+The board surface to surface clearance between the coprocessor and video slot is approximately 21mm. These two slots were not together in the original Amiga 2000. Because of this, there may be physical incompatabilities between certain cards.
 
 <b>Special note on the A26x0 coprocessor cards:</b> These cards have a RAM expansion connector on the non-component side of the card. In the event you have this card, especially with a RAM expansion unit, it may interfere with the placement of a card in the video slot. 
 
@@ -55,9 +54,9 @@ The Amiga 2000 EATX is intended to be used with legacy Amiga keyboards and mice.
 ### Video
 The video port supplies a 15KHz analog RGB signal via the HD15 connector. The pins are in the standard VGA configuration. Use a standard VGA cable to connect to a 15KHz compatable monitor or conversion box.
 
-Certain video adapters, such as the GBS 8220, require a composite sync signal instead of the HSYNC signal. If you are using such an adapter, you can provide composite sync on pin 13 of the video port by setting J9104. Set J9104 for HSYNC when using 15KHz compatble VGA monitors or video adapters that support HSYNC and VSYNC. See Table 1.
+Certain video adapters, such as the GBS 8220, require a composite sync signal instead of the HSYNC signal. If you are using such an adapter, you can provide composite sync on pin 13 of the video port by setting J9004 to COMPSYNC. Set J9004 to HSYNC when using 15KHz compatble VGA monitors or video adapters that support HSYNC and VSYNC. See Table 1.
 
-more here....add pics of ports w/labels, etc...
+<img src="/Images/A2000EATX_Ports.png" width="500">
 
 ## Floppy Drive(s)
 The Amiga uses a 34 pin cable to attach up to two internal floppy drives or floppy drive emulators. The Amiga floppy cable is different from a PC floppy cable. The cable must be oriented and drives attached in the correct order for full functionality. Ensure correct alignment of pin 1 at each connection.
