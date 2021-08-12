@@ -1,6 +1,8 @@
 # Assembly Notes, BOM, and Random Thoughts
 
-IMPORTANT INFORMATION. It is recommended you read this entire page before assembling the Amiga 2000 EATX.
+IMPORTANT INFORMATION. It is highly recommended you read this entire page before assembling the Amiga 2000 EATX.
+
+**Disclaimer:** I feel like I should not need to put this, but here it is. This project is free and open source. It is a complex project and should only be undertaken by individuals experienced in SMD assembly techniques and familiar with Amiga architecture and trouble shooting. No warranty or guarantee is offered that it will work for your particular situation. You assume all risk should you choose to build it.
 
 This Amiga EATX PCB makes use of many modern surface mount components. These and the other standard components are available from most any good electronics supply house. The BOM includes Digi-Key part numbers for your reference. In addition, you will need to obtain the legacy components shown in Table A1. 
 
@@ -15,6 +17,8 @@ Notes:
 The best source of parts for this project is a dead or dying Amiga 2000 board. Otherwise, many of the Amiga legacy IC's and parts can be obatined from various internet suppliers. Unfortunately, Buster (MOS 5721) can be difficult to find. Beware the original Buster revision (318075-01) has a buffering error and cannot be used without a "Buster Tower". Be sure to use the one specifically listed in Table A1 or build a replacement option.
 
 You will need an oscillator installed at X1 or X2 to generate a clock signal. You can find 5V TTL oscillators from various legacy suppliers in the 14-DIP format. In the event you cannot find one, you can use a 3.3V CMOS oscillator of the same frequency in position X2. See Table A1. Do not populate both X1 and X2.
+
+**Note on CMOS oscillator:** 3.3v CMOS logic is compatible with in-spec TTL logic. However, using the 3.3v CMOS oscillator should only be considered if a TTL oscillator cannot be obtained. My test board worked well in most circumstances with a 3.3v CMOS oscillator. All clock signals from Agnus are correct on my test machine. However, I encountered situations where certain games would not load. In particular, cracked versions of Shadow of the Beast, Pinball Fantasies, and Lemmings would crash during loading. Other programs such as Workbench, It Came from the Desert, and Walker all loaded and ran well. No other stability issues were noted.
 
 ## Kickstart Installation
 The Amiga 2000 EATX is provisioned to accept 512k (27C400, 40 pin), 1MB (27C800, 42 pin), and 2MB (27C160, 42 pin) Kickstart EPROMs. The Kickstart socket (U500) is a 42 pin DIP footprint that supports all three types. A standard Amiga Kickstart ROM is based on the 27C400 EPROM. When installing a 27C400 EPROM, you must install it toward the bottom of the socket, leaving pins 1 and 42 of the socket empty. This is noted on the silk screen and will correctly align the pins. **Installing the 27C400 EPROM incorrectly may damage it!** Install 27C800 and 27C160 EPROMs as normal. Use of 1MB and larger EPROMs is considered experimental. Guides to create custom Kickstart ROMs can be found on Amiga community sites.
