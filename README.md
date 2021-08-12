@@ -8,19 +8,12 @@ In addition to a new board replacement option, I believe the ubiquitous EATX sta
 <img src="/Images/2000EATX-Rev121.png" width="500">
 
 ## Project Status
-July 21, 2021
+August 11, 2021
 
-**Revision 1.2 is the production candidate.**
+**Revision 1.2.1 is the production board.**
+Rev 1.2 shown.
 
-I am currently running a Supra Wordsync SCSI card, a Commodore A2630 accelerator, and a [Pi HDMI video card](https://github.com/jasonsbeer/Amiga-HDMI-Through-Hole) on the Amiga 2000 EATX. AIBB can be seen on the screen. I allowed the Amiga 2000 EATX to run for several hours playing games and running memory tests without issue. All the external ports are working as expected.
-
-<img src="/Images/aibb.jpg" width="500">
-
-## Project Goals
-1. Enter Amiga 2000 Rev 6.2 schematics into KiCad, including all known A2000 Rev 6.x PCB updates.
-2. When possible, replace end of life components with suitable alternatives that are commercially available.
-3. Layout and route components using the EATX standard as a guide.
-4. Test it and make sure it works.
+<img src="/Images/Rev12-Complete.png" width="500">
 
 ## User Guide and Considerations
 Review [this information](userguide.md) to ensure a smooth and happy experience when assembling an Amiga 2000 EATX system. It will answer many questions and inform you as to the physical requirements of the Amiga 2000 EATX PCB, various Amiga plug in cards, etc.
@@ -95,7 +88,7 @@ Rev 1.1
 5. Moved some components
 6. Cleaned up silk screen
 
-Rev 1.2 **PRODUCTION CANDIDATE**
+Rev 1.2
 1. Fixed traces on the keyboard connector (error on the C= schematic)
 2. Added missing _COPCFG trace
 3. Deleted some extra traces that were not needed
@@ -104,6 +97,10 @@ Rev 1.2 **PRODUCTION CANDIDATE**
 6. Widened U801 footprint (RTC62423 is wider than the standard SOIC package)
 7. Added support for 1 and 2 MB Kickstart ROMs (512k still supported)
 8. Added some space around the external ports...they were crowded
+
+Rev 1.2.1 **PRODUCTION REVISION**
+1. Added some missing component values to the silk screen, where there was room
+2. Moved VIDIOT over to make additional room for coprocessor cards
    
 ## Acknowledgments
 kr239 - for the Amiga 500 DRAM replacement project inspiration and LIV2 and texneus for the modifications used in this project
