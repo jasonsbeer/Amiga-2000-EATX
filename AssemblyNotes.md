@@ -1,11 +1,11 @@
 # Assembly Notes, BOM, and Random Thoughts
 
-IMPORTANT INFORMATION. Please read this entire page. (under construction)
+IMPORTANT INFORMATION. It is recommended you read this entire page before assembling the Amiga 2000 EATX.
 
 This Amiga EATX PCB makes use of many modern surface mount components. These and the other standard components are available from most any good electronics supply house. The BOM includes Digi-Key part numbers for your reference. In addition, you will need to obtain the legacy components shown in Table A1. 
 
 Notes:
-1. If you do not intend to use a bridgeboard or the ISA slots, you do not need to install the components shown in the ISA SUPPORT silk screen.
+1. If you do not intend to use a bridgeboard or the ISA slots, you do not need to install the components shown in the ISA SUBSYSTEM silk screen.
 2. When space was available, the values of components are listed on the PCB. In the event several components are placed together with the same value, the value may be shown once and the components will be marked together on the silk screen.
 3. All end-of-life (no longer manufactured) components for this project are listed in table A1.
 4. Always verify the orientation and location of all IC's before attaching. Never assume the orientation matches the original A2000.
