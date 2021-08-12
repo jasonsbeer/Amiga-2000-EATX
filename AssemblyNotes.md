@@ -2,7 +2,7 @@
 
 IMPORTANT INFORMATION. It is highly recommended you read this entire page before assembling the Amiga 2000 EATX.
 
-**Disclaimer:** I feel like I should not need to put this, but here it is. This project is free and open source. It is a complex project and should only be undertaken by individuals experienced in SMD assembly techniques and familiar with Amiga architecture and trouble shooting. No warranty or guarantee is offered that it will work for your particular situation. You assume all risk should you choose to build it.
+**Disclaimer:** I feel like I should not need to put this, but here it is. This project is free and open source. It is a complex project and should only be undertaken by individuals experienced in SMD assembly techniques. No warranty or guarantee is offered that it will work for your particular situation. You assume all risk should you choose to build it.
 
 This Amiga EATX PCB makes use of many modern surface mount components. These and the other standard components are available from most any good electronics supply house. The BOM includes Digi-Key part numbers for your reference. In addition, you will need to obtain the legacy components shown in Table A1. 
 
