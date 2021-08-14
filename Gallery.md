@@ -1,4 +1,4 @@
-Here are some photos of note and comments related to the development of the Amiga 2000 EATX. I ordered these from oldest to newest. I thought it would be fun to reflect on the last few months and how much effort this really took. Thanks for looking.
+Here are some photos of note and comments related to the development of the Amiga 2000 EATX. I ordered these from oldest to newest. I thought it would be fun to reflect on the last few months and how much effort this really took. It gives me a time to decompress and think about all it took to get here. Thanks for looking.
 
 The revision 0 board. This is where it all started. Starting in March, 2021, it took 2 weeks to enter the schematics and another 6 weeks to route the board. I did not solder a single component to this revision because it was painfully obvious that the card slots are nowhere near where the should be. I measured from the edge of the board instead of the correct datum point, which is the upper left mounting hole. I was pretty unhappy with myself, to say the least.
 
@@ -52,7 +52,7 @@ Running Workbench 3.1.4 on the revision 1.2 board.
 
 <img src="/Images/wb.jpg" width="750">
 
-The final touch on this project. The fan, she spins! 
+The final touch on this project. Connected to J9003, the fan, she spins! 
 
 <img src="/Images/case3.jpg" width="750">
 
