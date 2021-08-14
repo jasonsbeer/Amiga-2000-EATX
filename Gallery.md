@@ -4,7 +4,7 @@ The revision 0 board. This is where it all started. Starting in March, 2021, it 
 
 <img src="/Images/rev0.jpg" width="750">
 
-I quickly figured out the datum issue and moved the slots nearer to the correct position for the revision 1.0 board. The Zorro and ISA slot positions are well documented. The video and coprocessor slots...not so much. I spent time looking at pictures of the A3000 back plane and using a micrometer to figure out where those slots needed to be. I was really close...within a 2-3 millimeters, but still not quite right. I had to move them a little bit for the next revision.
+I quickly figured out the datum issue and moved the slots nearer to the correct position for the revision 1.0 board. The Zorro and ISA slot positions are well documented. The video and coprocessor slots...not so much. I spent time looking at pictures of the A3000 back plane and using a micrometer on my A2000 and A2630 to figure out where those slots needed to be. I was really close...within 1-2 millimeters, but still not quite right. I had to move them a little bit for the next revision.
 
 <img src="/Images/rev10-test-fit.jpg" width="750">
 
