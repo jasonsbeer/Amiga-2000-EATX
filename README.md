@@ -66,6 +66,9 @@ The computer can be reset via CTRL-Amiga-Amiga on an Amiga keyboard or via the r
 ### Real Time Clock
 The real time clock (RTC) has been changed to the RTC-62423. This RTC has a built in crystal and does not need adjustment. In the Amiga, the RTC is written and read by 4 address and 4 data lines. Unfortunately, there are no direct "modern" replacements for this type of bus connected RTC. As such, this is among the legacy IC's that must be obtained. It is readily available where these type of legacy IC's are sold.
 
+### TICK
+The TICK timing signal on the original Amiga 2000 was supplied by the power supply and is a 50 or 60Hz signal determined by the mains power in use. For the Amiga 2000 EATX, TICK is driven by _VSYNC from Agnus. This is a valid configuration option on the original Amiga 2000 via jumper J300. In addition, this is how the Amiga 500 is configured.
+
 ## What has not changed?
 ### Most External Ports
 The keyboard, joystick, mouse, parallel, and serial ports are all present and function as they did in the Amiga 2000. The parallel, serial, mouse, and joystick ports are stacked DB9 and DB25 connectors, respectively. The Amiga keyboard port remains a DIN5 connector.
@@ -77,7 +80,7 @@ There are no changes to the Zorro II slots.
 For now, the Kickstart ROM remains the original 27C400. These are no longer made, but are easy to find. In addition, this allows the use of an original Commodore Kickstart mask ROM. Revision 1.2 added support for 1MB (27C800) and 2MB (27C160) EPROMs for custom Kickstart ROMs.
 
 ### Everything Else
-If something is not specifically mentioned, you should expect it to be unchanged in function or component from the original A2000.
+If something is not specifically mentioned, you should expect it to be unchanged in function or component from the original Amiga 2000.
 
 ## Revision History
 Rev 0 - Prototype board
@@ -118,4 +121,3 @@ texneus - ATX ON/OFF circuit
 DarrenHD - Pics and measurements of the Amiga 3000 video slot bracket adapter - https://eab.abime.net/showthread.php?t=106928
 
 Chucky - Amiga Diagrom...a priceless diagnostic tool - http://www.diagrom.com/
-
