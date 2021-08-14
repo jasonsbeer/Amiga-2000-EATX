@@ -32,6 +32,9 @@ See information [here](PCB.md).
 See information [here](AssemblyNotes.md).
 
 ## Changes from the original Amiga 2000
+
+The Amiga 2000 EATX is derived from the Commodore Amiga 2000 Rev 6.2 schematics. To my knowledge, all known Rev 6.x PCB updates are included in this project. 
+
 ### Video
 The DB23 video connector has been removed in favor of the HD15 connector. One of the goals of this project is to avoid parts that are not commercially available. The D-Sub 23 connector is a prime example. They are not stocked at popular electronic supply houses. Thus, the change to the widely available HD15 connector. Analog red, green, blue, HSYNC or COMPSYNC (jumper selectable), and VSYNC are supplied using the VGA standard pin out configuration. Other external video port signals are not supplied. Any VGA cable can be used to supply the video signal to a VGA monitor or conversion box supporting the 15KHz standard. 
 
