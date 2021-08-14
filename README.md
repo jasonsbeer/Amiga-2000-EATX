@@ -19,6 +19,8 @@ Rev 1.2 shown.
 
 <img src="/Images/case1.jpg" width="500">
 
+If you are interested in a brief history of this project, check out the [Gallery page](/Gallery.md).
+
 ## User Guide and Considerations
 Review [this information](userguide.md) to ensure a smooth and happy experience when assembling an Amiga 2000 EATX system. It will answer many questions and inform you as to the physical requirements of the Amiga 2000 EATX PCB, various Amiga plug in cards, etc.
 
