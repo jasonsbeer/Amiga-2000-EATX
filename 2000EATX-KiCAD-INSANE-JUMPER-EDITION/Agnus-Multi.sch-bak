@@ -819,8 +819,6 @@ Wire Wire Line
 	6500 4000 1550 4000
 Text GLabel 1550 4000 0    51   Input ~ 0
 A20
-Text GLabel 1550 4400 0    51   Input ~ 0
-XCLK
 Wire Wire Line
 	8250 6800 6800 6800
 Wire Wire Line
