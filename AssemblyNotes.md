@@ -65,9 +65,10 @@ Throught hole IC's have a square pad and a "1" marking pin one. Pin one is usual
 
 ## Tables
 Table A1. Legacy Parts Required
+
 Common Name|Designation/Part Number|Postion|Package|Notes
 -|-|-|-|-
-Motorola 68000|MC68000|U100|DIP-64| 8MHz or greater
+Motorola 68000|MC68000|U100|DIP-64|8MHz or greater
 Fatter Agnus|MOS* 8372A/318069-02|U101|PLCC-84|
 Gary|MOS 5719|U102|DIP-48|
 Paula|MOS 8364|U200|DIP-48|
