@@ -1254,7 +1254,7 @@ Wire Wire Line
 Wire Wire Line
 	7950 2800 6100 2800
 Wire Wire Line
-	7950 4200 6100 4200
+	7950 4200 7100 4200
 Wire Wire Line
 	7950 4300 6850 4300
 Entry Wire Line
@@ -1274,7 +1274,7 @@ Entry Wire Line
 Entry Wire Line
 	6100 2800 6000 2700
 Entry Wire Line
-	6100 4200 6000 4100
+	6100 3500 6000 3400
 Wire Bus Line
 	6000 1450 1550 1450
 Text Label 7400 2100 0    51   ~ 0
@@ -1793,29 +1793,27 @@ DRAB9
 $Comp
 L Jumper:SolderJumper_3_Bridged12 JA?
 U 1 1 6183D00D
-P 6700 3700
+P 6700 4000
 AR Path="/61252A60/6183D00D" Ref="JA?"  Part="1" 
 AR Path="/6089B263/6183D00D" Ref="JA13"  Part="1" 
-F 0 "JA13" V 6654 3768 50  0000 L CNN
-F 1 "8375/8372A" V 6745 3768 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 6700 3700 50  0001 C CNN
-F 3 "~" H 6700 3700 50  0001 C CNN
-	1    6700 3700
+F 0 "JA13" V 6654 4068 50  0000 L CNN
+F 1 "8375/8372A" V 6745 4068 50  0000 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 6700 4000 50  0001 C CNN
+F 3 "~" H 6700 4000 50  0001 C CNN
+	1    6700 4000
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6700 3500 6100 3500
+	6700 3800 6100 3800
 Wire Wire Line
-	6700 3900 6100 3900
+	6700 4200 6100 4200
 Entry Wire Line
-	6100 3500 6000 3400
+	6100 3800 6000 3700
 Entry Wire Line
-	6100 3900 6000 3800
-Wire Wire Line
-	6850 3700 6850 4300
-Text Label 6150 3900 0    51   ~ 0
+	6100 4200 6000 4100
+Text Label 6150 4200 0    51   ~ 0
 DRA9
-Text Label 6150 3500 0    51   ~ 0
+Text Label 6150 3800 0    51   ~ 0
 DRA8
 Entry Wire Line
 	11900 1800 11800 1900
@@ -1838,6 +1836,12 @@ Entry Wire Line
 	11700 4050 11800 4150
 Wire Wire Line
 	11250 4050 11700 4050
+Wire Wire Line
+	7100 4200 7100 3500
+Wire Wire Line
+	7100 3500 6100 3500
+Wire Wire Line
+	6850 4000 6850 4300
 Wire Bus Line
 	6000 1450 6000 4100
 Wire Bus Line
