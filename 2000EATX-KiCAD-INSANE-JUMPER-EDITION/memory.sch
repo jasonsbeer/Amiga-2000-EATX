@@ -209,7 +209,7 @@ Wire Notes Line
 Wire Notes Line
 	10700 6650 9100 6650
 Text Notes 9800 7600 0    50   ~ 0
-J500 IS OMITTED\nPERMANENTLY SET \nTO 1M CHIP RAM
+J500 IS OMITTED\nPERMANENTLY SET \nTO MAX CHIP RAM
 $Comp
 L Device:C C501
 U 1 1 60FB81B2
@@ -1852,4 +1852,6 @@ Wire Bus Line
 	4950 3750 4950 6850
 Wire Bus Line
 	15650 1350 15650 3300
+Text Notes 5100 1200 0    79   ~ 0
+NOTE: The 8375 signal is the before the dash,\nthe 8372A signal is after the dash.\n\nJumpers default to 8375, all part numbers\ndefined with Agnus multiadapter.
 $EndSCHEMATC

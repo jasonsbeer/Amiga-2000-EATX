@@ -182,11 +182,9 @@ Wire Wire Line
 	4250 4600 3400 4600
 Wire Wire Line
 	3450 2650 4950 2650
-Wire Wire Line
-	2500 4600 1800 4600
 Text GLabel 1800 4600 0    50   Input ~ 0
 _BGACK
-Text GLabel 4950 3400 0    50   Output ~ 0
+Text GLabel 1800 3850 0    50   Output ~ 0
 _HLT
 Text GLabel 1750 5850 0    50   Input ~ 0
 R_W
@@ -205,7 +203,7 @@ F 3 "~" H 3400 4450 50  0001 C CNN
 $EndComp
 Connection ~ 3400 4600
 Wire Wire Line
-	3400 4600 2600 4600
+	3400 4600 2700 4600
 $Comp
 L power:+5V #PWR0246
 U 1 1 60C82DCF
@@ -246,8 +244,8 @@ F 3 "~" H 3300 2650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3150 2650 1800 2650
-Text GLabel 1800 2650 0    50   Output ~ 0
+	3150 2650 2950 2650
+Text GLabel 1800 2800 0    50   Output ~ 0
 _VPA
 Wire Wire Line
 	4950 1650 3500 1650
@@ -698,22 +696,22 @@ Wire Wire Line
 	10300 7200 10300 7650
 Wire Wire Line
 	10300 6650 10300 6900
-Text GLabel 1750 9600 0    50   Output ~ 0
+Text GLabel 1700 10050 0    50   Output ~ 0
 28M
-Text GLabel 1750 9800 0    50   Input ~ 0
+Text GLabel 1700 9800 0    50   Input ~ 0
 _XCLKEN
 Text GLabel 1750 6450 0    50   Input ~ 0
 XCLK
 $Comp
-L Connector:Conn_01x02_Male J900
+L Jumper:SolderJumper_2_Bridged J900
 U 1 1 60632932
-P 2500 4800
-F 0 "J900" V 2654 4612 50  0000 R CNN
-F 1 "Enable Chip RAM slowdown during DMA" V 2563 4612 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2500 4800 50  0001 C CNN
-F 3 "~" H 2500 4800 50  0001 C CNN
-	1    2500 4800
-	0    -1   -1   0   
+P 2550 4600
+F 0 "J900" H 2600 4700 50  0000 R CNN
+F 1 "Enable Chip RAM slowdown during DMA" H 3300 4450 50  0000 R CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 2550 4600 50  0001 C CNN
+F 3 "~" H 2550 4600 50  0001 C CNN
+	1    2550 4600
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_Pack04_SIP_Split RN902
@@ -819,8 +817,6 @@ Wire Wire Line
 Connection ~ 9700 7650
 Wire Wire Line
 	9700 7650 10300 7650
-Wire Wire Line
-	1750 9600 3850 9600
 Text Notes 12300 9850 0    197  ~ 0
 CLOCKS AND GARY\nAmiga 2000 EATX
 $Comp
@@ -1042,52 +1038,38 @@ Wire Wire Line
 Wire Wire Line
 	4250 6450 1750 6450
 Wire Wire Line
-	5400 8550 4250 8550
-Wire Wire Line
-	4250 8550 4250 8700
-Wire Wire Line
-	4250 8700 3850 8700
-Wire Wire Line
-	3850 8700 3850 9600
-Wire Wire Line
 	5400 9050 3950 9050
 Wire Wire Line
 	3950 9050 3950 9800
 Wire Wire Line
-	3950 9800 1750 9800
+	3950 9800 1700 9800
 Wire Wire Line
 	5900 9450 5400 9450
 Wire Wire Line
 	5400 9450 5400 9150
 Connection ~ 5900 9450
-Wire Wire Line
-	6400 8450 6750 8450
-Wire Wire Line
-	6750 8450 6750 9250
-Wire Wire Line
-	6750 9250 7000 9250
 $Comp
 L Device:C C111
 U 1 1 62F441F4
-P 7600 9400
-F 0 "C111" H 7715 9446 50  0000 L CNN
-F 1 "22pF" H 7715 9355 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 7638 9250 50  0001 C CNN
-F 3 "~" H 7600 9400 50  0001 C CNN
-	1    7600 9400
+P 7600 8600
+F 0 "C111" H 7715 8646 50  0000 L CNN
+F 1 "22pF" H 7715 8555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 7638 8450 50  0001 C CNN
+F 3 "~" H 7600 8600 50  0001 C CNN
+	1    7600 8600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7300 9250 7600 9250
+	7300 8450 7600 8450
 $Comp
 L power:GND #PWR0209
 U 1 1 62F7FE78
-P 7600 9550
-F 0 "#PWR0209" H 7600 9300 50  0001 C CNN
-F 1 "GND" H 7605 9377 50  0000 C CNN
-F 2 "" H 7600 9550 50  0001 C CNN
-F 3 "" H 7600 9550 50  0001 C CNN
-	1    7600 9550
+P 7600 8750
+F 0 "#PWR0209" H 7600 8500 50  0001 C CNN
+F 1 "GND" H 7605 8577 50  0000 C CNN
+F 2 "" H 7600 8750 50  0001 C CNN
+F 3 "" H 7600 8750 50  0001 C CNN
+	1    7600 8750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1106,38 +1088,16 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0210
 U 1 1 62F9E115
-P 5000 7650
-F 0 "#PWR0210" H 5000 7400 50  0001 C CNN
-F 1 "GND" H 5005 7477 50  0000 C CNN
-F 2 "" H 5000 7650 50  0001 C CNN
-F 3 "" H 5000 7650 50  0001 C CNN
-	1    5000 7650
+P 5000 7800
+F 0 "#PWR0210" H 5000 7550 50  0001 C CNN
+F 1 "GND" H 5005 7627 50  0000 C CNN
+F 2 "" H 5000 7800 50  0001 C CNN
+F 3 "" H 5000 7800 50  0001 C CNN
+	1    5000 7800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5400 8850 5400 8750
-Wire Wire Line
-	5400 8650 5000 8650
-Connection ~ 5400 8750
-Wire Wire Line
-	5400 8750 5400 8650
-$Comp
-L power:GND #PWR0211
-U 1 1 62FBCC02
-P 5000 8650
-F 0 "#PWR0211" H 5000 8400 50  0001 C CNN
-F 1 "GND" H 5005 8477 50  0000 C CNN
-F 2 "" H 5000 8650 50  0001 C CNN
-F 3 "" H 5000 8650 50  0001 C CNN
-	1    5000 8650
-	1    0    0    -1  
-$EndComp
-NoConn ~ 6400 8750
 NoConn ~ 6400 8150
 NoConn ~ 6400 7850
-Connection ~ 3850 8700
-Wire Wire Line
-	3850 8600 3850 8700
 Connection ~ 3850 8300
 $Comp
 L Device:Ferrite_Bead FB101
@@ -1150,23 +1110,12 @@ F 3 "~" H 3850 8450 50  0001 C CNN
 	1    3850 8450
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R R112
-U 1 1 63028772
-P 7150 9250
-F 0 "R112" V 6943 9250 50  0000 C CNN
-F 1 "150" V 7034 9250 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 7080 9250 50  0001 C CNN
-F 3 "~" H 7150 9250 50  0001 C CNN
-	1    7150 9250
-	0    1    1    0   
-$EndComp
 Text GLabel 14650 7750 2    51   Input ~ 0
 7MHz
 Wire Wire Line
-	7600 9250 8500 9250
-Connection ~ 7600 9250
-Text GLabel 1700 10050 0    51   Output ~ 0
+	7600 8450 8100 8450
+Connection ~ 7600 8450
+Text GLabel 1700 10250 0    51   Output ~ 0
 AgnusCLK
 Text GLabel 14550 2750 2    51   Input ~ 0
 _CDAC
@@ -1241,9 +1190,7 @@ Wire Wire Line
 Wire Wire Line
 	1800 3500 4950 3500
 Wire Wire Line
-	1700 10050 8500 10050
-Wire Wire Line
-	8500 10050 8500 9250
+	1700 10250 8100 10250
 Wire Wire Line
 	4950 1550 3200 1550
 Wire Wire Line
@@ -1344,6 +1291,70 @@ F 3 "" H 5400 6800 50  0001 C CNN
 	1    5400 6800
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5400 8850 5250 8850
+Wire Wire Line
+	3850 8600 3850 8850
+Wire Wire Line
+	5250 8850 5250 8750
+Wire Wire Line
+	5250 8550 5400 8550
+Connection ~ 5250 8850
+Wire Wire Line
+	5250 8850 3850 8850
+Wire Wire Line
+	5400 8750 5250 8750
+Connection ~ 5250 8750
+Wire Wire Line
+	5250 8750 5250 8550
+Wire Wire Line
+	6400 8750 6600 8750
+Wire Wire Line
+	6600 8750 6600 10050
+Wire Wire Line
+	6600 10050 4600 10050
+$Comp
+L Device:Ferrite_Bead FB104
+U 1 1 614E0E5C
+P 4450 10050
+F 0 "FB104" V 4250 10050 50  0000 C CNN
+F 1 "Ferrite_Bead" V 4633 10050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" V 4380 10050 50  0001 C CNN
+F 3 "~" H 4450 10050 50  0001 C CNN
+	1    4450 10050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4300 10050 1700 10050
+$Comp
+L Device:Ferrite_Bead FB103
+U 1 1 614F3561
+P 7150 8450
+F 0 "FB103" V 6950 8450 50  0000 C CNN
+F 1 "Ferrite_Bead" V 7333 8450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" V 7080 8450 50  0001 C CNN
+F 3 "~" H 7150 8450 50  0001 C CNN
+	1    7150 8450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6400 8450 7000 8450
+Wire Wire Line
+	8100 10250 8100 8450
+Wire Wire Line
+	5000 7800 5000 7650
+Wire Wire Line
+	2400 4600 1800 4600
+Wire Wire Line
+	4950 3400 4450 3400
+Wire Wire Line
+	4450 3400 4450 3850
+Wire Wire Line
+	4450 3850 1750 3850
+Wire Wire Line
+	1800 2800 2950 2800
+Wire Wire Line
+	2950 2800 2950 2650
 Wire Bus Line
 	4550 1950 4550 2550
 $EndSCHEMATC
