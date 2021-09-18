@@ -845,8 +845,6 @@ Wire Wire Line
 	11900 8100 14650 8100
 Wire Wire Line
 	12050 6300 12900 6300
-Text Notes 15950 10350 0    51   ~ 0
-2.0
 Wire Wire Line
 	3850 7150 3850 8300
 Wire Wire Line

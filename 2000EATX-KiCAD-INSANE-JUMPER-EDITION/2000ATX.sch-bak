@@ -88,7 +88,7 @@ F0 "Memory and Kickstart" 50
 F1 "memory.sch" 50
 $EndSheet
 $Sheet
-S 9050 4750 1100 450 
+S 7050 900  1100 450 
 U 61252A60
 F0 "Agnus Multi Adapter" 118
 F1 "Agnus-Multi.sch" 118

@@ -13,80 +13,80 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 1650 7100 0    50   Input ~ 0
+Text GLabel 1350 8350 0    50   Input ~ 0
 _ROMEN
 Wire Wire Line
-	2400 5200 3050 5200
+	2100 6450 2750 6450
 Wire Wire Line
-	2400 5300 3050 5300
+	2100 6550 2750 6550
 Wire Wire Line
-	2400 5400 3050 5400
+	2100 6650 2750 6650
 Wire Wire Line
-	2400 5500 3050 5500
+	2100 6750 2750 6750
 Wire Wire Line
-	2400 5600 3050 5600
+	2100 6850 2750 6850
 Wire Wire Line
-	3050 5700 2400 5700
+	2750 6950 2100 6950
 Wire Wire Line
-	2400 5800 3050 5800
+	2100 7050 2750 7050
 Wire Wire Line
-	3050 5900 2400 5900
+	2750 7150 2100 7150
 Wire Wire Line
-	3050 6300 2400 6300
+	2750 7550 2100 7550
 Wire Wire Line
-	2400 6400 3050 6400
+	2100 7650 2750 7650
 Wire Wire Line
-	3050 6500 2400 6500
+	2750 7750 2100 7750
 Wire Wire Line
-	2400 6600 3050 6600
+	2100 7850 2750 7850
 Wire Wire Line
-	3050 6700 2400 6700
+	2750 7950 2100 7950
 Wire Wire Line
-	2400 6800 3050 6800
+	2100 8050 2750 8050
 Wire Wire Line
-	2400 6900 3050 6900
+	2100 8150 2750 8150
 $Comp
 L power:GND #PWR0344
 U 1 1 60611A5C
-P 3050 7600
-F 0 "#PWR0344" H 3050 7350 50  0001 C CNN
-F 1 "GND" H 3055 7427 50  0000 C CNN
-F 2 "" H 3050 7600 50  0001 C CNN
-F 3 "" H 3050 7600 50  0001 C CNN
-	1    3050 7600
+P 2750 8850
+F 0 "#PWR0344" H 2750 8600 50  0001 C CNN
+F 1 "GND" H 2755 8677 50  0000 C CNN
+F 2 "" H 2750 8850 50  0001 C CNN
+F 3 "" H 2750 8850 50  0001 C CNN
+	1    2750 8850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4050 6050 4850 6050
+	3750 7300 4550 7300
 Wire Wire Line
-	4850 6150 4050 6150
+	4550 7400 3750 7400
 Wire Wire Line
-	4850 6250 4050 6250
+	4550 7500 3750 7500
 Wire Wire Line
-	4050 6350 4850 6350
+	3750 7600 4550 7600
 Wire Wire Line
-	4850 6450 4050 6450
+	4550 7700 3750 7700
 Wire Wire Line
-	4050 6550 4850 6550
+	3750 7800 4550 7800
 Wire Wire Line
-	4050 6650 4850 6650
+	3750 7900 4550 7900
 Wire Wire Line
-	4050 6750 4850 6750
+	3750 8000 4550 8000
 Wire Wire Line
-	4850 6850 4050 6850
+	4550 8100 3750 8100
 Wire Wire Line
-	4050 6950 4850 6950
+	3750 8200 4550 8200
 Wire Wire Line
-	1650 7100 3050 7100
+	1350 8350 2750 8350
 $Comp
 L power:+5V #PWR0346
 U 1 1 60746CBD
-P 4350 4850
-F 0 "#PWR0346" H 4350 4700 50  0001 C CNN
-F 1 "+5V" H 4365 5023 50  0000 C CNN
-F 2 "" H 4350 4850 50  0001 C CNN
-F 3 "" H 4350 4850 50  0001 C CNN
-	1    4350 4850
+P 4050 6100
+F 0 "#PWR0346" H 4050 5950 50  0001 C CNN
+F 1 "+5V" H 4065 6273 50  0000 C CNN
+F 2 "" H 4050 6100 50  0001 C CNN
+F 3 "" H 4050 6100 50  0001 C CNN
+	1    4050 6100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -123,11 +123,11 @@ F 3 "" H 6500 9150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2400 6000 3050 6000
+	2100 7250 2750 7250
 Wire Wire Line
-	2400 6100 3050 6100
+	2100 7350 2750 7350
 Wire Wire Line
-	2400 6200 3050 6200
+	2100 7450 2750 7450
 $Comp
 L Amiga-Library:CY62157 U503
 U 2 1 60608AA1
@@ -174,41 +174,41 @@ F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 11100 9550 50  0001 C CNN
 	5    11100 9550
 	1    0    0    -1  
 $EndComp
-Text GLabel 9650 7300 0    50   Input ~ 0
+Text GLabel 8600 7200 0    50   Input ~ 0
 _EXRAM
 $Comp
 L Device:R R500
 U 1 1 607D2CA5
-P 9800 7150
-F 0 "R500" H 9870 7196 50  0000 L CNN
-F 1 "4.7k" H 9870 7105 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 9730 7150 50  0001 C CNN
-F 3 "~" H 9800 7150 50  0001 C CNN
-	1    9800 7150
+P 8750 7050
+F 0 "R500" H 8820 7096 50  0000 L CNN
+F 1 "4.7k" H 8820 7005 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 8680 7050 50  0001 C CNN
+F 3 "~" H 8750 7050 50  0001 C CNN
+	1    8750 7050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9800 7300 9650 7300
+	8750 7200 8600 7200
 $Comp
 L power:+5V #PWR0350
 U 1 1 60805BA6
-P 9800 7000
-F 0 "#PWR0350" H 9800 6850 50  0001 C CNN
-F 1 "+5V" H 9815 7173 50  0000 C CNN
-F 2 "" H 9800 7000 50  0001 C CNN
-F 3 "" H 9800 7000 50  0001 C CNN
-	1    9800 7000
+P 8750 6900
+F 0 "#PWR0350" H 8750 6750 50  0001 C CNN
+F 1 "+5V" H 8765 7073 50  0000 C CNN
+F 2 "" H 8750 6900 50  0001 C CNN
+F 3 "" H 8750 6900 50  0001 C CNN
+	1    8750 6900
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
-	9100 6650 9100 7700
+	8050 6550 8050 7600
 Wire Notes Line
-	9100 7700 10700 7700
+	8050 7600 9650 7600
 Wire Notes Line
-	10700 7700 10700 6650
+	9650 7600 9650 6550
 Wire Notes Line
-	10700 6650 9100 6650
-Text Notes 9800 7600 0    50   ~ 0
+	9650 6550 8050 6550
+Text Notes 8750 7500 0    50   ~ 0
 J500 IS OMITTED\nPERMANENTLY SET \nTO MAX CHIP RAM
 $Comp
 L Device:C C501
@@ -231,70 +231,70 @@ Wire Wire Line
 Wire Wire Line
 	10150 10050 10500 10050
 Connection ~ 10150 9950
-Text Label 4600 5450 2    50   ~ 0
+Text Label 4300 6700 2    50   ~ 0
 D15
-Text Label 4600 5550 2    50   ~ 0
+Text Label 4300 6800 2    50   ~ 0
 D14
-Text Label 4600 5650 2    50   ~ 0
+Text Label 4300 6900 2    50   ~ 0
 D13
-Text Label 4600 5750 2    50   ~ 0
+Text Label 4300 7000 2    50   ~ 0
 D12
-Text Label 4600 5850 2    50   ~ 0
+Text Label 4300 7100 2    50   ~ 0
 D11
-Text Label 4600 5950 2    50   ~ 0
+Text Label 4300 7200 2    50   ~ 0
 D10
-Text Label 4550 6050 2    50   ~ 0
+Text Label 4250 7300 2    50   ~ 0
 D9
-Text Label 4550 6150 2    50   ~ 0
+Text Label 4250 7400 2    50   ~ 0
 D8
-Text Label 4550 6250 2    50   ~ 0
+Text Label 4250 7500 2    50   ~ 0
 D7
-Text Label 4550 6350 2    50   ~ 0
+Text Label 4250 7600 2    50   ~ 0
 D6
-Text Label 4550 6450 2    50   ~ 0
+Text Label 4250 7700 2    50   ~ 0
 D5
-Text Label 4550 6550 2    50   ~ 0
+Text Label 4250 7800 2    50   ~ 0
 D4
-Text Label 4550 6650 2    50   ~ 0
+Text Label 4250 7900 2    50   ~ 0
 D3
-Text Label 4550 6750 2    50   ~ 0
+Text Label 4250 8000 2    50   ~ 0
 D2
-Text Label 4550 6850 2    50   ~ 0
+Text Label 4250 8100 2    50   ~ 0
 D1
-Text Label 4550 6950 2    50   ~ 0
+Text Label 4250 8200 2    50   ~ 0
 D0
-Text Notes 4000 4800 2    118  ~ 0
+Text Notes 3700 6050 2    118  ~ 0
 KICKSTART
 Text Notes 12300 9850 0    197  ~ 0
 Memory and Kickstart\nAmiga 2000 EATX
 Wire Wire Line
-	4050 5950 4850 5950
+	3750 7200 4550 7200
 Wire Wire Line
-	4050 5850 4850 5850
+	3750 7100 4550 7100
 Wire Wire Line
-	4050 5450 4850 5450
+	3750 6700 4550 6700
 Wire Wire Line
-	4050 5550 4850 5550
+	3750 6800 4550 6800
 Wire Wire Line
-	4050 5650 4850 5650
+	3750 6900 4550 6900
 Wire Wire Line
-	4050 5750 4850 5750
+	3750 7000 4550 7000
 $Comp
 L Amiga-Library:Kickstart U500
 U 1 1 60FE69D2
-P 3550 6250
-F 0 "U500" H 3550 6250 50  0000 C CNN
-F 1 "KICKSTART" H 3550 6100 50  0000 C CNN
-F 2 "Package_DIP:DIP-42_W15.24mm" H 3450 6980 50  0001 C CNN
-F 3 "" H 3450 6980 50  0001 C CNN
-	1    3550 6250
+P 3250 7500
+F 0 "U500" H 3250 7500 50  0000 C CNN
+F 1 "KICKSTART" H 3250 7350 50  0000 C CNN
+F 2 "Package_DIP:DIP-42_W15.24mm" H 3150 8230 50  0001 C CNN
+F 3 "" H 3150 8230 50  0001 C CNN
+	1    3250 7500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2400 5100 3050 5100
+	2100 6350 2750 6350
 Wire Wire Line
-	2400 5000 3050 5000
-Text Notes 2050 8550 0    118  ~ 0
+	2100 6250 2750 6250
+Text Notes 1750 9800 0    118  ~ 0
 Accepts 512k, 1MB, and 2MB EPROMs.\nInstall 27C400 starting at pin 2.\nInstall 27C800 and 27C160 as normal.
 $Comp
 L Amiga-Library:Kickstart U500
@@ -1238,102 +1238,44 @@ Connection ~ 8400 9150
 Wire Wire Line
 	8400 9150 8100 9150
 Wire Wire Line
-	7950 2100 6100 2100
-Wire Wire Line
-	7950 2200 6100 2200
-Wire Wire Line
-	7950 2300 6100 2300
-Wire Wire Line
-	7950 2400 6100 2400
-Wire Wire Line
-	7950 2500 6100 2500
-Wire Wire Line
-	7950 2600 6100 2600
-Wire Wire Line
-	7950 2700 6100 2700
-Wire Wire Line
-	7950 2800 6100 2800
-Wire Wire Line
 	7950 4200 7100 4200
 Wire Wire Line
 	7950 4300 6850 4300
-Entry Wire Line
-	6100 2100 6000 2000
-Entry Wire Line
-	6100 2200 6000 2100
-Entry Wire Line
-	6100 2300 6000 2200
-Entry Wire Line
-	6100 2400 6000 2300
-Entry Wire Line
-	6100 2500 6000 2400
-Entry Wire Line
-	6100 2600 6000 2500
-Entry Wire Line
-	6100 2700 6000 2600
-Entry Wire Line
-	6100 2800 6000 2700
-Entry Wire Line
-	6100 3500 6000 3400
-Wire Bus Line
-	6000 1450 1550 1450
-Text Label 7400 2100 0    51   ~ 0
-DRA0
-Text Label 7400 2200 0    51   ~ 0
-DRA1-0
-Text Label 7400 2300 0    51   ~ 0
-DRA2-1
-Text Label 7400 2400 0    51   ~ 0
-DRA3-2
-Text Label 7400 2500 0    51   ~ 0
-DRA4-3
-Text Label 7400 2600 0    51   ~ 0
-DRA5-4
-Text Label 7400 2700 0    51   ~ 0
-DRA6-5
-Text Label 7400 2800 0    51   ~ 0
-DRA7-6
-Text Label 7400 4200 0    51   ~ 0
-DRA8-7
-Text Label 7400 4300 0    51   ~ 0
-DRA9-8
-Text GLabel 1550 1450 0    51   Input ~ 0
-DRA[0..9]
 Wire Wire Line
-	7950 4400 5800 4400
+	7950 4400 5600 4400
 Wire Wire Line
-	5800 4400 5800 1850
+	5600 4400 5600 3650
 Wire Wire Line
-	5800 1850 1550 1850
+	5600 3650 1550 3650
 Wire Wire Line
-	7950 4500 5700 4500
+	7950 4500 5500 4500
 Wire Wire Line
-	5700 4500 5700 2000
+	5500 4500 5500 3850
 Wire Wire Line
-	5700 2000 1550 2000
+	5500 3850 1550 3850
 Wire Wire Line
-	7950 4600 5550 4600
+	7950 4600 5400 4600
 Wire Wire Line
-	5550 4600 5550 2150
+	5400 4600 5400 4050
 Wire Wire Line
-	5550 2150 1550 2150
+	5400 4050 1550 4050
 Wire Wire Line
-	7950 4700 5400 4700
+	7950 4700 5300 4700
 Wire Wire Line
-	5400 4700 5400 2350
+	5300 4700 5300 4250
 Wire Wire Line
-	5400 2350 1550 2350
+	5300 4250 1550 4250
 Wire Wire Line
-	5250 2500 1550 2500
-Text GLabel 1550 1850 0    51   Input ~ 0
+	5150 4450 1550 4450
+Text GLabel 1550 3650 0    51   Input ~ 0
 _CASL
-Text GLabel 1550 2000 0    51   Input ~ 0
+Text GLabel 1550 3850 0    51   Input ~ 0
 _CASU
-Text GLabel 1550 2150 0    51   Input ~ 0
+Text GLabel 1550 4050 0    51   Input ~ 0
 _WE
-Text GLabel 1550 2500 0    51   Input ~ 0
+Text GLabel 1550 4450 0    51   Input ~ 0
 _RAS0
-Text GLabel 1550 2350 0    51   Input ~ 0
+Text GLabel 1550 4250 0    51   Input ~ 0
 _RAS1
 Wire Wire Line
 	8450 3400 7950 3400
@@ -1393,131 +1335,131 @@ F 3 "" H 8100 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Entry Wire Line
-	4850 5450 4950 5350
+	4550 6700 4650 6600
 Entry Wire Line
-	4850 5550 4950 5450
+	4550 6800 4650 6700
 Entry Wire Line
-	4850 5650 4950 5550
+	4550 6900 4650 6800
 Entry Wire Line
-	4850 5750 4950 5650
+	4550 7000 4650 6900
 Entry Wire Line
-	4850 5850 4950 5750
+	4550 7100 4650 7000
 Entry Wire Line
-	4850 5950 4950 5850
+	4550 7200 4650 7100
 Entry Wire Line
-	4850 6050 4950 5950
+	4550 7300 4650 7200
 Entry Wire Line
-	4850 6150 4950 6050
+	4550 7400 4650 7300
 Entry Wire Line
-	4850 6250 4950 6150
+	4550 7500 4650 7400
 Entry Wire Line
-	4850 6350 4950 6250
+	4550 7600 4650 7500
 Entry Wire Line
-	4850 6450 4950 6350
+	4550 7700 4650 7600
 Entry Wire Line
-	4850 6550 4950 6450
+	4550 7800 4650 7700
 Entry Wire Line
-	4850 6650 4950 6550
+	4550 7900 4650 7800
 Entry Wire Line
-	4850 6750 4950 6650
+	4550 8000 4650 7900
 Entry Wire Line
-	4850 6850 4950 6750
+	4550 8100 4650 8000
 Entry Wire Line
-	4850 6950 4950 6850
+	4550 8200 4650 8100
 Wire Bus Line
-	4950 3750 1600 3750
-Text GLabel 1600 3750 0    51   Output ~ 0
+	4650 5000 1300 5000
+Text GLabel 1300 5000 0    51   Output ~ 0
 D[0..15]
-Text Label 2800 5000 0    51   ~ 0
+Text Label 2500 6250 0    51   ~ 0
 A20
-Text Label 2800 5100 0    51   ~ 0
+Text Label 2500 6350 0    51   ~ 0
 A19
-Text Label 2800 5200 0    51   ~ 0
+Text Label 2500 6450 0    51   ~ 0
 A18
-Text Label 2800 5300 0    51   ~ 0
+Text Label 2500 6550 0    51   ~ 0
 A17
-Text Label 2800 5400 0    51   ~ 0
+Text Label 2500 6650 0    51   ~ 0
 A16
-Text Label 2800 5500 0    51   ~ 0
+Text Label 2500 6750 0    51   ~ 0
 A15
-Text Label 2800 5600 0    51   ~ 0
+Text Label 2500 6850 0    51   ~ 0
 A14
-Text Label 2800 5700 0    51   ~ 0
+Text Label 2500 6950 0    51   ~ 0
 A13
-Text Label 2800 5800 0    51   ~ 0
+Text Label 2500 7050 0    51   ~ 0
 A12
-Text Label 2800 5900 0    51   ~ 0
+Text Label 2500 7150 0    51   ~ 0
 A11
-Text Label 2800 6000 0    51   ~ 0
+Text Label 2500 7250 0    51   ~ 0
 A10
-Text Label 2800 6100 0    51   ~ 0
+Text Label 2500 7350 0    51   ~ 0
 A9
-Text Label 2800 6200 0    51   ~ 0
+Text Label 2500 7450 0    51   ~ 0
 A8
-Text Label 2800 6300 0    51   ~ 0
+Text Label 2500 7550 0    51   ~ 0
 A7
-Text Label 2800 6400 0    51   ~ 0
+Text Label 2500 7650 0    51   ~ 0
 A6
-Text Label 2800 6500 0    51   ~ 0
+Text Label 2500 7750 0    51   ~ 0
 A5
-Text Label 2800 6600 0    51   ~ 0
+Text Label 2500 7850 0    51   ~ 0
 A4
-Text Label 2800 6700 0    51   ~ 0
+Text Label 2500 7950 0    51   ~ 0
 A3
-Text Label 2800 6800 0    51   ~ 0
+Text Label 2500 8050 0    51   ~ 0
 A2
-Text Label 2800 6900 0    51   ~ 0
+Text Label 2500 8150 0    51   ~ 0
 A1
 Entry Wire Line
-	2400 5000 2300 4900
+	2100 6250 2000 6150
 Entry Wire Line
-	2400 5100 2300 5000
+	2100 6350 2000 6250
 Entry Wire Line
-	2400 5200 2300 5100
+	2100 6450 2000 6350
 Entry Wire Line
-	2400 5300 2300 5200
+	2100 6550 2000 6450
 Entry Wire Line
-	2400 5400 2300 5300
+	2100 6650 2000 6550
 Entry Wire Line
-	2400 5500 2300 5400
+	2100 6750 2000 6650
 Entry Wire Line
-	2400 5600 2300 5500
+	2100 6850 2000 6750
 Entry Wire Line
-	2400 5700 2300 5600
+	2100 6950 2000 6850
 Entry Wire Line
-	2400 5800 2300 5700
+	2100 7050 2000 6950
 Entry Wire Line
-	2400 5900 2300 5800
+	2100 7150 2000 7050
 Entry Wire Line
-	2400 6000 2300 5900
+	2100 7250 2000 7150
 Entry Wire Line
-	2400 6100 2300 6000
+	2100 7350 2000 7250
 Entry Wire Line
-	2400 6200 2300 6100
+	2100 7450 2000 7350
 Entry Wire Line
-	2400 6300 2300 6200
+	2100 7550 2000 7450
 Entry Wire Line
-	2400 6400 2300 6300
+	2100 7650 2000 7550
 Entry Wire Line
-	2400 6500 2300 6400
+	2100 7750 2000 7650
 Entry Wire Line
-	2400 6600 2300 6500
+	2100 7850 2000 7750
 Entry Wire Line
-	2400 6700 2300 6600
+	2100 7950 2000 7850
 Entry Wire Line
-	2400 6800 2300 6700
+	2100 8050 2000 7950
 Entry Wire Line
-	2400 6900 2300 6800
+	2100 8150 2000 8050
 Wire Bus Line
-	2300 4150 1600 4150
-Text GLabel 1600 4150 0    51   Input ~ 0
+	2000 5400 1300 5400
+Text GLabel 1300 5400 0    51   Input ~ 0
 A[1..20]
 Wire Wire Line
-	3050 7300 3050 7600
+	2750 8550 2750 8850
 Wire Wire Line
-	4050 5250 4350 5250
+	3750 6500 4050 6500
 Wire Wire Line
-	4350 5250 4350 4850
+	4050 6500 4050 6100
 $Comp
 L Jumper:SolderJumper_3_Bridged12 JA?
 U 1 1 612556F6
@@ -1638,9 +1580,9 @@ F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 8450 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7950 4900 5250 4900
+	7950 4900 5150 4900
 Wire Wire Line
-	5250 2500 5250 4900
+	5150 4450 5150 4900
 Wire Wire Line
 	7950 4800 7800 4800
 Wire Wire Line
@@ -1803,18 +1745,6 @@ F 3 "~" H 6700 4000 50  0001 C CNN
 	1    6700 4000
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	6700 3800 6100 3800
-Wire Wire Line
-	6700 4200 6100 4200
-Entry Wire Line
-	6100 3800 6000 3700
-Entry Wire Line
-	6100 4200 6000 4100
-Text Label 6150 4200 0    51   ~ 0
-DRA9
-Text Label 6150 3800 0    51   ~ 0
-DRA8
 Entry Wire Line
 	11900 1800 11800 1900
 Wire Wire Line
@@ -1839,19 +1769,101 @@ Wire Wire Line
 Wire Wire Line
 	7100 4200 7100 3500
 Wire Wire Line
-	7100 3500 6100 3500
-Wire Wire Line
 	6850 4000 6850 4300
-Wire Bus Line
-	6000 1450 6000 4100
+Text Notes 5100 1000 0    79   ~ 0
+Jumpers default to 8375, all part numbers\ndefined with Agnus multiadapter.
+Text Notes 1200 1100 0    79   ~ 0
+DRA SIGNAL Description\n8372A Left - 8375 Right
+Text GLabel 1550 3050 0    51   Input ~ 0
+DRA8-7
+Wire Wire Line
+	5700 4200 5700 3450
+Wire Wire Line
+	5700 3450 1550 3450
+Wire Wire Line
+	5700 4200 6700 4200
+Wire Wire Line
+	5800 3800 5800 3250
+Wire Wire Line
+	5800 3250 1550 3250
+Wire Wire Line
+	5800 3800 6700 3800
+Text GLabel 1550 3450 0    51   Input ~ 0
+DRA9
+Text GLabel 1550 3250 0    51   Input ~ 0
+DRA8
+Wire Wire Line
+	5900 3500 5900 3050
+Wire Wire Line
+	5900 3050 1550 3050
+Wire Wire Line
+	5900 3500 7100 3500
+Text GLabel 1550 2800 0    51   Input ~ 0
+DRA7-6
+Wire Wire Line
+	6100 2700 6100 2600
+Wire Wire Line
+	6100 2600 1550 2600
+Wire Wire Line
+	6100 2700 7950 2700
+Wire Wire Line
+	6200 2600 6200 2400
+Wire Wire Line
+	6200 2400 1550 2400
+Wire Wire Line
+	6200 2600 7950 2600
+Wire Wire Line
+	6300 2500 6300 2200
+Wire Wire Line
+	6300 2200 1550 2200
+Wire Wire Line
+	6300 2500 7950 2500
+Text GLabel 1550 2600 0    51   Input ~ 0
+DRA6-5
+Text GLabel 1550 2400 0    51   Input ~ 0
+DRA5-4
+Text GLabel 1550 2200 0    51   Input ~ 0
+DRA4-3
+Wire Wire Line
+	6400 2400 6400 2000
+Wire Wire Line
+	6400 2000 1550 2000
+Wire Wire Line
+	6400 2400 7950 2400
+Wire Wire Line
+	6500 2300 6500 1800
+Wire Wire Line
+	6500 1800 1550 1800
+Wire Wire Line
+	6500 2300 7950 2300
+Wire Wire Line
+	6600 2200 6600 1600
+Wire Wire Line
+	6600 1600 1550 1600
+Wire Wire Line
+	6600 2200 7950 2200
+Wire Wire Line
+	6700 2100 6700 1400
+Wire Wire Line
+	6700 1400 1550 1400
+Wire Wire Line
+	6700 2100 7950 2100
+Text GLabel 1550 2000 0    51   Input ~ 0
+DRA3-2
+Text GLabel 1550 1800 0    51   Input ~ 0
+DRA2-1
+Text GLabel 1550 1600 0    51   Input ~ 0
+DRA1-0
+Text GLabel 1550 1400 0    51   Input ~ 0
+DRA0-G
+Wire Wire Line
+	1550 2800 7950 2800
 Wire Bus Line
 	11800 1750 11800 4450
 Wire Bus Line
-	2300 4150 2300 6800
+	2000 5400 2000 8050
 Wire Bus Line
-	4950 3750 4950 6850
+	4650 5000 4650 8100
 Wire Bus Line
 	15650 1350 15650 3300
-Text Notes 5100 1200 0    79   ~ 0
-NOTE: The 8375 signal is the before the dash,\nthe 8372A signal is after the dash.\n\nJumpers default to 8375, all part numbers\ndefined with Agnus multiadapter.
 $EndSCHEMATC
