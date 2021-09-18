@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:ATX-24 CN400
+L Amiga-Library:ATX-24-Amiga CN400
 U 1 1 60A50060
 P 1600 1600
 F 0 "CN400" H 1600 2267 50  0000 C CNN

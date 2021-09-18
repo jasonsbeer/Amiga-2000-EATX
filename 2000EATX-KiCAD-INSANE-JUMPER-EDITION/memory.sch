@@ -129,7 +129,7 @@ Wire Wire Line
 Wire Wire Line
 	2100 7450 2750 7450
 $Comp
-L Amiga-Library:CY62157 U503
+L Amiga-Library:CY62167 U503
 U 2 1 60608AA1
 P 10050 9600
 F 0 "U503" H 9950 9650 50  0000 L CNN
@@ -849,11 +849,11 @@ Wire Wire Line
 Wire Wire Line
 	12350 3650 11900 3650
 Wire Wire Line
-	12350 3750 11900 3750
+	12350 3750 12000 3750
 Wire Wire Line
 	12350 3850 11900 3850
 Wire Wire Line
-	12350 3950 12000 3950
+	12350 3950 11900 3950
 Wire Wire Line
 	12350 4050 11900 4050
 Wire Wire Line
@@ -867,8 +867,6 @@ Entry Wire Line
 Entry Wire Line
 	11900 3650 11800 3750
 Entry Wire Line
-	11900 3750 11800 3850
-Entry Wire Line
 	11900 3850 11800 3950
 Entry Wire Line
 	11900 4050 11800 4150
@@ -879,25 +877,25 @@ Entry Wire Line
 Entry Wire Line
 	11900 4350 11800 4450
 Text Label 12050 3450 0    51   ~ 0
-DRAB9
+DRAB7
 Text Label 12050 4350 0    51   ~ 0
-DRAB4
+DRAB6
 Text Label 12050 3550 0    51   ~ 0
 DRAB8
 Text Label 12050 3650 0    51   ~ 0
-DRAB7
+DRAB9
 Text Label 12050 3750 0    51   ~ 0
-DRAB6
-Text Label 12050 3850 0    51   ~ 0
-DRAB5
-Text Label 12050 3950 0    51   ~ 0
 DRABx
-Text Label 12050 4050 0    51   ~ 0
+Text Label 12050 3850 0    51   ~ 0
 DRAB1
-Text Label 12050 4150 0    51   ~ 0
+Text Label 12050 3950 0    51   ~ 0
 DRAB2
-Text Label 12050 4250 0    51   ~ 0
+Text Label 12050 4050 0    51   ~ 0
 DRAB3
+Text Label 12050 4150 0    51   ~ 0
+DRAB4
+Text Label 12050 4250 0    51   ~ 0
+DRAB5
 Text Label 13050 2850 0    51   ~ 0
 RAS
 Wire Wire Line
@@ -1494,21 +1492,21 @@ DRAC1
 Text Label 13050 1800 0    51   ~ 0
 DRAC0
 Text Label 13050 3950 0    51   ~ 0
-DRADx
-Text Label 13050 4050 0    51   ~ 0
-DRAD1
-Text Label 13050 4150 0    51   ~ 0
 DRAD2
-Text Label 13050 4250 0    51   ~ 0
+Text Label 13050 4050 0    51   ~ 0
 DRAD3
-Text Label 13050 4350 0    51   ~ 0
+Text Label 13050 4150 0    51   ~ 0
 DRAD4
-Text Label 13050 3750 0    51   ~ 0
+Text Label 13050 4250 0    51   ~ 0
+DRAD5
+Text Label 13050 4350 0    51   ~ 0
 DRAD6
+Text Label 13050 3750 0    51   ~ 0
+DRADx
 Text Label 13050 3550 0    51   ~ 0
 DRAD8
 Text Label 13050 3650 0    51   ~ 0
-DRAD7
+DRAD9
 Text Label 14400 5950 0    51   ~ 0
 _SRAMCE
 $Comp
@@ -1672,7 +1670,7 @@ Wire Wire Line
 Wire Wire Line
 	11900 2700 12350 2700
 Text Label 13050 3450 0    51   ~ 0
-DRAD9
+DRAD7
 Text Label 13850 1800 2    51   ~ 0
 DRAD9
 Text Label 13850 1900 2    51   ~ 0
@@ -1715,7 +1713,7 @@ DRAC7
 Text Label 13850 3100 2    51   ~ 0
 DRAC6
 Text Label 13050 3850 0    51   ~ 0
-DRAD5
+DRAD1
 Text Label 13850 3200 2    51   ~ 0
 DRAC5
 Text Label 13850 3700 2    51   ~ 0
@@ -1760,8 +1758,6 @@ Wire Wire Line
 	11550 4250 11550 4550
 Wire Wire Line
 	11550 4550 12000 4550
-Wire Wire Line
-	12000 4550 12000 3950
 Entry Wire Line
 	11700 4050 11800 4150
 Wire Wire Line
@@ -1858,6 +1854,10 @@ Text GLabel 1550 1400 0    51   Input ~ 0
 DRA0-G
 Wire Wire Line
 	1550 2800 7950 2800
+Entry Wire Line
+	11900 3950 11800 4050
+Wire Wire Line
+	12000 4550 12000 3750
 Wire Bus Line
 	11800 1750 11800 4450
 Wire Bus Line
