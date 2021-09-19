@@ -3,10 +3,10 @@ EELAYER 30 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
-Sheet 7 14
-Title "Amiga 2000 EATX"
-Date "2021-08-21"
-Rev "2.0"
+Sheet 7 13
+Title ""
+Date ""
+Rev ""
 Comp ""
 Comment1 ""
 Comment2 ""
