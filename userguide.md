@@ -22,32 +22,33 @@ The board surface to surface clearance between the coprocessor and video slot is
 
 Revision 2.0 "Jumper Edition" Agnus Configuration Jumpers
 
-Agnus|<b>8372A</b>|<b>8375</b>|<b>8375</b>
--|-|-|-
-C= Part<br>Num|ALL|390554-01<br>390554-02<br>318069-12<br>318069-13|318069-10<br>318069-11<br>390544-01<br>390544-02
-Jumper|||
-JA1|3|1|1
-JA2|3|1|1
-JA3|3|1|1
-JA4|3|1|1
-JA5|3|OPEN|1
-JA6|3|1|1
-JA7|SHORT|OPEN|OPEN
-JA8|3|1|1
-JA9|3|1|1
-JA10|3|1|1
-JA11|3|1|1
-JA12|3|1|1
-JA13|3|1|1
-JA14|3|1|1
-J102|NTSC – SHORT<br>PAL – OPEN|SHORT|SHORT
+Agnus|<b>8372A</b>|<b>8375</b>|<b>8375</b>|&nbsp;
+-|-|-|-|-
+Commodore<br>Part Num|ALL|390554-01<br>390554-02<br>318069-12<br>318069-13|318069-10<br>318069-11<br>390544-01<br>390544-02|
+Jumper||||Footprint
+JA1|3|1|1|3 Pad*
+JA2|3|1|1|3 Pad
+JA3|3|1|1|3 Pad
+JA4|3|1|1|3 Pad
+JA5|3|OPEN|1|3 Pad
+JA6|3|1|1|3 Pad
+JA7|SHORT|OPEN|OPEN|2 Pad**
+JA8|3|1|1|3 Pad
+JA9|3|1|1|3 Pad
+JA10|3|1|1|3 Pad
+JA11|3|1|1|3 Pad
+JA12|3|1|1|3 Pad
+JA13|3|1|1|3 Pad
+JA14|3|1|1|3 Pad
+J102|NTSC – SHORT<br>PAL – OPEN|SHORT|SHORT|2 Pad
 
+*Short the center pad to the defined pad based on your Agnus part number
 
+**Short the two pads together based on your Agnus part number
 
 
 Jumper|Description|Detail
 -|-|-
-J102|NTSC/PAL Timing|Place jumper when using an NTSC oscillator
 J301|DF1 Presence|Place jumper when using two internal disk drives
 J900|Chip RAM DMA Slowdown|Place jumper (factory default)
 J9001|Reset|Attach EATX case reset switch
