@@ -83,7 +83,7 @@ Throught hole IC's have a square pad and a "1" marking pin one. Pin one is usual
 <img src="/Images/DIP-orientation.png" width="200">
 
 ### Solder Pad Jumpers
-Solder pad jumpers are present on the Rev 2.0 board. In the event there are only two pads for the jumper, you will place a solder blob across the two pads to short them. In the event of a 3 pad jumper, the solder blob must be placed between pad 2 (the center pad) and either pad 1 or 3. This is defined in Table A2. Pad 1 is marked with a small arrow and the numeral "1" on the silkscreen. Pad 3 is marked by a number "3" on the silkscreen.
+Solder pad jumpers are present on the Rev 2.0 board. In the event there are only two pads for the jumper, you will place a solder blob across the two pads to short them when necessary. In the event of a 3 pad jumper, the solder blob must be placed between pad 2 (the center pad) and either pad 1 or 3, as defined in Table A2. Pad 1 is marked with a small arrow and the numeral "1" on the silkscreen. Pad 3 is marked by a number "3" on the silkscreen.
 
 <img src="/Images/solderjumper.png" width="200">
 
@@ -127,6 +127,6 @@ JA11|3-2|1-2|1-2
 JA12|3-2|1-2|1-2
 JA13|3-2|1-2|1-2
 JA14|3-2|1-2|1-2
-J102|NTSC – SHORT<br>PAL – OPEN|SHORT|SHORT
+J102|SHORT for NTSC<br>OPEN for PAL|SHORT|SHORT
 
 1-2 = Short pads 1 and 2 together<br>3-2 = Short pads 3 and 2 together<br>SHORT = Short the two pads together<br>OPEN = Nothing is shorted
