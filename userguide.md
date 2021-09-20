@@ -18,39 +18,7 @@ The board surface to surface clearance between the coprocessor and video slot is
 
 <img src="/Images/COP-Video-Clearance.jpg" width="500">
 
-## Jumper Settings
-
-Revision 2.0 "Jumper Edition" Agnus Configuration Jumpers
-
-Agnus|<b>8372A</b>|<b>8375</b>|<b>8375</b>
--|-|-|-
-Commodore<br>Part Number|ALL|390554-01<br>390554-02<br>318069-12<br>318069-13|318069-10<br>318069-11<br>390544-01<br>390544-02
-Jumper|||
-JA1|3-2|1-2|1-2
-JA2|3-2|1-2|1-2
-JA3|3-2|1-2|1-2
-JA4|3-2|1-2|1-2
-JA5|3-2|OPEN|1-2
-JA6|3-2|1-2|1-2
-JA7|SHORT|OPEN|OPEN
-JA8|3-2|1-2|1-2
-JA9|3-2|1-2|1-2
-JA10|3-2|1-2|1-2
-JA11|3-2|1-2|1-2
-JA12|3-2|1-2|1-2
-JA13|3-2|1-2|1-2
-JA14|3-2|1-2|1-2
-J102|NTSC – SHORT<br>PAL – OPEN|SHORT|SHORT
-
-1-2 = Short pads 1 and 2 together
-
-3-2 = Short pads 3 and 2 together
-
-SHORT = Short the two pads together
-
-OPEN = Nothing is shorted
-
-Other jumper settings
+## User Jumper Settings
 
 Jumper|Description|Detail
 -|-|-
