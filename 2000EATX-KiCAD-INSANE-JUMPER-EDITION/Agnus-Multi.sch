@@ -5,7 +5,7 @@ $Descr B 17000 11000
 encoding utf-8
 Sheet 14 14
 Title "Amiga 2000 EATX"
-Date "2021-08-21"
+Date "2021-09-19"
 Rev "2.0"
 Comp ""
 Comment1 ""
@@ -278,12 +278,12 @@ Wire Wire Line
 Text GLabel 15250 4250 2    51   Output ~ 0
 _CASU
 $Comp
-L Jumper:SolderJumper_3_Bridged12 JA9
+L Jumper:SolderJumper_3_Open JA9
 U 1 1 612B3383
 P 10800 3550
 F 0 "JA9" V 10846 3618 50  0000 L CNN
 F 1 "8375/8372A" V 10755 3618 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 10800 3550 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 10800 3550 50  0001 C CNN
 F 3 "~" H 10800 3550 50  0001 C CNN
 	1    10800 3550
 	0    1    -1   0   
@@ -295,12 +295,12 @@ Wire Wire Line
 Text GLabel 15250 3350 2    51   Output ~ 0
 _CASL
 $Comp
-L Jumper:SolderJumper_3_Bridged12 JA10
+L Jumper:SolderJumper_3_Open JA10
 U 1 1 612BB165
 P 10800 3050
 F 0 "JA10" V 10846 3118 50  0000 L CNN
 F 1 "8375/8372A" V 10755 3118 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 10800 3050 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 10800 3050 50  0001 C CNN
 F 3 "~" H 10800 3050 50  0001 C CNN
 	1    10800 3050
 	0    1    -1   0   
@@ -328,12 +328,12 @@ Connection ~ 13750 4250
 Wire Wire Line
 	13750 4250 15250 4250
 $Comp
-L Jumper:SolderJumper_3_Bridged12 JA11
+L Jumper:SolderJumper_3_Open JA11
 U 1 1 612CF1CE
 P 6450 6700
 F 0 "JA11" V 6496 6768 50  0000 L CNN
 F 1 "8375/8372A" V 6405 6768 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 6450 6700 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 6450 6700 50  0001 C CNN
 F 3 "~" H 6450 6700 50  0001 C CNN
 	1    6450 6700
 	0    -1   -1   0   
@@ -349,12 +349,12 @@ Wire Wire Line
 Wire Wire Line
 	6850 6000 6600 6000
 $Comp
-L Jumper:SolderJumper_3_Bridged12 JA12
+L Jumper:SolderJumper_3_Open JA12
 U 1 1 612E439D
 P 6450 6000
 F 0 "JA12" V 6404 6068 50  0000 L CNN
 F 1 "8375/8372A" V 6495 6068 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 6450 6000 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 6450 6000 50  0001 C CNN
 F 3 "~" H 6450 6000 50  0001 C CNN
 	1    6450 6000
 	0    -1   1    0   
@@ -458,23 +458,23 @@ F 3 "" H 14800 7800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Bridged12 JA4
+L Jumper:SolderJumper_3_Open JA4
 U 1 1 6147E433
 P 10700 6600
 F 0 "JA4" V 10746 6668 50  0000 L CNN
 F 1 "8375/8372A" V 10655 6668 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 10700 6600 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 10700 6600 50  0001 C CNN
 F 3 "~" H 10700 6600 50  0001 C CNN
 	1    10700 6600
 	0    1    -1   0   
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Bridged12 JA1
+L Jumper:SolderJumper_3_Open JA1
 U 1 1 6147F748
 P 10700 7100
 F 0 "JA1" V 10746 7168 50  0000 L CNN
 F 1 "8375/8372A" V 10655 7168 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 10700 7100 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 10700 7100 50  0001 C CNN
 F 3 "~" H 10700 7100 50  0001 C CNN
 	1    10700 7100
 	0    1    -1   0   
@@ -620,23 +620,23 @@ _AS
 Text GLabel 1550 7650 0    50   Input ~ 0
 _RST
 $Comp
-L Jumper:SolderJumper_3_Bridged12 JA6
+L Jumper:SolderJumper_3_Open JA6
 U 1 1 615E7A4E
 P 10800 2000
 F 0 "JA6" V 10846 2068 50  0000 L CNN
 F 1 "8375/8372A" V 10755 2068 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 10800 2000 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 10800 2000 50  0001 C CNN
 F 3 "~" H 10800 2000 50  0001 C CNN
 	1    10800 2000
 	0    1    -1   0   
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Bridged12 JA3
+L Jumper:SolderJumper_3_Open JA3
 U 1 1 615E8E73
 P 10800 1450
 F 0 "JA3" V 10846 1518 50  0000 L CNN
 F 1 "8375/8372A" V 10755 1518 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 10800 1450 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 10800 1450 50  0001 C CNN
 F 3 "~" H 10800 1450 50  0001 C CNN
 	1    10800 1450
 	0    1    -1   0   
@@ -854,12 +854,12 @@ F 3 "" H 11400 5850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Bridged12 JA2
+L Jumper:SolderJumper_3_Open JA2
 U 1 1 61528D88
 P 6500 4050
 F 0 "JA2" V 6454 4118 50  0000 L CNN
 F 1 "8375/8372A" V 6545 4118 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 6500 4050 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 6500 4050 50  0001 C CNN
 F 3 "~" H 6500 4050 50  0001 C CNN
 	1    6500 4050
 	0    -1   1    0   
@@ -924,22 +924,22 @@ $EndComp
 $Comp
 L power:+5V #PWR0355
 U 1 1 6144A127
-P 14150 2250
-F 0 "#PWR0355" H 14150 2100 50  0001 C CNN
-F 1 "+5V" H 14165 2423 50  0000 C CNN
-F 2 "" H 14150 2250 50  0001 C CNN
-F 3 "" H 14150 2250 50  0001 C CNN
-	1    14150 2250
+P 14150 2650
+F 0 "#PWR0355" H 14150 2500 50  0001 C CNN
+F 1 "+5V" H 14165 2823 50  0000 C CNN
+F 2 "" H 14150 2650 50  0001 C CNN
+F 3 "" H 14150 2650 50  0001 C CNN
+	1    14150 2650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	14150 2350 14150 2250
-Text Notes 11700 2500 0    51   ~ 0
+	14150 2750 14150 2650
+Text Notes 11400 2750 0    51   ~ 0
 390554-01 is 14M...leave open\n318069-10 is Vbb...short to +5V
 Text Notes 800  1600 0    157  ~ 0
 SUPPORTS 8372A (ALL PART NUMBERS)\nAND 8375 THE FOLLOWING PART NUMBERS:\n390554-01 AND COMPATIBLE (390554-02, 318069-12, 318069-13)\n318069-10 AND COMPATIBLE (318069-11, 390544-01, 390544-02)
-Text Notes 10500 1050 0    157  ~ 0
-JUMPERS DEFAULT TO 390554-01
+Text Notes 9000 850  0    157  ~ 0
+JUMPERS MUST BE CONFIGURED BY AGNUS PART NUMBER
 $Comp
 L Amiga-Library:Agnus_MULTI U101
 U 1 1 614B5F28
@@ -956,29 +956,29 @@ $EndComp
 $Comp
 L Device:C C112
 U 1 1 6143A513
-P 13100 2200
-F 0 "C112" H 13215 2246 50  0000 L CNN
-F 1 "0.1uF" H 13215 2155 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 13138 2050 50  0001 C CNN
-F 3 "~" H 13100 2200 50  0001 C CNN
-	1    13100 2200
+P 13100 2600
+F 0 "C112" H 13215 2646 50  0000 L CNN
+F 1 "0.1uF" H 13215 2555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 13138 2450 50  0001 C CNN
+F 3 "~" H 13100 2600 50  0001 C CNN
+	1    13100 2600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	13100 2350 14150 2350
+	13100 2750 14150 2750
 $Comp
 L power:GND #PWR0358
 U 1 1 6143E439
-P 12800 2050
-F 0 "#PWR0358" H 12800 1800 50  0001 C CNN
-F 1 "GND" H 12805 1877 50  0000 C CNN
-F 2 "" H 12800 2050 50  0001 C CNN
-F 3 "" H 12800 2050 50  0001 C CNN
-	1    12800 2050
+P 12800 2450
+F 0 "#PWR0358" H 12800 2200 50  0001 C CNN
+F 1 "GND" H 12805 2277 50  0000 C CNN
+F 2 "" H 12800 2450 50  0001 C CNN
+F 3 "" H 12800 2450 50  0001 C CNN
+	1    12800 2450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12800 2050 13100 2050
+	12800 2450 13100 2450
 $Comp
 L Jumper:SolderJumper_2_Open J102
 U 1 1 61566589
@@ -993,7 +993,7 @@ $EndComp
 Wire Wire Line
 	12600 6400 15250 6400
 Text Notes 16050 6300 2    79   ~ 0
-SIGNAL Description\n8375 Left - 8372A Right
+DRA SIGNAL Description\n8375 Left - 8372A Right
 Text GLabel 15250 4950 2    51   Output ~ 0
 DRA8-7
 Text GLabel 15250 4650 2    51   Output ~ 0
@@ -1015,23 +1015,23 @@ DRA1-0
 Text GLabel 15250 7650 2    51   Output ~ 0
 DRA0-G
 Wire Wire Line
-	13100 2350 10800 2350
-Connection ~ 13100 2350
+	13100 2750 10800 2750
+Connection ~ 13100 2750
 Wire Wire Line
 	12150 2200 12150 1950
 Wire Wire Line
 	12150 1950 15100 1950
 Wire Wire Line
-	10800 2750 15100 2750
+	10800 2350 15100 2350
 Wire Wire Line
-	15100 2750 15100 1950
+	15100 2350 15100 1950
+Connection ~ 15100 1950
+Wire Wire Line
+	15100 1950 15250 1950
 Wire Bus Line
 	10200 5650 10200 8750
 Wire Bus Line
 	7700 2800 7700 4300
 Wire Bus Line
 	7700 4650 7700 6450
-Connection ~ 15100 1950
-Wire Wire Line
-	15100 1950 15250 1950
 $EndSCHEMATC

@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 14
 Title "Amiga 2000 EATX"
-Date "2021-08-21"
+Date "2021-09-19"
 Rev "2.0"
 Comp ""
 Comment1 ""

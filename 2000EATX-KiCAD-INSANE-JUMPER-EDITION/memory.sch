@@ -5,7 +5,7 @@ $Descr B 17000 11000
 encoding utf-8
 Sheet 13 14
 Title "Amiga 2000 EATX"
-Date "2021-08-25"
+Date "2021-09-19"
 Rev "2.0"
 Comp ""
 Comment1 ""
@@ -1459,14 +1459,14 @@ Wire Wire Line
 Wire Wire Line
 	4050 6500 4050 6100
 $Comp
-L Jumper:SolderJumper_3_Bridged12 JA?
+L Jumper:SolderJumper_3_Open JA?
 U 1 1 612556F6
 P 11250 4250
 AR Path="/61252A60/612556F6" Ref="JA?"  Part="1" 
 AR Path="/6089B263/612556F6" Ref="JA14"  Part="1" 
 F 0 "JA14" V 11204 4318 50  0000 L CNN
 F 1 "8375/8372A" V 11295 4318 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 11250 4250 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 11250 4250 50  0001 C CNN
 F 3 "~" H 11250 4250 50  0001 C CNN
 	1    11250 4250
 	0    -1   1    0   
@@ -1731,14 +1731,14 @@ Entry Wire Line
 Text Label 12050 2700 0    51   ~ 0
 DRAB9
 $Comp
-L Jumper:SolderJumper_3_Bridged12 JA?
+L Jumper:SolderJumper_3_Open JA?
 U 1 1 6183D00D
 P 6700 4000
 AR Path="/61252A60/6183D00D" Ref="JA?"  Part="1" 
 AR Path="/6089B263/6183D00D" Ref="JA13"  Part="1" 
 F 0 "JA13" V 6654 4068 50  0000 L CNN
 F 1 "8375/8372A" V 6745 4068 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 6700 4000 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 6700 4000 50  0001 C CNN
 F 3 "~" H 6700 4000 50  0001 C CNN
 	1    6700 4000
 	0    -1   -1   0   
@@ -1766,10 +1766,10 @@ Wire Wire Line
 	7100 4200 7100 3500
 Wire Wire Line
 	6850 4000 6850 4300
-Text Notes 5100 1000 0    79   ~ 0
-Jumpers default to 8375, all part numbers\ndefined with Agnus multiadapter.
+Text Notes 3500 800  0    118  ~ 0
+JUMPERS MUST BE CONFIGURED BY AGNUS PART NUMBER
 Text Notes 1200 1100 0    79   ~ 0
-DRA SIGNAL Description\n8372A Left - 8375 Right
+DRA SIGNAL Description\n8375 Left - 8372A Right
 Text GLabel 1550 3050 0    51   Input ~ 0
 DRA8-7
 Wire Wire Line

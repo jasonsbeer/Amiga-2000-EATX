@@ -5,7 +5,7 @@ $Descr B 17000 11000
 encoding utf-8
 Sheet 9 14
 Title "Amiga 2000 EATX"
-Date "2021-08-21"
+Date "2021-09-19"
 Rev "2.0"
 Comp ""
 Comment1 ""
@@ -994,7 +994,6 @@ Wire Wire Line
 	1750 5700 3850 5700
 Wire Wire Line
 	1750 5550 3750 5550
-NoConn ~ 9550 5300
 Wire Wire Line
 	14650 8250 12350 8250
 Wire Wire Line
