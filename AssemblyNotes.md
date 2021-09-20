@@ -20,6 +20,25 @@ You will need an oscillator installed at X1 or X2 to generate a clock signal. Yo
 
 **Note on CMOS oscillator:** 3.3v CMOS logic is compatible with in-spec TTL logic. My test board worked well with a 3.3v CMOS oscillator. All clock signals from Agnus are correct on my test machine. I would still recommend using like-for-like logic, if possible. Using the 3.3v CMOS oscillator should only be considered if a TTL oscillator cannot be reasonably obtained. 
 
+## Configuring the Agnus jumpers
+The revision 2.0 board supports multiple Agnus revisions. See Table A2 for a list of part numbers supported. Not all the listed part numbers has been directly tested. Reviewing related literature suggests all the listed parts numbers *should* work. However, <b>until each specific part number is tested, there is no guarantee any particular Agnus will work</b>, even if listed. The table below indicates the status of each part number. If you test a new Agnus part number, please place a new post in the issues tab so I can update the table.
+
+The Agnus jumpers are not configured from the factory. During board assembly, the jumpers defined in Table A2 must be configured for the specific Agnus part number to be used. It is up to the individual assembling the board to correctly short each jumper, as necessary. Failure to correctly do so will result in a malfunctioning board.
+
+Agnus|Commodore Part Number|Status
+-|-|-
+8372A|ALL|Tested and working
+8375|390554-01|Tested and working
+8375|390554-02|Tested and working
+8375|318069-12|Unknown
+8375|318069-13|Unknown
+8375|318069-10|Unknown
+8375|318069-11|Unknown
+8375|390544-01|Unknown
+8375|390544-02|Unknown
+
+NOTE: The revision 1.2.1 board supports only Agnus 8372A and only makes use of J102. J102 should be configured as shown in the 8372A column.
+
 ## Kickstart Installation
 The Amiga 2000 EATX is provisioned to accept 512k (27C400, 40 pin), 1MB (27C800, 42 pin), and 2MB (27C160, 42 pin) Kickstart EPROMs. The Kickstart socket (U500) is a 42 pin DIP footprint that supports all three types. A standard Amiga Kickstart ROM is based on the 27C400 EPROM. When installing a 27C400 EPROM, you must install it toward the bottom of the socket, leaving pins 1 and 42 of the socket empty. This is noted on the silk screen and will correctly align the pins. **Installing the 27C400 EPROM incorrectly may damage it!** Install 27C800 and 27C160 EPROMs as normal. Use of 1MB and larger EPROMs is considered experimental. Guides to create custom Kickstart ROMs can be found on Amiga community sites.
 
@@ -63,8 +82,13 @@ Throught hole IC's have a square pad and a "1" marking pin one. Pin one is usual
 
 <img src="/Images/DIP-orientation.png" width="200">
 
+### Solder Pad Jumpers
+Solder pad jumpers are present on the Rev 2.0 board. In the event there are only two pads for the jumper, you will place a solder blob across the two pads to short them. In the event of a 3 pad jumper, the solder blob must be placed between pad 2 (the center pad) and either pad 1 or 3. This is defined in Table A2. Pad 1 is marked with a small arrow and the numeral "1" on the silkscreen. Pad 3 is marked by a number "3" on the silkscreen.
+
+<img src="/Images/solderjumper.png" width="200">
+
 ## Tables
-Table A1. Legacy Parts Required
+### Table A1. Legacy Parts Required
 Common Name|Designation/Part Number|Postion|Package|Notes
 -|-|-|-|-
 Motorola 68000|MC68000|U100|DIP-64| 8MHz or greater
@@ -81,3 +105,28 @@ Real Time Clock|RTC-62423A|U801|SOP-24|"A" revision is more accurate, but non-A 
 28.37516 MHz Oscillator|PAL Oscillator, 5V TTL|X1|DIP-14|Alternatively, populate X2 with a 5.0x3.2mm footprint 3.3V CMOS oscillator
 
 *Commodore IC's may be marked "MOS" or "CSG", or possibly neither in the case of contract runs. These are interchangeable by part number.
+
+
+### Table A2. Revision 2.0 Agnus Configuration Jumpers
+
+Agnus|<b>8372A</b>|<b>8375</b>|<b>8375</b>
+-|-|-|-
+Commodore<br>Part Number|ALL|390554-01<br>390554-02<br>318069-12<br>318069-13|318069-10<br>318069-11<br>390544-01<br>390544-02
+Jumper|||
+JA1|3-2|1-2|1-2
+JA2|3-2|1-2|1-2
+JA3|3-2|1-2|1-2
+JA4|3-2|1-2|1-2
+JA5|3-2|OPEN|1-2
+JA6|3-2|1-2|1-2
+JA7|SHORT|OPEN|OPEN
+JA8|3-2|1-2|1-2
+JA9|3-2|1-2|1-2
+JA10|3-2|1-2|1-2
+JA11|3-2|1-2|1-2
+JA12|3-2|1-2|1-2
+JA13|3-2|1-2|1-2
+JA14|3-2|1-2|1-2
+J102|NTSC – SHORT<br>PAL – OPEN|SHORT|SHORT
+
+1-2 = Short pads 1 and 2 together<br>3-2 = Short pads 3 and 2 together<br>SHORT = Short the two pads together<br>OPEN = Nothing is shorted
