@@ -37,7 +37,7 @@ Agnus|Commodore Part Number|Status
 8375|390544-01|Unknown
 8375|390544-02|Unknown
 
-NOTE: The revision 1.2.1 board supports only Agnus 8372A and only makes use of J102. J102 should be configured as shown in the 8372A column.
+NOTE: The revision 1.2.1 board supports only Agnus 8372A and only makes use of J102. J102 should be configured as shown in the 8372A column of Table A2.
 
 ## Kickstart Installation
 The Amiga 2000 EATX is provisioned to accept 512k (27C400, 40 pin), 1MB (27C800, 42 pin), and 2MB (27C160, 42 pin) Kickstart EPROMs. The Kickstart socket (U500) is a 42 pin DIP footprint that supports all three types. A standard Amiga Kickstart ROM is based on the 27C400 EPROM. When installing a 27C400 EPROM, you must install it toward the bottom of the socket, leaving pins 1 and 42 of the socket empty. This is noted on the silk screen and will correctly align the pins. **Installing the 27C400 EPROM incorrectly may damage it!** Install 27C800 and 27C160 EPROMs as normal. Use of 1MB and larger EPROMs is considered experimental. Guides to create custom Kickstart ROMs can be found on Amiga community sites.
