@@ -1868,6 +1868,20 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf" H 6400 1600 50  000
 $EndComp
 Wire Wire Line
 	12100 2450 12250 2450
-NoConn ~ 2800 6900
-NoConn ~ 2800 6700
+Wire Wire Line
+	2800 6900 3600 6900
+Wire Wire Line
+	3600 6900 3600 8950
+Wire Wire Line
+	3600 8950 1100 8950
+Wire Wire Line
+	2800 6700 3700 6700
+Wire Wire Line
+	3700 6700 3700 9100
+Wire Wire Line
+	3700 9100 1100 9100
+Text GLabel 1100 8950 0    50   Output ~ 0
+_SEL2
+Text GLabel 1100 9100 0    50   Output ~ 0
+_SEL3
 $EndSCHEMATC

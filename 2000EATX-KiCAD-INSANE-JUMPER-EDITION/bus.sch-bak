@@ -1174,12 +1174,12 @@ $Comp
 L Device:CTRIM VC800
 U 1 1 616B1D5F
 P 9200 7600
-F 0 "VC800" H 9315 7646 50  0000 L CNN
-F 1 "22-47pF" H 9315 7555 50  0000 L CNN
+F 0 "VC800" H 8850 7550 50  0000 L CNN
+F 1 "22-47pF" H 8750 7650 50  0000 L CNN
 F 2 "AmigaFootprints:TrimmerCap" H 9200 7600 50  0001 C CNN
 F 3 "~" H 9200 7600 50  0001 C CNN
 	1    9200 7600
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:C C810
@@ -1335,12 +1335,12 @@ Wire Notes Line
 	7100 8050 14700 8050
 Wire Notes Line
 	7100 4750 14700 4750
-Wire Bus Line
-	10400 6800 10400 8500
-Wire Bus Line
-	12650 7100 12650 7500
 Text Notes 9700 5250 2    236  ~ 0
 OPTIONAL RTC
 Text Notes 7150 9100 0    98   ~ 0
 When installing the optional real time clock,\nadd all the components with the REAL TIME CLOCK\nexcept RTC62423. DO NOT install both clock ICs.
+Wire Bus Line
+	10400 6800 10400 8500
+Wire Bus Line
+	12650 7100 12650 7500
 $EndSCHEMATC

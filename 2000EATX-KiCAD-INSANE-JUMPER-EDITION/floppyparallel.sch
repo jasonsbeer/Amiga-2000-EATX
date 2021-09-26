@@ -735,7 +735,7 @@ L Connector_Generic:Conn_02x17_Odd_Even CN303
 U 1 1 60775E24
 P 12600 3500
 F 0 "CN303" H 12650 4517 50  0000 C CNN
-F 1 "FLOPPY" H 12650 4426 50  0000 C CNN
+F 1 "INTERNAL FLOPPY" H 12650 4426 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x17_P2.54mm_Vertical" H 12600 3500 50  0001 C CNN
 F 3 "~" H 12600 3500 50  0001 C CNN
 	1    12600 3500
@@ -743,8 +743,6 @@ F 3 "~" H 12600 3500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	12800 2700 13050 2700
-Wire Wire Line
-	13050 2700 13050 2900
 Wire Wire Line
 	12800 4300 13050 4300
 Connection ~ 13050 4300
@@ -1038,8 +1036,8 @@ Wire Wire Line
 Wire Wire Line
 	11700 3000 11700 2350
 Wire Wire Line
-	11700 2350 14050 2350
-Text GLabel 14050 2350 2    50   Output ~ 0
+	11700 2350 15950 2350
+Text GLabel 15950 2350 2    50   Output ~ 0
 _INDEX
 $Comp
 L 74xx:74LS08 U607
@@ -1126,24 +1124,24 @@ Wire Wire Line
 Wire Wire Line
 	11600 3500 11600 2200
 Wire Wire Line
-	11600 2200 14050 2200
+	11600 2200 15950 2200
 Wire Wire Line
 	12300 3600 11550 3600
 Wire Wire Line
 	11550 3600 11550 2050
 Wire Wire Line
-	11550 2050 14050 2050
+	11550 2050 15950 2050
 Wire Wire Line
 	12300 4200 11550 4200
 Wire Wire Line
 	11550 4200 11550 4900
 Wire Wire Line
-	11550 4900 13950 4900
-Text GLabel 14050 2200 2    50   Input ~ 0
+	11550 4900 15950 4900
+Text GLabel 15950 2200 2    50   Input ~ 0
 DIR
-Text GLabel 14050 2050 2    50   Input ~ 0
+Text GLabel 15950 2050 2    50   Input ~ 0
 _STEP
-Text GLabel 13950 4900 2    50   Input ~ 0
+Text GLabel 15950 4900 2    50   Input ~ 0
 _SIDE
 $Comp
 L Device:R R310
@@ -1209,37 +1207,26 @@ Wire Wire Line
 	11000 4450 12300 4450
 Wire Wire Line
 	12300 4450 12300 4300
-$Comp
-L Amiga-Library:Gary U102
-U 3 1 60B4CD6E
-P 13550 8250
-F 0 "U102" H 13550 8915 50  0000 C CNN
-F 1 "GARY" H 13550 8824 50  0000 C CNN
-F 2 "Package_DIP:DIP-48_W15.24mm" H 13550 8250 50  0001 C CNN
-F 3 "" H 13350 9200 50  0001 C CNN
-	3    13550 8250
-	1    0    0    -1  
-$EndComp
-Text GLabel 15500 7850 2    50   Input ~ 0
+Text GLabel 15950 7850 2    50   Input ~ 0
 _KBRST
-Text GLabel 15500 8000 2    50   Input ~ 0
+Text GLabel 15950 8000 2    50   Input ~ 0
 _MTR
-Text GLabel 15500 8150 2    50   Input ~ 0
+Text GLabel 15950 8150 2    50   Input ~ 0
 _SEL0
-Text GLabel 15500 8300 2    50   Input ~ 0
+Text GLabel 15950 8300 2    50   Input ~ 0
 _DKWD
-Text GLabel 15500 8450 2    50   Input ~ 0
+Text GLabel 15950 8450 2    50   Input ~ 0
 DKWE
 Wire Wire Line
 	14150 7850 15250 7850
 Wire Wire Line
-	15500 8000 14400 8000
+	15950 8000 14400 8000
 Wire Wire Line
-	14150 8150 15500 8150
+	14150 8150 15950 8150
 Wire Wire Line
-	15500 8300 14150 8300
+	15950 8300 14150 8300
 Wire Wire Line
-	14150 8450 15500 8450
+	14150 8450 15950 8450
 $Comp
 L Device:R R201
 U 1 1 60BB5FFB
@@ -1253,7 +1240,7 @@ F 3 "~" H 15250 7700 50  0001 C CNN
 $EndComp
 Connection ~ 15250 7850
 Wire Wire Line
-	15250 7850 15500 7850
+	15250 7850 15950 7850
 $Comp
 L power:+5V #PWR0370
 U 1 1 60BB6721
@@ -1306,7 +1293,7 @@ Wire Wire Line
 	11950 7500 11950 7650
 Connection ~ 11950 7650
 Wire Wire Line
-	11000 7650 11000 6000
+	11000 7650 11000 7500
 Wire Wire Line
 	12950 8450 12850 8450
 Wire Wire Line
@@ -1315,7 +1302,6 @@ Wire Wire Line
 	12950 8600 12150 8600
 Wire Wire Line
 	12150 8600 12150 7500
-NoConn ~ 12950 7850
 Wire Wire Line
 	12300 3800 11800 3800
 Wire Wire Line
@@ -1503,19 +1489,19 @@ F 3 "~" H 15550 5850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	12300 4450 12300 4800
+	12300 4450 12300 5000
 Wire Wire Line
-	12300 4800 15350 4800
+	12300 5000 15350 5000
 Wire Wire Line
-	15350 4800 15350 5750
+	15350 5000 15350 5750
 Connection ~ 12300 4450
 Wire Wire Line
 	12300 4100 11400 4100
 Wire Wire Line
 	11400 4100 11400 1900
 Wire Wire Line
-	11400 1900 14050 1900
-Text GLabel 14050 1900 2    50   Output ~ 0
+	11400 1900 15950 1900
+Text GLabel 15950 1900 2    50   Output ~ 0
 _DKRD
 $Comp
 L Device:R R301
@@ -2060,4 +2046,552 @@ Text Notes 9950 5000 0    39   ~ 0
 _AUTOLINEFEED
 Text Notes 9950 5400 0    39   ~ 0
 _INIT
+$Comp
+L 74xx:74LS38 U203
+U 1 1 6159CD94
+P 11350 7200
+F 0 "U203" V 11396 7020 50  0000 R CNN
+F 1 "74LS38" V 11305 7020 50  0000 R CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 11350 7200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS38" H 11350 7200 50  0001 C CNN
+	1    11350 7200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Amiga-Library:Gary U102
+U 3 1 60B4CD6E
+P 13550 8250
+F 0 "U102" H 13550 8915 50  0000 C CNN
+F 1 "GARY" H 13550 8824 50  0000 C CNN
+F 2 "Package_DIP:DIP-48_W15.24mm" H 13550 8250 50  0001 C CNN
+F 3 "" H 13350 9200 50  0001 C CNN
+	3    13550 8250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12950 7850 11450 7850
+Wire Wire Line
+	11450 7850 11450 7500
+Wire Wire Line
+	11250 7500 11000 7500
+Connection ~ 11000 7500
+Wire Wire Line
+	11000 7500 11000 6000
+Wire Wire Line
+	11350 6900 11350 6600
+Text Label 11350 6600 1    51   ~ 0
+_MTRX
+$Comp
+L Amiga-Library:C_Feedthrough_Small EMI313
+U 1 1 6180B44D
+P 14150 2800
+F 0 "EMI313" H 13950 2950 50  0000 C CNN
+F 1 "C_Feedthrough_Small" H 14150 3002 50  0001 C CNN
+F 2 "AmigaFootprints:C_1206_3216_Feedthrough" V 14150 2800 50  0001 C CNN
+F 3 "~" V 14150 2800 50  0001 C CNN
+	1    14150 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga-Library:C_Feedthrough_Small EMI324
+U 1 1 6180DE70
+P 14150 2900
+F 0 "EMI324" H 13950 3050 50  0000 C CNN
+F 1 "C_Feedthrough_Small" H 14150 3125 50  0001 C CNN
+F 2 "AmigaFootprints:C_1206_3216_Feedthrough" V 14150 2900 50  0001 C CNN
+F 3 "~" V 14150 2900 50  0001 C CNN
+	1    14150 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga-Library:C_Feedthrough_Small EMI322
+U 1 1 6180F282
+P 15200 2800
+F 0 "EMI322" H 15000 2950 50  0000 C CNN
+F 1 "C_Feedthrough_Small" H 15200 3025 50  0001 C CNN
+F 2 "AmigaFootprints:C_1206_3216_Feedthrough" V 15200 2800 50  0001 C CNN
+F 3 "~" V 15200 2800 50  0001 C CNN
+	1    15200 2800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Amiga-Library:C_Feedthrough_Small EMI323
+U 1 1 6180FCC9
+P 15200 2900
+F 0 "EMI323" H 15000 3050 50  0000 C CNN
+F 1 "C_Feedthrough_Small" H 15200 3125 50  0001 C CNN
+F 2 "AmigaFootprints:C_1206_3216_Feedthrough" V 15200 2900 50  0001 C CNN
+F 3 "~" V 15200 2900 50  0001 C CNN
+	1    15200 2900
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	15300 2700 15600 2700
+Wire Wire Line
+	14050 2700 13750 2700
+Text Label 15600 2700 0    50   ~ 0
+_RDY
+Wire Wire Line
+	14950 2700 15100 2700
+Wire Wire Line
+	14950 2800 15100 2800
+Wire Wire Line
+	15300 2800 15600 2800
+Wire Wire Line
+	14050 2800 13750 2800
+Text Label 13750 3200 2    50   ~ 0
+_MTRX
+Text Label 13750 2700 2    50   ~ 0
+_SIDE
+Wire Wire Line
+	13050 2700 13050 2900
+Text Label 15600 2800 0    50   ~ 0
+_DKRD
+Text Label 13750 2800 2    50   ~ 0
+_WPROT
+$Comp
+L Amiga-Library:C_Feedthrough_Small EMI314
+U 1 1 61B92DB2
+P 14150 3100
+F 0 "EMI314" H 13950 3250 50  0000 C CNN
+F 1 "C_Feedthrough_Small" H 14150 3325 50  0001 C CNN
+F 2 "AmigaFootprints:C_1206_3216_Feedthrough" V 14150 3100 50  0001 C CNN
+F 3 "~" V 14150 3100 50  0001 C CNN
+	1    14150 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga-Library:C_Feedthrough_Small EMI316
+U 1 1 61B933EB
+P 14150 3200
+F 0 "EMI316" H 13950 3350 50  0000 C CNN
+F 1 "C_Feedthrough_Small" H 14150 3425 50  0001 C CNN
+F 2 "AmigaFootprints:C_1206_3216_Feedthrough" V 14150 3200 50  0001 C CNN
+F 3 "~" V 14150 3200 50  0001 C CNN
+	1    14150 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga-Library:C_Feedthrough_Small EMI339
+U 1 1 61B9707D
+P 14150 3000
+F 0 "EMI339" H 13950 3150 50  0000 C CNN
+F 1 "C_Feedthrough_Small" H 14150 3225 50  0001 C CNN
+F 2 "AmigaFootprints:C_1206_3216_Feedthrough" V 14150 3000 50  0001 C CNN
+F 3 "~" V 14150 3000 50  0001 C CNN
+	1    14150 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga-Library:C_Feedthrough_Small EMI315
+U 1 1 61B975F0
+P 15200 3200
+F 0 "EMI315" H 15000 3350 50  0000 C CNN
+F 1 "C_Feedthrough_Small" H 15200 3425 50  0001 C CNN
+F 2 "AmigaFootprints:C_1206_3216_Feedthrough" V 15200 3200 50  0001 C CNN
+F 3 "~" V 15200 3200 50  0001 C CNN
+	1    15200 3200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	14950 3100 15100 3100
+Wire Wire Line
+	15200 3000 14950 3000
+Wire Wire Line
+	14050 3100 13750 3100
+Wire Wire Line
+	14050 3000 13750 3000
+Wire Wire Line
+	15300 3100 15600 3100
+Text Label 13750 2900 2    50   ~ 0
+_TRK0
+Text Label 13750 3000 2    50   ~ 0
+_DKWEB
+Text Label 15600 3100 0    50   ~ 0
+_DKWDB
+Text Label 13750 3100 2    50   ~ 0
+_STEP
+$Comp
+L Amiga-Library:C_Feedthrough_Small EMI311
+U 1 1 61DBC001
+P 14150 3300
+F 0 "EMI311" H 13950 3450 50  0000 C CNN
+F 1 "C_Feedthrough_Small" H 14150 3525 50  0001 C CNN
+F 2 "AmigaFootprints:C_1206_3216_Feedthrough" V 14150 3300 50  0001 C CNN
+F 3 "~" V 14150 3300 50  0001 C CNN
+	1    14150 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga-Library:C_Feedthrough_Small EMI318
+U 1 1 61DBC5DD
+P 15200 3400
+F 0 "EMI318" H 15000 3550 50  0000 C CNN
+F 1 "C_Feedthrough_Small" H 15200 3625 50  0001 C CNN
+F 2 "AmigaFootprints:C_1206_3216_Feedthrough" V 15200 3400 50  0001 C CNN
+F 3 "~" V 15200 3400 50  0001 C CNN
+	1    15200 3400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Amiga-Library:C_Feedthrough_Small EMI317
+U 1 1 61DBCBE6
+P 15200 3300
+F 0 "EMI317" H 15000 3450 50  0000 C CNN
+F 1 "C_Feedthrough_Small" H 15200 3525 50  0001 C CNN
+F 2 "AmigaFootprints:C_1206_3216_Feedthrough" V 15200 3300 50  0001 C CNN
+F 3 "~" V 15200 3300 50  0001 C CNN
+	1    15200 3300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Amiga-Library:C_Feedthrough_Small EMI319
+U 1 1 61DBD118
+P 14150 3400
+F 0 "EMI319" H 13950 3550 50  0000 C CNN
+F 1 "C_Feedthrough_Small" H 14150 3625 50  0001 C CNN
+F 2 "AmigaFootprints:C_1206_3216_Feedthrough" V 14150 3400 50  0001 C CNN
+F 3 "~" V 14150 3400 50  0001 C CNN
+	1    14150 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15300 3200 15600 3200
+Wire Wire Line
+	15300 3300 15950 3300
+Wire Wire Line
+	15100 3300 14950 3300
+Wire Wire Line
+	14950 3200 15100 3200
+Wire Wire Line
+	14050 3200 13750 3200
+Text Label 15600 3200 0    50   ~ 0
+DIR
+$Comp
+L Amiga-Library:C_Feedthrough_Small EMI312
+U 1 1 61F733E6
+P 15200 3500
+F 0 "EMI312" H 15000 3650 50  0000 C CNN
+F 1 "C_Feedthrough_Small" H 15200 3725 50  0001 C CNN
+F 2 "AmigaFootprints:C_1206_3216_Feedthrough" V 15200 3500 50  0001 C CNN
+F 3 "~" V 15200 3500 50  0001 C CNN
+	1    15200 3500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	15100 3400 14950 3400
+Text GLabel 15950 3300 2    51   Input ~ 0
+_SEL3
+Text GLabel 15950 4750 2    51   Input ~ 0
+_SEL2
+Wire Wire Line
+	15950 4750 13350 4750
+Wire Wire Line
+	13350 4750 13350 3300
+Wire Wire Line
+	13350 3300 14050 3300
+Wire Wire Line
+	15300 3400 15600 3400
+$Comp
+L 74xx:74LS08 U607
+U 2 1 6205AEEB
+P 3200 9950
+F 0 "U607" H 3200 10275 50  0000 C CNN
+F 1 "74HCT08" H 3200 10184 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3200 9950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 3200 9950 50  0001 C CNN
+	2    3200 9950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 10050 2650 10050
+Connection ~ 2650 10050
+Wire Wire Line
+	2750 9300 2750 9850
+Wire Wire Line
+	2750 9850 2900 9850
+Connection ~ 2750 9300
+Wire Wire Line
+	3500 9950 4150 9950
+Text Label 4150 9950 2    51   ~ 0
+_DKRST
+Text Label 15600 3400 0    51   ~ 0
+_DKRST
+$Comp
+L Amiga-Library:C_Feedthrough_Small EMI340
+U 1 1 624F02B6
+P 14150 3500
+F 0 "EMI340" H 13950 3650 50  0000 C CNN
+F 1 "C_Feedthrough_Small" H 14150 3725 50  0001 C CNN
+F 2 "AmigaFootprints:C_1206_3216_Feedthrough" V 14150 3500 50  0001 C CNN
+F 3 "~" V 14150 3500 50  0001 C CNN
+	1    14150 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14050 3400 13750 3400
+Text Label 13750 3400 2    50   ~ 0
+_INDEX
+$Comp
+L Amiga-Library:C_Feedthrough_Small EMI341
+U 1 1 62555EC9
+P 15200 3600
+F 0 "EMI341" H 15000 3750 50  0000 C CNN
+F 1 "C_Feedthrough_Small" H 15200 3825 50  0001 C CNN
+F 2 "AmigaFootprints:C_1206_3216_Feedthrough" V 15200 3600 50  0001 C CNN
+F 3 "~" V 15200 3600 50  0001 C CNN
+	1    15200 3600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	15300 3500 15600 3500
+Text Label 15600 3500 0    50   ~ 0
+_CHNG
+$Comp
+L Amiga-Library:C_Feedthrough_Small EMI320
+U 1 1 625896AB
+P 14150 3600
+F 0 "EMI320" H 13950 3750 50  0000 C CNN
+F 1 "C_Feedthrough_Small" H 14150 3825 50  0001 C CNN
+F 2 "AmigaFootprints:C_1206_3216_Feedthrough" V 14150 3600 50  0001 C CNN
+F 3 "~" V 14150 3600 50  0001 C CNN
+	1    14150 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amiga-Library:C_Feedthrough_Small EMI321
+U 1 1 62589B75
+P 15200 3700
+F 0 "EMI321" H 15000 3850 50  0000 C CNN
+F 1 "C_Feedthrough_Small" H 15200 3925 50  0001 C CNN
+F 2 "AmigaFootprints:C_1206_3216_Feedthrough" V 15200 3700 50  0001 C CNN
+F 3 "~" V 15200 3700 50  0001 C CNN
+	1    15200 3700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	15300 3600 15600 3600
+Wire Wire Line
+	15600 3600 15600 3800
+$Comp
+L Device:Fuse F4
+U 1 1 625F1324
+P 15600 3950
+F 0 "F4" H 15660 3996 50  0000 L CNN
+F 1 "Fuse" H 15660 3905 50  0000 L CNN
+F 2 "Fuse:Fuse_1206_3216Metric" V 15530 3950 50  0001 C CNN
+F 3 "~" H 15600 3950 50  0001 C CNN
+	1    15600 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14950 3600 15100 3600
+Wire Wire Line
+	15100 3500 14950 3500
+Wire Wire Line
+	14150 3600 14150 3750
+$Comp
+L power:GND #PWR0400
+U 1 1 626C1966
+P 14150 3750
+F 0 "#PWR0400" H 14150 3500 50  0001 C CNN
+F 1 "GND" H 14155 3577 50  0000 C CNN
+F 2 "" H 14150 3750 50  0001 C CNN
+F 3 "" H 14150 3750 50  0001 C CNN
+	1    14150 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C323
+U 1 1 626C4A2C
+P 15600 4250
+F 0 "C323" V 15348 4250 50  0000 C CNN
+F 1 "0.1uF" V 15439 4250 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 15638 4100 50  0001 C CNN
+F 3 "~" H 15600 4250 50  0001 C CNN
+	1    15600 4250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	15600 4100 15950 4100
+Wire Wire Line
+	15950 4100 15950 4000
+Connection ~ 15600 4100
+$Comp
+L power:+5V #PWR0401
+U 1 1 626FCA31
+P 15950 4000
+F 0 "#PWR0401" H 15950 3850 50  0001 C CNN
+F 1 "+5V" H 15965 4173 50  0000 C CNN
+F 2 "" H 15950 4000 50  0001 C CNN
+F 3 "" H 15950 4000 50  0001 C CNN
+	1    15950 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0402
+U 1 1 626FCD08
+P 15600 4400
+F 0 "#PWR0402" H 15600 4150 50  0001 C CNN
+F 1 "GND" H 15605 4227 50  0000 C CNN
+F 2 "" H 15600 4400 50  0001 C CNN
+F 3 "" H 15600 4400 50  0001 C CNN
+	1    15600 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14050 3500 13550 3500
+Wire Wire Line
+	13550 3500 13550 3850
+$Comp
+L Device:Fuse F3
+U 1 1 627A1EF0
+P 13550 4000
+F 0 "F3" H 13610 4046 50  0000 L CNN
+F 1 "Fuse" H 13610 3955 50  0000 L CNN
+F 2 "Fuse:Fuse_1206_3216Metric" V 13480 4000 50  0001 C CNN
+F 3 "~" H 13550 4000 50  0001 C CNN
+	1    13550 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C322
+U 1 1 627A26E7
+P 13550 4300
+F 0 "C322" V 13298 4300 50  0000 C CNN
+F 1 "0.1uF" V 13389 4300 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 13588 4150 50  0001 C CNN
+F 3 "~" H 13550 4300 50  0001 C CNN
+	1    13550 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+12V #PWR0403
+U 1 1 6281DE87
+P 13850 4050
+F 0 "#PWR0403" H 13850 3900 50  0001 C CNN
+F 1 "+12V" H 13865 4223 50  0000 C CNN
+F 2 "" H 13850 4050 50  0001 C CNN
+F 3 "" H 13850 4050 50  0001 C CNN
+	1    13850 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13550 4150 13850 4150
+Wire Wire Line
+	13850 4150 13850 4050
+Connection ~ 13550 4150
+$Comp
+L power:GND #PWR0404
+U 1 1 62853CBC
+P 13550 4450
+F 0 "#PWR0404" H 13550 4200 50  0001 C CNN
+F 1 "GND" H 13555 4277 50  0000 C CNN
+F 2 "" H 13550 4450 50  0001 C CNN
+F 3 "" H 13550 4450 50  0001 C CNN
+	1    13550 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14150 3600 14150 3550
+Connection ~ 14150 3600
+Wire Wire Line
+	14150 3550 14150 3450
+Connection ~ 14150 3550
+Wire Wire Line
+	14150 3450 14150 3350
+Connection ~ 14150 3450
+Wire Wire Line
+	14150 3350 14150 3250
+Connection ~ 14150 3350
+Wire Wire Line
+	14150 3250 14150 3150
+Connection ~ 14150 3250
+Wire Wire Line
+	14150 3150 14150 3050
+Connection ~ 14150 3150
+Connection ~ 14150 3050
+Wire Wire Line
+	14150 2850 14150 2750
+Connection ~ 14150 2850
+Wire Wire Line
+	15200 3650 15200 3550
+Wire Wire Line
+	15200 3550 15200 3450
+Connection ~ 15200 3550
+Wire Wire Line
+	15200 3450 15200 3350
+Connection ~ 15200 3450
+Wire Wire Line
+	15200 3350 15200 3250
+Connection ~ 15200 3350
+Wire Wire Line
+	15200 3250 15200 3150
+Connection ~ 15200 3250
+Connection ~ 15200 3150
+Wire Wire Line
+	15200 2850 15200 2750
+Connection ~ 15200 2850
+Wire Wire Line
+	15200 3650 15200 3750
+Connection ~ 15200 3650
+$Comp
+L power:GND #PWR0405
+U 1 1 62BF559C
+P 15200 3750
+F 0 "#PWR0405" H 15200 3500 50  0001 C CNN
+F 1 "GND" H 15205 3577 50  0000 C CNN
+F 2 "" H 15200 3750 50  0001 C CNN
+F 3 "" H 15200 3750 50  0001 C CNN
+	1    15200 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14450 3000 14250 3000
+Wire Wire Line
+	14250 2800 14450 2800
+Wire Wire Line
+	14450 3600 14150 3600
+Wire Wire Line
+	14450 2700 14250 2700
+Wire Wire Line
+	14450 3500 14250 3500
+Wire Wire Line
+	14250 3400 14450 3400
+Wire Wire Line
+	14250 3300 14450 3300
+Wire Wire Line
+	14450 3200 14250 3200
+Wire Wire Line
+	14450 3100 14250 3100
+$Comp
+L Connector_Generic:Conn_02x10_Odd_Even CN304
+U 1 1 6158B4AD
+P 14750 3100
+F 0 "CN304" H 14800 3750 50  0000 C CNN
+F 1 "EXTERNAL FLOPPY" H 14800 3650 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" H 14750 3100 50  0001 C CNN
+F 3 "~" H 14750 3100 50  0001 C CNN
+	1    14750 3100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	14950 2900 15200 2900
+Connection ~ 15200 2900
+Wire Wire Line
+	15200 2900 15200 2850
+Wire Wire Line
+	14150 2850 14150 2950
+Connection ~ 14150 2950
+Wire Wire Line
+	14150 2950 14150 3050
+Wire Wire Line
+	13750 2900 14050 2900
+Wire Wire Line
+	15200 2900 15200 3000
+Wire Wire Line
+	14450 2900 14250 2900
+Connection ~ 15200 3000
+Wire Wire Line
+	15200 3000 15200 3150
 $EndSCHEMATC

@@ -98,4 +98,21 @@ X GND 82 150 -400 100 U 50 50 2 1 W
 ENDDRAW
 ENDDEF
 #
+# C_Feedthrough-Amiga-Library
+#
+DEF C_Feedthrough-Amiga-Library EMI 0 10 Y N 1 F N
+F0 "EMI" 0 300 50 H V C CNN
+F1 "C_Feedthrough-Amiga-Library" 0 225 50 H V C CNN
+F2 "AmigaFootprints:C_1206_3216_Feedthrough" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
+DRAW
+S -65 60 0 80 0 1 0 F
+S -50 100 -10 100 0 1 0 N
+S 0 120 -65 140 0 1 0 F
+X 1 1 -130 100 79 R 50 50 1 1 P
+X 2 2 70 100 79 L 50 50 1 1 P
+X 3 3 -30 -10 79 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 #End Library
