@@ -1766,8 +1766,8 @@ Wire Wire Line
 	7100 4200 7100 3500
 Wire Wire Line
 	6850 4000 6850 4300
-Text Notes 5100 1000 0    79   ~ 0
-Jumpers default to 8375, all part numbers\ndefined with Agnus multiadapter.
+Text Notes 3500 800  0    118  ~ 0
+JUMPERS MUST BE CONFIGURED BY AGNUS PART NUMBER
 Text Notes 1200 1100 0    79   ~ 0
 DRA SIGNAL Description\n8375 Left - 8372A Right
 Text GLabel 1550 3050 0    51   Input ~ 0
