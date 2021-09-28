@@ -25,70 +25,46 @@ F 3 "" H 2400 6750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1950 3900 1050 3900
+	1950 3900 1250 3900
 Wire Wire Line
-	1050 4000 1950 4000
+	1250 4000 1950 4000
 Wire Wire Line
-	1950 4100 1050 4100
+	1950 4100 1250 4100
 Wire Wire Line
-	1050 4200 1950 4200
+	1250 4200 1950 4200
 Wire Wire Line
-	1950 4300 1050 4300
+	1950 4300 1250 4300
 Wire Wire Line
-	1050 4400 1950 4400
+	1250 4400 1950 4400
 Wire Wire Line
-	1950 4500 1050 4500
+	1950 4500 1250 4500
 Wire Wire Line
-	1950 4600 1050 4600
+	1950 4600 1250 4600
 Wire Wire Line
-	1950 5000 1050 5000
+	1950 5000 1150 5000
 Wire Wire Line
-	1950 5100 1050 5100
+	1950 5100 1150 5100
 Wire Wire Line
-	1950 5200 1050 5200
+	1950 5200 1150 5200
 Wire Wire Line
-	1050 5300 1950 5300
-Text GLabel 1050 3900 0    50   BiDi ~ 0
-D15
-Text GLabel 1050 4000 0    50   BiDi ~ 0
-D14
-Text GLabel 1050 4100 0    50   BiDi ~ 0
-D13
-Text GLabel 1050 4200 0    50   BiDi ~ 0
-D12
-Text GLabel 1050 4300 0    50   BiDi ~ 0
-D11
-Text GLabel 1050 4400 0    50   BiDi ~ 0
-D10
-Text GLabel 1050 4500 0    50   BiDi ~ 0
-D9
-Text GLabel 1050 4600 0    50   BiDi ~ 0
-D8
-Text GLabel 1050 5000 0    50   Input ~ 0
-A11
-Text GLabel 1050 5100 0    50   Input ~ 0
-A10
-Text GLabel 1050 5200 0    50   Input ~ 0
-A9
-Text GLabel 1050 5300 0    50   Input ~ 0
-A8
+	1150 5300 1950 5300
+Text GLabel 1000 4850 0    50   Input ~ 0
+A[1..23]
 $Comp
 L 74xx:74LS32 U302
 U 2 1 606599C2
-P 1350 5800
-F 0 "U302" H 1350 5483 50  0000 C CNN
-F 1 "74HCT32" H 1350 5574 50  0000 C CNN
-F 2 "" H 1350 5800 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 1350 5800 50  0001 C CNN
-	2    1350 5800
+P 1550 5800
+F 0 "U302" H 1550 5483 50  0000 C CNN
+F 1 "74HCT32" H 1550 5574 50  0000 C CNN
+F 2 "" H 1550 5800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 1550 5800 50  0001 C CNN
+	2    1550 5800
 	1    0    0    1   
 $EndComp
-Text GLabel 1050 5700 0    50   Input ~ 0
-A13
 Text GLabel 1050 5900 0    50   Input ~ 0
 _VMA
 Wire Wire Line
-	1650 5800 1900 5800
+	1850 5800 1900 5800
 Wire Wire Line
 	1900 5800 1900 5900
 Wire Wire Line
@@ -1884,4 +1860,70 @@ Text GLabel 1100 8950 0    50   Output ~ 0
 _SEL2
 Text GLabel 1100 9100 0    50   Output ~ 0
 _SEL3
+Text Label 1850 5000 2    51   ~ 0
+A11
+Text Label 1850 5100 2    51   ~ 0
+A10
+Text Label 1850 5200 2    51   ~ 0
+A9
+Text Label 1850 5300 2    51   ~ 0
+A8
+Entry Wire Line
+	1150 5300 1050 5200
+Entry Wire Line
+	1150 5200 1050 5100
+Entry Wire Line
+	1150 5100 1050 5000
+Entry Wire Line
+	1150 5000 1050 4900
+Wire Bus Line
+	1000 4850 1050 4850
+Text Label 1850 3900 2    51   ~ 0
+D15
+Text Label 1850 4000 2    51   ~ 0
+D14
+Text Label 1850 4100 2    51   ~ 0
+D13
+Text Label 1850 4200 2    51   ~ 0
+D12
+Text Label 1850 4300 2    51   ~ 0
+D11
+Text Label 1850 4400 2    51   ~ 0
+D10
+Text Label 1850 4500 2    51   ~ 0
+D9
+Text Label 1850 4600 2    51   ~ 0
+D8
+Entry Wire Line
+	1250 4600 1150 4500
+Entry Wire Line
+	1250 4500 1150 4400
+Entry Wire Line
+	1250 4400 1150 4300
+Entry Wire Line
+	1250 4300 1150 4200
+Entry Wire Line
+	1250 4200 1150 4100
+Entry Wire Line
+	1250 4100 1150 4000
+Entry Wire Line
+	1250 4000 1150 3900
+Entry Wire Line
+	1250 3900 1150 3800
+Wire Bus Line
+	1150 3600 1000 3600
+Text GLabel 1000 3600 0    51   BiDi ~ 0
+D[0..15]
+Wire Wire Line
+	1050 5900 1250 5900
+Wire Wire Line
+	1250 5700 1150 5700
+Text Label 1150 5700 0    51   ~ 0
+A13
+Entry Wire Line
+	1150 5700 1050 5600
+Wire Bus Line
+	1050 4850 1050 5600
+Wire Bus Line
+	1150 3600 1150 4500
 $EndSCHEMATC

@@ -52,21 +52,13 @@ Wire Wire Line
 Wire Wire Line
 	5000 1800 5000 7950
 Wire Wire Line
-	8550 7950 5000 7950
+	7100 7950 5000 7950
 Wire Wire Line
-	8550 6700 8550 7950
+	6900 7800 4900 7800
 Wire Wire Line
-	8100 7800 4900 7800
+	6750 7650 4800 7650
 Wire Wire Line
-	8100 6550 8100 7800
-Wire Wire Line
-	7650 7650 4800 7650
-Wire Wire Line
-	7650 6700 7650 7650
-Wire Wire Line
-	7200 7450 4700 7450
-Wire Wire Line
-	7200 6550 7200 7450
+	6600 7450 4700 7450
 Wire Wire Line
 	1100 6000 2300 6000
 Text GLabel 1100 6000 0    50   Input ~ 0
@@ -110,63 +102,19 @@ $EndComp
 Wire Wire Line
 	5100 5400 3850 5400
 Wire Wire Line
-	5100 6050 5100 5400
-Wire Wire Line
-	6750 6050 5100 6050
-Wire Wire Line
-	6750 6700 6750 6050
-Wire Wire Line
-	6700 6150 9300 6150
-Wire Wire Line
-	6700 6550 6700 6150
-Wire Wire Line
 	6300 5600 3900 5600
-Wire Wire Line
-	6300 6550 6300 5600
 Wire Wire Line
 	5850 5800 3950 5800
 Wire Wire Line
-	5850 6700 5850 5800
-Wire Wire Line
-	5200 6000 4000 6000
-Wire Wire Line
-	5200 4950 5200 6000
-Wire Wire Line
-	8700 4950 5200 4950
-Wire Wire Line
-	8700 5450 8700 4950
-Wire Wire Line
 	5300 6200 4050 6200
-Wire Wire Line
-	5300 5050 5300 6200
-Wire Wire Line
-	8250 5050 5300 5050
-Wire Wire Line
-	8250 5600 8250 5050
 Wire Wire Line
 	5400 6400 4100 6400
 Wire Wire Line
-	5400 5200 5400 6400
-Wire Wire Line
-	7800 5200 5400 5200
-Wire Wire Line
-	7800 5450 7800 5200
-Wire Wire Line
 	5500 6600 4150 6600
-Wire Wire Line
-	5500 5250 5500 6600
-Wire Wire Line
-	7350 5250 5500 5250
-Wire Wire Line
-	7350 5600 7350 5250
 Wire Wire Line
 	5600 6800 4200 6800
 Wire Wire Line
-	5600 5450 5600 6800
-Wire Wire Line
-	6900 5450 5600 5450
-Wire Wire Line
-	6450 3100 6450 5600
+	6450 3100 6450 4900
 Wire Wire Line
 	3150 3100 4400 3100
 $Comp
@@ -270,227 +218,24 @@ Wire Wire Line
 Connection ~ 9950 5800
 Wire Wire Line
 	9950 5600 9950 5800
-$Comp
-L power:GND #PWR0342
-U 1 1 60EC358D
-P 8750 6900
-F 0 "#PWR0342" H 8750 6650 50  0001 C CNN
-F 1 "GND" H 8755 6727 50  0000 C CNN
-F 2 "" H 8750 6900 50  0001 C CNN
-F 3 "" H 8750 6900 50  0001 C CNN
-	1    8750 6900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0341
-U 1 1 60EC314A
-P 8300 6750
-F 0 "#PWR0341" H 8300 6500 50  0001 C CNN
-F 1 "GND" H 8305 6577 50  0000 C CNN
-F 2 "" H 8300 6750 50  0001 C CNN
-F 3 "" H 8300 6750 50  0001 C CNN
-	1    8300 6750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0340
-U 1 1 60EC2CFA
-P 7850 6900
-F 0 "#PWR0340" H 7850 6650 50  0001 C CNN
-F 1 "GND" H 7855 6727 50  0000 C CNN
-F 2 "" H 7850 6900 50  0001 C CNN
-F 3 "" H 7850 6900 50  0001 C CNN
-	1    7850 6900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0339
-U 1 1 60EC28BA
-P 7400 6750
-F 0 "#PWR0339" H 7400 6500 50  0001 C CNN
-F 1 "GND" H 7405 6577 50  0000 C CNN
-F 2 "" H 7400 6750 50  0001 C CNN
-F 3 "" H 7400 6750 50  0001 C CNN
-	1    7400 6750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0338
-U 1 1 60EC236D
-P 6950 6900
-F 0 "#PWR0338" H 6950 6650 50  0001 C CNN
-F 1 "GND" H 6955 6727 50  0000 C CNN
-F 2 "" H 6950 6900 50  0001 C CNN
-F 3 "" H 6950 6900 50  0001 C CNN
-	1    6950 6900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0337
-U 1 1 60EC1EB9
-P 6500 6750
-F 0 "#PWR0337" H 6500 6500 50  0001 C CNN
-F 1 "GND" H 6505 6577 50  0000 C CNN
-F 2 "" H 6500 6750 50  0001 C CNN
-F 3 "" H 6500 6750 50  0001 C CNN
-	1    6500 6750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0336
-U 1 1 60EC196E
-P 6050 6900
-F 0 "#PWR0336" H 6050 6650 50  0001 C CNN
-F 1 "GND" H 6055 6727 50  0000 C CNN
-F 2 "" H 6050 6900 50  0001 C CNN
-F 3 "" H 6050 6900 50  0001 C CNN
-	1    6050 6900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0335
-U 1 1 60EC151D
-P 6650 5800
-F 0 "#PWR0335" H 6650 5550 50  0001 C CNN
-F 1 "GND" H 6655 5627 50  0000 C CNN
-F 2 "" H 6650 5800 50  0001 C CNN
-F 3 "" H 6650 5800 50  0001 C CNN
-	1    6650 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0334
-U 1 1 60EC104A
-P 7100 5650
-F 0 "#PWR0334" H 7100 5400 50  0001 C CNN
-F 1 "GND" H 7105 5477 50  0000 C CNN
-F 2 "" H 7100 5650 50  0001 C CNN
-F 3 "" H 7100 5650 50  0001 C CNN
-	1    7100 5650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0333
-U 1 1 60EC0B95
-P 7550 5800
-F 0 "#PWR0333" H 7550 5550 50  0001 C CNN
-F 1 "GND" H 7555 5627 50  0000 C CNN
-F 2 "" H 7550 5800 50  0001 C CNN
-F 3 "" H 7550 5800 50  0001 C CNN
-	1    7550 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0332
-U 1 1 60EC0859
-P 8000 5650
-F 0 "#PWR0332" H 8000 5400 50  0001 C CNN
-F 1 "GND" H 8005 5477 50  0000 C CNN
-F 2 "" H 8000 5650 50  0001 C CNN
-F 3 "" H 8000 5650 50  0001 C CNN
-	1    8000 5650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0331
-U 1 1 60EC033A
-P 8450 5800
-F 0 "#PWR0331" H 8450 5550 50  0001 C CNN
-F 1 "GND" H 8455 5627 50  0000 C CNN
-F 2 "" H 8450 5800 50  0001 C CNN
-F 3 "" H 8450 5800 50  0001 C CNN
-	1    8450 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0330
-U 1 1 60EC0107
-P 8900 5650
-F 0 "#PWR0330" H 8900 5400 50  0001 C CNN
-F 1 "GND" H 8905 5477 50  0000 C CNN
-F 2 "" H 8900 5650 50  0001 C CNN
-F 3 "" H 8900 5650 50  0001 C CNN
-	1    8900 5650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	6850 4900 6850 5600
+	9350 4900 9100 4900
 Wire Wire Line
-	9350 4900 6850 4900
+	9350 5300 9100 5300
 Wire Wire Line
-	7300 5100 9350 5100
+	9100 5500 9350 5500
 Wire Wire Line
-	7300 5450 7300 5100
-Wire Wire Line
-	7750 5150 7750 5600
-Wire Wire Line
-	9250 5150 7750 5150
-Wire Wire Line
-	9250 5300 9250 5150
-Wire Wire Line
-	9350 5300 9250 5300
-Wire Wire Line
-	9200 5500 9350 5500
-Wire Wire Line
-	9200 5200 9200 5500
-Wire Wire Line
-	8200 5200 9200 5200
-Wire Wire Line
-	8200 5450 8200 5200
-Wire Wire Line
-	9150 5700 9350 5700
-Wire Wire Line
-	9150 5250 9150 5700
-Wire Wire Line
-	8650 5250 9150 5250
-Wire Wire Line
-	8650 5600 8650 5250
+	9100 5700 9350 5700
 Wire Wire Line
 	9100 5900 9350 5900
 Wire Wire Line
-	9100 5450 9100 5900
+	9350 6100 9100 6100
 Wire Wire Line
-	6250 6100 6250 6700
+	9100 6500 9350 6500
 Wire Wire Line
-	9350 6100 6250 6100
+	9100 6700 9350 6700
 Wire Wire Line
-	9300 6300 9350 6300
-Wire Wire Line
-	9300 6150 9300 6300
-Wire Wire Line
-	9250 6500 9350 6500
-Wire Wire Line
-	9250 6200 9250 6500
-Wire Wire Line
-	7150 6200 9250 6200
-Wire Wire Line
-	7150 6700 7150 6200
-Wire Wire Line
-	9200 6700 9350 6700
-Wire Wire Line
-	9200 6250 9200 6700
-Wire Wire Line
-	7600 6250 9200 6250
-Wire Wire Line
-	7600 6550 7600 6250
-Wire Wire Line
-	9150 6900 9350 6900
-Wire Wire Line
-	9150 6350 9150 6900
-Wire Wire Line
-	8050 6350 9150 6350
-Wire Wire Line
-	8050 6700 8050 6350
-Wire Wire Line
-	9050 7100 9350 7100
-Wire Wire Line
-	9050 6550 9050 7100
-Wire Wire Line
-	8500 6550 9050 6550
-Wire Wire Line
-	8950 7300 9350 7300
-Wire Wire Line
-	8950 6700 8950 7300
+	9100 6900 9350 6900
 $Comp
 L Amiga-Library:DB25_Stack_FemaleAndMale CN305
 U 1 1 60E073D9
@@ -503,146 +248,146 @@ F 3 " ~" H 9650 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amiga-Library:C_Feedthrough EMI338
+L Amiga-Library:C_Feedthrough_Small EMI338
 U 1 1 60DF9C4F
-P 8750 6800
-F 0 "EMI338" H 8750 7013 50  0000 C CNN
-F 1 "C_Feedthrough" H 8750 7014 50  0001 C CNN
-F 2 "AmigaFootprints:C_1206_3216_Feedthrough" V 8750 6800 50  0001 C CNN
-F 3 "~" V 8750 6800 50  0001 C CNN
-	1    8750 6800
+P 9000 7400
+F 0 "EMI338" H 8750 7550 50  0000 C CNN
+F 1 "C_Feedthrough" H 9000 7614 50  0001 C CNN
+F 2 "AmigaFootprints:C_1206_3216_Feedthrough" V 9000 7400 50  0001 C CNN
+F 3 "~" V 9000 7400 50  0001 C CNN
+	1    9000 7400
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amiga-Library:C_Feedthrough EMI301
+L Amiga-Library:C_Feedthrough_Small EMI301
 U 1 1 60DF70EA
-P 6650 5700
-F 0 "EMI301" H 6650 5913 50  0000 C CNN
-F 1 "C_Feedthrough" H 6650 5914 50  0001 C CNN
-F 2 "AmigaFootprints:C_1206_3216_Feedthrough" V 6650 5700 50  0001 C CNN
-F 3 "~" V 6650 5700 50  0001 C CNN
-	1    6650 5700
+P 9000 5000
+F 0 "EMI301" H 8750 5150 50  0000 C CNN
+F 1 "C_Feedthrough" H 9000 5214 50  0001 C CNN
+F 2 "AmigaFootprints:C_1206_3216_Feedthrough" V 9000 5000 50  0001 C CNN
+F 3 "~" V 9000 5000 50  0001 C CNN
+	1    9000 5000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amiga-Library:C_Feedthrough EMI302
+L Amiga-Library:C_Feedthrough_Small EMI302
 U 1 1 60DF6996
-P 7100 5550
-F 0 "EMI302" H 7100 5763 50  0000 C CNN
-F 1 "C_Feedthrough" H 7100 5764 50  0001 C CNN
-F 2 "AmigaFootprints:C_1206_3216_Feedthrough" V 7100 5550 50  0001 C CNN
-F 3 "~" V 7100 5550 50  0001 C CNN
-	1    7100 5550
+P 9000 5200
+F 0 "EMI302" H 8750 5350 50  0000 C CNN
+F 1 "C_Feedthrough" H 9000 5414 50  0001 C CNN
+F 2 "AmigaFootprints:C_1206_3216_Feedthrough" V 9000 5200 50  0001 C CNN
+F 3 "~" V 9000 5200 50  0001 C CNN
+	1    9000 5200
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amiga-Library:C_Feedthrough EMI337
+L Amiga-Library:C_Feedthrough_Small EMI337
 U 1 1 60DF6674
-P 8300 6650
-F 0 "EMI337" H 8300 6863 50  0000 C CNN
-F 1 "C_Feedthrough" H 8300 6864 50  0001 C CNN
-F 2 "AmigaFootprints:C_1206_3216_Feedthrough" V 8300 6650 50  0001 C CNN
-F 3 "~" V 8300 6650 50  0001 C CNN
-	1    8300 6650
+P 9000 7200
+F 0 "EMI337" H 8750 7350 50  0000 C CNN
+F 1 "C_Feedthrough" H 9000 7414 50  0001 C CNN
+F 2 "AmigaFootprints:C_1206_3216_Feedthrough" V 9000 7200 50  0001 C CNN
+F 3 "~" V 9000 7200 50  0001 C CNN
+	1    9000 7200
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amiga-Library:C_Feedthrough EMI336
+L Amiga-Library:C_Feedthrough_Small EMI336
 U 1 1 60DF6256
-P 7850 6800
-F 0 "EMI336" H 7850 7013 50  0000 C CNN
-F 1 "C_Feedthrough" H 7850 7014 50  0001 C CNN
-F 2 "AmigaFootprints:C_1206_3216_Feedthrough" V 7850 6800 50  0001 C CNN
-F 3 "~" V 7850 6800 50  0001 C CNN
-	1    7850 6800
+P 9000 7000
+F 0 "EMI336" H 8750 7150 50  0000 C CNN
+F 1 "C_Feedthrough" H 9000 7214 50  0001 C CNN
+F 2 "AmigaFootprints:C_1206_3216_Feedthrough" V 9000 7000 50  0001 C CNN
+F 3 "~" V 9000 7000 50  0001 C CNN
+	1    9000 7000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amiga-Library:C_Feedthrough EMI335
+L Amiga-Library:C_Feedthrough_Small EMI335
 U 1 1 60DF5F0E
-P 7400 6650
-F 0 "EMI335" H 7400 6863 50  0000 C CNN
-F 1 "C_Feedthrough" H 7400 6864 50  0001 C CNN
-F 2 "AmigaFootprints:C_1206_3216_Feedthrough" V 7400 6650 50  0001 C CNN
-F 3 "~" V 7400 6650 50  0001 C CNN
-	1    7400 6650
+P 9000 6800
+F 0 "EMI335" H 8750 6950 50  0000 C CNN
+F 1 "C_Feedthrough" H 9000 7014 50  0001 C CNN
+F 2 "AmigaFootprints:C_1206_3216_Feedthrough" V 9000 6800 50  0001 C CNN
+F 3 "~" V 9000 6800 50  0001 C CNN
+	1    9000 6800
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amiga-Library:C_Feedthrough EMI309
+L Amiga-Library:C_Feedthrough_Small EMI309
 U 1 1 60DF5C4E
-P 6950 6800
-F 0 "EMI309" H 6950 7013 50  0000 C CNN
-F 1 "C_Feedthrough" H 6950 7014 50  0001 C CNN
-F 2 "AmigaFootprints:C_1206_3216_Feedthrough" V 6950 6800 50  0001 C CNN
-F 3 "~" V 6950 6800 50  0001 C CNN
-	1    6950 6800
+P 9000 6600
+F 0 "EMI309" H 8750 6750 50  0000 C CNN
+F 1 "C_Feedthrough" H 9000 6814 50  0001 C CNN
+F 2 "AmigaFootprints:C_1206_3216_Feedthrough" V 9000 6600 50  0001 C CNN
+F 3 "~" V 9000 6600 50  0001 C CNN
+	1    9000 6600
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amiga-Library:C_Feedthrough EMI308
+L Amiga-Library:C_Feedthrough_Small EMI308
 U 1 1 60DF577B
-P 6500 6650
-F 0 "EMI308" H 6500 6863 50  0000 C CNN
-F 1 "C_Feedthrough" H 6500 6864 50  0001 C CNN
-F 2 "AmigaFootprints:C_1206_3216_Feedthrough" V 6500 6650 50  0001 C CNN
-F 3 "~" V 6500 6650 50  0001 C CNN
-	1    6500 6650
+P 9000 6400
+F 0 "EMI308" H 8750 6550 50  0000 C CNN
+F 1 "C_Feedthrough" H 9000 6614 50  0001 C CNN
+F 2 "AmigaFootprints:C_1206_3216_Feedthrough" V 9000 6400 50  0001 C CNN
+F 3 "~" V 9000 6400 50  0001 C CNN
+	1    9000 6400
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amiga-Library:C_Feedthrough EMI307
+L Amiga-Library:C_Feedthrough_Small EMI307
 U 1 1 60DF53BB
-P 6050 6800
-F 0 "EMI307" H 6050 7013 50  0000 C CNN
-F 1 "C_Feedthrough" H 6050 7014 50  0001 C CNN
-F 2 "AmigaFootprints:C_1206_3216_Feedthrough" V 6050 6800 50  0001 C CNN
-F 3 "~" V 6050 6800 50  0001 C CNN
-	1    6050 6800
+P 9000 6200
+F 0 "EMI307" H 8750 6350 50  0000 C CNN
+F 1 "C_Feedthrough" H 9000 6414 50  0001 C CNN
+F 2 "AmigaFootprints:C_1206_3216_Feedthrough" V 9000 6200 50  0001 C CNN
+F 3 "~" V 9000 6200 50  0001 C CNN
+	1    9000 6200
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amiga-Library:C_Feedthrough EMI306
+L Amiga-Library:C_Feedthrough_Small EMI306
 U 1 1 60DF506E
-P 8900 5550
-F 0 "EMI306" H 8900 5763 50  0000 C CNN
-F 1 "C_Feedthrough" H 8900 5764 50  0001 C CNN
-F 2 "AmigaFootprints:C_1206_3216_Feedthrough" V 8900 5550 50  0001 C CNN
-F 3 "~" V 8900 5550 50  0001 C CNN
-	1    8900 5550
+P 9000 6000
+F 0 "EMI306" H 8750 6150 50  0000 C CNN
+F 1 "C_Feedthrough" H 9000 6214 50  0001 C CNN
+F 2 "AmigaFootprints:C_1206_3216_Feedthrough" V 9000 6000 50  0001 C CNN
+F 3 "~" V 9000 6000 50  0001 C CNN
+	1    9000 6000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amiga-Library:C_Feedthrough EMI305
+L Amiga-Library:C_Feedthrough_Small EMI305
 U 1 1 60DF4D46
-P 8450 5700
-F 0 "EMI305" H 8450 5913 50  0000 C CNN
-F 1 "C_Feedthrough" H 8450 5914 50  0001 C CNN
-F 2 "AmigaFootprints:C_1206_3216_Feedthrough" V 8450 5700 50  0001 C CNN
-F 3 "~" V 8450 5700 50  0001 C CNN
-	1    8450 5700
+P 9000 5800
+F 0 "EMI305" H 8750 5950 50  0000 C CNN
+F 1 "C_Feedthrough" H 9000 6014 50  0001 C CNN
+F 2 "AmigaFootprints:C_1206_3216_Feedthrough" V 9000 5800 50  0001 C CNN
+F 3 "~" V 9000 5800 50  0001 C CNN
+	1    9000 5800
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amiga-Library:C_Feedthrough EMI304
+L Amiga-Library:C_Feedthrough_Small EMI304
 U 1 1 60DF494A
-P 8000 5550
-F 0 "EMI304" H 8000 5763 50  0000 C CNN
-F 1 "C_Feedthrough" H 8000 5764 50  0001 C CNN
-F 2 "AmigaFootprints:C_1206_3216_Feedthrough" V 8000 5550 50  0001 C CNN
-F 3 "~" V 8000 5550 50  0001 C CNN
-	1    8000 5550
+P 9000 5600
+F 0 "EMI304" H 8750 5750 50  0000 C CNN
+F 1 "C_Feedthrough" H 9000 5814 50  0001 C CNN
+F 2 "AmigaFootprints:C_1206_3216_Feedthrough" V 9000 5600 50  0001 C CNN
+F 3 "~" V 9000 5600 50  0001 C CNN
+	1    9000 5600
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amiga-Library:C_Feedthrough EMI303
+L Amiga-Library:C_Feedthrough_Small EMI303
 U 1 1 60DF43DE
-P 7550 5700
-F 0 "EMI303" H 7550 5913 50  0000 C CNN
-F 1 "C_Feedthrough" H 7550 5914 50  0001 C CNN
-F 2 "AmigaFootprints:C_1206_3216_Feedthrough" V 7550 5700 50  0001 C CNN
-F 3 "~" V 7550 5700 50  0001 C CNN
-	1    7550 5700
+P 9000 5400
+F 0 "EMI303" H 8750 5550 50  0000 C CNN
+F 1 "C_Feedthrough" H 9000 5614 50  0001 C CNN
+F 2 "AmigaFootprints:C_1206_3216_Feedthrough" V 9000 5400 50  0001 C CNN
+F 3 "~" V 9000 5400 50  0001 C CNN
+	1    9000 5400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1575,22 +1320,6 @@ Wire Wire Line
 Connection ~ 10150 2700
 Wire Wire Line
 	10150 2700 12300 2700
-Text GLabel 1400 3200 0    50   BiDi ~ 0
-D3
-Text GLabel 1400 2800 0    50   BiDi ~ 0
-D7
-Text GLabel 1400 2900 0    50   BiDi ~ 0
-D6
-Text GLabel 1400 3000 0    50   BiDi ~ 0
-D5
-Text GLabel 1400 3100 0    50   BiDi ~ 0
-D4
-Text GLabel 1400 3300 0    50   BiDi ~ 0
-D2
-Text GLabel 1400 3400 0    50   BiDi ~ 0
-D1
-Text GLabel 1400 3500 0    50   BiDi ~ 0
-D0
 Wire Wire Line
 	1400 3500 2300 3500
 Wire Wire Line
@@ -1607,47 +1336,39 @@ Wire Wire Line
 	1400 2900 2300 2900
 Wire Wire Line
 	1400 2800 2300 2800
-Text GLabel 1400 3900 0    50   Input ~ 0
-A11
+Text GLabel 1100 3800 0    50   Input ~ 0
+A[1..23]
 Wire Wire Line
-	1400 3900 2300 3900
-Text GLabel 1400 4000 0    50   Input ~ 0
-A10
-Text GLabel 1400 4100 0    50   Input ~ 0
-A9
-Text GLabel 1400 4200 0    50   Input ~ 0
-A8
+	1300 3900 2300 3900
 Wire Wire Line
-	1400 4200 2300 4200
+	1300 4200 2300 4200
 Wire Wire Line
-	2300 4100 1400 4100
+	2300 4100 1300 4100
 Wire Wire Line
-	1400 4000 2300 4000
+	1300 4000 2300 4000
 $Comp
 L 74xx:74LS32 U302
 U 1 1 611DCDCD
-P 1600 4650
-F 0 "U302" H 1600 4975 50  0000 C CNN
-F 1 "74HCT32" H 1600 4884 50  0000 C CNN
-F 2 "" H 1600 4650 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 1600 4650 50  0001 C CNN
-	1    1600 4650
+P 1750 4650
+F 0 "U302" H 1750 4975 50  0000 C CNN
+F 1 "74HCT32" H 1750 4884 50  0000 C CNN
+F 2 "" H 1750 4650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 1750 4650 50  0001 C CNN
+	1    1750 4650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1900 4650 2100 4650
+	2050 4650 2100 4650
 Wire Wire Line
 	2100 4650 2100 4800
 Wire Wire Line
 	2100 4800 2300 4800
-Text GLabel 1100 4550 0    50   Input ~ 0
-A12
 Wire Wire Line
-	1100 4550 1300 4550
+	1300 4550 1450 4550
 Text GLabel 1100 4750 0    50   Input ~ 0
 _VMA
 Wire Wire Line
-	1100 4750 1300 4750
+	1100 4750 1450 4750
 Text GLabel 1100 5000 0    50   Input ~ 0
 R_W
 Wire Wire Line
@@ -1936,7 +1657,7 @@ Wire Wire Line
 Wire Wire Line
 	10650 9400 10250 9400
 Connection ~ 10250 9400
-Text Notes 8650 6050 0    79   ~ 0
+Text Notes 10200 5850 3    79   ~ 0
 PARALLEL
 Wire Wire Line
 	4500 1800 4500 2250
@@ -2594,4 +2315,175 @@ Wire Wire Line
 Connection ~ 15200 3000
 Wire Wire Line
 	15200 3000 15200 3150
+Text Label 2250 3900 2    51   ~ 0
+A11
+Text Label 2250 4000 2    51   ~ 0
+A10
+Text Label 2250 4100 2    51   ~ 0
+A9
+Text Label 2250 4200 2    51   ~ 0
+A8
+Entry Wire Line
+	1300 3900 1200 3800
+Entry Wire Line
+	1300 4000 1200 3900
+Entry Wire Line
+	1300 4100 1200 4000
+Entry Wire Line
+	1300 4200 1200 4100
+Wire Bus Line
+	1100 3800 1200 3800
+Text Label 2200 2800 2    51   ~ 0
+D7
+Text Label 2200 2900 2    51   ~ 0
+D6
+Text Label 2200 3000 2    51   ~ 0
+D5
+Text Label 2200 3100 2    51   ~ 0
+D4
+Text Label 2200 3200 2    51   ~ 0
+D3
+Text Label 2200 3300 2    51   ~ 0
+D2
+Text Label 2200 3400 2    51   ~ 0
+D1
+Text Label 2200 3500 2    51   ~ 0
+D0
+Entry Wire Line
+	1400 3500 1300 3400
+Entry Wire Line
+	1400 3400 1300 3300
+Entry Wire Line
+	1400 3300 1300 3200
+Entry Wire Line
+	1400 3200 1300 3100
+Entry Wire Line
+	1400 3100 1300 3000
+Entry Wire Line
+	1400 3000 1300 2900
+Entry Wire Line
+	1400 2900 1300 2800
+Entry Wire Line
+	1400 2800 1300 2700
+Wire Bus Line
+	1300 2650 1100 2650
+Text GLabel 1100 2650 0    51   BiDi ~ 0
+D[0..15]
+Text Label 1450 4550 2    51   ~ 0
+A12
+Entry Wire Line
+	1300 4550 1200 4450
+Wire Wire Line
+	8900 5900 5750 5900
+Wire Wire Line
+	8900 5700 5300 5700
+Wire Wire Line
+	5300 5700 5300 6200
+Wire Wire Line
+	8900 5500 5400 5500
+Wire Wire Line
+	5400 5500 5400 6400
+Wire Wire Line
+	8900 5300 5500 5300
+Wire Wire Line
+	5500 5300 5500 6600
+Wire Wire Line
+	9100 5100 9350 5100
+Wire Wire Line
+	8900 5100 5600 5100
+Wire Wire Line
+	5600 5100 5600 6800
+Wire Wire Line
+	8900 4900 6450 4900
+Wire Wire Line
+	9100 7300 9350 7300
+Wire Wire Line
+	8900 7300 7100 7300
+Wire Wire Line
+	7100 7300 7100 7950
+Wire Wire Line
+	9100 7100 9350 7100
+Wire Wire Line
+	8900 7100 6900 7100
+Wire Wire Line
+	6900 7100 6900 7800
+Wire Wire Line
+	8900 6900 6750 6900
+Wire Wire Line
+	6750 6900 6750 7650
+Wire Wire Line
+	8900 6700 6600 6700
+Wire Wire Line
+	6600 6700 6600 7450
+Wire Wire Line
+	8900 6500 5100 6500
+Wire Wire Line
+	5100 5400 5100 6500
+Wire Wire Line
+	9100 6300 9350 6300
+Wire Wire Line
+	8900 6300 6300 6300
+Wire Wire Line
+	6300 6300 6300 5600
+Wire Wire Line
+	8900 6100 5850 6100
+Wire Wire Line
+	5850 6100 5850 5800
+Wire Wire Line
+	5750 6000 5750 5900
+Wire Wire Line
+	4000 6000 5750 6000
+Wire Wire Line
+	9000 4950 9000 5150
+Connection ~ 9000 5150
+Wire Wire Line
+	9000 5150 9000 5350
+Connection ~ 9000 5350
+Wire Wire Line
+	9000 5350 9000 5550
+Connection ~ 9000 5550
+Wire Wire Line
+	9000 5550 9000 5750
+Connection ~ 9000 5750
+Wire Wire Line
+	9000 5750 9000 5950
+Connection ~ 9000 5950
+Wire Wire Line
+	9000 5950 9000 6150
+Connection ~ 9000 6150
+Wire Wire Line
+	9000 6150 9000 6350
+Connection ~ 9000 6350
+Wire Wire Line
+	9000 6350 9000 6550
+Connection ~ 9000 6550
+Wire Wire Line
+	9000 6550 9000 6750
+Connection ~ 9000 6750
+Wire Wire Line
+	9000 6750 9000 6950
+Connection ~ 9000 6950
+Wire Wire Line
+	9000 6950 9000 7150
+Connection ~ 9000 7150
+Wire Wire Line
+	9000 7150 9000 7350
+Connection ~ 9000 7350
+Wire Wire Line
+	9000 7350 9000 7750
+$Comp
+L power:GND #PWR?
+U 1 1 6352D2D8
+P 9000 7750
+F 0 "#PWR?" H 9000 7500 50  0001 C CNN
+F 1 "GND" H 9005 7577 50  0000 C CNN
+F 2 "" H 9000 7750 50  0001 C CNN
+F 3 "" H 9000 7750 50  0001 C CNN
+	1    9000 7750
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	1200 3800 1200 4450
+Wire Bus Line
+	1300 2650 1300 3400
 $EndSCHEMATC

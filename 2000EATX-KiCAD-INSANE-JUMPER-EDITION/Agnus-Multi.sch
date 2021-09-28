@@ -558,7 +558,7 @@ _CSYNC
 Wire Bus Line
 	7700 4650 1950 4650
 Text GLabel 1550 4650 0    51   Input ~ 0
-A[1..20]
+A[1..23]
 Wire Bus Line
 	7700 2800 1550 2800
 Text GLabel 1550 2800 0    51   BiDi ~ 0

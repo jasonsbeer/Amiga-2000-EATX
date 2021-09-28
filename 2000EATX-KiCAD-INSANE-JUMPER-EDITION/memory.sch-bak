@@ -1451,7 +1451,7 @@ Entry Wire Line
 Wire Bus Line
 	2000 5400 1300 5400
 Text GLabel 1300 5400 0    51   Input ~ 0
-A[1..20]
+A[1..23]
 Wire Wire Line
 	2750 8550 2750 8850
 Wire Wire Line

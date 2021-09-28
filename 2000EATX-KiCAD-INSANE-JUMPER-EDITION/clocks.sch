@@ -1201,7 +1201,7 @@ Wire Wire Line
 Wire Wire Line
 	3300 1000 1850 1000
 Text GLabel 1800 2550 0    50   Input ~ 0
-A[17..23]
+A[1..23]
 Wire Wire Line
 	4950 1850 4650 1850
 Wire Wire Line
