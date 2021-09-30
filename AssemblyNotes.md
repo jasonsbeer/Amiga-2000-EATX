@@ -44,9 +44,10 @@ The Amiga 2000 EATX is provisioned to accept 512k (27C400, 40 pin), 1MB (27C800,
 
 <img src="/Images/kickstart_install.png" width="500">
 
-## Floppy Drive Header
-Pin 3 of CN303 is a key. That is, factory Amiga floppy drive cables often have a pin socket blocked to ensure the cable is oriented correctly before installing. As such, it is recommended you remove pin 3 from the header before installing on the board. You can often pull it out with needle nose pliers. Alternatively, you can cut it off with a wire cutter.
+## Floppy Drive Headers
+CN303 is a 34 pin header that is reponsible for the internal floppy drives DF0 and DF1. Pin 3 is a key. That is, factory Amiga floppy drive cables often have a pin socket blocked to ensure the cable is oriented correctly before installing. As such, it is recommended you remove pin 3 from the header before installing on the board. You can often pull it out with needle nose pliers. Alternatively, you can cut it off with a wire cutter.
 
+CN304 is a 20 pin header that is reponsible for the external floppy drives DF2 and DF3. This header provides 12V on pin 18. Installing the cable backwards may result in damage to connected devices. Thus, the BOM includes a keyed, shrouded connector, which will help prevent incorrect installation when used with keyed cable. To use external drives, an adapter cable will need to be created. See Tables A3 and A4.
 
 <img src="/Images/floppyheader.jpg" width="500">
 
@@ -130,3 +131,35 @@ JA14|3-2|1-2|1-2
 J102|SHORT for NTSC<br>OPEN for PAL|SHORT|SHORT
 
 1-2 = Short pads 1 and 2 together<br>3-2 = Short pads 3 and 2 together<br>SHORT = Short the two pads together<br>OPEN = Nothing is shorted
+
+### Table A3. External Floppy Drive Header (CN304)
+
+Pin|Signal|Pin|Signal
+-|-|-|-
+1|_RDY|11|DIR
+2|_SIDE|12|_MTRX
+3|_DKRD|13|_SEL3
+4|_WPROT|14|_SEL2
+5|GROUND|15|_DKRST
+6|_TRK0|16|_INDEX
+7|GROUND|17|_CHNG
+8|_DKWEB|18|+12V
+9|_DKWDB|19|+5V
+10|_STEP|20|GROUND
+
+### Table A4. Amiga DB23 External Floppy Pinouts
+
+Pin|Signal|Pin|Signal
+-|-|-|-
+1|_RDY|13|SIDE
+2|_DKRD|14|_WPROT
+3|GROUND|15|_TRK0
+4|GROUND|16|_DKWEB
+5|GROUND|17|_DKWDB
+6|GROUND|18|_STEP
+7|GROUND|19|DIR
+8|_MTRX|20|NC
+9|_SEL3|21|_SEL2
+10|_DKRST|22|_INDEX
+11|_CHNG|23|+12V
+|12|+5V||
