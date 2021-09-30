@@ -20,7 +20,7 @@ You will need an oscillator installed at X1 or X2 to generate a clock signal. Yo
 
 **Note on CMOS oscillator:** 3.3v CMOS logic is compatible with in-spec TTL logic. My test board worked well with a 3.3v CMOS oscillator. All clock signals from Agnus are correct on my test machine. I would still recommend using like-for-like logic, if possible. Using the 3.3v CMOS oscillator should only be considered if a TTL oscillator cannot be reasonably obtained. 
 
-## Configuring the Agnus jumpers
+## Configuring the Agnus Jumpers
 The revision 2.0 board supports multiple Agnus revisions. See Table A2 for a list of part numbers supported. Not all the listed part numbers has been directly tested. Reviewing related literature suggests all the listed parts numbers *should* work. However, <b>until each specific part number is tested, there is no guarantee any particular Agnus will work</b>, even if listed. The table below indicates the status of each part number. If you test a new Agnus part number, please place a new post in the issues tab so I can update the table.
 
 The Agnus jumpers are not configured from the factory. During board assembly, the jumpers defined in Table A2 must be configured for the specific Agnus part number to be used. It is up to the individual assembling the board to correctly short each jumper, as necessary. Failure to correctly do so will result in a malfunctioning board.
@@ -50,6 +50,12 @@ CN303 is a 34 pin header that is reponsible for the internal floppy drives DF0 a
 CN304 is a 20 pin header that is reponsible for the external floppy drives DF2 and DF3. This header provides 12V on pin 18. Installing the cable backwards may result in damage to connected devices. Thus, the BOM includes a keyed, shrouded connector, which will help prevent incorrect installation when used with keyed cable. To use external drives, an adapter cable will need to be created. See Tables A3 and A4.
 
 <img src="/Images/floppyheader.jpg" width="500">
+
+## Real Time Clock
+
+There are two options for the real time clock (RTC). You can install the original Amiga RTC circuit based on the MSM6242 or a simpler circuit based on the RTC-62423A. The MSM6242 based circuit requires tuning of the trimmer cap to dial in the correct timing. The RTC-62423A circuit does not require tuning. This sacrifices accuracy, in that the RTC-62423A may drift over time. It is up to the user to decide which option is more appropriate for their needs.
+
+When installing the MSM6242 circuit, include components Y800, C810, and VC800. When installing the RTC-62423A circuit, Y800, C810, and VC800 are omitted.
 
 ## BOM
 The individual line items of non-legacy components with Digi-Key and manufacturer part numbers can be found [here](/BOM/AMIGA_2000_EATX_REV12_SHOPPINGLIST.csv). This file can be used as a reference for ordering. This CSV file can be uploaded into your Digi-Key cart, automatically adding the required items to your cart. It will also tell you when bumping the quantity to the next price break will save you money. Quite nice!
@@ -102,6 +108,7 @@ Buster|MOS 5721/318075-02|U800|DIP-48|[Bluster](https://github.com/LIV2/Bluster)
 Kickstart|Commodore ROM or Burned 27C400/V1.2+|U500|DIP-40|Various Amiga suppliers sell ROMs ready to use
 Video Hybrid|Commodore 390229-0x|HY200|SIP-22|[Video Hybrid](https://github.com/SukkoPera/OpenAmigaVideoHybrid)
 Real Time Clock|RTC-62423A|U801|SOP-24|"A" revision is more accurate, but non-A version can be used
+Optional Real Time Clock|MSM6242|U899|DIP-18|This is the original, tunable RTC from the Amiga
 28.636363 MHz Oscillator|NTSC Oscillator, 5V TTL|X1|DIP-14|Alternatively, populate X2 with a 5.0x3.2mm footprint 3.3V CMOS oscillator
 28.37516 MHz Oscillator|PAL Oscillator, 5V TTL|X1|DIP-14|Alternatively, populate X2 with a 5.0x3.2mm footprint 3.3V CMOS oscillator
 
