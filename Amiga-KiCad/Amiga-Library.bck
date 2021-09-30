@@ -20,6 +20,12 @@ D Power symbol creates a global label with name "+5V"
 K power-flag
 $ENDCMP
 #
+$CMP ATX-24-Amiga
+D ATX Power supply 24pins
+K ATX PSU
+F https://www.intel.com/content/dam/www/public/us/en/documents/guides/power-supply-design-guide-june.pdf#page=33
+$ENDCMP
+#
 $CMP AUDIO
 D Power symbol creates a global label with name "AUDIO" , reference supply ground
 K power-flag
@@ -31,6 +37,12 @@ F https://www.ti.com/lit/ds/symlink/cy74fct821t.pdf?HQS=dis-dk-null-digikeymode-
 $ENDCMP
 #
 $CMP C_Feedthrough
+D Feedthrough capacitor
+K EMI filter feedthrough capacitor
+F ~
+$ENDCMP
+#
+$CMP C_Feedthrough_Small
 D Feedthrough capacitor
 K EMI filter feedthrough capacitor
 F ~
@@ -55,6 +67,12 @@ F  ~
 $ENDCMP
 #
 $CMP EMI_Filter_C
+D EMI filter, single capacitor
+K EMI filter feedthrough capacitor
+F http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb
+$ENDCMP
+#
+$CMP EMI_Filter_C_copy
 D EMI filter, single capacitor
 K EMI filter feedthrough capacitor
 F http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb
