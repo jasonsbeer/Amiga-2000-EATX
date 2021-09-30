@@ -23,21 +23,7 @@ You will need an oscillator installed at X1 or X2 to generate a clock signal. Yo
 ## Configuring the Agnus Jumpers
 The revision 2.0 board supports multiple Agnus revisions. See Table A2 for a list of part numbers supported. Not all the listed part numbers has been directly tested. Reviewing related literature suggests all the listed parts numbers *should* work. However, <b>until each specific part number is tested, there is no guarantee any particular Agnus will work</b>, even if listed. The table below indicates the status of each part number. If you test a new Agnus part number, please place a new post in the issues tab so I can update the table.
 
-The Agnus jumpers are not configured from the factory. During board assembly, the jumpers defined in Table A2 must be configured for the specific Agnus part number to be used. It is up to the individual assembling the board to correctly short each jumper, as necessary. Failure to correctly do so will result in a malfunctioning board.
-
-Agnus|Commodore Part Number|Status
--|-|-
-8372A|ALL|Tested and working
-8375|390554-01|Tested and working
-8375|390554-02|Tested and working
-8375|318069-12|Unknown
-8375|318069-13|Unknown
-8375|318069-10|Unknown
-8375|318069-11|Unknown
-8375|390544-01|Unknown
-8375|390544-02|Unknown
-
-NOTE: The revision 1.2.1 board supports only Agnus 8372A and only makes use of J102. J102 should be configured as shown in the 8372A column of Table A2.
+The Agnus jumpers are not configured from the factory. During board assembly, the jumpers defined in Table A3 must be configured for the specific Agnus part number to be used. It is up to the individual assembling the board to correctly short each jumper, as necessary. Failure to correctly do so will result in a malfunctioning board. See Table A3.
 
 ## Kickstart Installation
 The Amiga 2000 EATX is provisioned to accept 512k (27C400, 40 pin), 1MB (27C800, 42 pin), and 2MB (27C160, 42 pin) Kickstart EPROMs. The Kickstart socket (U500) is a 42 pin DIP footprint that supports all three types. A standard Amiga Kickstart ROM is based on the 27C400 EPROM. When installing a 27C400 EPROM, you must install it toward the bottom of the socket, leaving pins 1 and 42 of the socket empty. This is noted on the silk screen and will correctly align the pins. **Installing the 27C400 EPROM incorrectly may damage it!** Install 27C800 and 27C160 EPROMs as normal. Use of 1MB and larger EPROMs is considered experimental. Guides to create custom Kickstart ROMs can be found on Amiga community sites.
@@ -47,7 +33,7 @@ The Amiga 2000 EATX is provisioned to accept 512k (27C400, 40 pin), 1MB (27C800,
 ## Floppy Drive Headers
 CN303 is a 34 pin header that is reponsible for the internal floppy drives DF0 and DF1. Pin 3 is a key. That is, factory Amiga floppy drive cables often have a pin socket blocked to ensure the cable is oriented correctly before installing. As such, it is recommended you remove pin 3 from the header before installing on the board. You can often pull it out with needle nose pliers. Alternatively, you can cut it off with a wire cutter.
 
-CN304 is a 20 pin header that is reponsible for the external floppy drives DF2 and DF3. This header provides 12V on pin 18. Installing the cable backwards may result in damage to connected devices. Thus, the BOM includes a keyed, shrouded connector, which will help prevent incorrect installation when used with keyed cable. To use external drives, an adapter cable will need to be created. See Tables A3 and A4.
+CN304 is a 20 pin header that is reponsible for the external floppy drives DF2 and DF3. This header provides 12V on pin 18. Installing the cable backwards may result in damage to connected devices. Thus, the BOM includes a keyed, shrouded connector, which will help prevent incorrect installation when used with keyed cable. To use external drives, an adapter cable will need to be created. See Tables A4 and A5.
 
 <img src="/Images/floppyheader.jpg" width="500">
 
@@ -90,7 +76,7 @@ Throught hole IC's have a square pad and a "1" marking pin one. Pin one is usual
 <img src="/Images/DIP-orientation.png" width="200">
 
 ### Solder Pad Jumpers
-Solder pad jumpers are present on the Rev 2.0 board. In the event there are only two pads for the jumper, you will place a solder blob across the two pads to short them when necessary. In the event of a 3 pad jumper, the solder blob must be placed between pad 2 (the center pad) and either pad 1 or 3, as defined in Table A2. Pad 1 is marked with a small arrow and the numeral "1" on the silkscreen. Pad 3 is marked by a number "3" on the silkscreen.
+Solder pad jumpers are present on the Rev 2.0 board. In the event there are only two pads for the jumper, you will place a solder blob across the two pads to short them when necessary. In the event of a 3 pad jumper, the solder blob must be placed between pad 2 (the center pad) and either pad 1 or 3, as defined in Table A3. Pad 1 is marked with a small arrow and the numeral "1" on the silkscreen. Pad 3 is marked by a number "3" on the silkscreen.
 
 <img src="/Images/solderjumper.png" width="200">
 
@@ -102,7 +88,7 @@ Motorola 68000|MC68000|U100|DIP-64| 8MHz or greater
 Fatter Agnus|MOS* 8372A/318069-02|U101|PLCC-84|
 Gary|MOS 5719|U102|DIP-48|
 Paula|MOS 8364|U200|DIP-48|
-Denise|MOS 8362 or CSG 8373|U201|DIP-48|
+Denise|MOS 8362 or CSG 8373|U201|DIP-48|[Deniser](https://github.com/endofexclusive/deniser)
 CIA|MOS 8520A, 8520A-1, 8520R2, or 8520PD|U300 and U301|DIP-40|These are all interchangeable
 Buster|MOS 5721/318075-02|U800|DIP-48|[Bluster](https://github.com/LIV2/Bluster)
 Kickstart|Commodore ROM or Burned 27C400/V1.2+|U500|DIP-40|Various Amiga suppliers sell ROMs ready to use
@@ -114,8 +100,21 @@ Optional Real Time Clock|MSM6242|U899|DIP-18|This is the original, tunable RTC f
 
 *Commodore IC's may be marked "MOS" or "CSG", or possibly neither in the case of contract runs. These are interchangeable by part number.
 
+### Table A2. Agnus Parts Supported
 
-### Table A2. Revision 2.0 Agnus Configuration Jumpers
+Agnus|Commodore Part Number|Status
+-|-|-
+8372A|ALL|Tested and working
+8375|390554-01|Tested and working
+8375|390554-02|Tested and working
+8375|318069-12|Unknown
+8375|318069-13|Unknown
+8375|318069-10|Unknown
+8375|318069-11|Unknown
+8375|390544-01|Unknown
+8375|390544-02|Unknown
+
+### Table A3. Revision 2.0 Agnus Configuration Jumpers
 
 Agnus|<b>8372A</b>|<b>8375</b>|<b>8375</b>
 -|-|-|-
@@ -139,7 +138,9 @@ J102|SHORT for NTSC<br>OPEN for PAL|SHORT|SHORT
 
 1-2 = Short pads 1 and 2 together<br>3-2 = Short pads 3 and 2 together<br>SHORT = Short the two pads together<br>OPEN = Nothing is shorted
 
-### Table A3. External Floppy Drive Header (CN304)
+NOTE: The revision 1.2.1 board supports only Agnus 8372A and only makes use of J102. J102 should be configured as shown in the 8372A column of Table A3.
+
+### Table A4. External Floppy Drive Header (CN304)
 
 Pin|Signal|Pin|Signal
 -|-|-|-
@@ -154,7 +155,7 @@ Pin|Signal|Pin|Signal
 9|_DKWDB|19|+5V
 10|_STEP|20|GROUND
 
-### Table A4. Amiga DB23 External Floppy Pinouts
+### Table A5. Amiga DB23 External Floppy Pinouts
 
 Pin|Signal|Pin|Signal
 -|-|-|-
