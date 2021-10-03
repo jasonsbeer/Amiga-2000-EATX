@@ -829,69 +829,37 @@ Wire Wire Line
 Wire Wire Line
 	5750 5750 6550 5750
 Wire Wire Line
-	8400 5450 8450 5450
+	8400 5450 8600 5450
 Wire Wire Line
-	8400 5350 8450 5350
+	8400 5350 8600 5350
 Wire Wire Line
-	8400 5250 8450 5250
+	8400 5250 8600 5250
 Wire Wire Line
-	8400 5150 8450 5150
+	8400 5150 8600 5150
 Wire Wire Line
-	8400 5050 8450 5050
+	8400 5050 8600 5050
 Wire Wire Line
-	8400 4950 8450 4950
+	8400 4950 8600 4950
 Wire Wire Line
-	8400 4850 8450 4850
+	8400 4850 8600 4850
 Wire Wire Line
-	8400 4750 8450 4750
-Text GLabel 8450 5450 2    50   BiDi ~ 0
-DRD7
-Text GLabel 8450 5350 2    50   BiDi ~ 0
-DRD6
-Text GLabel 8450 5250 2    50   BiDi ~ 0
-DRD5
-Text GLabel 8450 5150 2    50   BiDi ~ 0
-DRD4
-Text GLabel 8450 5050 2    50   BiDi ~ 0
-DRD3
-Text GLabel 8450 4950 2    50   BiDi ~ 0
-DRD2
-Text GLabel 8450 4850 2    50   BiDi ~ 0
-DRD1
-Text GLabel 8450 4750 2    50   BiDi ~ 0
-DRD0
+	8400 4750 8600 4750
 Wire Wire Line
-	8400 2600 8450 2600
+	8400 2600 8600 2600
 Wire Wire Line
-	8400 2700 8450 2700
+	8400 2700 8600 2700
 Wire Wire Line
-	8400 2800 8450 2800
+	8400 2800 8600 2800
 Wire Wire Line
-	8400 2900 8450 2900
+	8400 2900 8600 2900
 Wire Wire Line
-	8400 3000 8450 3000
+	8400 3000 8600 3000
 Wire Wire Line
-	8400 3100 8450 3100
+	8400 3100 8600 3100
 Wire Wire Line
-	8400 3200 8450 3200
+	8400 3200 8600 3200
 Wire Wire Line
-	8400 3300 8450 3300
-Text GLabel 8450 2600 2    50   BiDi ~ 0
-DRD8
-Text GLabel 8450 2700 2    50   BiDi ~ 0
-DRD9
-Text GLabel 8450 2800 2    50   BiDi ~ 0
-DRD10
-Text GLabel 8450 2900 2    50   BiDi ~ 0
-DRD11
-Text GLabel 8450 3000 2    50   BiDi ~ 0
-DRD12
-Text GLabel 8450 3100 2    50   BiDi ~ 0
-DRD13
-Text GLabel 8450 3200 2    50   BiDi ~ 0
-DRD14
-Text GLabel 8450 3300 2    50   BiDi ~ 0
-DRD15
+	8400 3300 8600 3300
 Text GLabel 900  1750 0    50   Input ~ 0
 _IPL0
 Text GLabel 900  1850 0    50   Input ~ 0
@@ -924,27 +892,25 @@ Text GLabel 1050 4550 0    50   Input ~ 0
 _VPA
 Text Notes 7400 7500 0    50   ~ 0
 Amiga 2000 EATX
-Text GLabel 10350 5900 2    50   Input ~ 0
+Text GLabel 10500 5900 2    50   Input ~ 0
 _LATCH
 Wire Wire Line
 	9200 2900 8900 2900
 Wire Wire Line
-	8900 2900 8900 5050
-Wire Wire Line
-	8900 5900 10350 5900
+	8900 5900 10500 5900
 Wire Wire Line
 	9200 5050 8900 5050
 Connection ~ 8900 5050
 Wire Wire Line
 	8900 5050 8900 5900
-Text GLabel 10350 5750 2    50   Input ~ 0
+Text GLabel 10500 5750 2    50   Input ~ 0
 _OEL
 Wire Wire Line
 	9200 3000 8950 3000
 Wire Wire Line
 	8950 3000 8950 5150
 Wire Wire Line
-	8950 5750 10350 5750
+	8950 5750 10500 5750
 Wire Wire Line
 	9200 5150 8950 5150
 Connection ~ 8950 5150
@@ -1297,8 +1263,6 @@ Wire Wire Line
 	10200 4850 10350 4850
 Entry Wire Line
 	10350 4850 10450 4750
-Wire Bus Line
-	10450 4750 10450 1050
 Connection ~ 10450 1050
 Wire Bus Line
 	10450 1050 10600 1050
@@ -1332,10 +1296,6 @@ Wire Wire Line
 	10200 2600 10350 2600
 Wire Wire Line
 	10200 2700 10350 2700
-Wire Bus Line
-	6200 800  6200 3950
-Wire Bus Line
-	6650 1050 6650 5650
 Entry Wire Line
 	10350 2000 10450 1900
 Entry Wire Line
@@ -1366,4 +1326,146 @@ Entry Wire Line
 	10350 4650 10450 4550
 Entry Wire Line
 	10350 4550 10450 4450
+Wire Wire Line
+	9200 2000 8800 2000
+Entry Wire Line
+	8800 2000 8700 2100
+Wire Bus Line
+	8700 6050 10500 6050
+Text GLabel 10500 6050 2    51   BiDi ~ 0
+DRD[0..15]
+Entry Wire Line
+	8600 2600 8700 2700
+Text Label 8600 2600 2    50   ~ 0
+DRD8
+Text Label 8600 2700 2    50   ~ 0
+DRD9
+Text Label 8600 2800 2    50   ~ 0
+DRD10
+Text Label 8600 2900 2    50   ~ 0
+DRD11
+Text Label 8600 3000 2    50   ~ 0
+DRD12
+Text Label 8600 3100 2    50   ~ 0
+DRD13
+Text Label 8600 3200 2    50   ~ 0
+DRD14
+Text Label 8600 3300 2    50   ~ 0
+DRD15
+Entry Wire Line
+	8600 2700 8700 2800
+Entry Wire Line
+	8600 2800 8700 2900
+Entry Wire Line
+	8600 2900 8700 3000
+Entry Wire Line
+	8600 3000 8700 3100
+Entry Wire Line
+	8600 3100 8700 3200
+Entry Wire Line
+	8600 3200 8700 3300
+Entry Wire Line
+	8600 3300 8700 3400
+Wire Wire Line
+	9200 2700 8800 2700
+Wire Wire Line
+	9200 2600 8800 2600
+Wire Wire Line
+	9200 2500 8800 2500
+Wire Wire Line
+	9200 2400 8800 2400
+Wire Wire Line
+	9200 2300 8800 2300
+Wire Wire Line
+	9200 2200 8800 2200
+Wire Wire Line
+	9200 2100 8800 2100
+Entry Wire Line
+	8800 2700 8700 2800
+Entry Wire Line
+	8800 2600 8700 2700
+Entry Wire Line
+	8800 2500 8700 2600
+Entry Wire Line
+	8800 2400 8700 2500
+Entry Wire Line
+	8800 2300 8700 2400
+Entry Wire Line
+	8800 2200 8700 2300
+Entry Wire Line
+	8800 2100 8700 2200
+Wire Wire Line
+	9200 4150 8800 4150
+Entry Wire Line
+	8800 4850 8700 4950
+Entry Wire Line
+	8800 4750 8700 4850
+Entry Wire Line
+	8800 4650 8700 4750
+Entry Wire Line
+	8800 4550 8700 4650
+Entry Wire Line
+	8800 4450 8700 4550
+Entry Wire Line
+	8800 4350 8700 4450
+Entry Wire Line
+	8800 4250 8700 4350
+Entry Wire Line
+	8800 4150 8700 4250
+Wire Wire Line
+	8800 4250 9200 4250
+Wire Wire Line
+	8800 4350 9200 4350
+Wire Wire Line
+	8800 4450 9200 4450
+Wire Wire Line
+	8800 4550 9200 4550
+Wire Wire Line
+	8800 4650 9200 4650
+Wire Wire Line
+	8800 4750 9200 4750
+Wire Wire Line
+	8800 4850 9200 4850
+Wire Wire Line
+	8900 2900 8900 5050
+Wire Bus Line
+	10450 1050 10450 4750
+Wire Bus Line
+	6200 800  6200 3950
+Wire Bus Line
+	6650 1050 6650 5650
+Wire Bus Line
+	8700 2100 8700 6050
+Entry Wire Line
+	8600 4750 8700 4850
+Entry Wire Line
+	8600 5450 8700 5550
+Entry Wire Line
+	8600 5350 8700 5450
+Entry Wire Line
+	8600 5250 8700 5350
+Entry Wire Line
+	8600 5150 8700 5250
+Entry Wire Line
+	8600 5050 8700 5150
+Entry Wire Line
+	8600 4950 8700 5050
+Entry Wire Line
+	8600 4850 8700 4950
+Text Label 8600 4750 2    50   ~ 0
+DRD0
+Text Label 8600 4850 2    50   ~ 0
+DRD1
+Text Label 8600 4950 2    50   ~ 0
+DRD2
+Text Label 8600 5050 2    50   ~ 0
+DRD3
+Text Label 8600 5150 2    50   ~ 0
+DRD4
+Text Label 8600 5250 2    50   ~ 0
+DRD5
+Text Label 8600 5350 2    50   ~ 0
+DRD6
+Text Label 8600 5450 2    50   ~ 0
+DRD7
 $EndSCHEMATC

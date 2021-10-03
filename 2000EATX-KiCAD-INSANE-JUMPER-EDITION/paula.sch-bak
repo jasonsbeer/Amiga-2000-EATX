@@ -24,38 +24,6 @@ F 3 "" H 2650 3900 50  0001 C CNN
 	1    2500 3900
 	1    0    0    -1  
 $EndComp
-Text GLabel 1850 1900 0    50   BiDi ~ 0
-DRD15
-Text GLabel 1850 2000 0    50   BiDi ~ 0
-DRD14
-Text GLabel 1850 2100 0    50   BiDi ~ 0
-DRD13
-Text GLabel 1850 2200 0    50   BiDi ~ 0
-DRD12
-Text GLabel 1850 2300 0    50   BiDi ~ 0
-DRD11
-Text GLabel 1850 2400 0    50   BiDi ~ 0
-DRD10
-Text GLabel 1850 2500 0    50   BiDi ~ 0
-DRD9
-Text GLabel 1850 2600 0    50   BiDi ~ 0
-DRD8
-Text GLabel 1850 2700 0    50   BiDi ~ 0
-DRD7
-Text GLabel 1850 2800 0    50   BiDi ~ 0
-DRD6
-Text GLabel 1850 2900 0    50   BiDi ~ 0
-DRD5
-Text GLabel 1850 3000 0    50   BiDi ~ 0
-DRD4
-Text GLabel 1850 3100 0    50   BiDi ~ 0
-DRD3
-Text GLabel 1850 3200 0    50   BiDi ~ 0
-DRD2
-Text GLabel 1850 3300 0    50   BiDi ~ 0
-DRD1
-Text GLabel 1850 3400 0    50   BiDi ~ 0
-DRD0
 Text GLabel 1850 3900 0    50   Input ~ 0
 RGA8
 Text GLabel 1850 4000 0    50   Input ~ 0
@@ -2134,4 +2102,106 @@ Wire Wire Line
 	6100 10200 6300 10200
 Wire Wire Line
 	6100 10450 9100 10450
+Text Label 1850 1900 2    51   ~ 0
+DRD15
+Text Label 1850 2000 2    51   ~ 0
+DRD14
+Text Label 1850 2100 2    51   ~ 0
+DRD13
+Text Label 1850 2200 2    51   ~ 0
+DRD12
+Text Label 1850 2300 2    51   ~ 0
+DRD11
+Text Label 1850 2400 2    51   ~ 0
+DRD10
+Text Label 1850 2500 2    51   ~ 0
+DRD9
+Text Label 1850 2600 2    51   ~ 0
+DRD8
+Text Label 1850 2700 2    51   ~ 0
+DRD7
+Text Label 1850 2800 2    51   ~ 0
+DRD6
+Text Label 1850 2900 2    51   ~ 0
+DRD5
+Text Label 1850 3000 2    51   ~ 0
+DRD4
+Text Label 1850 3400 2    51   ~ 0
+DRD0
+Text Label 1850 3300 2    51   ~ 0
+DRD1
+Text Label 1850 3200 2    51   ~ 0
+DRD2
+Text Label 1850 3100 2    51   ~ 0
+DRD3
+Wire Wire Line
+	1850 1900 1550 1900
+Wire Wire Line
+	1850 2000 1550 2000
+Wire Wire Line
+	1850 2100 1550 2100
+Wire Wire Line
+	1850 2200 1550 2200
+Wire Wire Line
+	1850 2300 1550 2300
+Wire Wire Line
+	1850 2400 1550 2400
+Wire Wire Line
+	1850 2500 1550 2500
+Wire Wire Line
+	1850 2600 1550 2600
+Wire Wire Line
+	1850 2700 1550 2700
+Wire Wire Line
+	1850 2800 1550 2800
+Wire Wire Line
+	1850 2900 1550 2900
+Wire Wire Line
+	1850 3000 1550 3000
+Wire Wire Line
+	1850 3100 1550 3100
+Wire Wire Line
+	1850 3200 1550 3200
+Wire Wire Line
+	1850 3300 1550 3300
+Wire Wire Line
+	1850 3400 1550 3400
+Entry Wire Line
+	1550 1900 1450 1800
+Entry Wire Line
+	1550 2000 1450 1900
+Entry Wire Line
+	1550 2100 1450 2000
+Entry Wire Line
+	1550 2200 1450 2100
+Entry Wire Line
+	1550 2300 1450 2200
+Entry Wire Line
+	1550 2400 1450 2300
+Entry Wire Line
+	1550 2500 1450 2400
+Entry Wire Line
+	1550 3400 1450 3300
+Entry Wire Line
+	1550 3300 1450 3200
+Entry Wire Line
+	1550 3200 1450 3100
+Entry Wire Line
+	1550 3100 1450 3000
+Entry Wire Line
+	1550 3000 1450 2900
+Entry Wire Line
+	1550 2900 1450 2800
+Entry Wire Line
+	1550 2800 1450 2700
+Entry Wire Line
+	1550 2700 1450 2600
+Entry Wire Line
+	1550 2600 1450 2500
+Wire Bus Line
+	1450 1600 1100 1600
+Text GLabel 1100 1600 0    51   BiDi ~ 0
+DRD[0..15]
+Wire Bus Line
+	1450 1600 1450 3300
 $EndSCHEMATC

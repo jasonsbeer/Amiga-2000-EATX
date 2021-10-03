@@ -1737,14 +1737,6 @@ Wire Wire Line
 	2150 6150 2650 6150
 Wire Wire Line
 	1850 5800 2150 5800
-Wire Bus Line
-	2750 4750 2750 6750
-Wire Bus Line
-	7750 3100 9400 3100
-Wire Bus Line
-	7750 700  9350 700 
-Wire Bus Line
-	3950 950  3950 4950
 Entry Wire Line
 	2650 6150 2750 6250
 Entry Wire Line
@@ -1769,4 +1761,12 @@ Entry Wire Line
 	2650 5150 2750 5250
 Text Label 2650 5250 2    51   ~ 0
 D10
+Wire Bus Line
+	7750 3100 9400 3100
+Wire Bus Line
+	7750 700  9350 700 
+Wire Bus Line
+	2750 4750 2750 6750
+Wire Bus Line
+	3950 950  3950 4950
 $EndSCHEMATC
