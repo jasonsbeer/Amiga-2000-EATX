@@ -115,6 +115,12 @@ Rev 1.2
 Rev 1.2.1 **PRODUCTION REVISION**
 1. Added some missing component values to the silk screen, where there was room
 2. Moved VIDIOT over to make additional room for coprocessor cards
+
+Rev 2.0
+1. Supports both Agnus 8372A and certain Agnus 8375 part numbers on the same board
+2. Added external floppy drive header
+3. Support for two real-time clock options
+4. Cleaned up the schematics
    
 ## Acknowledgments
 kr239 - for the Amiga 500 DRAM replacement project inspiration and LIV2 and texneus for the modifications used in this project
@@ -126,4 +132,3 @@ texneus - ATX ON/OFF circuit
 DarrenHD - Pics and measurements of the Amiga 3000 video slot bracket adapter - https://eab.abime.net/showthread.php?t=106928
 
 Chucky - Amiga Diagrom...a priceless diagnostic tool - http://www.diagrom.com/
-
