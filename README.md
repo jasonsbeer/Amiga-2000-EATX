@@ -7,7 +7,7 @@ There are one-to-one board replacement projects for the Amiga 2000, but none to 
 
 In addition to a new board replacement option, I believe the ubiquitous EATX standard will bring additional interest to the Amiga as a hobbyist and retro-computing option. At the time or writting this, the Amiga operating system is still actively developed and supported. In addition, there is a substantial database of existing software and hardware add-on options and an active community.
 
-<img src="/Images/2000EATX-Rev121.png" width="500">
+<img src="/Images/REV20-PCB.png" width="500">
 
 ## Project Status
 August 11, 2021
