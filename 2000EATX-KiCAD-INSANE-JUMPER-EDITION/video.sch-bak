@@ -674,12 +674,12 @@ $EndComp
 $Comp
 L power:GND #PWR0191
 U 1 1 609C4F55
-P 3000 3750
-F 0 "#PWR0191" H 3000 3500 50  0001 C CNN
-F 1 "GND" H 3005 3577 50  0000 C CNN
-F 2 "" H 3000 3750 50  0001 C CNN
-F 3 "" H 3000 3750 50  0001 C CNN
-	1    3000 3750
+P 3050 3750
+F 0 "#PWR0191" H 3050 3500 50  0001 C CNN
+F 1 "GND" H 3055 3577 50  0000 C CNN
+F 2 "" H 3050 3750 50  0001 C CNN
+F 3 "" H 3050 3750 50  0001 C CNN
+	1    3050 3750
 	1    0    0    -1  
 $EndComp
 Text GLabel 3200 2700 2    50   Output ~ 0
@@ -1221,15 +1221,15 @@ Wire Wire Line
 $Comp
 L Device:R_Network05 RN205
 U 1 1 60E5EB32
-P 2800 3550
-F 0 "RN205" H 2520 3504 50  0000 R CNN
-F 1 "1k" H 2520 3595 50  0000 R CNN
-F 2 "Resistor_THT:R_Array_SIP6" V 3175 3550 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 2800 3550 50  0001 C CNN
-	1    2800 3550
+P 2850 3550
+F 0 "RN205" H 2570 3504 50  0000 R CNN
+F 1 "1k" H 2570 3595 50  0000 R CNN
+F 2 "Resistor_THT:R_Array_SIP6" V 3225 3550 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 2850 3550 50  0001 C CNN
+	1    2850 3550
 	-1   0    0    1   
 $EndComp
-NoConn ~ 3000 3350
+NoConn ~ 3050 3350
 Text Label 12650 2150 2    47   ~ 0
 COMPVID
 Text Label 12650 2050 2    47   ~ 0
@@ -1338,28 +1338,7 @@ F 3 "~" H 12750 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2600 3300 2800 3300
-Wire Wire Line
-	2600 2900 2900 2900
-Wire Wire Line
-	2600 2700 2700 2700
-Wire Wire Line
-	2900 3350 2900 2900
-Connection ~ 2900 2900
-Wire Wire Line
-	2900 2900 3200 2900
-Wire Wire Line
-	2800 3350 2800 3300
-Connection ~ 2800 3300
-Wire Wire Line
-	2800 3300 3200 3300
-Wire Wire Line
-	2700 3350 2700 2700
-Connection ~ 2700 2700
-Wire Wire Line
-	2700 2700 3200 2700
-Wire Wire Line
-	2600 3100 3200 3100
+	2600 3100 2650 3100
 Wire Wire Line
 	13000 8000 13500 8000
 $Comp
@@ -1668,9 +1647,32 @@ Text GLabel 1050 3100 0    51   BiDi ~ 0
 DRD[0..15]
 Wire Bus Line
 	1050 3100 1150 3100
+Wire Wire Line
+	2950 3350 2950 2900
+Connection ~ 2950 2900
+Wire Wire Line
+	2950 2900 3200 2900
+Wire Wire Line
+	2850 3350 2850 3300
+Connection ~ 2850 3300
+Wire Wire Line
+	2850 3300 3200 3300
+Wire Wire Line
+	2750 3350 2750 2700
+Connection ~ 2750 2700
+Wire Wire Line
+	2750 2700 3200 2700
+Wire Wire Line
+	2650 3350 2650 3100
 Wire Bus Line
 	1150 3100 1150 4600
-Connection ~ 2600 3100
+Connection ~ 2650 3100
 Wire Wire Line
-	2600 3100 2600 3350
+	2650 3100 3200 3100
+Wire Wire Line
+	2600 2700 2750 2700
+Wire Wire Line
+	2600 2900 2950 2900
+Wire Wire Line
+	2600 3300 2850 3300
 $EndSCHEMATC
