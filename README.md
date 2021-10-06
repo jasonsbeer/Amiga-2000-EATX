@@ -10,6 +10,10 @@ Discord: https://discord.gg/NU7SPYfNFj
 <img src="/Images/2000EATX-Rev121.png" width="500">
 
 ## Project Status
+October 6, 2021
+
+I expect to assemble and test the next revision (2.0) of the Amiga 2000 EATX board by the middle of November. If you are wanting to build one of these boards, I recommend you wait for the revision 2.0 release. The revision 2.0 board will have additional features that many will find attractive. See revision history at the bottom of this page for additional information.
+
 August 11, 2021
 
 **Revision 1.2.1 is the production board.**
@@ -115,6 +119,13 @@ Rev 1.2
 Rev 1.2.1 **PRODUCTION REVISION**
 1. Added some missing component values to the silk screen, where there was room
 2. Moved VIDIOT over to make additional room for coprocessor cards
+
+Rev 2.0 **FINAL DESIGN STAGE**
+1. Supports both Agnus 8372A and Agnus 8375 (A500+/A600 variety) on the same board
+2. Added external floppy drive header
+3. Support for two real-time clock options
+4. Moved Zorro bus termination
+5. Cleaned up the schematics
    
 ## Acknowledgments
 kr239 - for the Amiga 500 DRAM replacement project inspiration and LIV2 and texneus for the modifications used in this project
@@ -126,3 +137,5 @@ texneus - ATX ON/OFF circuit
 DarrenHD - Pics and measurements of the Amiga 3000 video slot bracket adapter - https://eab.abime.net/showthread.php?t=106928
 
 Chucky - Amiga Diagrom...a priceless diagnostic tool - http://www.diagrom.com/
+
+Everyone that made the Amiga possible.
