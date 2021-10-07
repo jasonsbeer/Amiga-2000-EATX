@@ -1428,14 +1428,6 @@ Wire Wire Line
 	8800 4850 9200 4850
 Wire Wire Line
 	8900 2900 8900 5050
-Wire Bus Line
-	10450 1050 10450 4750
-Wire Bus Line
-	6200 800  6200 3950
-Wire Bus Line
-	6650 1050 6650 5650
-Wire Bus Line
-	8700 2100 8700 6050
 Entry Wire Line
 	8600 4750 8700 4850
 Entry Wire Line
@@ -1468,4 +1460,12 @@ Text Label 8600 5350 2    50   ~ 0
 DRD6
 Text Label 8600 5450 2    50   ~ 0
 DRD7
+Wire Bus Line
+	10450 1050 10450 4750
+Wire Bus Line
+	6200 800  6200 3950
+Wire Bus Line
+	6650 1050 6650 5650
+Wire Bus Line
+	8700 2100 8700 6050
 $EndSCHEMATC

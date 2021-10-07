@@ -209,12 +209,12 @@ NoConn ~ 5300 1950
 $Comp
 L power:GND #PWR0128
 U 1 1 6056F1B9
-P 6850 4150
-F 0 "#PWR0128" H 6850 3900 50  0001 C CNN
-F 1 "GND" H 6855 3977 50  0000 C CNN
-F 2 "" H 6850 4150 50  0001 C CNN
-F 3 "" H 6850 4150 50  0001 C CNN
-	1    6850 4150
+P 7050 4000
+F 0 "#PWR0128" H 7050 3750 50  0001 C CNN
+F 1 "GND" H 7055 3827 50  0000 C CNN
+F 2 "" H 7050 4000 50  0001 C CNN
+F 3 "" H 7050 4000 50  0001 C CNN
+	1    7050 4000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -228,85 +228,7 @@ F 3 "" H 5850 5650 50  0001 C CNN
 	1    5850 5650
 	1    0    0    -1  
 $EndComp
-Text GLabel 6300 1450 2    50   BiDi ~ 0
-BA7
 NoConn ~ 6300 1950
-Text GLabel 6300 1650 2    50   BiDi ~ 0
-BA6
-Text GLabel 6300 1850 2    50   BiDi ~ 0
-BA5
-Text GLabel 6300 1750 2    50   BiDi ~ 0
-BA4
-Text GLabel 6300 1550 2    50   BiDi ~ 0
-BA3
-Text GLabel 6300 1350 2    50   BiDi ~ 0
-BA2
-Text GLabel 6300 1250 2    50   BiDi ~ 0
-BA1
-Text GLabel 7350 3400 2    50   BiDi ~ 0
-BA8
-Text GLabel 7350 3300 2    50   BiDi ~ 0
-BA9
-Text GLabel 7350 3200 2    50   BiDi ~ 0
-BA10
-Text GLabel 7350 3100 2    50   BiDi ~ 0
-BA11
-Text GLabel 7350 3000 2    50   BiDi ~ 0
-BA12
-Text GLabel 7350 2900 2    50   BiDi ~ 0
-BA13
-Text GLabel 7350 2800 2    50   BiDi ~ 0
-BA14
-Text GLabel 7350 2700 2    50   BiDi ~ 0
-BA15
-Text GLabel 6350 5050 2    50   BiDi ~ 0
-BA16
-Text GLabel 6350 4950 2    50   BiDi ~ 0
-BA17
-Text GLabel 6350 4850 2    50   BiDi ~ 0
-BA18
-Text GLabel 6350 4750 2    50   BiDi ~ 0
-BA19
-Text GLabel 6350 4650 2    50   BiDi ~ 0
-BA20
-Text GLabel 6350 4550 2    50   BiDi ~ 0
-BA21
-Text GLabel 6350 4450 2    50   BiDi ~ 0
-BA22
-Text GLabel 6350 4350 2    50   BiDi ~ 0
-BA23
-Text GLabel 10750 2200 2    50   BiDi ~ 0
-BD0
-Text GLabel 10750 2100 2    50   BiDi ~ 0
-BD1
-Text GLabel 10750 2000 2    50   BiDi ~ 0
-BD2
-Text GLabel 10750 1900 2    50   BiDi ~ 0
-BD3
-Text GLabel 10750 1700 2    50   BiDi ~ 0
-BD4
-Text GLabel 10750 1500 2    50   BiDi ~ 0
-BD5
-Text GLabel 10750 1600 2    50   BiDi ~ 0
-BD6
-Text GLabel 10750 1800 2    50   BiDi ~ 0
-BD7
-Text GLabel 10750 4450 2    50   BiDi ~ 0
-BD15
-Text GLabel 10750 4350 2    50   BiDi ~ 0
-BD14
-Text GLabel 10750 4250 2    50   BiDi ~ 0
-BD13
-Text GLabel 10750 4150 2    50   BiDi ~ 0
-BD12
-Text GLabel 10750 4050 2    50   BiDi ~ 0
-BD11
-Text GLabel 10750 3950 2    50   BiDi ~ 0
-BD10
-Text GLabel 10750 3850 2    50   BiDi ~ 0
-BD9
-Text GLabel 10750 3750 2    50   BiDi ~ 0
-BD8
 $Comp
 L power:GND #PWR0130
 U 1 1 605B732B
@@ -805,13 +727,13 @@ $EndComp
 $Comp
 L Device:C_Small C601
 U 1 1 60E79216
-P 7400 2400
-F 0 "C601" V 7629 2400 50  0000 C CNN
-F 1 "0.1uF" V 7538 2400 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 7400 2400 50  0001 C CNN
-F 3 "~" H 7400 2400 50  0001 C CNN
-	1    7400 2400
-	0    -1   -1   0   
+P 6350 2400
+F 0 "C601" V 6150 2400 50  0000 C CNN
+F 1 "0.1uF" V 6250 2400 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 6350 2400 50  0001 C CNN
+F 3 "~" H 6350 2400 50  0001 C CNN
+	1    6350 2400
+	0    1    1    0   
 $EndComp
 $Comp
 L Device:C_Small C600
@@ -838,23 +760,23 @@ $EndComp
 $Comp
 L Device:C_Small C604
 U 1 1 60E7A9E7
-P 10800 3450
-F 0 "C604" V 11029 3450 50  0000 C CNN
-F 1 "0.1uF" V 10938 3450 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 10800 3450 50  0001 C CNN
-F 3 "~" H 10800 3450 50  0001 C CNN
-	1    10800 3450
-	0    -1   -1   0   
+P 9800 3450
+F 0 "C604" V 9600 3450 50  0000 C CNN
+F 1 "0.1uF" V 9700 3450 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 9800 3450 50  0001 C CNN
+F 3 "~" H 9800 3450 50  0001 C CNN
+	1    9800 3450
+	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR0139
 U 1 1 60E7B497
-P 10900 3450
-F 0 "#PWR0139" H 10900 3200 50  0001 C CNN
-F 1 "GND" H 10905 3277 50  0000 C CNN
-F 2 "" H 10900 3450 50  0001 C CNN
-F 3 "" H 10900 3450 50  0001 C CNN
-	1    10900 3450
+P 9700 3450
+F 0 "#PWR0139" H 9700 3200 50  0001 C CNN
+F 1 "GND" H 9705 3277 50  0000 C CNN
+F 2 "" H 9700 3450 50  0001 C CNN
+F 3 "" H 9700 3450 50  0001 C CNN
+	1    9700 3450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -882,12 +804,12 @@ $EndComp
 $Comp
 L power:GND #PWR0142
 U 1 1 60E7E9FD
-P 7500 2400
-F 0 "#PWR0142" H 7500 2150 50  0001 C CNN
-F 1 "GND" H 7505 2227 50  0000 C CNN
-F 2 "" H 7500 2400 50  0001 C CNN
-F 3 "" H 7500 2400 50  0001 C CNN
-	1    7500 2400
+P 6250 2400
+F 0 "#PWR0142" H 6250 2150 50  0001 C CNN
+F 1 "GND" H 6255 2227 50  0000 C CNN
+F 2 "" H 6250 2400 50  0001 C CNN
+F 3 "" H 6250 2400 50  0001 C CNN
+	1    6250 2400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -895,7 +817,7 @@ L power:+5V #PWR0143
 U 1 1 60E89AA3
 P 6200 4150
 F 0 "#PWR0143" H 6200 4000 50  0001 C CNN
-F 1 "+5V" H 6217 4373 50  0000 C CNN
+F 1 "+5V" H 6200 4300 50  0000 C CNN
 F 2 "" H 6200 4150 50  0001 C CNN
 F 3 "" H 6200 4150 50  0001 C CNN
 	1    6200 4150
@@ -904,12 +826,12 @@ $EndComp
 $Comp
 L power:+5V #PWR0144
 U 1 1 60FCDD63
-P 7150 2400
-F 0 "#PWR0144" H 7150 2250 50  0001 C CNN
-F 1 "+5V" H 7150 2550 50  0000 C CNN
-F 2 "" H 7150 2400 50  0001 C CNN
-F 3 "" H 7150 2400 50  0001 C CNN
-	1    7150 2400
+P 6550 2400
+F 0 "#PWR0144" H 6550 2250 50  0001 C CNN
+F 1 "+5V" H 6550 2550 50  0000 C CNN
+F 2 "" H 6550 2400 50  0001 C CNN
+F 3 "" H 6550 2400 50  0001 C CNN
+	1    6550 2400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -937,12 +859,12 @@ $EndComp
 $Comp
 L power:+5V #PWR0147
 U 1 1 60FE9CDB
-P 10500 3450
-F 0 "#PWR0147" H 10500 3300 50  0001 C CNN
-F 1 "+5V" H 10517 3673 50  0000 C CNN
-F 2 "" H 10500 3450 50  0001 C CNN
-F 3 "" H 10500 3450 50  0001 C CNN
-	1    10500 3450
+P 10000 3450
+F 0 "#PWR0147" H 10000 3300 50  0001 C CNN
+F 1 "+5V" H 10017 3673 50  0000 C CNN
+F 2 "" H 10000 3450 50  0001 C CNN
+F 3 "" H 10000 3450 50  0001 C CNN
+	1    10000 3450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1077,10 +999,6 @@ Wire Wire Line
 	9750 2100 8850 2100
 Wire Wire Line
 	8750 2200 9750 2200
-Wire Wire Line
-	6850 2400 7150 2400
-Wire Wire Line
-	10250 3450 10500 3450
 Wire Wire Line
 	10250 1200 10500 1200
 Wire Wire Line
@@ -1239,16 +1157,10 @@ Wire Wire Line
 	8750 1700 8750 2200
 Text Notes 7050 7100 0    197  ~ 0
 Coprocessor\nAmiga 2000 EATX
-Connection ~ 7150 2400
-Wire Wire Line
-	7150 2400 7300 2400
 Connection ~ 6200 4150
 Wire Wire Line
 	6200 4150 6500 4150
 Connection ~ 3450 5800
-Connection ~ 10500 3450
-Wire Wire Line
-	10500 3450 10700 3450
 Connection ~ 10500 1200
 Wire Wire Line
 	10500 1200 10600 1200
@@ -1583,7 +1495,6 @@ Wire Wire Line
 Wire Wire Line
 	5450 2450 5300 2450
 Connection ~ 5300 2450
-Connection ~ 6850 4150
 Wire Wire Line
 	4900 1000 5050 1000
 Wire Wire Line
@@ -1761,12 +1672,282 @@ Entry Wire Line
 	2650 5150 2750 5250
 Text Label 2650 5250 2    51   ~ 0
 D10
+Text Label 10750 1500 0    51   ~ 0
+BD5
+Text Label 10750 1600 0    51   ~ 0
+BD6
+Text Label 10750 1700 0    51   ~ 0
+BD4
+Text Label 10750 1800 0    51   ~ 0
+BD7
+Text Label 10750 1900 0    51   ~ 0
+BD3
+Text Label 10750 2000 0    51   ~ 0
+BD2
+Text Label 10750 2100 0    51   ~ 0
+BD1
+Text Label 10750 2200 0    51   ~ 0
+BD0
+Text Label 10750 3750 0    51   ~ 0
+BD8
+Text Label 10750 3850 0    51   ~ 0
+BD9
+Text Label 10750 3950 0    51   ~ 0
+BD10
+Text Label 10750 4050 0    51   ~ 0
+BD11
+Text Label 10750 4150 0    51   ~ 0
+BD12
+Text Label 10750 4250 0    51   ~ 0
+BD13
+Text Label 10750 4350 0    51   ~ 0
+BD14
+Text Label 10750 4450 0    51   ~ 0
+BD15
+Wire Wire Line
+	10250 3450 10000 3450
+Connection ~ 10000 3450
+Wire Wire Line
+	10000 3450 9900 3450
+Wire Wire Line
+	10750 4450 10950 4450
+Entry Wire Line
+	10950 4450 11050 4350
+Entry Wire Line
+	10950 4350 11050 4250
+Entry Wire Line
+	10950 4250 11050 4150
+Entry Wire Line
+	10950 4150 11050 4050
+Entry Wire Line
+	10950 4050 11050 3950
+Entry Wire Line
+	10950 3950 11050 3850
+Entry Wire Line
+	10950 3850 11050 3750
+Entry Wire Line
+	10950 3750 11050 3650
+Wire Wire Line
+	10950 4350 10750 4350
+Wire Wire Line
+	10950 4250 10750 4250
+Wire Wire Line
+	10950 4150 10750 4150
+Wire Wire Line
+	10750 4050 10950 4050
+Wire Wire Line
+	10950 3950 10750 3950
+Wire Wire Line
+	10750 3850 10950 3850
+Wire Wire Line
+	10950 3750 10750 3750
+Wire Bus Line
+	11050 3500 10550 3500
+Wire Bus Line
+	10550 3500 10550 3150
+Wire Bus Line
+	10550 2750 11050 2750
+Entry Wire Line
+	10950 1500 11050 1600
+Wire Wire Line
+	10750 1500 10950 1500
+Wire Wire Line
+	10950 2200 10750 2200
+Wire Wire Line
+	10950 2000 10750 2000
+Wire Wire Line
+	10750 2100 10950 2100
+Wire Wire Line
+	10950 1900 10750 1900
+Wire Wire Line
+	10750 1800 10950 1800
+Wire Wire Line
+	10750 1700 10950 1700
+Wire Wire Line
+	10950 1600 10750 1600
+Entry Wire Line
+	10950 1600 11050 1700
+Entry Wire Line
+	10950 1700 11050 1800
+Entry Wire Line
+	10950 1800 11050 1900
+Entry Wire Line
+	10950 1900 11050 2000
+Entry Wire Line
+	10950 2000 11050 2100
+Entry Wire Line
+	10950 2100 11050 2200
+Entry Wire Line
+	10950 2200 11050 2300
+Text GLabel 10700 3150 2    51   BiDi ~ 0
+BD[0..15]
+Wire Bus Line
+	10700 3150 10550 3150
+Connection ~ 10550 3150
+Wire Bus Line
+	10550 3150 10550 2750
+Wire Wire Line
+	6850 2400 6550 2400
+Connection ~ 6550 2400
+Wire Wire Line
+	6550 2400 6450 2400
+Text Label 7550 1250 2    51   ~ 0
+BA1
+Text Label 7550 1350 2    51   ~ 0
+BA2
+Text Label 7550 1450 2    51   ~ 0
+BA7
+Text Label 7550 1550 2    51   ~ 0
+BA3
+Text Label 7550 1650 2    51   ~ 0
+BA6
+Text Label 7550 1750 2    51   ~ 0
+BA4
+Text Label 7550 1850 2    51   ~ 0
+BA5
+Text Label 7350 2700 0    51   ~ 0
+BA15
+Text Label 7350 2800 0    51   ~ 0
+BA14
+Text Label 7350 2900 0    51   ~ 0
+BA13
+Text Label 7350 3000 0    51   ~ 0
+BA12
+Text Label 7350 3100 0    51   ~ 0
+BA11
+Text Label 7350 3200 0    51   ~ 0
+BA10
+Text Label 7350 3300 0    51   ~ 0
+BA9
+Text Label 7350 3400 0    51   ~ 0
+BA8
+Text Label 7550 4350 2    51   ~ 0
+BA23
+Text Label 7550 4450 2    51   ~ 0
+BA22
+Text Label 7550 4550 2    51   ~ 0
+BA21
+Text Label 7550 4650 2    51   ~ 0
+BA20
+Text Label 7550 4750 2    51   ~ 0
+BA19
+Text Label 7550 4850 2    51   ~ 0
+BA18
+Text Label 7550 4950 2    51   ~ 0
+BA17
+Text Label 7550 5050 2    51   ~ 0
+BA16
+Wire Wire Line
+	7050 4000 6850 4000
+Connection ~ 6850 4000
+Entry Wire Line
+	7550 2700 7650 2800
+Entry Wire Line
+	7550 2800 7650 2900
+Entry Wire Line
+	7550 2900 7650 3000
+Entry Wire Line
+	7550 3000 7650 3100
+Entry Wire Line
+	7550 3100 7650 3200
+Entry Wire Line
+	7550 3200 7650 3300
+Entry Wire Line
+	7550 3300 7650 3400
+Entry Wire Line
+	7550 3400 7650 3500
+Wire Wire Line
+	7350 2700 7550 2700
+Wire Wire Line
+	7550 2800 7350 2800
+Wire Wire Line
+	7350 2900 7550 2900
+Wire Wire Line
+	7550 3000 7350 3000
+Wire Wire Line
+	7350 3100 7550 3100
+Wire Wire Line
+	7550 3200 7350 3200
+Wire Wire Line
+	7350 3300 7550 3300
+Wire Wire Line
+	7550 3400 7350 3400
+Wire Bus Line
+	7650 5900 10700 5900
+Entry Wire Line
+	7550 4350 7650 4450
+Wire Wire Line
+	7550 4350 6350 4350
+Wire Wire Line
+	6350 4450 7550 4450
+Wire Wire Line
+	6350 4550 7550 4550
+Wire Wire Line
+	6350 4650 7550 4650
+Wire Wire Line
+	6350 4750 7550 4750
+Wire Wire Line
+	6350 4850 7550 4850
+Wire Wire Line
+	6350 4950 7550 4950
+Wire Wire Line
+	6350 5050 7550 5050
+Entry Wire Line
+	7550 4450 7650 4550
+Entry Wire Line
+	7550 4550 7650 4650
+Entry Wire Line
+	7550 4650 7650 4750
+Entry Wire Line
+	7550 4750 7650 4850
+Entry Wire Line
+	7550 4850 7650 4950
+Entry Wire Line
+	7550 4950 7650 5050
+Entry Wire Line
+	7550 5050 7650 5150
+Wire Wire Line
+	6300 1850 7550 1850
+Wire Wire Line
+	6300 1250 7550 1250
+Entry Wire Line
+	7550 1250 7650 1350
+Entry Wire Line
+	7550 1850 7650 1950
+Wire Wire Line
+	6300 1750 7550 1750
+Wire Wire Line
+	6300 1650 7550 1650
+Wire Wire Line
+	6300 1550 7550 1550
+Wire Wire Line
+	6300 1450 7550 1450
+Wire Wire Line
+	6300 1350 7550 1350
+Wire Bus Line
+	11050 1600 11050 2750
 Wire Bus Line
 	7750 3100 9400 3100
 Wire Bus Line
 	7750 700  9350 700 
 Wire Bus Line
+	11050 3500 11050 4350
+Wire Bus Line
 	2750 4750 2750 6750
 Wire Bus Line
+	7650 1350 7650 5900
+Wire Bus Line
 	3950 950  3950 4950
+Entry Wire Line
+	7550 1750 7650 1850
+Entry Wire Line
+	7550 1650 7650 1750
+Entry Wire Line
+	7550 1550 7650 1650
+Entry Wire Line
+	7550 1450 7650 1550
+Entry Wire Line
+	7550 1350 7650 1450
+Text GLabel 10700 5900 2    51   BiDi ~ 0
+BA[1..23]
 $EndSCHEMATC

@@ -72,47 +72,37 @@ Wire Wire Line
 	1500 2700 1500 3550
 Connection ~ 1500 3550
 Wire Wire Line
-	1500 3550 1300 3550
+	1500 3550 1000 3550
 Wire Wire Line
 	1600 2700 1600 3450
 Connection ~ 1600 3450
 Wire Wire Line
-	1600 3450 1300 3450
+	1600 3450 1000 3450
 Wire Wire Line
 	1700 2700 1700 3350
 Connection ~ 1700 3350
 Wire Wire Line
-	1700 3350 1300 3350
+	1700 3350 1000 3350
 Wire Wire Line
 	1800 2700 1800 3250
 Connection ~ 1800 3250
 Wire Wire Line
-	1800 3250 1300 3250
+	1800 3250 1000 3250
 Wire Wire Line
 	1900 2700 1900 3150
 Connection ~ 1900 3150
 Wire Wire Line
-	1900 3150 1300 3150
-Text GLabel 1300 3150 0    50   Input ~ 0
+	1900 3150 1000 3150
+Text GLabel 1000 3150 0    50   Input ~ 0
 _SLAVE1
-Text GLabel 1300 3250 0    50   Input ~ 0
+Text GLabel 1000 3250 0    50   Input ~ 0
 _SLAVE2
-Text GLabel 1300 3350 0    50   Input ~ 0
+Text GLabel 1000 3350 0    50   Input ~ 0
 _SLAVE3
-Text GLabel 1300 3450 0    50   Input ~ 0
+Text GLabel 1000 3450 0    50   Input ~ 0
 _SLAVE4
-Text GLabel 1300 3550 0    50   Input ~ 0
+Text GLabel 1000 3550 0    50   Input ~ 0
 _SLAVE5
-Text GLabel 2650 3700 0    50   Input ~ 0
-BA19
-Text GLabel 2650 3800 0    50   Input ~ 0
-BA20
-Text GLabel 2650 3900 0    50   Input ~ 0
-BA21
-Text GLabel 2650 4100 0    50   Input ~ 0
-BA23
-Text GLabel 2650 4000 0    50   Input ~ 0
-BA22
 Text GLabel 2650 4250 0    50   Input ~ 0
 _BEER
 Text GLabel 2650 4350 0    50   Input ~ 0
@@ -155,29 +145,29 @@ _OWN
 $Comp
 L Device:R_Small R800
 U 1 1 605ACB88
-P 1750 4550
-F 0 "R800" V 1850 4400 50  0000 L CNN
-F 1 "1k" V 1750 4500 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" H 1750 4550 50  0001 C CNN
-F 3 "~" H 1750 4550 50  0001 C CNN
-	1    1750 4550
+P 1750 4650
+F 0 "R800" V 1850 4500 50  0000 L CNN
+F 1 "1k" V 1750 4600 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 1750 4650 50  0001 C CNN
+F 3 "~" H 1750 4650 50  0001 C CNN
+	1    1750 4650
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR0226
 U 1 1 605B0A1C
-P 1750 4450
-F 0 "#PWR0226" H 1750 4300 50  0001 C CNN
-F 1 "+5V" H 1767 4673 50  0000 C CNN
-F 2 "" H 1750 4450 50  0001 C CNN
-F 3 "" H 1750 4450 50  0001 C CNN
-	1    1750 4450
+P 1750 4550
+F 0 "#PWR0226" H 1750 4400 50  0001 C CNN
+F 1 "+5V" H 1750 4700 50  0000 C CNN
+F 2 "" H 1750 4550 50  0001 C CNN
+F 3 "" H 1750 4550 50  0001 C CNN
+	1    1750 4550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	1000 4950 1750 4950
 Wire Wire Line
-	1750 4650 1750 4950
+	1750 4750 1750 4950
 Connection ~ 1750 4950
 Wire Wire Line
 	1750 4950 2650 4950
@@ -1339,8 +1329,44 @@ Text Notes 9700 5250 2    236  ~ 0
 OPTIONAL RTC
 Text Notes 7150 9100 0    98   ~ 0
 When installing the optional real time clock,\nadd all the components with the REAL TIME CLOCK\nexcept RTC62423. DO NOT install both clock ICs.
+Wire Wire Line
+	2650 4100 1500 4100
+Entry Wire Line
+	1500 4100 1400 4200
+Wire Wire Line
+	2650 4000 1500 4000
+Wire Wire Line
+	2650 3900 1500 3900
+Wire Wire Line
+	2650 3800 1500 3800
+Wire Wire Line
+	2650 3700 1500 3700
+Entry Wire Line
+	1500 4000 1400 4100
+Entry Wire Line
+	1500 3900 1400 4000
+Entry Wire Line
+	1500 3800 1400 3900
+Entry Wire Line
+	1500 3700 1400 3800
+Wire Bus Line
+	1400 4350 1000 4350
+Text Label 1500 4100 0    51   ~ 0
+BA23
+Text Label 1500 4000 0    51   ~ 0
+BA22
+Text Label 1500 3900 0    51   ~ 0
+BA21
+Text Label 1500 3800 0    51   ~ 0
+BA20
+Text Label 1500 3700 0    51   ~ 0
+BA19
+Text GLabel 1000 4350 0    51   BiDi ~ 0
+BA[1..23]
 Wire Bus Line
 	10400 6800 10400 8500
 Wire Bus Line
 	12650 7100 12650 7500
+Wire Bus Line
+	1400 3800 1400 4350
 $EndSCHEMATC

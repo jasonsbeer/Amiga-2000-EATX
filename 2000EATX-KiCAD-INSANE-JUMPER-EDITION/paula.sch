@@ -24,22 +24,6 @@ F 3 "" H 2650 3900 50  0001 C CNN
 	1    2500 3900
 	1    0    0    -1  
 $EndComp
-Text GLabel 1850 3900 0    50   Input ~ 0
-RGA8
-Text GLabel 1850 4000 0    50   Input ~ 0
-RGA7
-Text GLabel 1850 4100 0    50   Input ~ 0
-RGA6
-Text GLabel 1850 4200 0    50   Input ~ 0
-RGA5
-Text GLabel 1850 4300 0    50   Input ~ 0
-RGA4
-Text GLabel 1850 4400 0    50   Input ~ 0
-RGA3
-Text GLabel 1850 4500 0    50   Input ~ 0
-RGA2
-Text GLabel 1850 4600 0    50   Input ~ 0
-RGA1
 Text GLabel 1850 5000 0    50   Output ~ 0
 _CIPL2
 Text GLabel 1850 5100 0    50   Output ~ 0
@@ -2202,6 +2186,60 @@ Wire Bus Line
 	1450 1600 1100 1600
 Text GLabel 1100 1600 0    51   BiDi ~ 0
 DRD[0..15]
+Wire Wire Line
+	1850 4600 1550 4600
+Wire Wire Line
+	1850 4500 1550 4500
+Text GLabel 1150 3550 0    50   Input ~ 0
+RGA[1..8]
+Wire Wire Line
+	1850 4400 1550 4400
+Wire Wire Line
+	1850 4300 1550 4300
+Wire Wire Line
+	1850 4200 1550 4200
+Wire Wire Line
+	1850 4100 1550 4100
+Wire Wire Line
+	1850 4000 1550 4000
+Wire Wire Line
+	1850 3900 1550 3900
+Entry Wire Line
+	1550 4600 1450 4500
+Entry Wire Line
+	1550 4500 1450 4400
+Entry Wire Line
+	1550 4400 1450 4300
+Entry Wire Line
+	1550 4300 1450 4200
+Entry Wire Line
+	1550 4200 1450 4100
+Entry Wire Line
+	1550 4100 1450 4000
+Entry Wire Line
+	1550 4000 1450 3900
+Entry Wire Line
+	1550 3900 1450 3800
+Wire Bus Line
+	1450 3550 1150 3550
+Text Label 1550 3900 0    51   ~ 0
+RGA8
+Text Label 1550 4000 0    51   ~ 0
+RGA7
+Text Label 1550 4100 0    51   ~ 0
+RGA6
+Text Label 1550 4200 0    51   ~ 0
+RGA5
+Text Label 1550 4300 0    51   ~ 0
+RGA4
+Text Label 1550 4400 0    51   ~ 0
+RGA3
+Text Label 1550 4500 0    51   ~ 0
+RGA2
+Text Label 1550 4600 0    51   ~ 0
+RGA1
+Wire Bus Line
+	1450 3550 1450 4500
 Wire Bus Line
 	1450 1600 1450 3300
 $EndSCHEMATC
