@@ -1924,6 +1924,18 @@ Wire Wire Line
 	6300 1450 7550 1450
 Wire Wire Line
 	6300 1350 7550 1350
+Entry Wire Line
+	7550 1750 7650 1850
+Entry Wire Line
+	7550 1650 7650 1750
+Entry Wire Line
+	7550 1550 7650 1650
+Entry Wire Line
+	7550 1450 7650 1550
+Entry Wire Line
+	7550 1350 7650 1450
+Text GLabel 10700 5900 2    51   BiDi ~ 0
+BA[1..23]
 Wire Bus Line
 	11050 1600 11050 2750
 Wire Bus Line
@@ -1938,16 +1950,4 @@ Wire Bus Line
 	7650 1350 7650 5900
 Wire Bus Line
 	3950 950  3950 4950
-Entry Wire Line
-	7550 1750 7650 1850
-Entry Wire Line
-	7550 1650 7650 1750
-Entry Wire Line
-	7550 1550 7650 1650
-Entry Wire Line
-	7550 1450 7650 1550
-Entry Wire Line
-	7550 1350 7650 1450
-Text GLabel 10700 5900 2    51   BiDi ~ 0
-BA[1..23]
 $EndSCHEMATC
