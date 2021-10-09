@@ -85,7 +85,7 @@ Solder pad jumpers are present on the Rev 2.0 board. In the event there are only
 Common Name|Designation/Part Number|Postion|Package|Notes
 -|-|-|-|-
 Motorola 68000|MC68000|U100|DIP-64| 8MHz or greater
-Fatter Agnus|MOS* 8372A/318069-02|U101|PLCC-84|
+Fatter Agnus|See Table A2|U101|PLCC-84|
 Gary|MOS 5719|U102|DIP-48|
 Paula|MOS 8364|U200|DIP-48|
 Denise|MOS 8362 or CSG 8373|U201|DIP-48|[Deniser](https://github.com/endofexclusive/deniser)
@@ -105,18 +105,20 @@ Optional Real Time Clock|MSM6242|U899|DIP-18|This is the original, tunable RTC f
 Agnus|Commodore Part Number|Status
 -|-|-
 8372A|ALL|Tested and working
-8375|390554-01|Tested and working
-8375|390554-02|Tested and working
-8375|318069-12|Unknown
-8375|318069-13|Unknown
+8375|390544-01|Tested and working
+8375|390544-02|Tested and working
 8375|318069-10|Unknown
 8375|318069-11|Unknown
+8375|390554-01|Unknown
+8375|390554-02|Unknown
+8375|318069-12|Unknown
+8375|318069-13|Unknown
 
 ### Table A3. Revision 2.0 Agnus Configuration Jumpers
 
 Agnus|<b>8372A</b>|<b>8375</b>|<b>8375</b>
 -|-|-|-
-Commodore<br>Part Number|ALL|390554-01<br>390554-02<br>318069-12<br>318069-13|318069-10<br>318069-11
+Commodore<br>Part Number|ALL|390554-01<br>390554-02<br>318069-12<br>318069-13|390544-01<br>390544-02<br>318069-10<br>318069-11
 Jumper|||
 JA1|3-2|1-2|1-2
 JA2|3-2|1-2|1-2
