@@ -723,40 +723,8 @@ Wire Wire Line
 	5950 3050 9100 3050
 Wire Wire Line
 	9100 1750 9100 3050
-Text GLabel 800  5100 0    50   Input ~ 0
-RGA8
-Text GLabel 800  5200 0    50   Input ~ 0
-RGA7
-Text GLabel 800  5300 0    50   Input ~ 0
-RGA6
-Text GLabel 800  5400 0    50   Input ~ 0
-RGA5
-Text GLabel 800  5500 0    50   Input ~ 0
-RGA4
-Text GLabel 800  5600 0    50   Input ~ 0
-RGA3
-Text GLabel 800  5700 0    50   Input ~ 0
-RGA2
-Text GLabel 800  5800 0    50   Input ~ 0
-RGA1
 Text GLabel 800  6250 0    50   Input ~ 0
 C1
-Wire Wire Line
-	800  5800 1550 5800
-Wire Wire Line
-	1550 5700 800  5700
-Wire Wire Line
-	800  5600 1550 5600
-Wire Wire Line
-	1550 5500 800  5500
-Wire Wire Line
-	800  5400 1550 5400
-Wire Wire Line
-	1550 5300 800  5300
-Wire Wire Line
-	800  5200 1550 5200
-Wire Wire Line
-	1550 5100 800  5100
 Wire Wire Line
 	800  6250 1550 6250
 Text GLabel 800  6600 0    50   Input ~ 0
@@ -1673,6 +1641,60 @@ Wire Wire Line
 	2600 2900 2950 2900
 Wire Wire Line
 	2600 3300 2850 3300
+Entry Wire Line
+	1250 5100 1150 5000
+Entry Wire Line
+	1250 5200 1150 5100
+Entry Wire Line
+	1250 5300 1150 5200
+Entry Wire Line
+	1250 5400 1150 5300
+Entry Wire Line
+	1250 5500 1150 5400
+Entry Wire Line
+	1250 5600 1150 5500
+Entry Wire Line
+	1250 5700 1150 5600
+Entry Wire Line
+	1250 5800 1150 5700
+Wire Bus Line
+	1150 4850 950  4850
+Text GLabel 950  4850 0    51   Input ~ 0
+RGA[1..8]
+Wire Wire Line
+	1250 5800 1550 5800
+Text Label 1250 5100 0    51   ~ 0
+RGA8
+Text Label 1250 5200 0    51   ~ 0
+RGA7
+Text Label 1250 5300 0    51   ~ 0
+RGA6
+Text Label 1250 5400 0    51   ~ 0
+RGA5
+Text Label 1250 5500 0    51   ~ 0
+RGA4
+Text Label 1250 5600 0    51   ~ 0
+RGA3
+Text Label 1250 5700 0    51   ~ 0
+RGA2
+Text Label 1250 5800 0    51   ~ 0
+RGA1
+Wire Wire Line
+	1250 5700 1550 5700
+Wire Wire Line
+	1250 5600 1550 5600
+Wire Wire Line
+	1250 5500 1550 5500
+Wire Wire Line
+	1250 5400 1550 5400
+Wire Wire Line
+	1250 5300 1550 5300
+Wire Wire Line
+	1250 5200 1550 5200
+Wire Wire Line
+	1250 5100 1550 5100
+Wire Bus Line
+	1150 4850 1150 5700
 Wire Bus Line
 	1150 3100 1150 4600
 $EndSCHEMATC
