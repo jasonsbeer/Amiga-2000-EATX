@@ -1233,4 +1233,60 @@ Wire Notes Line
 	10850 600  10850 4200
 Wire Wire Line
 	9850 2550 9850 2700
+$Comp
+L 74xx:74LS08 U?
+U 3 1 61802182
+P 10150 3350
+AR Path="/607C1EB7/61802182" Ref="U?"  Part="3" 
+AR Path="/60A4FE7B/61802182" Ref="U303"  Part="3" 
+F 0 "U303" H 10150 3675 50  0000 C CNN
+F 1 "74HCT08" H 10150 3584 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 10150 3350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 10150 3350 50  0001 C CNN
+	3    10150 3350
+	1    0    0    -1  
+$EndComp
+NoConn ~ 10450 3350
+NoConn ~ 9850 3450
+NoConn ~ 9850 3250
+$Comp
+L 74xx:74LS08 U?
+U 4 1 61853174
+P 10150 1850
+AR Path="/607C1EB7/61853174" Ref="U?"  Part="1" 
+AR Path="/60A4FE7B/61853174" Ref="U207"  Part="4" 
+F 0 "U207" H 10150 2175 50  0000 C CNN
+F 1 "74HCT08" H 10150 2084 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 10150 1850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 10150 1850 50  0001 C CNN
+	4    10150 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS08 U?
+U 3 1 61859A6C
+P 10150 1300
+AR Path="/607C1EB7/61859A6C" Ref="U?"  Part="1" 
+AR Path="/60A4FE7B/61859A6C" Ref="U207"  Part="3" 
+F 0 "U207" H 10150 1625 50  0000 C CNN
+F 1 "74HCT08" H 10150 1534 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 10150 1300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 10150 1300 50  0001 C CNN
+	3    10150 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9850 2350 9850 1950
+Connection ~ 9850 2350
+Connection ~ 9850 1400
+Wire Wire Line
+	9850 1400 9850 1200
+Connection ~ 9850 1750
+Wire Wire Line
+	9850 1750 9850 1400
+Connection ~ 9850 1950
+Wire Wire Line
+	9850 1950 9850 1750
+NoConn ~ 10450 1850
+NoConn ~ 10450 1300
 $EndSCHEMATC
