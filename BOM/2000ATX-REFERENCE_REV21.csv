@@ -1,0 +1,581 @@
+Reference,Value,Component Type,Footprint
+J301,1x2 Male Pin,1x2 Male Pin,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
+J9001,1x2 Male Pin,1x2 Male Pin,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
+J9002,1x2 Male Pin,1x2 Male Pin,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
+J9100,1x2 Male Pin,1x2 Male Pin,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
+J9004,1x3 Male Pin,1x3 Male Pin,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
+U101,Agnus,Agnus Socket,Package_LCC:PLCC-84_THT-Socket
+CN400,ATX Power Supply Socket,ATX 24,Connector_Molex:Molex_Mini-Fit_Jr_5566-24A_2x12_P4.20mm_Vertical
+CN205,Audio Jack,Audio Jack,Connector_Audio:Jack_3.5mm_CUI_SJ1-3533NG_Horizontal_CircularHoles
+BT800,Battery Cell,Battery Holder,Battery:BatteryHolder_Keystone_103_1x20mm
+U800,BUSTER,Buster Socket,Package_DIP:DIP-48_W15.24mm
+C204,0.01uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C401,0.01uf,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C407,0.01uf,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C413,0.01uf,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C210,0.047uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C211,0.047uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C212,0.047uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C213,0.047uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C100,0.1uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C101,0.1uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C102,0.1uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C103,0.1uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C104,0.1uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C105,0.1uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C106,0.1uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C107,0.1uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C108,0.1uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C109,0.1uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C110,0.1uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C112,0.1uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C200,0.1uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C202,0.1uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C203,0.1uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C205,0.1uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C206,0.1uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C207,0.1uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C218,0.1uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C234,0.1uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C244,0.1uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C300,0.1uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C301,0.1uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C302,0.1uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C303,0.1uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C305,0.1uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C322,0.1uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C323,0.1uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C409,0.1uf,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C501,0.1uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C502,0.1uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C503,0.1uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C504,0.1uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C540,0.1uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C541,0.1uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C600,0.1uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C601,0.1uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C602,0.1uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C603,0.1uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C604,0.1uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C605,0.1uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C606,0.1uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C607,0.1uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C800,0.1uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C802,0.1uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C803,0.1uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C804,0.1uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C805,0.1uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C812,0.1uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C815,0.1uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C900,0.1uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C901,0.1uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C903,0.1uf,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C906,0.1uf,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C910,0.1uf,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C9101,0.1uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C9102,0.1uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C915,0.1uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C916,0.1uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C918,0.1uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C919,0.1uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+CX2,0.1uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C201,0.22uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C219,0.22uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C220,0.22uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C221,0.22uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C500,0.22uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C700,0.22uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C702,0.22uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C703,0.22uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C704,0.22uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C705,0.22uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C9001,0.33uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C310,1000pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C311,1000pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C312,1000pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C313,1000pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C314,1000pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C315,1000pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C316,1000pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C617,1000pF,Capacitor (ceramic),Capacitor_SMD:C_0805_2012Metric
+C619,1000pF,Capacitor (ceramic),Capacitor_SMD:C_0805_2012Metric
+C620,1000pF,Capacitor (ceramic),Capacitor_SMD:C_0805_2012Metric
+C621,1000pF,Capacitor (ceramic),Capacitor_SMD:C_0805_2012Metric
+C622,1000pF,Capacitor (ceramic),Capacitor_SMD:C_0805_2012Metric
+C623,1000pF,Capacitor (ceramic),Capacitor_SMD:C_0805_2012Metric
+C624,1000pF,Capacitor (ceramic),Capacitor_SMD:C_0805_2012Metric
+C625,1000pF,Capacitor (ceramic),Capacitor_SMD:C_0805_2012Metric
+C626,1000pF,Capacitor (ceramic),Capacitor_SMD:C_0805_2012Metric
+C627,1000pF,Capacitor (ceramic),Capacitor_SMD:C_0805_2012Metric
+C628,1000pF,Capacitor (ceramic),Capacitor_SMD:C_0805_2012Metric
+C629,1000pF,Capacitor (ceramic),Capacitor_SMD:C_0805_2012Metric
+C630,1000pF,Capacitor (ceramic),Capacitor_SMD:C_0805_2012Metric
+C631,1000pF,Capacitor (ceramic),Capacitor_SMD:C_0805_2012Metric
+C632,1000pF,Capacitor (ceramic),Capacitor_SMD:C_0805_2012Metric
+C633,1000pF,Capacitor (ceramic),Capacitor_SMD:C_0805_2012Metric
+C635,1000pF,Capacitor (ceramic),Capacitor_SMD:C_0805_2012Metric
+C637,1000pF,Capacitor (ceramic),Capacitor_SMD:C_0805_2012Metric
+C639,1000pF,Capacitor (ceramic),Capacitor_SMD:C_0805_2012Metric
+C641,1000pF,Capacitor (ceramic),Capacitor_SMD:C_0805_2012Metric
+C645,1000pF,Capacitor (ceramic),Capacitor_SMD:C_0805_2012Metric
+C647,1000pF,Capacitor (ceramic),Capacitor_SMD:C_0805_2012Metric
+C649,1000pF,Capacitor (ceramic),Capacitor_SMD:C_0805_2012Metric
+C650,1000pF,Capacitor (ceramic),Capacitor_SMD:C_0805_2012Metric
+C651,1000pF,Capacitor (ceramic),Capacitor_SMD:C_0805_2012Metric
+C652,1000pF,Capacitor (ceramic),Capacitor_SMD:C_0805_2012Metric
+C654,1000pF,Capacitor (ceramic),Capacitor_SMD:C_0805_2012Metric
+C655,1000pF,Capacitor (ceramic),Capacitor_SMD:C_0805_2012Metric
+C657,1000pF,Capacitor (ceramic),Capacitor_SMD:C_0805_2012Metric
+C658,1000pF,Capacitor (ceramic),Capacitor_SMD:C_0805_2012Metric
+C659,1000pF,Capacitor (ceramic),Capacitor_SMD:C_0805_2012Metric
+C660,1000pF,Capacitor (ceramic),Capacitor_SMD:C_0805_2012Metric
+C661,1000pF,Capacitor (ceramic),Capacitor_SMD:C_0805_2012Metric
+C662,1000pF,Capacitor (ceramic),Capacitor_SMD:C_0805_2012Metric
+C663,1000pF,Capacitor (ceramic),Capacitor_SMD:C_0805_2012Metric
+C664,1000pF,Capacitor (ceramic),Capacitor_SMD:C_0805_2012Metric
+C665,1000pF,Capacitor (ceramic),Capacitor_SMD:C_0805_2012Metric
+C666,1000pF,Capacitor (ceramic),Capacitor_SMD:C_0805_2012Metric
+C667,1000pF,Capacitor (ceramic),Capacitor_SMD:C_0805_2012Metric
+C668,1000pF,Capacitor (ceramic),Capacitor_SMD:C_0805_2012Metric
+C669,1000pF,Capacitor (ceramic),Capacitor_SMD:C_0805_2012Metric
+C670,1000pF,Capacitor (ceramic),Capacitor_SMD:C_0805_2012Metric
+C671,1000pF,Capacitor (ceramic),Capacitor_SMD:C_0805_2012Metric
+C672,1000pF,Capacitor (ceramic),Capacitor_SMD:C_0805_2012Metric
+C673,1000pF,Capacitor (ceramic),Capacitor_SMD:C_0805_2012Metric
+C674,1000pF,Capacitor (ceramic),Capacitor_SMD:C_0805_2012Metric
+C675,1000pF,Capacitor (ceramic),Capacitor_SMD:C_0805_2012Metric
+C711,1000pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C713,1000pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C714,1000pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C716,1000pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C717,1000pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C719,1000pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C720,1000pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C722,1000pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C726,1000pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C728,1000pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C730,1000pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C732,1000pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C734,1000pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C736,1000pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C738,1000pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C740,1000pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C742,1000pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C744,1000pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C746,1000pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C748,1000pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C750,1000pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C752,1000pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C754,1000pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C756,1000pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C758,1000pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C760,1000pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C762,1000pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C764,1000pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C766,1000pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C768,1000pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C770,1000pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C776,1000pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C778,1000pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C780,1000pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C782,1000pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C784,1000pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C786,1000pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C787,1000pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C789,1000pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C790,1000pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C791,1000pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C793,1000pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C794,1000pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C796,1000pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C259,100pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C260,100pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C261,100pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C304,100pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C306,100pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C904,100pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C905,100pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C907,100pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C914,100pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C920,100pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C9103,10uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C9104,10uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C9105,10uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C9000,1uF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C810,20pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C111,22pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+XC1,270pf,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C232,3900pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C242,3900pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C908,47pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C913,47pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C231,6800pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C241,6800pF,Capacitor (ceramic),Capacitor_SMD:C_1206_3216Metric
+C400,220uF,Capacitor (electrolytic),Capacitor_SMD:CP_Elec_8x10
+C416,220uF,Capacitor (electrolytic),Capacitor_SMD:CP_Elec_8x10
+C417,220uF,Capacitor (electrolytic),Capacitor_SMD:CP_Elec_8x10
+C418,220uF,Capacitor (electrolytic),Capacitor_SMD:CP_Elec_8x10
+C419,220uF,Capacitor (electrolytic),Capacitor_SMD:CP_Elec_8x10
+C233,22uF,Capacitor (electrolytic),Capacitor_SMD:CP_Elec_6.3x5.8
+C243,22uF,Capacitor (electrolytic),Capacitor_SMD:CP_Elec_6.3x5.8
+C317,22uF,Capacitor (electrolytic),Capacitor_SMD:CP_Elec_6.3x5.8
+C318,22uF,Capacitor (electrolytic),Capacitor_SMD:CP_Elec_6.3x5.8
+C701,22uF,Capacitor (electrolytic),Capacitor_SMD:CP_Elec_6.3x5.8
+C813,22uF,Capacitor (electrolytic),Capacitor_SMD:CP_Elec_6.3x5.8
+C814,22uF,Capacitor (electrolytic),Capacitor_SMD:CP_Elec_6.3x5.8
+C224,4.7uF,Capacitor (electrolytic),Capacitor_SMD:CP_Elec_4x5.8
+C415,4.7uF,Capacitor (electrolytic),Capacitor_SMD:CP_Elec_4x5.8
+C811,4.7uF,Capacitor (electrolytic),Capacitor_SMD:CP_Elec_4x5.8
+C214,470uF,Capacitor (electrolytic),Capacitor_SMD:CP_Elec_8x10
+C225,470uF,Capacitor (electrolytic),Capacitor_SMD:CP_Elec_8x10
+C226,470uF,Capacitor (electrolytic),Capacitor_SMD:CP_Elec_8x10
+C912,470uF,Capacitor (electrolytic),Capacitor_SMD:CP_Elec_8x10
+C222,47uF,Capacitor (electrolytic),Capacitor_SMD:CP_Elec_8x10
+C223,47uF,Capacitor (electrolytic),Capacitor_SMD:CP_Elec_8x10
+C402,47uF,Capacitor (electrolytic),Capacitor_SMD:CP_Elec_8x10
+C403,47uF,Capacitor (electrolytic),Capacitor_SMD:CP_Elec_8x10
+C404,47uF,Capacitor (electrolytic),Capacitor_SMD:CP_Elec_8x10
+C405,47uF,Capacitor (electrolytic),Capacitor_SMD:CP_Elec_8x10
+C406,47uF,Capacitor (electrolytic),Capacitor_SMD:CP_Elec_8x10
+C408,47uF,Capacitor (electrolytic),Capacitor_SMD:CP_Elec_8x10
+C412,47uF,Capacitor (electrolytic),Capacitor_SMD:CP_Elec_8x10
+C420,47uF,Capacitor (electrolytic),Capacitor_SMD:CP_Elec_8x10
+C421,47uF,Capacitor (electrolytic),Capacitor_SMD:CP_Elec_8x10
+C422,47uF,Capacitor (electrolytic),Capacitor_SMD:CP_Elec_8x10
+EMI200,100pF,Capacitor (feedthrough),AmigaFootprints:C_1206_3216_Feedthrough
+EMI206,100pF,Capacitor (feedthrough),AmigaFootprints:C_1206_3216_Feedthrough
+EMI207,100pF,Capacitor (feedthrough),AmigaFootprints:C_1206_3216_Feedthrough
+EMI229,100pF,Capacitor (feedthrough),AmigaFootprints:C_1206_3216_Feedthrough
+EMI230,100pF,Capacitor (feedthrough),AmigaFootprints:C_1206_3216_Feedthrough
+EMI231,100pF,Capacitor (feedthrough),AmigaFootprints:C_1206_3216_Feedthrough
+EMI232,100pF,Capacitor (feedthrough),AmigaFootprints:C_1206_3216_Feedthrough
+EMI233,100pF,Capacitor (feedthrough),AmigaFootprints:C_1206_3216_Feedthrough
+EMI234,100pF,Capacitor (feedthrough),AmigaFootprints:C_1206_3216_Feedthrough
+EMI235,100pF,Capacitor (feedthrough),AmigaFootprints:C_1206_3216_Feedthrough
+EMI236,100pF,Capacitor (feedthrough),AmigaFootprints:C_1206_3216_Feedthrough
+EMI237,100pF,Capacitor (feedthrough),AmigaFootprints:C_1206_3216_Feedthrough
+EMI238,100pF,Capacitor (feedthrough),AmigaFootprints:C_1206_3216_Feedthrough
+EMI239,100pF,Capacitor (feedthrough),AmigaFootprints:C_1206_3216_Feedthrough
+EMI240,100pF,Capacitor (feedthrough),AmigaFootprints:C_1206_3216_Feedthrough
+EMI241,100pF,Capacitor (feedthrough),AmigaFootprints:C_1206_3216_Feedthrough
+EMI242,100pF,Capacitor (feedthrough),AmigaFootprints:C_1206_3216_Feedthrough
+EMI243,100pF,Capacitor (feedthrough),AmigaFootprints:C_1206_3216_Feedthrough
+EMI300,100pF,Capacitor (feedthrough),AmigaFootprints:C_1206_3216_Feedthrough
+EMI301,100pF,Capacitor (feedthrough),AmigaFootprints:C_1206_3216_Feedthrough
+EMI302,100pF,Capacitor (feedthrough),AmigaFootprints:C_1206_3216_Feedthrough
+EMI303,100pF,Capacitor (feedthrough),AmigaFootprints:C_1206_3216_Feedthrough
+EMI304,100pF,Capacitor (feedthrough),AmigaFootprints:C_1206_3216_Feedthrough
+EMI305,100pF,Capacitor (feedthrough),AmigaFootprints:C_1206_3216_Feedthrough
+EMI306,100pF,Capacitor (feedthrough),AmigaFootprints:C_1206_3216_Feedthrough
+EMI307,100pF,Capacitor (feedthrough),AmigaFootprints:C_1206_3216_Feedthrough
+EMI308,100pF,Capacitor (feedthrough),AmigaFootprints:C_1206_3216_Feedthrough
+EMI309,100pF,Capacitor (feedthrough),AmigaFootprints:C_1206_3216_Feedthrough
+EMI310,100pF,Capacitor (feedthrough),AmigaFootprints:C_1206_3216_Feedthrough
+EMI311,100pF,Capacitor (feedthrough),AmigaFootprints:C_1206_3216_Feedthrough
+EMI312,100pF,Capacitor (feedthrough),AmigaFootprints:C_1206_3216_Feedthrough
+EMI313,100pF,Capacitor (feedthrough),AmigaFootprints:C_1206_3216_Feedthrough
+EMI314,100pF,Capacitor (feedthrough),AmigaFootprints:C_1206_3216_Feedthrough
+EMI315,100pF,Capacitor (feedthrough),AmigaFootprints:C_1206_3216_Feedthrough
+EMI316,100pF,Capacitor (feedthrough),AmigaFootprints:C_1206_3216_Feedthrough
+EMI317,100pF,Capacitor (feedthrough),AmigaFootprints:C_1206_3216_Feedthrough
+EMI318,100pF,Capacitor (feedthrough),AmigaFootprints:C_1206_3216_Feedthrough
+EMI319,100pF,Capacitor (feedthrough),AmigaFootprints:C_1206_3216_Feedthrough
+EMI320,100pF,Capacitor (feedthrough),AmigaFootprints:C_1206_3216_Feedthrough
+EMI321,100pF,Capacitor (feedthrough),AmigaFootprints:C_1206_3216_Feedthrough
+EMI322,100pF,Capacitor (feedthrough),AmigaFootprints:C_1206_3216_Feedthrough
+EMI323,100pF,Capacitor (feedthrough),AmigaFootprints:C_1206_3216_Feedthrough
+EMI324,100pF,Capacitor (feedthrough),AmigaFootprints:C_1206_3216_Feedthrough
+EMI325,100pF,Capacitor (feedthrough),AmigaFootprints:C_1206_3216_Feedthrough
+EMI326,100pF,Capacitor (feedthrough),AmigaFootprints:C_1206_3216_Feedthrough
+EMI327,100pF,Capacitor (feedthrough),AmigaFootprints:C_1206_3216_Feedthrough
+EMI328,100pF,Capacitor (feedthrough),AmigaFootprints:C_1206_3216_Feedthrough
+EMI329,100pF,Capacitor (feedthrough),AmigaFootprints:C_1206_3216_Feedthrough
+EMI330,100pF,Capacitor (feedthrough),AmigaFootprints:C_1206_3216_Feedthrough
+EMI331,100pF,Capacitor (feedthrough),AmigaFootprints:C_1206_3216_Feedthrough
+EMI332,100pF,Capacitor (feedthrough),AmigaFootprints:C_1206_3216_Feedthrough
+EMI333,100pF,Capacitor (feedthrough),AmigaFootprints:C_1206_3216_Feedthrough
+EMI334,100pF,Capacitor (feedthrough),AmigaFootprints:C_1206_3216_Feedthrough
+EMI335,100pF,Capacitor (feedthrough),AmigaFootprints:C_1206_3216_Feedthrough
+EMI336,100pF,Capacitor (feedthrough),AmigaFootprints:C_1206_3216_Feedthrough
+EMI337,100pF,Capacitor (feedthrough),AmigaFootprints:C_1206_3216_Feedthrough
+EMI338,100pF,Capacitor (feedthrough),AmigaFootprints:C_1206_3216_Feedthrough
+EMI339,100pF,Capacitor (feedthrough),AmigaFootprints:C_1206_3216_Feedthrough
+EMI340,100pF,Capacitor (feedthrough),AmigaFootprints:C_1206_3216_Feedthrough
+EMI341,100pF,Capacitor (feedthrough),AmigaFootprints:C_1206_3216_Feedthrough
+VC800,22-47pF,Capacitor (trimmer) (optional RTC),AmigaFootprints:TrimmerCap
+CN700,ISA-16-BIT-Slot,Card Slot (ISA),AmigaFootprints:ISA_16-BIT_P2.54mm_Horizontal
+CN701,ISA-16-BIT-Slot,Card Slot (ISA),AmigaFootprints:ISA_16-BIT_P2.54mm_Horizontal
+CN702,ISA-16-BIT-Slot,Card Slot (ISA),AmigaFootprints:ISA_16-BIT_P2.54mm_Horizontal
+CN203,Amiga-2000-Video-Slot,Card Slot (Video),AmigaFootprints:2x18_P2.54mm_Horizontal
+CN207,Amiga-2000-Video-Slot,Card Slot (Video),AmigaFootprints:2x18_P2.54mm_Horizontal
+CN600,Amiga-2000-CPU-Slot,Card Slot (Zorro 2),AmigaFootprints:Samtec_HLE-150-02-xx-DV-TE_2x43_P2.54mm_Horizontal
+CN601,Amiga-2000-Zorro-Slot,Card Slot (Zorro 2),AmigaFootprints:Samtec_HLE-150-02-xx-DV-TE_2x50_P2.54mm_Horizontal
+CN602,Amiga-2000-Zorro-Slot,Card Slot (Zorro 2),AmigaFootprints:Samtec_HLE-150-02-xx-DV-TE_2x50_P2.54mm_Horizontal
+CN603,Amiga-2000-Zorro-Slot,Card Slot (Zorro 2),AmigaFootprints:Samtec_HLE-150-02-xx-DV-TE_2x50_P2.54mm_Horizontal
+CN604,Amiga-2000-Zorro-Slot,Card Slot (Zorro 2),AmigaFootprints:Samtec_HLE-150-02-xx-DV-TE_2x50_P2.54mm_Horizontal
+CN605,Amiga-2000-Zorro-Slot,Card Slot (Zorro 2),AmigaFootprints:Samtec_HLE-150-02-xx-DV-TE_2x50_P2.54mm_Horizontal
+U300,8520,CIA Socket,Package_DIP:DIP-40_W15.24mm
+U301,8520,CIA Socket,Package_DIP:DIP-40_W15.24mm
+Y800,32.768KHz,Crystal (optional RTC),Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm
+U201,DENISE,Denise Socket,Package_DIP:DIP-48_W15.24mm
+CN300,KEYBOARD,DIN5 Keyboard Socket,AmigaFootprints:DIN5
+D300,1N4148,Diode,Diode_SMD:D_SOD-323
+D9100,1N4148,Diode,Diode_SMD:D_SOD-323
+D800,BAT54C,Diode,Package_TO_SOT_SMD:SOT-23
+D200,S1MWF-7,Diode,Diode_SMD:D_SOD-123F
+D301,S1MWF-7,Diode,Diode_SMD:D_SOD-123F
+D400,S1MWF-7,Diode,Diode_SMD:D_SOD-123F
+D401,S1MWF-7,Diode,Diode_SMD:D_SOD-123F
+CN304,EXTERNAL FLOPPY,External Floppy Header,Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical
+J9003,Fan Connector,Fan Connector,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
+FB101,Ferrite_Bead,Ferrite_Bead,Capacitor_SMD:C_1206_3216Metric
+FB102,Ferrite_Bead,Ferrite_Bead,Capacitor_SMD:C_1206_3216Metric
+FB103,Ferrite_Bead,Ferrite_Bead,Capacitor_SMD:C_1206_3216Metric
+FB104,Ferrite_Bead,Ferrite_Bead,Capacitor_SMD:C_1206_3216Metric
+FB215,Ferrite_Bead,Ferrite_Bead,Capacitor_SMD:C_1206_3216Metric
+FB301,Ferrite_Bead,Ferrite_Bead,Capacitor_SMD:C_1206_3216Metric
+FB302,Ferrite_Bead,Ferrite_Bead,Capacitor_SMD:C_1206_3216Metric
+FB303,Ferrite_Bead,Ferrite_Bead,Capacitor_SMD:C_1206_3216Metric
+FB401,Ferrite_Bead,Ferrite_Bead,Capacitor_SMD:C_1206_3216Metric
+FB900,Ferrite_Bead,Ferrite_Bead,Capacitor_SMD:C_1206_3216Metric
+FB901,Ferrite_Bead,Ferrite_Bead,Capacitor_SMD:C_1206_3216Metric
+FB902,Ferrite_Bead,Ferrite_Bead,Capacitor_SMD:C_1206_3216Metric
+FB907,Ferrite_Bead,Ferrite_Bead,Capacitor_SMD:C_1206_3216Metric
+F1,4A,Fuse,Fuse:Fuse_1206_3216Metric
+F2,4A,Fuse,Fuse:Fuse_1206_3216Metric
+F3,4A,Fuse,Fuse:Fuse_1206_3216Metric
+F4,4A,Fuse,Fuse:Fuse_1206_3216Metric
+U102,GARY,Gary Socket,Package_DIP:DIP-48_W15.24mm
+XU1,DS1813,IC Supervisor,Package_TO_SOT_SMD:SOT-23
+CN303,INTERNAL FLOPPY,Internal Floppy Header,Connector_PinHeader_2.54mm:PinHeader_2x17_P2.54mm_Vertical
+U500,KICKSTART,Kickstart Socket,Package_DIP:DIP-42_W15.24mm
+U9101,74HCT14,Linear Regulator (-5V),Package_SO:SOIC-14_3.9x8.7mm_P1.27mm
+U9102,74HCT74,Linear Regulator (-5V),Package_SO:SOIC-14_3.9x8.7mm_P1.27mm
+U9000,MC7905,Linear Regulator (-5V),Package_TO_SOT_SMD:TO-263-2
+U205,74AHCT244,Logic,Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm
+U206,74AHCT244,Logic,Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm
+U540,74AHCT244,Logic,Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm
+U541,74AHCT244,Logic,Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm
+U109,74HC258,Logic,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm
+U501,74HCT00,Logic,Package_SO:SOIC-14_3.9x8.7mm_P1.27mm
+U900,74HCT00,Logic,Package_SO:SOIC-14_3.9x8.7mm_P1.27mm
+U107,74HCT04,Logic,Package_SO:SOIC-14_3.9x8.7mm_P1.27mm
+U207,74HCT08,Logic,Package_SO:SOIC-14_3.9x8.7mm_P1.27mm
+U303,74HCT08,Logic,Package_SO:SOIC-14_3.9x8.7mm_P1.27mm
+U607,74HCT08,Logic,Package_SO:SOIC-14_3.9x8.7mm_P1.27mm
+U803,74HCT08,Logic,Package_SO:SOIC-14_3.9x8.7mm_P1.27mm
+U802,74HCT138,Logic,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm
+U202,74HCT157,Logic,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm
+U103,74HCT245,Logic,Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm
+U105,74HCT245,Logic,Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm
+U600,74HCT245,Logic,Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm
+U601,74HCT245,Logic,Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm
+U602,74HCT245,Logic,Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm
+U603,74HCT245,Logic,Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm
+U604,74HCT245,Logic,Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm
+U605,74HCT245,Logic,Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm
+U302,74HCT32,Logic,Package_SO:SOIC-14_3.9x8.7mm_P1.27mm
+U606,74HCT32,Logic,Package_SO:SOIC-14_3.9x8.7mm_P1.27mm
+U104,74HCT373,Logic,Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm
+U106,74HCT373,Logic,Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm
+U108,74HCT74,Logic,Package_SO:SOIC-14_3.9x8.7mm_P1.27mm
+U804,74LS148,Logic,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm
+U203,74LS38,Logic,Package_SO:SOIC-14_3.9x8.7mm_P1.27mm
+U502,CY74FCT821T,Logic,Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm
+U504,CY74FCT821T,Logic,Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm
+U304,SN75188DR,Logic,Package_SO:SOIC-14_3.9x8.7mm_P1.27mm
+U305,SN75189DR,Logic,Package_SO:SOIC-14_3.9x8.7mm_P1.27mm
+U100,MC68000,Motorola 68000,Package_DIP:DIP-64_W22.86mm_Socket
+CN200,DB9_Male_Stack,Mouse/Joystick Port,AmigaFootprints:DSUB-9_Male_Stack
+U204,LF347,Op Amp,Package_SO:SOIC-14_3.9x8.7mm_P1.27mm
+X2,7C-28.63636MBB-T,Oscillator (CMOS) (optional),Oscillator:Oscillator_SMD_SeikoEpson_SG8002LB-4Pin_5.0x3.2mm
+X1,28.63636MHz,Oscillator (TTL),Oscillator:Oscillator_DIP-14
+CN305,DB25_Stack_FemaleAndMale,Parallel/Serial Port,AmigaFootprints:DSUB-25_Stack_Female_Bottom_Male_Top
+U200,PAULA,Paula Socket,Package_DIP:DIP-48_W15.24mm
+U801,RTC62423,Real Time Clock,AmigaFootprints:SOIC-24W_RTC62423
+U899,MSM6242,Real Time Clock (optional),Package_DIP:DIP-18_W7.62mm_Socket
+R200,1 Ohm,Resistor,Resistor_SMD:R_1206_3216Metric
+R215,1 Ohm,Resistor,Resistor_SMD:R_1206_3216Metric
+R914,1 Ohm 0.5W,Resistor,Resistor_SMD:R_1206_3216Metric
+R209,1.2k,Resistor,Resistor_SMD:R_1206_3216Metric
+R210,1.2k,Resistor,Resistor_SMD:R_1206_3216Metric
+R207,10 Ohm,Resistor,Resistor_SMD:R_1206_3216Metric
+R208,10 Ohm,Resistor,Resistor_SMD:R_1206_3216Metric
+R202,10k,Resistor,Resistor_SMD:R_1206_3216Metric
+R203,10k,Resistor,Resistor_SMD:R_1206_3216Metric
+R206,10k,Resistor,Resistor_SMD:R_1206_3216Metric
+R211,10k,Resistor,Resistor_SMD:R_1206_3216Metric
+R214,10k,Resistor,Resistor_SMD:R_1206_3216Metric
+R216,10k,Resistor,Resistor_SMD:R_1206_3216Metric
+R231,10k,Resistor,Resistor_SMD:R_1206_3216Metric
+R232,10k,Resistor,Resistor_SMD:R_1206_3216Metric
+R241,10k,Resistor,Resistor_SMD:R_1206_3216Metric
+R242,10k,Resistor,Resistor_SMD:R_1206_3216Metric
+R305,10k,Resistor,Resistor_SMD:R_1206_3216Metric
+R306,10k,Resistor,Resistor_SMD:R_1206_3216Metric
+R802,10k,Resistor,Resistor_SMD:R_1206_3216Metric
+R804,10k,Resistor,Resistor_SMD:R_1206_3216Metric
+R233,1k,Resistor,Resistor_SMD:R_1206_3216Metric
+R243,1k,Resistor,Resistor_SMD:R_1206_3216Metric
+R301,1k,Resistor,Resistor_SMD:R_1206_3216Metric
+R302,1k,Resistor,Resistor_SMD:R_1206_3216Metric
+R311,1k,Resistor,Resistor_SMD:R_1206_3216Metric
+R312,1k,Resistor,Resistor_SMD:R_1206_3216Metric
+R601,1k,Resistor,Resistor_SMD:R_1206_3216Metric
+R601A1,1k,Resistor,Resistor_SMD:R_0805_2012Metric
+R601B1,1k,Resistor,Resistor_SMD:R_0805_2012Metric
+R601C1,1k,Resistor,Resistor_SMD:R_0805_2012Metric
+R601D1,1k,Resistor,Resistor_SMD:R_0805_2012Metric
+R601E1,1k,Resistor,Resistor_SMD:R_0805_2012Metric
+R601F1,1k,Resistor,Resistor_SMD:R_0805_2012Metric
+R601G1,1k,Resistor,Resistor_SMD:R_0805_2012Metric
+R601H1,1k,Resistor,Resistor_SMD:R_0805_2012Metric
+R601I1,1k,Resistor,Resistor_SMD:R_0805_2012Metric
+R602,1k,Resistor,Resistor_SMD:R_1206_3216Metric
+R602A1,1k,Resistor,Resistor_SMD:R_0805_2012Metric
+R602B1,1k,Resistor,Resistor_SMD:R_0805_2012Metric
+R602C1,1k,Resistor,Resistor_SMD:R_0805_2012Metric
+R602D1,1k,Resistor,Resistor_SMD:R_0805_2012Metric
+R602E1,1k,Resistor,Resistor_SMD:R_0805_2012Metric
+R602F1,1k,Resistor,Resistor_SMD:R_0805_2012Metric
+R602G1,1k,Resistor,Resistor_SMD:R_0805_2012Metric
+R602H1,1k,Resistor,Resistor_SMD:R_0805_2012Metric
+R602I1,1k,Resistor,Resistor_SMD:R_0805_2012Metric
+R603,1k,Resistor,Resistor_SMD:R_1206_3216Metric
+R603A1,1k,Resistor,Resistor_SMD:R_0805_2012Metric
+R603B1,1k,Resistor,Resistor_SMD:R_0805_2012Metric
+R603C1,1k,Resistor,Resistor_SMD:R_0805_2012Metric
+R603D1,1k,Resistor,Resistor_SMD:R_0805_2012Metric
+R603E1,1k,Resistor,Resistor_SMD:R_0805_2012Metric
+R603F1,1k,Resistor,Resistor_SMD:R_0805_2012Metric
+R603G1,1k,Resistor,Resistor_SMD:R_0805_2012Metric
+R603H1,1k,Resistor,Resistor_SMD:R_0805_2012Metric
+R603I1,1k,Resistor,Resistor_SMD:R_0805_2012Metric
+R604,1k,Resistor,Resistor_SMD:R_0805_2012Metric
+R604A1,1k,Resistor,Resistor_SMD:R_0805_2012Metric
+R604B1,1k,Resistor,Resistor_SMD:R_0805_2012Metric
+R604C1,1k,Resistor,Resistor_SMD:R_0805_2012Metric
+R604D1,1k,Resistor,Resistor_SMD:R_0805_2012Metric
+R604E1,1k,Resistor,Resistor_SMD:R_0805_2012Metric
+R604F1,1k,Resistor,Resistor_SMD:R_0805_2012Metric
+R604G1,1k,Resistor,Resistor_SMD:R_0805_2012Metric
+R604H1,1k,Resistor,Resistor_SMD:R_0805_2012Metric
+R604I1,1k,Resistor,Resistor_SMD:R_0805_2012Metric
+R605,1k,Resistor,Resistor_SMD:R_0805_2012Metric
+R605A1,1k,Resistor,Resistor_SMD:R_0805_2012Metric
+R605B1,1k,Resistor,Resistor_SMD:R_0805_2012Metric
+R605C1,1k,Resistor,Resistor_SMD:R_0805_2012Metric
+R605D1,1k,Resistor,Resistor_SMD:R_0805_2012Metric
+R605E1,1k,Resistor,Resistor_SMD:R_0805_2012Metric
+R605F1,1k,Resistor,Resistor_SMD:R_0805_2012Metric
+R605G1,1k,Resistor,Resistor_SMD:R_0805_2012Metric
+R605H1,1k,Resistor,Resistor_SMD:R_0805_2012Metric
+R605I1,1k,Resistor,Resistor_SMD:R_0805_2012Metric
+R800,1k,Resistor,Resistor_SMD:R_1206_3216Metric
+R900,1k,Resistor,Resistor_SMD:R_1206_3216Metric
+R213,2.7k,Resistor,Resistor_SMD:R_1206_3216Metric
+R308,200 Ohm,Resistor,Resistor_SMD:R_1206_3216Metric
+R105,22 Ohm,Resistor,Resistor_SMD:R_1206_3216Metric
+R106,22 Ohm,Resistor,Resistor_SMD:R_1206_3216Metric
+R212,22 Ohm,Resistor,Resistor_SMD:R_1206_3216Metric
+R500-12,22 Ohm,Resistor,Resistor_SMD:R_1206_3216Metric
+R500-14,22 Ohm,Resistor,Resistor_SMD:R_1206_3216Metric
+R500-15,22 Ohm,Resistor,Resistor_SMD:R_1206_3216Metric
+R9100,30k,Resistor,Resistor_SMD:R_1206_3216Metric
+R9102,30k,Resistor,Resistor_SMD:R_1206_3216Metric
+R9105,30k,Resistor,Resistor_SMD:R_1206_3216Metric
+R114,330 Ohm,Resistor,Resistor_SMD:R_1206_3216Metric
+R115,330 Ohm,Resistor,Resistor_SMD:R_1206_3216Metric
+R230,360 Ohm,Resistor,Resistor_SMD:R_1206_3216Metric
+R240,360 Ohm,Resistor,Resistor_SMD:R_1206_3216Metric
+R234,390 Ohm,Resistor,Resistor_SMD:R_1206_3216Metric
+R244,390 Ohm,Resistor,Resistor_SMD:R_1206_3216Metric
+R101,4.7k,Resistor,Resistor_SMD:R_1206_3216Metric
+R104,4.7k,Resistor,Resistor_SMD:R_1206_3216Metric
+R109,4.7k,Resistor,Resistor_SMD:R_1206_3216Metric
+R201,4.7k,Resistor,Resistor_SMD:R_1206_3216Metric
+R300,4.7k,Resistor,Resistor_SMD:R_1206_3216Metric
+R309,4.7k,Resistor,Resistor_SMD:R_1206_3216Metric
+R500,4.7k,Resistor,Resistor_SMD:R_1206_3216Metric
+R806,4.7k,Resistor,Resistor_SMD:R_1206_3216Metric
+R807,4.7k,Resistor,Resistor_SMD:R_1206_3216Metric
+R902,4.7k,Resistor,Resistor_SMD:R_1206_3216Metric
+R9104,4.7k,Resistor,Resistor_SMD:R_1206_3216Metric
+R916,4.7k,Resistor,Resistor_SMD:R_1206_3216Metric
+R310,47 0.5W,Resistor,Resistor_SMD:R_1206_3216Metric
+R203A1,47 Ohm,Resistor,Resistor_SMD:R_1206_3216Metric
+R203B1,47 Ohm,Resistor,Resistor_SMD:R_1206_3216Metric
+R500-1,47 Ohm,Resistor,Resistor_SMD:R_1206_3216Metric
+R500-10,47 Ohm,Resistor,Resistor_SMD:R_1206_3216Metric
+R500-11,47 Ohm,Resistor,Resistor_SMD:R_1206_3216Metric
+R500-13,47 Ohm,Resistor,Resistor_SMD:R_1206_3216Metric
+R500-2,47 Ohm,Resistor,Resistor_SMD:R_1206_3216Metric
+R500-3,47 Ohm,Resistor,Resistor_SMD:R_1206_3216Metric
+R500-4,47 Ohm,Resistor,Resistor_SMD:R_1206_3216Metric
+R500-5,47 Ohm,Resistor,Resistor_SMD:R_1206_3216Metric
+R500-6,47 Ohm,Resistor,Resistor_SMD:R_1206_3216Metric
+R500-7,47 Ohm,Resistor,Resistor_SMD:R_1206_3216Metric
+R500-8,47 Ohm,Resistor,Resistor_SMD:R_1206_3216Metric
+R500-9,47 Ohm,Resistor,Resistor_SMD:R_1206_3216Metric
+R904,47 Ohm,Resistor,Resistor_SMD:R_1206_3216Metric
+R905,47 Ohm,Resistor,Resistor_SMD:R_1206_3216Metric
+RN201A1,47 Ohm,Resistor,Resistor_SMD:R_1206_3216Metric
+RN201B1,47 Ohm,Resistor,Resistor_SMD:R_1206_3216Metric
+RN201C1,47 Ohm,Resistor,Resistor_SMD:R_1206_3216Metric
+RN201D1,47 Ohm,Resistor,Resistor_SMD:R_1206_3216Metric
+RN203E1,47 Ohm,Resistor,Resistor_SMD:R_1206_3216Metric
+RN907A1,47 Ohm,Resistor,Resistor_SMD:R_1206_3216Metric
+RN907B1,47 Ohm,Resistor,Resistor_SMD:R_1206_3216Metric
+RN907C1,47 Ohm,Resistor,Resistor_SMD:R_1206_3216Metric
+R1000,470 Ohm,Resistor,Resistor_SMD:R_1206_3216Metric
+R111,470 Ohm,Resistor,Resistor_SMD:R_1206_3216Metric
+R801,470 Ohm,Resistor,Resistor_SMD:R_1206_3216Metric
+R803,470 Ohm,Resistor,Resistor_SMD:R_1206_3216Metric
+R917,470 Ohm,Resistor,Resistor_SMD:R_1206_3216Metric
+R204,470k,Resistor,Resistor_SMD:R_1206_3216Metric
+R205,470k,Resistor,Resistor_SMD:R_1206_3216Metric
+R805,47k,Resistor,Resistor_SMD:R_1206_3216Metric
+R9103,47k,Resistor,Resistor_SMD:R_1206_3216Metric
+R9101,6.2k,Resistor,Resistor_SMD:R_1206_3216Metric
+R307,68 Ohm,Resistor,Resistor_SMD:R_1206_3216Metric
+RN204A1,68 Ohm,Resistor,Resistor_SMD:R_1206_3216Metric
+RN204B1,68 Ohm,Resistor,Resistor_SMD:R_1206_3216Metric
+RN204C1,68 Ohm,Resistor,Resistor_SMD:R_1206_3216Metric
+RN204D1,68 Ohm,Resistor,Resistor_SMD:R_1206_3216Metric
+XR1,68 Ohm,Resistor,Resistor_SMD:R_1206_3216Metric
+RN300,10k,Resistor Array,Resistor_THT:R_Array_SIP10
+RN600,10k,Resistor Array,Resistor_THT:R_Array_SIP6
+RN205,1k,Resistor Array,Resistor_THT:R_Array_SIP6
+RN301,1k,Resistor Array,Resistor_THT:R_Array_SIP6
+RN607,1k,Resistor Array,Resistor_THT:R_Array_SIP6
+RN700,1k,Resistor Array,Resistor_THT:R_Array_SIP10
+RN701,1k,Resistor Array,Resistor_THT:R_Array_SIP10
+RN702,1k,Resistor Array,Resistor_THT:R_Array_SIP10
+RN703,1k,Resistor Array,Resistor_THT:R_Array_SIP10
+RN704,1k,Resistor Array,Resistor_THT:R_Array_SIP10
+RN800,1k,Resistor Array,Resistor_THT:R_Array_SIP6
+RN903,1k,Resistor Array,Resistor_THT:R_Array_SIP6
+RN908,1k,Resistor Array,Resistor_THT:R_Array_SIP6
+RN101,2.7k,Resistor Array,Resistor_THT:R_Array_SIP10
+RNX1,3.3k,Resistor Array,Resistor_THT:R_Array_SIP10
+RNX2,3.3k,Resistor Array,Resistor_THT:R_Array_SIP10
+RN100,4.7k,Resistor Array,Resistor_THT:R_Array_SIP10
+RN200,4.7k,Resistor Array,Resistor_THT:R_Array_SIP9
+RN705,4.7k,Resistor Array,Resistor_THT:R_Array_SIP10
+RN801,4.7k,Resistor Array,Resistor_THT:R_Array_SIP8
+RN503,470 Ohm,Resistor Array,Resistor_THT:R_Array_SIP6
+RN504,470 Ohm,Resistor Array,Resistor_THT:R_Array_SIP6
+RN802,1k,Resistor Pack,Resistor_THT:R_Array_SIP10
+RN102,47 Ohm,Resistor Pack,Resistor_THT:R_Array_SIP8
+RN902,47 Ohm,Resistor Pack,Resistor_THT:R_Array_SIP8
+U503,CY62167ELL-45ZXI 1MX16 SRAM,SRAM,Package_SO:TSOP-I-48_18.4x12mm_P0.5mm
+Q200,MMBFJ211,Transistor,Package_TO_SOT_SMD:SOT-23
+Q201,MMBFJ211,Transistor,Package_TO_SOT_SMD:SOT-23
+Q300,MMBT3904,Transistor,Package_TO_SOT_SMD:SOT-23
+Q301,MMBT3904,Transistor,Package_TO_SOT_SMD:SOT-23
+Q9100,MMBT3904,Transistor,Package_TO_SOT_SMD:SOT-23
+Q202,MMBT3906,Transistor,Package_TO_SOT_SMD:SOT-23
+Q302,MMBT3906,Transistor,Package_TO_SOT_SMD:SOT-23
+HY200,Video Hybrid,Video Hybrid,Connector_PinSocket_2.54mm:PinSocket_1x22_P2.54mm_Vertical
+CN202,DB15_Female_HighDensity,Video Port,AmigaFootprints:DSUB-15-HD_Female_Horizontal_P2.29x1.98mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm
+U805,LM339,Voltage Comparator,Package_SO:SOIC-14_3.9x8.7mm_P1.27mm
