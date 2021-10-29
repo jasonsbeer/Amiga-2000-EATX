@@ -1,115 +1,115 @@
-Index,Quantity,Digi-Key Part Number,Description,Manufacturer Part Number,Manufacturer Name,Unit Price,Extended Price,Customer Reference,Datasheet
-1,11,311-1.00KFRCT-ND,RES 1K OHM 1% 1/4W 1206,RC1206FR-071KL,YAGEO,0.074,$0.81,,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
-2,62,399-C1206C104K5RAC7800CT-ND,CAP CER 0.1UF 50V X7R 1206,C1206C104K5RAC7800,KEMET,0.0452,$2.80,,https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf
-3,1,A144213-ND,CONN CARDEDGE FEMALE 86POS 0.100,1-5530843-0,TE Connectivity AMP Connectors,8.05,$8.05,CPU Slot,https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773096_SEC03_CARD_EDGE&DocType=CS&DocLang=English
-4,2,A31716-ND,CONN CARDEDGE FEMALE 36POS 0.100,5530843-3,TE Connectivity AMP Connectors,3.31,$6.62,Video Slot,https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773096_SEC03_CARD_EDGE&DocType=CS&DocLang=English
-5,5,A121376-ND,CONN EDGE DUAL FMALE 100POS .100,5645235-3,TE Connectivity AMP Connectors,8.12,$40.60,Zorro Slot,https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=5645235&DocType=Customer+Drawing&DocLang=English
-6,1,CP-2350-ND,CONN RCPT FMALE DIN 5POS SOLDER,SDS-50J,CUI Devices,2.15,$2.15,Keyboard DIN,https://www.cuidevices.com/product/resource/sds-j.pdf
-7,3,S3329-ND,CONN ISA FEMALE 98POS 0.100 GOLD,EBC49DCWN-S420,Sullins Connector Solutions,8.04,$24.12,ISA Slots,https://s3.amazonaws.com/catalogspreads-pdf/PAGE60-61%20.100%20HP%20ISA%20DS%20WW%20RA.pdf
-8,1,AE10996-ND,CONN D-SUB PLUG/RCPT 25P R/A SLD,ASUB-277-25TP24,Assmann WSW Components,6.95,$6.95,Serial/Parallel,http://www.assmann-wsw.com/uploads/datasheets/ASS_6549_CO.pdf
-9,1,AE11024-ND,CONN D-SUB HD RCPT 15P R/A SLDR,AHDF15A-KG-TAXB,Assmann WSW Components,1.36,$1.36,Video Port,http://www.assmann-wsw.com/uploads/datasheets/AHDxxxA-KG-TAxB.pdf
-10,1,3M8411B1-ND,CONN SOCKET PLCC 84POS TIN,8484-11B1-RK-TP,3M,2.94,$2.94,Agnus Socket,https://multimedia.3m.com/mws/media/358813O/3mtm-chip-carrier-sockets-lp-4-row-t-h-8400-series-ts2148.pdf
-11,1,ED3764-ND,CONN IC DIP SOCKET 64POS TINLEAD,110-99-964-41-001000,Mill-Max Manufacturing Corp.,3.77,$3.77,CPU Socket,https://www.mill-max.com/catalog/download/2017-11%3A090.pdf
-12,4,3M5484-ND,CONN IC DIP SOCKET 48POS TIN,4848-6004-CP,3M,1.22,$4.88,"Gary, Denise, Paula, Buster Socket",https://multimedia.3m.com/mws/media/218496O/3mtm-dip-socket-4800-series-ts1099.pdf
-13,2,3M5483-ND,CONN IC DIP SOCKET 40POS TIN,4840-6004-CP,3M,1.04,$2.08,CIA Socket,https://multimedia.3m.com/mws/media/218496O/3mtm-dip-socket-4800-series-ts1099.pdf
-14,1,CP1-3533N-ND,CONN JACK STEREO 3.5MM R/A,SJ1-3533N,CUI Devices,1.23,$1.23,Sound Jack,https://www.cuidevices.com/product/resource/sj1-353xn-series.pdf
-15,1,WM3811-ND,CONN HEADER VERT 24POS 4.2MM,39281243,Molex,4.03,$4.03,ATX Power Connector,https://www.molex.com/pdm_docs/sd/039281243_sd.pdf
-16,2,296-14860-1-ND,IC GATE NAND 4CH 2-INP 14SOIC,SN74HCT00DR,Texas Instruments,0.53,$1.06,,https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74hct00
-17,1,1655-1412-1-ND,DIODE ARRAY SCHOTTKY 30V SOT23,BAT54CTR,SMC Diode Solutions,0.43,$0.43,,http://www.smc-diodes.com/propdf/BAT54(A)(C)(S)%20N0123%20REV.D.pdf
-18,4,339-C1206C103K1RAC7800CT-ND,CAP CER 10000PF 100V X7R 1206,C1206C103K1RAC7800,KEMET,0.19,$0.76,0.01 uF on silk screen,https://api.kemet.com/component-edge/download/datasheet/C1206C103K1RACTU.pdf
-19,4,339-C1206C473K5RAC7800CT-ND,CAP CER 0.047UF 50V X7R 1206,C1206C473K5RAC7800,KEMET,0.19,$0.76,,https://api.kemet.com/component-edge/download/datasheet/C1206C473K5RACTU.pdf
-20,10,339-C1206C224K5RAC7800CT-ND,CAP CER 0.22UF 50V X7R 1206,C1206C224K5RAC7800,KEMET,0.141,$1.41,,https://api.kemet.com/component-edge/download/datasheet/C1206C224K5RACTU.pdf
-21,2,339-C1206C682K5RAC7800CT-ND,CAP CER 6800PF 50V X7R 1206,C1206C682K5RAC7800,KEMET,0.38,$0.76,,https://api.kemet.com/component-edge/download/datasheet/C1206C682K5RACTU.pdf
-22,2,339-C1206C392K5RAC7800CT-ND,CAP CER 3900PF 50V X7R 1206,C1206C392K5RAC7800,KEMET,0.38,$0.76,,https://api.kemet.com/component-edge/download/datasheet/C1206C392K5RACTU.pdf
-23,51,399-C1206C102K5RAC7210CT-ND,CAP CER 1000PF 50V X7R 1206,C1206C102K5RAC7210,KEMET,0.0776,$3.96,ISA Termination,https://api.kemet.com/component-edge/download/datasheet/C1206C102K5RAC7210.pdf
-24,1,399-1254-1-ND,CAP CER 1UF 16V X7R 1206,C1206C105K4RACTU,KEMET,0.19,$0.19,,https://api.kemet.com/component-edge/download/datasheet/C1206C105K4RACTU.pdf
-25,1,339-C1206C334K4RAC7800CT-ND,CAP CER 0.33UF 16V X7R 1206,C1206C334K4RAC7800,KEMET,0.25,$0.25,,https://api.kemet.com/component-edge/download/datasheet/C1206C334K4RACTU.pdf
-26,3,399-C1206C106K4PAC7210CT-ND,CAP CER 10UF 16V X5R 1206,C1206C106K4PAC7210,KEMET,0.31,$0.93,,https://api.kemet.com/component-edge/download/datasheet/C1206C106K4PAC7210.pdf
-27,10,399-17651-1-ND,CAP CER SMD 1206 100PF 50V 10% X,C1206C101K5RAC7800,KEMET,0.288,$2.88,,https://api.kemet.com/component-edge/download/datasheet/C1206C101K5RAC7800.pdf
-28,60,478-11171-1-ND,CAP FEEDTHRU 100PF 100V 1206,W3F11A1018AT1F,KYOCERA AVX,0.2514,$15.08,,https://datasheets.avx.com/AVX-Auto-W2FW3F.pdf
-29,2,1655-1359-1-ND,DIODE GEN PURP 75V 300MA SOD323,1N4148WSTR,SMC Diode Solutions,0.14,$0.28,,http://www.smc-diodes.com/propdf/1N4148WS%20N0572%20REV.B.pdf
-30,4,SF-1206S400-2CT-ND,FUSE BOARD MOUNT 4A 32VDC 1206,SF-1206S400-2,Bourns Inc.,0.67,$2.68,,https://www.bourns.com/docs/product-datasheets/sf-1206s.pdf?sfvrsn=e6b376e3_35
-31,4,493-2252-1-ND,CAP ALUM 470UF 20% 10V SMD,UUD1A471MNL1GS,Nichicon,0.76,$3.04,,https://www.nichicon.co.jp/english/products/pdfs/e-uud.pdf
-32,12,493-6458-1-ND,CAP ALUM 47UF 20% 35V SMD,UUA1V470MNL1GS,Nichicon,0.545,$6.54,,https://www.nichicon.co.jp/english/products/pdfs/e-uua.pdf
-33,7,493-9513-1-ND,CAP ALUM 22UF 20% 25V SMD,UUL1E220MCL1GS,Nichicon,0.75,$5.25,,https://www.nichicon.co.jp/english/products/pdfs/e-uul.pdf
-34,3,493-9537-1-ND,CAP ALUM 4.7UF 20% 35V SMD,UUL1V4R7MCL1GS,Nichicon,0.74,$2.22,,https://www.nichicon.co.jp/english/products/pdfs/e-uul.pdf
-35,2,339-C1206C470K5GAC7800CT-ND,CAP CER 47PF 50V C0G/NP0 1206,C1206C470K5GAC7800,KEMET,0.2,$0.40,,https://api.kemet.com/component-edge/download/datasheet/C1206C470K5GACTU.pdf
-36,3,MMBT3904TPMSCT-ND,TRANS NPN 40V 0.2A SOT23,MMBT3904-TP,Micro Commercial Co,0.14,$0.42,,https://www.mccsemi.com/pdf/Products/MMBT3904(SOT-23).pdf
-37,2,MMBFJ211CT-ND,JFET N-CH 25V 20MA SOT23,MMBFJ211,onsemi,0.43,$0.86,,"//media.digikey.com/pdf/Data%20Sheets/ON%20Semiconductor%20PDFs/J210-12,MMBFJ210-12.pdf"
-38,13,732-1629-1-ND,FERRITE BEAD 80 OHM 1206 1LN,74279215,Würth Elektronik,0.246,$3.20,,https://www.we-online.de/katalog/datasheet/74279215.pdf
-39,2,MMBT3906-TPCT-ND,TRANS PNP 40V 0.2A SOT23,MMBT3906-TP,Micro Commercial Co,0.14,$0.28,,https://www.mccsemi.com/pdf/Products/MMBT3906(SOT-23).pdf
-40,12,311-4.70KFRCT-ND,RES 4.7K OHM 1% 1/4W 1206,RC1206FR-074K7L,YAGEO,0.074,$0.89,,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
-41,2,311-330FRCT-ND,RES 330 OHM 1% 1/4W 1206,RC1206FR-07330RL,YAGEO,0.1,$0.20,,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
-42,2,311-1.20KFRCT-ND,RES 1.2K OHM 1% 1/4W 1206,RC1206FR-071K2L,YAGEO,0.1,$0.20,,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
-43,2,311-10.0FRCT-ND,RES 10 OHM 1% 1/4W 1206,RC1206FR-0710RL,YAGEO,0.15,$0.30,,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
-44,2,311-470KFRCT-ND,RES 470K OHM 1% 1/4W 1206,RC1206FR-07470KL,YAGEO,0.1,$0.20,,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
-45,6,YAG3847CT-ND,RES SMD 22 OHM 1% 1/4W 1206,AC1206FR-0722RL,YAGEO,0.1,$0.60,,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf
-46,2,311-1.00FRCT-ND,RES 1 OHM 1% 1/4W 1206,RC1206FR-071RL,YAGEO,0.15,$0.30,,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
-47,1,311-2.70KFRCT-ND,RES 2.7K OHM 1% 1/4W 1206,RC1206FR-072K7L,YAGEO,0.1,$0.10,,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
-48,2,311-360FRCT-ND,RES 360 OHM 1% 1/4W 1206,RC1206FR-07360RL,YAGEO,0.1,$0.20,,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
-49,1,311-200FRCT-ND,RES 200 OHM 1% 1/4W 1206,RC1206FR-07200RL,YAGEO,0.1,$0.10,,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
-50,2,311-47.0KFRCT-ND,RES 47K OHM 1% 1/4W 1206,RC1206FR-0747KL,YAGEO,0.1,$0.20,,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
-51,14,311-10.0KFRCT-ND,RES 10K OHM 1% 1/4W 1206,RC1206FR-0710KL,YAGEO,0.074,$1.04,,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
-52,5,311-470FRCT-ND,RES 470 OHM 1% 1/4W 1206,RC1206FR-07470RL,YAGEO,0.1,$0.50,,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
-53,2,311-390FRCT-ND,RES 390 OHM 1% 1/4W 1206,RC1206FR-07390RL,YAGEO,0.1,$0.20,,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
-54,1,13-RC1206FR-7W47RLCT-ND,RES 47 OHM 1% 1/2W 1206,RC1206FR-7W47RL,YAGEO,0.21,$0.21,R310,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
-55,1,13-AC1206FR-7W1RLCT-ND,RES 1 OHM 1% 1/2W 1206,AC1206FR-7W1RL,YAGEO,0.24,$0.24,R914,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf
-56,24,311-47.0FRCT-ND,RES 47 OHM 1% 1/4W 1206,RC1206FR-0747RL,YAGEO,0.074,$1.78,,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
-57,6,311-68.0FRCT-ND,RES 68 OHM 1% 1/4W 1206,RC1206FR-0768RL,YAGEO,0.1,$0.60,,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
-58,1,4610X-1-272LF-ND,RES ARRAY 9 RES 2.7K OHM 10SIP,4610X-101-272LF,Bourns Inc.,0.63,$0.63,RN101,https://www.bourns.com/docs/Product-Datasheets/4600x.pdf
-59,2,4610X-1-472LF-ND,RES ARRAY 9 RES 4.7K OHM 10SIP,4610X-101-472LF,Bourns Inc.,0.55,$1.10,"RN100, RN705",https://www.bourns.com/docs/Product-Datasheets/4600x.pdf
-60,1,4610X-1-103LF-ND,RES ARRAY 9 RES 10K OHM 10SIP,4610X-101-103LF,Bourns Inc.,0.55,$0.55,,https://www.bourns.com/docs/Product-Datasheets/4600x.pdf
-61,5,4610X-1-102LF-ND,RES ARRAY 9 RES 1K OHM 10SIP,4610X-101-102LF,Bourns Inc.,0.55,$2.75,"RN700, RN701, RN702, RN703, RN704",https://www.bourns.com/docs/Product-Datasheets/4600x.pdf
-62,2,4610X-1-332LF-ND,RES ARRAY 9 RES 3.3K OHM 10SIP,4610X-101-332LF,Bourns Inc.,0.55,$1.10,"RNX1, RNX2",https://www.bourns.com/docs/Product-Datasheets/4600x.pdf
-63,1,4609X-101-472LF-ND,RES ARRAY 8 RES 4.7K OHM 9SIP,4609X-101-472LF,Bourns Inc.,0.5,$0.50,,https://www.bourns.com/docs/Product-Datasheets/4600x.pdf
-64,1,4608X-1-472LF-ND,RES ARRAY 7 RES 4.7K OHM 8SIP,4608X-101-472LF,Bourns Inc.,0.44,$0.44,,https://www.bourns.com/docs/Product-Datasheets/4600x.pdf
-65,1,4610X-2-102LF-ND,RES ARRAY 5 RES 1K OHM 10SIP,4610X-102-102LF,Bourns Inc.,0.55,$0.55,RN802,https://www.bourns.com/docs/Product-Datasheets/4600x.pdf
-66,2,4608X-2-470LF-ND,RES ARRAY 4 RES 47 OHM 8SIP,4608X-102-470LF,Bourns Inc.,0.44,$0.88,"RN102, RN902",https://www.bourns.com/docs/Product-Datasheets/4600x.pdf
-67,8,74HCT245DCT-ND,IC TXRX NON-INVERT 5.5V 20SOIC,74HCT245D,Toshiba Semiconductor and Storage,0.54,$4.32,,https://toshiba.semicon-storage.com/info/docget.jsp?did=37301&prodName=74HCT245D
-68,2,1727-2847-1-ND,IC LATCH TRANSP OCT D 3ST 20SOIC,"74HCT373D,653",Nexperia USA Inc.,0.6,$1.20,,https://assets.nexperia.com/documents/data-sheet/74HC_HCT373.pdf
-69,1,296-31832-1-ND,IC INVERTER 6CH 6-INP 14SOIC,SN74HCT04DRG4,Texas Instruments,0.41,$0.41,,https://www.ti.com/lit/ds/scls042d/scls042d.pdf
-70,2,296-1211-1-ND,IC FF D-TYPE DUAL 1BIT 14SOIC,SN74HCT74DR,Texas Instruments,0.47,$0.94,,https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74hct74
-71,1,296-31835-1-ND,IC MULTIPLEXER 4 X 2:1 16SOIC,SN74HCT157DR,Texas Instruments,0.53,$0.53,,https://www.ti.com/lit/ds/scls071d/scls071d.pdf
-72,1,296-29733-1-ND,IC GATE NAND OPEN 4CH 2IN 14SOIC,SN74LS38DR,Texas Instruments,0.95,$0.95,,https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74ls38
-73,1,497-LF347DTCT-ND,IC OPAMP JFET 4 CIRCUIT 14SO,LF347DT,STMicroelectronics,0.61,$0.61,,https://www.st.com/content/ccc/resource/technical/document/datasheet/c7/4b/9c/8a/ff/08/43/1d/CD00000452.pdf/files/CD00000452.pdf/jcr:content/translations/en.CD00000452.pdf
-74,4,296-14862-1-ND,IC GATE AND 4CH 2-INP 14SOIC,SN74HCT08DR,Texas Instruments,0.53,$2.12,,https://www.ti.com/lit/ds/scls063d/scls063d.pdf
-75,1,296-1276-1-ND,IC DRIVER 4/0 14SOIC,SN75188DR,Texas Instruments,0.66,$0.66,,https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fmc1488
-76,1,296-14957-1-ND,IC RECEIVER 0/4 14SOIC,SN75189DR,Texas Instruments,0.66,$0.66,,https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fmc1489a
-77,2,296-CY74FCT821ATSOC-ND,IC FF D-TYPE SNGL 10BIT 20SOIC,CY74FCT821ATSOC,Texas Instruments,0.95,$1.90,,https://rocelec.widen.net/view/pdf/xywvfnphvh/sccs033b.pdf?t.download=true&u=5oefqw
-78,1,1727-2835-1-ND,IC DECODER/DEMUX 1 X 3:8 16SO,"74HCT138D,653",Nexperia USA Inc.,0.5,$0.50,,https://assets.nexperia.com/documents/data-sheet/74HC_HCT138.pdf
-79,1,296-29445-1-ND,IC PRIORITY ENCOD 1 X 8:3 16SOIC,SN74LS148DR,Texas Instruments,1.66,$1.66,,https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74ls148
-80,1,296-6604-1-ND,IC QUAD DIFF COMPARATOR 14 -SOIC,LM339ADR,Texas Instruments,0.53,$0.53,,https://rocelec.widen.net/view/pdf/cozqvyieqk/MOTOS09494-1.pdf?t.download=true&u=5oefqw
-81,1,1727-2836-1-ND,IC INVERT SCHMITT 6CH 6-INP 14SO,"74HCT14D,653",Nexperia USA Inc.,0.48,$0.48,,https://assets.nexperia.com/documents/data-sheet/74HC_HCT14.pdf
-82,1,DS1813R-5+CT-ND,IC SUPERVISOR 1 CHANNEL SOT23-3,DS1813R-5+T&R,Maxim Integrated,2.76,$2.76,,https://datasheets.maximintegrated.com/en/ds/DS1813.pdf
-83,1,339-C1206C271K5GAC7800CT-ND,CAP CER 270PF 50V C0G/NP0 1206,C1206C271K5GAC7800,KEMET,0.41,$0.41,,https://api.kemet.com/component-edge/download/datasheet/C1206C271K5GACTU.pdf
-84,1,S2011EC-17-ND,CONN HEADER VERT 34POS 2.54MM,PRPC017DAAN-RC,Sullins Connector Solutions,0.76,$0.76,Floppy Header,https://drawings-pdf.s3.amazonaws.com/11636.pdf
-85,10,2092-JSX-1055-5.9-ND,JACK SCREW 4-40 WITH 5.5MM THREA,JSX-1055-5.9,"Kycon, Inc.",0.286,$2.86,"D-Sub Jack Screws, As Needed",http://www.kycon.com/Pub_Eng_Draw/JSX-1055-5.9.pdf
-86,1,36-1066-ND,BATT HLDR COIN 20MM 1 CEL PC PIN,1066,Keystone Electronics,1.42,$1.42,,https://www.keyelco.com/userAssets/file/M65p5.pdf
-87,4,296-4722-1-ND,IC BUF NON-INVERT 5.5V 20SOIC,SN74AHCT244DWR,Texas Instruments,0.67,$2.68,,https://www.ti.com/lit/ds/scls228m/scls228m.pdf
-88,5,493-2278-1-ND,CAP ALUM 220UF 20% 25V SMD,UUD1E221MNL1GS,Nichicon,0.77,$3.85,,https://www.nichicon.co.jp/english/products/pdfs/e-uud.pdf
-89,6,4606X-1-102LF-ND,RES ARRAY 5 RES 1K OHM 6SIP,4606X-101-102LF,Bourns Inc.,0.43,$2.58,"RN205, RN301, RN607, RN800, RN903, RN908",https://www.bourns.com/docs/Product-Datasheets/4600x.pdf
-90,1,770-61-R10KP-ND,RES ARRAY 5 RES 10K OHM 6SIP,77061103P,CTS Resistor Products,0.56,$0.56,,https://www.ctscorp.com/wp-content/uploads/2015/11/770.pdf
-91,2,S9000-ND,CONN JUMPER SHORTING TIN,STC02SYAN,Sullins Connector Solutions,0.1,$0.20,,https://drawings-pdf.s3.amazonaws.com/11134.pdf
-92,1,1849-1003-ND,CONN HEADER VERT 3POS 2.54MM,PR20203VBNN,METZ CONNECT USA Inc.,0.1,$0.10,J9004,https://media.metz-connect.com/files/171/Data_sheet_PR202XXVBNN.PDF
-93,4,S1011EC-02-ND,CONN HEADER VERT 2POS 2.54MM,PRPC002SAAN-RC,Sullins Connector Solutions,0.08,$0.32,2-position header,//media.digikey.com/PDF/Data%20Sheets/Sullins%20PDFs/xRxCzzzSxxN-RC_ST_11635-B.pdf
-94,4,RS1MWF-7DICT-ND,DIODE GEN PURP 1KV 1A SOD123F,RS1MWF-7,Diodes Incorporated,0.48,$1.92,,https://www.diodes.com/assets/Datasheets/RS1MWF.pdf
-95,1,L17H2110130-ND,CONN D-SUB PLUG 9POS R/A SLDR,L17H2110130,Amphenol ICC (Commercial Products),3.5,$3.50,,https://www.amphenolcanada.com/ProductSearch/Pdf/DSUB_CAT.pdf#Page=67
-96,1,2057-ICM-642-1-GT-HT-ND,"MACHINE PIN SOCKET, IC, DIP, 42P",ICM-642-1-GT-HT,Adam Tech,1.27,$1.27,Kickstart,https://app.adam-tech.com/products/download/data_sheet/203378/icm-6xx-1-gt-ht-data-sheet.pdf
-97,3,311-30.0KFRCT-ND,RES 30K OHM 1% 1/4W 1206,RC1206FR-0730KL,YAGEO,0.1,$0.30,,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
-98,1,311-6.20KFRCT-ND,RES 6.2K OHM 1% 1/4W 1206,RC1206FR-076K2L,YAGEO,0.1,$0.10,,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
-99,1,CY62167ELL-45ZXI-ND,IC SRAM 16MBIT PARALLEL 48TSOP I,CY62167ELL-45ZXI,Cypress Semiconductor Corp,16.61,$16.61,,https://www.cypress.com/file/43821/download
-100,1,296-SN74HC258DRCT-ND,IC MULTIPLEXER 4 X 2:1 16SOIC,SN74HC258DR,Texas Instruments,0.6,$0.60,,https://www.ti.com/lit/ds/scls224b/scls224b.pdf
-101,1,339-C1206C220K5GAC7800CT-ND,CAP CER 22PF 50V C0G/NP0 1206,C1206C220K5GAC7800,KEMET,0.2,$0.20,,https://api.kemet.com/component-edge/download/datasheet/C1206C220K2GACTU.pdf
-102,2,4606X-1-471LF-ND,RES ARRAY 5 RES 470 OHM 6SIP,4606X-101-471LF,Bourns Inc.,0.5,$1.00,,https://www.bourns.com/docs/Product-Datasheets/4600x.pdf
-103,1,296-20799-1-ND,IC REG LIN -5V 1.5A DDPAK/TO263,UA7905CKTTR,Texas Instruments,1.49,$1.49,-5V Regulator,https://www.ti.com/lit/ds/slvs058h/slvs058h.pdf
-104,1,WM4201-ND,CONN HEADER VERT 3POS 2.54MM,22232031,Molex,0.28,$0.28,Fan header,https://www.molex.com/pdm_docs/sd/022232031_sd.pdf
-105,1,2057-BHR-20-VUA-ND,CONN HEADER VERT 20POS 2.54MM,BHR-20-VUA,Adam Tech,0.46,$0.46,External floppy header,https://app.adam-tech.com/products/download/data_sheet/203218/bhr-xx-vua-data-sheet.pdf
-106,2,1727-2845-1-ND,IC GATE OR 4CH 2-INP 14SO,"74HCT32D,653",Nexperia USA Inc.,0.4,$0.80,,https://assets.nexperia.com/documents/data-sheet/74HC_HCT32.pdf
-107,47,13-AC0805FR-7W1KLCT-ND,RES 1 KOHM 1% 1/4W 0805,AC0805FR-7W1KL,YAGEO,0.084,$3.95,Zorro termination,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf
-108,47,339-C0805C102K5RAC7800CT-ND,CAP CER 1000PF 50V X7R 0805,C0805C102K5RAC7800,KEMET,0.091,$4.28,Zorro termination,https://api.kemet.com/component-edge/download/datasheet/C0805C102K5RACTU.pdf
-109,1,887-1207-1-ND,XTAL OSC XO 28.63636MHZ CMOS SMD,7C-28.63636MBB-T,TXC CORPORATION,1.94,$1.94,Optional NTSC Oscillator,http://www.txccorp.com/download/products/oscillators/2015TXC_7C_57.pdf
-110,1,1473-SIT8208AI-33-33E-28.375000-ND,MEMS OSC XO 28.3750MHZ LVCMOS LV,SIT8208AI-33-33E-28.375000,SiTime,1.43,$1.43,Optional PAL Oscillator,https://www.sitime.com/datasheet/SiT8208
-111,1,339-C1206C200K5GAC7800CT-ND,CAP CER 20PF 50V C0G/NP0 1206,C1206C200K5GAC7800,KEMET,0.19,$0.19,Optional RTC Capacitor,https://api.kemet.com/component-edge/download/datasheet/C1206C200K5GACTU.pdf
-112,1,3M5464-ND,CONN IC DIP SOCKET 18POS TIN,4818-3000-CP,3M,0.67,$0.67,Optional RTC Socket,https://multimedia.3m.com/mws/media/218496O/3mtm-dip-socket-4800-series-ts1099.pdf
-113,1,SER4076CT-ND,CRYSTAL 32.7680KHZ 12.5PF SMD,FC-135R 32.7680KF-A3,EPSON,0.86,$0.86,Optional RTC Crystal,https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-135R&lang=en
-114,1,2447-GKG60015-ND,CAP TRIMMER 12-60PF 100V TH,GKG60015,EW Electronics,0.92,$0.92,Optional RTC Trimmer Cap,//media.digikey.com/pdf/Data%20Sheets/EW%20Electronics-Edmar/GKGxx015_016_Series_DS.pdf
+Index,Quantity,Digi-Key Part Number,Description,Customer Reference,Manufacturer Part Number,Manufacturer Name,Unit Price,Extended Price,Datasheet
+1,11,311-1.00KFRCT-ND,RES 1K OHM 1% 1/4W 1206,,RC1206FR-071KL,YAGEO,0.074,$0.81,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
+2,62,399-C1206C104K5RAC7800CT-ND,CAP CER 0.1UF 50V X7R 1206,,C1206C104K5RAC7800,KEMET,0.0452,$2.80,https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf
+3,1,A144213-ND,CONN CARDEDGE FEMALE 86POS 0.100,CPU Slot,1-5530843-0,TE Connectivity AMP Connectors,8.05,$8.05,https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773096_SEC03_CARD_EDGE&DocType=CS&DocLang=English
+4,2,A31716-ND,CONN CARDEDGE FEMALE 36POS 0.100,Video Slot,5530843-3,TE Connectivity AMP Connectors,3.31,$6.62,https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773096_SEC03_CARD_EDGE&DocType=CS&DocLang=English
+5,5,A121376-ND,CONN EDGE DUAL FMALE 100POS .100,Zorro Slot,5645235-3,TE Connectivity AMP Connectors,8.12,$40.60,https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=5645235&DocType=Customer+Drawing&DocLang=English
+6,1,CP-2350-ND,CONN RCPT FMALE DIN 5POS SOLDER,Keyboard DIN,SDS-50J,CUI Devices,2.15,$2.15,https://www.cuidevices.com/product/resource/sds-j.pdf
+7,3,S3329-ND,CONN ISA FEMALE 98POS 0.100 GOLD,ISA Slots,EBC49DCWN-S420,Sullins Connector Solutions,8.04,$24.12,https://s3.amazonaws.com/catalogspreads-pdf/PAGE60-61%20.100%20HP%20ISA%20DS%20WW%20RA.pdf
+8,1,AE10996-ND,CONN D-SUB PLUG/RCPT 25P R/A SLD,Serial/Parallel,ASUB-277-25TP24,Assmann WSW Components,6.95,$6.95,http://www.assmann-wsw.com/uploads/datasheets/ASS_6549_CO.pdf
+9,1,AE11024-ND,CONN D-SUB HD RCPT 15P R/A SLDR,Video Port,AHDF15A-KG-TAXB,Assmann WSW Components,1.36,$1.36,http://www.assmann-wsw.com/uploads/datasheets/AHDxxxA-KG-TAxB.pdf
+10,1,3M8411B1-ND,CONN SOCKET PLCC 84POS TIN,Agnus Socket,8484-11B1-RK-TP,3M,2.94,$2.94,https://multimedia.3m.com/mws/media/358813O/3mtm-chip-carrier-sockets-lp-4-row-t-h-8400-series-ts2148.pdf
+11,1,ED3764-ND,CONN IC DIP SOCKET 64POS TINLEAD,CPU Socket,110-99-964-41-001000,Mill-Max Manufacturing Corp.,3.77,$3.77,https://www.mill-max.com/catalog/download/2017-11%3A090.pdf
+12,4,3M5484-ND,CONN IC DIP SOCKET 48POS TIN,"Gary, Denise, Paula, Buster Socket",4848-6004-CP,3M,1.22,$4.88,https://multimedia.3m.com/mws/media/218496O/3mtm-dip-socket-4800-series-ts1099.pdf
+13,2,3M5483-ND,CONN IC DIP SOCKET 40POS TIN,CIA Socket,4840-6004-CP,3M,1.04,$2.08,https://multimedia.3m.com/mws/media/218496O/3mtm-dip-socket-4800-series-ts1099.pdf
+14,1,CP1-3533N-ND,CONN JACK STEREO 3.5MM R/A,Sound Jack,SJ1-3533N,CUI Devices,1.23,$1.23,https://www.cuidevices.com/product/resource/sj1-353xn-series.pdf
+15,1,WM3811-ND,CONN HEADER VERT 24POS 4.2MM,ATX Power Connector,39281243,Molex,4.03,$4.03,https://www.molex.com/pdm_docs/sd/039281243_sd.pdf
+16,2,296-14860-1-ND,IC GATE NAND 4CH 2-INP 14SOIC,,SN74HCT00DR,Texas Instruments,0.53,$1.06,https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74hct00
+17,1,1655-1412-1-ND,DIODE ARRAY SCHOTTKY 30V SOT23,,BAT54CTR,SMC Diode Solutions,0.43,$0.43,http://www.smc-diodes.com/propdf/BAT54(A)(C)(S)%20N0123%20REV.D.pdf
+18,4,339-C1206C103K1RAC7800CT-ND,CAP CER 10000PF 100V X7R 1206,0.01 uF on silk screen,C1206C103K1RAC7800,KEMET,0.19,$0.76,https://api.kemet.com/component-edge/download/datasheet/C1206C103K1RACTU.pdf
+19,4,339-C1206C473K5RAC7800CT-ND,CAP CER 0.047UF 50V X7R 1206,,C1206C473K5RAC7800,KEMET,0.19,$0.76,https://api.kemet.com/component-edge/download/datasheet/C1206C473K5RACTU.pdf
+20,10,339-C1206C224K5RAC7800CT-ND,CAP CER 0.22UF 50V X7R 1206,,C1206C224K5RAC7800,KEMET,0.141,$1.41,https://api.kemet.com/component-edge/download/datasheet/C1206C224K5RACTU.pdf
+21,2,339-C1206C682K5RAC7800CT-ND,CAP CER 6800PF 50V X7R 1206,,C1206C682K5RAC7800,KEMET,0.38,$0.76,https://api.kemet.com/component-edge/download/datasheet/C1206C682K5RACTU.pdf
+22,2,339-C1206C392K5RAC7800CT-ND,CAP CER 3900PF 50V X7R 1206,,C1206C392K5RAC7800,KEMET,0.38,$0.76,https://api.kemet.com/component-edge/download/datasheet/C1206C392K5RACTU.pdf
+23,51,399-C1206C102K5RAC7210CT-ND,CAP CER 1000PF 50V X7R 1206,ISA Termination,C1206C102K5RAC7210,KEMET,0.0776,$3.96,https://api.kemet.com/component-edge/download/datasheet/C1206C102K5RAC7210.pdf
+24,1,399-1254-1-ND,CAP CER 1UF 16V X7R 1206,,C1206C105K4RACTU,KEMET,0.19,$0.19,https://api.kemet.com/component-edge/download/datasheet/C1206C105K4RACTU.pdf
+25,1,339-C1206C334K4RAC7800CT-ND,CAP CER 0.33UF 16V X7R 1206,,C1206C334K4RAC7800,KEMET,0.25,$0.25,https://api.kemet.com/component-edge/download/datasheet/C1206C334K4RACTU.pdf
+26,3,399-C1206C106K4PAC7210CT-ND,CAP CER 10UF 16V X5R 1206,,C1206C106K4PAC7210,KEMET,0.31,$0.93,https://api.kemet.com/component-edge/download/datasheet/C1206C106K4PAC7210.pdf
+27,10,399-17651-1-ND,CAP CER SMD 1206 100PF 50V 10% X,,C1206C101K5RAC7800,KEMET,0.288,$2.88,https://api.kemet.com/component-edge/download/datasheet/C1206C101K5RAC7800.pdf
+28,60,478-11171-1-ND,CAP FEEDTHRU 100PF 100V 1206,,W3F11A1018AT1F,KYOCERA AVX,0.2514,$15.08,https://datasheets.avx.com/AVX-Auto-W2FW3F.pdf
+29,2,1655-1359-1-ND,DIODE GEN PURP 75V 300MA SOD323,,1N4148WSTR,SMC Diode Solutions,0.14,$0.28,http://www.smc-diodes.com/propdf/1N4148WS%20N0572%20REV.B.pdf
+30,4,SF-1206S400-2CT-ND,FUSE BOARD MOUNT 4A 32VDC 1206,,SF-1206S400-2,Bourns Inc.,0.67,$2.68,https://www.bourns.com/docs/product-datasheets/sf-1206s.pdf?sfvrsn=e6b376e3_35
+31,4,493-2252-1-ND,CAP ALUM 470UF 20% 10V SMD,,UUD1A471MNL1GS,Nichicon,0.76,$3.04,https://www.nichicon.co.jp/english/products/pdfs/e-uud.pdf
+32,12,493-6458-1-ND,CAP ALUM 47UF 20% 35V SMD,,UUA1V470MNL1GS,Nichicon,0.545,$6.54,https://www.nichicon.co.jp/english/products/pdfs/e-uua.pdf
+33,7,493-9513-1-ND,CAP ALUM 22UF 20% 25V SMD,,UUL1E220MCL1GS,Nichicon,0.75,$5.25,https://www.nichicon.co.jp/english/products/pdfs/e-uul.pdf
+34,3,493-9537-1-ND,CAP ALUM 4.7UF 20% 35V SMD,,UUL1V4R7MCL1GS,Nichicon,0.74,$2.22,https://www.nichicon.co.jp/english/products/pdfs/e-uul.pdf
+35,2,339-C1206C470K5GAC7800CT-ND,CAP CER 47PF 50V C0G/NP0 1206,,C1206C470K5GAC7800,KEMET,0.2,$0.40,https://api.kemet.com/component-edge/download/datasheet/C1206C470K5GACTU.pdf
+36,3,MMBT3904TPMSCT-ND,TRANS NPN 40V 0.2A SOT23,,MMBT3904-TP,Micro Commercial Co,0.14,$0.42,https://www.mccsemi.com/pdf/Products/MMBT3904(SOT-23).pdf
+37,2,MMBFJ211CT-ND,JFET N-CH 25V 20MA SOT23,,MMBFJ211,onsemi,0.43,$0.86,"//media.digikey.com/pdf/Data%20Sheets/ON%20Semiconductor%20PDFs/J210-12,MMBFJ210-12.pdf"
+38,13,732-1629-1-ND,FERRITE BEAD 80 OHM 1206 1LN,,74279215,Würth Elektronik,0.246,$3.20,https://www.we-online.de/katalog/datasheet/74279215.pdf
+39,2,MMBT3906-TPCT-ND,TRANS PNP 40V 0.2A SOT23,,MMBT3906-TP,Micro Commercial Co,0.14,$0.28,https://www.mccsemi.com/pdf/Products/MMBT3906(SOT-23).pdf
+40,12,311-4.70KFRCT-ND,RES 4.7K OHM 1% 1/4W 1206,,RC1206FR-074K7L,YAGEO,0.074,$0.89,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
+41,2,311-330FRCT-ND,RES 330 OHM 1% 1/4W 1206,,RC1206FR-07330RL,YAGEO,0.1,$0.20,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
+42,2,311-1.20KFRCT-ND,RES 1.2K OHM 1% 1/4W 1206,,RC1206FR-071K2L,YAGEO,0.1,$0.20,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
+43,2,311-10.0FRCT-ND,RES 10 OHM 1% 1/4W 1206,,RC1206FR-0710RL,YAGEO,0.15,$0.30,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
+44,2,311-470KFRCT-ND,RES 470K OHM 1% 1/4W 1206,,RC1206FR-07470KL,YAGEO,0.1,$0.20,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
+45,6,YAG3847CT-ND,RES SMD 22 OHM 1% 1/4W 1206,,AC1206FR-0722RL,YAGEO,0.1,$0.60,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf
+46,2,311-1.00FRCT-ND,RES 1 OHM 1% 1/4W 1206,,RC1206FR-071RL,YAGEO,0.15,$0.30,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
+47,1,311-2.70KFRCT-ND,RES 2.7K OHM 1% 1/4W 1206,,RC1206FR-072K7L,YAGEO,0.1,$0.10,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
+48,2,311-360FRCT-ND,RES 360 OHM 1% 1/4W 1206,,RC1206FR-07360RL,YAGEO,0.1,$0.20,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
+49,1,311-200FRCT-ND,RES 200 OHM 1% 1/4W 1206,,RC1206FR-07200RL,YAGEO,0.1,$0.10,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
+50,2,311-47.0KFRCT-ND,RES 47K OHM 1% 1/4W 1206,,RC1206FR-0747KL,YAGEO,0.1,$0.20,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
+51,14,311-10.0KFRCT-ND,RES 10K OHM 1% 1/4W 1206,,RC1206FR-0710KL,YAGEO,0.074,$1.04,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
+52,5,311-470FRCT-ND,RES 470 OHM 1% 1/4W 1206,,RC1206FR-07470RL,YAGEO,0.1,$0.50,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
+53,2,311-390FRCT-ND,RES 390 OHM 1% 1/4W 1206,,RC1206FR-07390RL,YAGEO,0.1,$0.20,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
+54,1,13-RC1206FR-7W47RLCT-ND,RES 47 OHM 1% 1/2W 1206,R310,RC1206FR-7W47RL,YAGEO,0.21,$0.21,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
+55,1,13-AC1206FR-7W1RLCT-ND,RES 1 OHM 1% 1/2W 1206,R914,AC1206FR-7W1RL,YAGEO,0.24,$0.24,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf
+56,24,311-47.0FRCT-ND,RES 47 OHM 1% 1/4W 1206,,RC1206FR-0747RL,YAGEO,0.074,$1.78,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
+57,6,311-68.0FRCT-ND,RES 68 OHM 1% 1/4W 1206,,RC1206FR-0768RL,YAGEO,0.1,$0.60,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
+58,1,4610X-1-272LF-ND,RES ARRAY 9 RES 2.7K OHM 10SIP,RN101,4610X-101-272LF,Bourns Inc.,0.63,$0.63,https://www.bourns.com/docs/Product-Datasheets/4600x.pdf
+59,2,4610X-1-472LF-ND,RES ARRAY 9 RES 4.7K OHM 10SIP,"RN100, RN705",4610X-101-472LF,Bourns Inc.,0.55,$1.10,https://www.bourns.com/docs/Product-Datasheets/4600x.pdf
+60,1,4610X-1-103LF-ND,RES ARRAY 9 RES 10K OHM 10SIP,,4610X-101-103LF,Bourns Inc.,0.55,$0.55,https://www.bourns.com/docs/Product-Datasheets/4600x.pdf
+61,5,4610X-1-102LF-ND,RES ARRAY 9 RES 1K OHM 10SIP,"RN700, RN701, RN702, RN703, RN704",4610X-101-102LF,Bourns Inc.,0.55,$2.75,https://www.bourns.com/docs/Product-Datasheets/4600x.pdf
+62,2,4610X-1-332LF-ND,RES ARRAY 9 RES 3.3K OHM 10SIP,"RNX1, RNX2",4610X-101-332LF,Bourns Inc.,0.55,$1.10,https://www.bourns.com/docs/Product-Datasheets/4600x.pdf
+63,1,4609X-101-472LF-ND,RES ARRAY 8 RES 4.7K OHM 9SIP,,4609X-101-472LF,Bourns Inc.,0.5,$0.50,https://www.bourns.com/docs/Product-Datasheets/4600x.pdf
+64,1,4608X-1-472LF-ND,RES ARRAY 7 RES 4.7K OHM 8SIP,,4608X-101-472LF,Bourns Inc.,0.44,$0.44,https://www.bourns.com/docs/Product-Datasheets/4600x.pdf
+65,1,4610X-2-102LF-ND,RES ARRAY 5 RES 1K OHM 10SIP,RN802,4610X-102-102LF,Bourns Inc.,0.55,$0.55,https://www.bourns.com/docs/Product-Datasheets/4600x.pdf
+66,2,4608X-2-470LF-ND,RES ARRAY 4 RES 47 OHM 8SIP,"RN102, RN902",4608X-102-470LF,Bourns Inc.,0.44,$0.88,https://www.bourns.com/docs/Product-Datasheets/4600x.pdf
+67,8,74HCT245DCT-ND,IC TXRX NON-INVERT 5.5V 20SOIC,,74HCT245D,Toshiba Semiconductor and Storage,0.54,$4.32,https://toshiba.semicon-storage.com/info/docget.jsp?did=37301&prodName=74HCT245D
+68,2,1727-2847-1-ND,IC LATCH TRANSP OCT D 3ST 20SOIC,,"74HCT373D,653",Nexperia USA Inc.,0.6,$1.20,https://assets.nexperia.com/documents/data-sheet/74HC_HCT373.pdf
+69,1,296-31832-1-ND,IC INVERTER 6CH 6-INP 14SOIC,,SN74HCT04DRG4,Texas Instruments,0.41,$0.41,https://www.ti.com/lit/ds/scls042d/scls042d.pdf
+70,2,296-1211-1-ND,IC FF D-TYPE DUAL 1BIT 14SOIC,,SN74HCT74DR,Texas Instruments,0.47,$0.94,https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74hct74
+71,1,296-31835-1-ND,IC MULTIPLEXER 4 X 2:1 16SOIC,,SN74HCT157DR,Texas Instruments,0.53,$0.53,https://www.ti.com/lit/ds/scls071d/scls071d.pdf
+72,1,296-29733-1-ND,IC GATE NAND OPEN 4CH 2IN 14SOIC,,SN74LS38DR,Texas Instruments,0.95,$0.95,https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74ls38
+73,1,497-LF347DTCT-ND,IC OPAMP JFET 4 CIRCUIT 14SO,,LF347DT,STMicroelectronics,0.61,$0.61,https://www.st.com/content/ccc/resource/technical/document/datasheet/c7/4b/9c/8a/ff/08/43/1d/CD00000452.pdf/files/CD00000452.pdf/jcr:content/translations/en.CD00000452.pdf
+74,4,296-14862-1-ND,IC GATE AND 4CH 2-INP 14SOIC,,SN74HCT08DR,Texas Instruments,0.53,$2.12,https://www.ti.com/lit/ds/scls063d/scls063d.pdf
+75,1,296-1276-1-ND,IC DRIVER 4/0 14SOIC,,SN75188DR,Texas Instruments,0.66,$0.66,https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fmc1488
+76,1,296-14957-1-ND,IC RECEIVER 0/4 14SOIC,,SN75189DR,Texas Instruments,0.66,$0.66,https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fmc1489a
+77,2,296-CY74FCT821ATSOC-ND,IC FF D-TYPE SNGL 10BIT 20SOIC,,CY74FCT821ATSOC,Texas Instruments,0.95,$1.90,https://rocelec.widen.net/view/pdf/xywvfnphvh/sccs033b.pdf?t.download=true&u=5oefqw
+78,1,1727-2835-1-ND,IC DECODER/DEMUX 1 X 3:8 16SO,,"74HCT138D,653",Nexperia USA Inc.,0.5,$0.50,https://assets.nexperia.com/documents/data-sheet/74HC_HCT138.pdf
+79,1,296-29445-1-ND,IC PRIORITY ENCOD 1 X 8:3 16SOIC,,SN74LS148DR,Texas Instruments,1.66,$1.66,https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74ls148
+80,1,296-6604-1-ND,IC QUAD DIFF COMPARATOR 14 -SOIC,,LM339ADR,Texas Instruments,0.53,$0.53,https://rocelec.widen.net/view/pdf/cozqvyieqk/MOTOS09494-1.pdf?t.download=true&u=5oefqw
+81,1,1727-2836-1-ND,IC INVERT SCHMITT 6CH 6-INP 14SO,,"74HCT14D,653",Nexperia USA Inc.,0.48,$0.48,https://assets.nexperia.com/documents/data-sheet/74HC_HCT14.pdf
+82,1,DS1813R-5+CT-ND,IC SUPERVISOR 1 CHANNEL SOT23-3,,DS1813R-5+T&R,Maxim Integrated,2.76,$2.76,https://datasheets.maximintegrated.com/en/ds/DS1813.pdf
+83,1,339-C1206C271K5GAC7800CT-ND,CAP CER 270PF 50V C0G/NP0 1206,,C1206C271K5GAC7800,KEMET,0.41,$0.41,https://api.kemet.com/component-edge/download/datasheet/C1206C271K5GACTU.pdf
+84,1,S2011EC-17-ND,CONN HEADER VERT 34POS 2.54MM,Floppy Header,PRPC017DAAN-RC,Sullins Connector Solutions,0.76,$0.76,https://drawings-pdf.s3.amazonaws.com/11636.pdf
+85,10,2092-JSX-1055-5.9-ND,JACK SCREW 4-40 WITH 5.5MM THREA,"D-Sub Jack Screws, As Needed",JSX-1055-5.9,"Kycon, Inc.",0.286,$2.86,http://www.kycon.com/Pub_Eng_Draw/JSX-1055-5.9.pdf
+86,1,36-1066-ND,BATT HLDR COIN 20MM 1 CEL PC PIN,,1066,Keystone Electronics,1.42,$1.42,https://www.keyelco.com/userAssets/file/M65p5.pdf
+87,4,296-4722-1-ND,IC BUF NON-INVERT 5.5V 20SOIC,,SN74AHCT244DWR,Texas Instruments,0.67,$2.68,https://www.ti.com/lit/ds/scls228m/scls228m.pdf
+88,5,493-2278-1-ND,CAP ALUM 220UF 20% 25V SMD,,UUD1E221MNL1GS,Nichicon,0.77,$3.85,https://www.nichicon.co.jp/english/products/pdfs/e-uud.pdf
+89,6,4606X-1-102LF-ND,RES ARRAY 5 RES 1K OHM 6SIP,"RN205, RN301, RN607, RN800, RN903, RN908",4606X-101-102LF,Bourns Inc.,0.43,$2.58,https://www.bourns.com/docs/Product-Datasheets/4600x.pdf
+90,1,770-61-R10KP-ND,RES ARRAY 5 RES 10K OHM 6SIP,,77061103P,CTS Resistor Products,0.56,$0.56,https://www.ctscorp.com/wp-content/uploads/2015/11/770.pdf
+91,2,S9000-ND,CONN JUMPER SHORTING TIN,,STC02SYAN,Sullins Connector Solutions,0.1,$0.20,https://drawings-pdf.s3.amazonaws.com/11134.pdf
+92,1,1849-1003-ND,CONN HEADER VERT 3POS 2.54MM,J9004,PR20203VBNN,METZ CONNECT USA Inc.,0.1,$0.10,https://media.metz-connect.com/files/171/Data_sheet_PR202XXVBNN.PDF
+93,4,S1011EC-02-ND,CONN HEADER VERT 2POS 2.54MM,2-position header,PRPC002SAAN-RC,Sullins Connector Solutions,0.08,$0.32,//media.digikey.com/PDF/Data%20Sheets/Sullins%20PDFs/xRxCzzzSxxN-RC_ST_11635-B.pdf
+94,4,RS1MWF-7DICT-ND,DIODE GEN PURP 1KV 1A SOD123F,,RS1MWF-7,Diodes Incorporated,0.48,$1.92,https://www.diodes.com/assets/Datasheets/RS1MWF.pdf
+95,1,L17H2110130-ND,CONN D-SUB PLUG 9POS R/A SLDR,,L17H2110130,Amphenol ICC (Commercial Products),3.5,$3.50,https://www.amphenolcanada.com/ProductSearch/Pdf/DSUB_CAT.pdf#Page=67
+96,1,2057-ICM-642-1-GT-HT-ND,"MACHINE PIN SOCKET, IC, DIP, 42P",Kickstart,ICM-642-1-GT-HT,Adam Tech,1.27,$1.27,https://app.adam-tech.com/products/download/data_sheet/203378/icm-6xx-1-gt-ht-data-sheet.pdf
+97,3,311-30.0KFRCT-ND,RES 30K OHM 1% 1/4W 1206,,RC1206FR-0730KL,YAGEO,0.1,$0.30,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
+98,1,311-6.20KFRCT-ND,RES 6.2K OHM 1% 1/4W 1206,,RC1206FR-076K2L,YAGEO,0.1,$0.10,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
+99,1,CY62167ELL-45ZXI-ND,IC SRAM 16MBIT PARALLEL 48TSOP I,,CY62167ELL-45ZXI,Cypress Semiconductor Corp,16.61,$16.61,https://www.cypress.com/file/43821/download
+100,1,296-SN74HC258DRCT-ND,IC MULTIPLEXER 4 X 2:1 16SOIC,,SN74HC258DR,Texas Instruments,0.6,$0.60,https://www.ti.com/lit/ds/scls224b/scls224b.pdf
+101,1,339-C1206C220K5GAC7800CT-ND,CAP CER 22PF 50V C0G/NP0 1206,,C1206C220K5GAC7800,KEMET,0.2,$0.20,https://api.kemet.com/component-edge/download/datasheet/C1206C220K2GACTU.pdf
+102,2,4606X-1-471LF-ND,RES ARRAY 5 RES 470 OHM 6SIP,,4606X-101-471LF,Bourns Inc.,0.5,$1.00,https://www.bourns.com/docs/Product-Datasheets/4600x.pdf
+103,1,296-20799-1-ND,IC REG LIN -5V 1.5A DDPAK/TO263,-5V Regulator,UA7905CKTTR,Texas Instruments,1.49,$1.49,https://www.ti.com/lit/ds/slvs058h/slvs058h.pdf
+104,1,WM4201-ND,CONN HEADER VERT 3POS 2.54MM,Fan header,22232031,Molex,0.28,$0.28,https://www.molex.com/pdm_docs/sd/022232031_sd.pdf
+105,1,2057-BHR-20-VUA-ND,CONN HEADER VERT 20POS 2.54MM,External floppy header,BHR-20-VUA,Adam Tech,0.46,$0.46,https://app.adam-tech.com/products/download/data_sheet/203218/bhr-xx-vua-data-sheet.pdf
+106,2,1727-2845-1-ND,IC GATE OR 4CH 2-INP 14SO,,"74HCT32D,653",Nexperia USA Inc.,0.4,$0.80,https://assets.nexperia.com/documents/data-sheet/74HC_HCT32.pdf
+107,47,13-AC0805FR-7W1KLCT-ND,RES 1 KOHM 1% 1/4W 0805,Zorro termination,AC0805FR-7W1KL,YAGEO,0.084,$3.95,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf
+108,47,339-C0805C102K5RAC7800CT-ND,CAP CER 1000PF 50V X7R 0805,Zorro termination,C0805C102K5RAC7800,KEMET,0.091,$4.28,https://api.kemet.com/component-edge/download/datasheet/C0805C102K5RACTU.pdf
+109,1,887-1207-1-ND,XTAL OSC XO 28.63636MHZ CMOS SMD,Optional NTSC Oscillator,7C-28.63636MBB-T,TXC CORPORATION,1.94,$1.94,http://www.txccorp.com/download/products/oscillators/2015TXC_7C_57.pdf
+110,1,1473-SIT8208AI-33-33E-28.375000-ND,MEMS OSC XO 28.3750MHZ LVCMOS LV,Optional PAL Oscillator,SIT8208AI-33-33E-28.375000,SiTime,1.43,$1.43,https://www.sitime.com/datasheet/SiT8208
+111,1,339-C1206C200K5GAC7800CT-ND,CAP CER 20PF 50V C0G/NP0 1206,Optional RTC Capacitor,C1206C200K5GAC7800,KEMET,0.19,$0.19,https://api.kemet.com/component-edge/download/datasheet/C1206C200K5GACTU.pdf
+112,1,3M5464-ND,CONN IC DIP SOCKET 18POS TIN,Optional RTC Socket,4818-3000-CP,3M,0.67,$0.67,https://multimedia.3m.com/mws/media/218496O/3mtm-dip-socket-4800-series-ts1099.pdf
+113,1,SER4076CT-ND,CRYSTAL 32.7680KHZ 12.5PF SMD,Optional RTC Crystal,FC-135R 32.7680KF-A3,EPSON,0.86,$0.86,https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-135R&lang=en
+114,1,2447-GKG60015-ND,CAP TRIMMER 12-60PF 100V TH,Optional RTC Trimmer Cap,GKG60015,EW Electronics,0.92,$0.92,//media.digikey.com/pdf/Data%20Sheets/EW%20Electronics-Edmar/GKGxx015_016_Series_DS.pdf
