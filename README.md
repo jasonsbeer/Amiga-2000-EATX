@@ -123,12 +123,15 @@ Rev 2.0
 4. Cleaned up the schematics
 
 Rev 2.1
-1. Corrected footprint for U109
-2. Moved RN301 to make room for a shrouded connector at CN304
-3. Added addtional component values to silk screen
-4. Corrected Agnus Vbb trace
-5. Moved many traces to the external layers
-6. Added Agnus jumper settings to the rear silk scree
+1. Corrected footprint of U109
+2. Changed footprint of U9000 to offer more part options
+3. Added U207 to buffer VSYNC and HSYNC signals
+4. Moved RN301 to make room for a shrouded connector at CN304
+5. Relocated Zorro termination components
+6. Added additional component values to silk screen
+7. Corrected Agnus Vbb trace
+8. Moved many traces to the external layers
+9. Added Agnus jumper settings to the rear silk screen
    
 ## Acknowledgments
 kr239 - for the Amiga 500 DRAM replacement project inspiration and LIV2 and texneus for the modifications used in this project
