@@ -1781,11 +1781,11 @@ Wire Wire Line
 	9700 3650 9600 3650
 Wire Wire Line
 	9600 3650 9600 3450
+Connection ~ 9600 3450
+Wire Wire Line
+	9600 3450 8300 3450
 Wire Bus Line
 	1150 4850 1150 5700
 Wire Bus Line
 	1150 3100 1150 4600
-Connection ~ 9600 3450
-Wire Wire Line
-	9600 3450 8300 3450
 $EndSCHEMATC
