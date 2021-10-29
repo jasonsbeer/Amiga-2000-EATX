@@ -1,4 +1,4 @@
-Index,Requested Quantity,Digi-Key Part Number,Description,Manufacturer Part Number,Manufacturer Name,Unit Price,Extended Price,Customer Reference,Datasheet
+Index,Quantity,Digi-Key Part Number,Description,Manufacturer Part Number,Manufacturer Name,Unit Price,Extended Price,Customer Reference,Datasheet
 1,11,311-1.00KFRCT-ND,RES 1K OHM 1% 1/4W 1206,RC1206FR-071KL,YAGEO,0.074,$0.81,,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
 2,62,399-C1206C104K5RAC7800CT-ND,CAP CER 0.1UF 50V X7R 1206,C1206C104K5RAC7800,KEMET,0.0452,$2.80,,https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf
 3,1,A144213-ND,CONN CARDEDGE FEMALE 86POS 0.100,1-5530843-0,TE Connectivity AMP Connectors,8.05,$8.05,CPU Slot,https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773096_SEC03_CARD_EDGE&DocType=CS&DocLang=English
