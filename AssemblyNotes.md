@@ -2,7 +2,7 @@
 
 IMPORTANT INFORMATION. It is highly recommended you read this entire page before assembling the Amiga 2000 EATX.
 
-**Disclaimer:** I feel like I should not need to put this, but here it is. This project is free and open source. It is a complex project and should only be undertaken by individuals experienced in SMD assembly techniques. No warranty or guarantee is offered that it will work for your particular situation. You assume all risk should you choose to build it.
+**Disclaimer:** This project is free and open source. It is a complex project and should only be undertaken by individuals experienced in SMD assembly techniques. No warranty or guarantee is offered that it will work for your particular situation. You assume all risk should you choose to build it.
 
 This Amiga EATX PCB makes use of many modern surface mount components. These and the other standard components are available from most any good electronics supply house. The BOM includes Digi-Key part numbers for your reference. In addition, you will need to obtain the legacy components shown in Table A1. 
 
@@ -21,9 +21,17 @@ You will need an oscillator installed at X1 or X2 to generate a clock signal. Yo
 **Note on CMOS oscillator:** 3.3v CMOS logic is compatible with in-spec TTL logic. My test board worked well with a 3.3v CMOS oscillator. All clock signals from Agnus are correct on my test machine. I would still recommend using like-for-like logic, if possible. Using the 3.3v CMOS oscillator should only be considered if a TTL oscillator cannot be reasonably obtained. 
 
 ## Configuring the Agnus Jumpers
-The revision 2.0 board supports multiple Agnus revisions. See Table A2 for a list of part numbers supported. Not all the listed part numbers has been directly tested. Reviewing related literature suggests all the listed parts numbers *should* work. However, <b>until each specific part number is tested, there is no guarantee any particular Agnus will work</b>, even if listed. The table below indicates the status of each part number. If you test a new Agnus part number, please place a new post in the issues tab so I can update the table.
+The revision 2.0 board supports multiple Agnus revisions. See Table A2 for a list of part numbers supported. Not all the listed part numbers has been directly tested. Reviewing related literature suggests all the listed parts numbers *should* work. However, <b>until each specific part number is tested, there is no guarantee any particular Agnus will work</b>, even if listed. Table A2 indicates the status of each part number. If you test a new Agnus part number, please place a new post in the issues tab so the table can be updated.
 
-The Agnus jumpers are not configured from the factory. During board assembly, the jumpers defined in Table A3 must be configured for the specific Agnus part number to be used. It is up to the individual assembling the board to correctly short each jumper, as necessary. Failure to correctly do so will result in a malfunctioning board. See Table A3.
+The Agnus solder pad jumpers are **not** configured from the factory. During board assembly, the jumpers defined in Table A3 must be configured for the specific Agnus part number to be used. The individual assembling the board must correctly short each jumper, as necessary. Failure to correctly do so will result in a malfunctioning board. Most of the configuration jumpers are on the back of the board, with only JA13 on the front of the board. See Images 1 and 2. The jumper pad locations are circled in red.
+
+**Image 1.** Agnus Jumper Locations - Front
+
+<img src="/Images/Agnus-Jumpers-Front.png" width="400">
+
+**Image 2.** Agnus Jumper Locations - Back
+
+<img src="/Images/Agnus-Jumpers-Back.png" width="400">
 
 ## Kickstart Installation
 The Amiga 2000 EATX is provisioned to accept 512k (27C400, 40 pin), 1MB (27C800, 42 pin), and 2MB (27C160, 42 pin) Kickstart EPROMs. The Kickstart socket (U500) is a 42 pin DIP footprint that supports all three types. A standard Amiga Kickstart ROM is based on the 27C400 EPROM. When installing a 27C400 EPROM, you must install it toward the bottom of the socket, leaving pins 1 and 42 of the socket empty. This is noted on the silk screen and will correctly align the pins. **Installing the 27C400 EPROM incorrectly may damage it!** Install 27C800 and 27C160 EPROMs as normal. Use of 1MB and larger EPROMs is considered experimental. Guides to create custom Kickstart ROMs can be found on Amiga community sites.
