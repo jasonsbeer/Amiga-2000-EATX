@@ -1,3 +1,5 @@
+**DEPRECATED** This is the revision 1.2.1 information for historical reference.
+
 # Amiga 2000 EATX PCB
 This is an open source Amiga 2000 PCB in the EATX form factor. EATX is an ATX variant that defines larger PCBs, measuring 12 x 13 inches (305 × 330 mm). These are referred to as Extended ATX, or, EATX (see [Enterprise Electronics Bay Specification](/DataSheets/SSI%20EEB%202011%201.0.1.pdf)). The length of Zorro II cards and the abundance of components on the Amiga 2000 makes EATX the best choice for this project.
 
@@ -119,13 +121,6 @@ Rev 1.2
 Rev 1.2.1 **PRODUCTION REVISION**
 1. Added some missing component values to the silk screen, where there was room
 2. Moved VIDIOT over to make additional room for coprocessor cards
-
-Rev 2.0 **FINAL DESIGN STAGE**
-1. Supports both Agnus 8372A and Agnus 8375 (A500+/A600 variety) on the same board
-2. Added external floppy drive header
-3. Support for two real-time clock options
-4. Moved Zorro bus termination
-5. Cleaned up the schematics
    
 ## Acknowledgments
 kr239 - for the Amiga 500 DRAM replacement project inspiration and LIV2 and texneus for the modifications used in this project
