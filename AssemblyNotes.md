@@ -147,8 +147,6 @@ J102|SHORT for NTSC<br>OPEN for PAL|SHORT|SHORT
 
 1-2 = Short pads 1 and 2 together<br>3-2 = Short pads 3 and 2 together<br>SHORT = Short the two pads together<br>OPEN = Nothing is shorted
 
-NOTE: The revision 1.2.1 board supports only Agnus 8372A and only makes use of J102. J102 should be configured as shown in the 8372A column of Table A3.
-
 ### Table A4. External Floppy Drive Header (CN304)
 
 Pin|Signal|Pin|Signal
