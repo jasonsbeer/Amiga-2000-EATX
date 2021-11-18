@@ -881,7 +881,6 @@ X D6 8 -350 -50 100 R 50 50 1 1 I
 X D7 9 -350 -150 100 R 50 50 1 1 I
 X GND 12 0 -400 100 U 50 50 2 1 W
 X Vcc 24 0 400 100 D 50 50 2 1 W
-<<<<<<< HEAD:2000EATX-KiCAD-R21/Amiga-KiCad/Amiga-Library.lib
 ENDDRAW
 ENDDEF
 #
@@ -932,8 +931,6 @@ X R4.2 5 100 200 100 D 50 50 1 1 P
 X R3.2 6 0 200 100 D 50 50 1 1 P
 X R2.2 7 -100 200 100 D 50 50 1 1 P
 X R1.2 8 -200 200 100 D 50 50 1 1 P
-=======
->>>>>>> main:Amiga-KiCad/Amiga-Library.lib
 ENDDRAW
 ENDDEF
 #

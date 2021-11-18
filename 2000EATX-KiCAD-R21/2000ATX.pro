@@ -1,8 +1,4 @@
-<<<<<<< HEAD:2000EATX-KiCAD-R21/2000ATX.pro
 update=Sun 26 Sep 2021 12:20:53 PM CDT
-=======
-update=Thu 30 Sep 2021 05:36:08 PM CDT
->>>>>>> main:2000EATX-KiCAD-R121/2000ATX.pro
 version=1
 last_client=kicad
 [general]
@@ -16,6 +12,16 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=/home/jason/Desktop/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=118
+ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -273,13 +279,3 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=/home/jason/Desktop/Schematics
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceAjustPassiveValues=0
-LabSize=118
-ERC_TestSimilarLabels=1
