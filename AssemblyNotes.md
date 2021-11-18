@@ -21,7 +21,7 @@ You will need an oscillator installed at X1 or X2 to generate a clock signal. Yo
 **Note on CMOS oscillator:** 3.3v CMOS logic is compatible with in-spec TTL logic. My test board worked well with a 3.3v CMOS oscillator. All clock signals from Agnus are correct on my test machine. I would still recommend using like-for-like logic, if possible. Using the 3.3v CMOS oscillator should only be considered if a TTL oscillator cannot be reasonably obtained. 
 
 ## Configuring the Agnus Jumpers
-The revision 2.0 board supports multiple Agnus revisions. See Table A2 for a list of part numbers supported. Not all the listed part numbers has been directly tested. Reviewing related literature suggests all the listed parts numbers *should* work. However, <b>until each specific part number is tested, there is no guarantee any particular Agnus will work</b>, even if listed. Table A2 indicates the status of each part number. If you test a new Agnus part number, please place a new post in the issues tab so the table can be updated.
+The revision 2.x board supports multiple Agnus revisions. See Table A2 for a list of part numbers supported. Not all the listed part numbers has been directly tested. Reviewing related literature suggests all the listed parts numbers *should* work. However, <b>until each specific part number is tested, there is no guarantee any particular Agnus will work</b>, even if listed. Table A2 indicates the status of each part number. If you test a new Agnus part number, please place a new post in the issues tab so the table can be updated.
 
 The Agnus solder pad jumpers are **not** configured from the factory. During board assembly, the jumpers defined in Table A3 must be configured for the specific Agnus part number to be used. The individual assembling the board must correctly short each jumper, as necessary. Failure to correctly do so will result in a malfunctioning board. Most of the configuration jumpers are on the back of the board, with only JA13 on the front of the board. See Images 1 and 2. The jumper pad locations are circled in red.
 
@@ -41,7 +41,7 @@ The Amiga 2000 EATX is provisioned to accept 512k (27C400, 40 pin), 1MB (27C800,
 ## Floppy Drive Headers
 CN303 is a 34 pin header that is reponsible for the internal floppy drives DF0 and DF1. Pin 3 is a key. That is, factory Amiga floppy drive cables often have a pin socket blocked to ensure the cable is oriented correctly before installing. As such, it is recommended you remove pin 3 from the header before installing on the board. You can often pull it out with needle nose pliers. Alternatively, you can cut it off with a wire cutter.
 
-CN304 is a 20 pin header that is reponsible for the external floppy drives DF2 and DF3. This header provides 12V on pin 18. Installing the cable backwards may result in damage to connected devices. Thus, the BOM includes a keyed, shrouded connector, which will help prevent incorrect installation when used with keyed cable. To use external drives, an adapter cable will need to be created. See Tables A4 and A5.
+CN304 is a 20 pin header that is reponsible for the external floppy drives DF2 and DF3. This header provides 12V on pin 18. **Installing the cable backwards may result in damage to connected devices!** Thus, the BOM includes a keyed, shrouded connector that will help prevent incorrect installation when used with a keyed cable. To use external drives, an adapter cable will need to be created. See Tables A4 and A5.
 
 <img src="/Images/floppyheader.jpg" width="500">
 
@@ -122,7 +122,7 @@ Agnus|Commodore Part Number|Status
 8375|318069-12|Unknown
 8375|318069-13|Unknown
 
-### Table A3. Revision 2.0 Agnus Configuration Jumpers
+### Table A3. Revision 2.x Agnus Configuration Jumpers
 
 Agnus|<b>8372A</b>|<b>8375</b>|<b>8375</b>
 -|-|-|-
@@ -167,7 +167,7 @@ Pin|Signal|Pin|Signal
 
 Pin|Signal|Pin|Signal
 -|-|-|-
-1|_RDY|13|SIDE
+1|_RDY|13|_SIDE
 2|_DKRD|14|_WPROT
 3|GROUND|15|_TRK0
 4|GROUND|16|_DKWEB
