@@ -1,0 +1,141 @@
+32269107883559
+AmigaFootprints
+2x18_P2.54mm_Horizontal
+Samtec HLE .100" Tiger Beam Cost-effective Single Beam Socket Strip, HLE-150-02-xx-DV-TE, 50 Pins per row (http://suddendocs.samtec.com/prints/hle-1xx-02-xx-dv-xe-xx-mkt.pdf, http://suddendocs.samtec.com/prints/hle-thru.pdf), generated with kicad-footprint-generator
+connector Samtec HLE top entry
+0
+36
+36
+AmigaFootprints
+A2000_CPUSLOT_MALE
+Connecteur Bus AT ISA 16 bits
+CONN BUS AMIGA
+0
+86
+86
+AmigaFootprints
+Amiga 2x18 Card Edge Male
+
+
+0
+36
+36
+AmigaFootprints
+C_1206_3216_Feedthrough
+Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+capacitor
+0
+4
+3
+AmigaFootprints
+DIN5
+
+
+0
+7
+6
+AmigaFootprints
+DSUB-9_Male_Stack
+9-pin D-Sub connector, horizontal/angled (90 deg), THT-mount, male, pitch 2.77x2.84mm, pin-PCB-offset 7.699999999999999mm, distance of mounting holes 25mm, distance of mounting holes to PCB edge 9.12mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf
+9-pin D-Sub connector horizontal angled 90deg THT male pitch 2.77x2.84mm pin-PCB-offset 7.699999999999999mm mounting-holes-distance 25mm mounting-hole-offset 25mm
+0
+22
+19
+AmigaFootprints
+DSUB-15-HD_Female_Horizontal_P2.29x1.98mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm
+15-pin D-Sub connector, horizontal/angled (90 deg), THT-mount, female, pitch 2.29x1.98mm, pin-PCB-offset 8.35mm, distance of mounting holes 25mm, distance of mounting holes to PCB edge 10.889999999999999mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf
+15-pin D-Sub connector horizontal angled 90deg THT female pitch 2.29x1.98mm pin-PCB-offset 8.35mm mounting-holes-distance 25mm mounting-hole-offset 25mm
+0
+17
+16
+AmigaFootprints
+DSUB-25_Stack_Female_Bottom_Male_Top
+25-pin D-Sub connector, horizontal/angled (90 deg), THT-mount, female, pitch 2.77x2.84mm, pin-PCB-offset 4.9399999999999995mm, distance of mounting holes 47.1mm, distance of mounting holes to PCB edge 7.4799999999999995mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf
+25-pin D-Sub connector horizontal angled 90deg THT female pitch 2.77x2.84mm pin-PCB-offset 4.9399999999999995mm mounting-holes-distance 47.1mm mounting-hole-offset 47.1mm
+0
+54
+51
+AmigaFootprints
+ISA_16-BIT_P2.54mm_Horizontal
+Samtec HLE .100" Tiger Beam Cost-effective Single Beam Socket Strip, HLE-131-02-xx-DV-TE, 31 Pins per row (http://suddendocs.samtec.com/prints/hle-1xx-02-xx-dv-xe-xx-mkt.pdf, http://suddendocs.samtec.com/prints/hle-thru.pdf), generated with kicad-footprint-generator
+connector Samtec HLE top entry
+0
+98
+98
+AmigaFootprints
+JumperImage
+
+
+0
+0
+0
+AmigaFootprints
+MountingHole_Pad
+Mounting Hole 4.3mm, M4, DIN965
+mounting hole 4.3mm m4 din965
+0
+1
+1
+AmigaFootprints
+Mug
+
+
+0
+0
+0
+AmigaFootprints
+RaspberryPiZerowithHoles
+
+
+0
+2
+1
+AmigaFootprints
+SOIC-24W_RTC62423
+SOIC, 24 Pin (JEDEC MS-013AD, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_wide-rw/RW_24.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+24
+24
+AmigaFootprints
+Samtec_HLE-150-02-xx-DV-TE_2x43_P2.54mm_Horizontal
+Samtec HLE .100" Tiger Beam Cost-effective Single Beam Socket Strip, HLE-150-02-xx-DV-TE, 50 Pins per row (http://suddendocs.samtec.com/prints/hle-1xx-02-xx-dv-xe-xx-mkt.pdf, http://suddendocs.samtec.com/prints/hle-thru.pdf), generated with kicad-footprint-generator
+connector Samtec HLE top entry
+0
+86
+86
+AmigaFootprints
+Samtec_HLE-150-02-xx-DV-TE_2x50_P2.54mm_Horizontal
+Samtec HLE .100" Tiger Beam Cost-effective Single Beam Socket Strip, HLE-150-02-xx-DV-TE, 50 Pins per row (http://suddendocs.samtec.com/prints/hle-1xx-02-xx-dv-xe-xx-mkt.pdf, http://suddendocs.samtec.com/prints/hle-thru.pdf), generated with kicad-footprint-generator
+connector Samtec HLE top entry
+0
+100
+100
+AmigaFootprints
+TSOP-II-50_P0.8mm
+54-lead TSOP typ II package
+TSOPII TSOP2
+0
+50
+50
+AmigaFootprints
+TrimmerCap
+
+
+0
+2
+2
+AmigaFootprints
+VIA-0.6mm
+
+
+0
+1
+1
+AmigaFootprints
+ZorroCardEdge
+Amiga Zorro 2-3 Edge Connector
+Amiga Zorro 2-3 Edge Connector
+0
+100
+100

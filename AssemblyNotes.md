@@ -89,6 +89,7 @@ Solder pad jumpers are present on the Rev 2.0 board. In the event there are only
 <img src="/Images/solderjumper.png" width="200">
 
 ## Tables
+
 ### Table A1. Legacy Parts Required
 Common Name|Designation/Part Number|Postion|Package|Notes
 -|-|-|-|-

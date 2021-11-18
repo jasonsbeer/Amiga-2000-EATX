@@ -8,7 +8,6 @@ In addition to a new board replacement option, I believe the ubiquitous EATX sta
 <img src="/Images/REV21-PCB.png" width="500">
 
 ## Project Status
-November 17, 2021
 
 ### Revision 2.1 is the current production board.
 Rev 2.0 shown. The primary difference from earlier revisions is support of 8372A and 8375 Agnus parts on the same board.
@@ -139,3 +138,5 @@ texneus - ATX ON/OFF circuit
 DarrenHD - Pics and measurements of the Amiga 3000 video slot bracket adapter - https://eab.abime.net/showthread.php?t=106928
 
 Chucky - Amiga Diagrom...a priceless diagnostic tool - http://www.diagrom.com/
+
+Everyone that made the Amiga possible.

@@ -1459,12 +1459,21 @@ Wire Wire Line
 $Comp
 L Jumper:Jumper_3_Bridged12 J9004
 U 1 1 60ED3751
+<<<<<<< HEAD:2000EATX-KiCAD-R21/video.sch-bak
 P 10950 3550
 F 0 "J9004" H 10950 3754 50  0000 C CNN
 F 1 "HSYNC/COMPSYNC" H 10950 3663 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 10950 3550 50  0001 C CNN
 F 3 "~" H 10950 3550 50  0001 C CNN
 	1    10950 3550
+=======
+P 9950 3550
+F 0 "J9004" H 9950 3754 50  0000 C CNN
+F 1 "HSYNC/COMPSYNC" H 9950 3663 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 9950 3550 50  0001 C CNN
+F 3 "~" H 9950 3550 50  0001 C CNN
+	1    9950 3550
+>>>>>>> main:2000EATX-KiCAD-R121/video.sch-bak
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
