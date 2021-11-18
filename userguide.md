@@ -60,7 +60,7 @@ Certain video adapters, such as the GBS 8220, require a composite sync signal in
 <img src="/Images/A2000EATX_Ports.png" width="500">
 
 ## Floppy Drive(s)
-The Revision 2.0 board has two floppy drive headers. CN303 is for the internal drives (DF0 and DF1) and CN304 is for external drives (DF2 and DF3). The discussion below refers to the internal drives header (CN303). In order to use the external drive header, you will need to build a cable to DB23 connector. Refer to the assembly notes for further information.
+The Revision 2.x board has two floppy drive headers. CN303 is for the internal drives (DF0 and DF1) and CN304 is for external drives (DF2 and DF3). The discussion below refers to the internal drives header (CN303). In order to use the external drive header, you will need to build a cable to DB23 connector. Refer to the assembly notes for further information.
 
 The Amiga uses a 34 pin cable to attach up to two internal floppy drives or floppy drive emulators to CN303. The Amiga floppy cable is different from a PC floppy cable. The cable must be oriented and drives attached in the correct order for full functionality. Ensure correct alignment of pin 1 at each connection.
 
