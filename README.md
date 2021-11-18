@@ -1,29 +1,24 @@
-# Amiga 2000 EATX PCB
+## Amiga 2000 EATX PCB
 This is an open source Amiga 2000 PCB in the EATX form factor. EATX is an ATX variant that defines larger PCBs, measuring 12 x 13 inches (305 × 330 mm). These are referred to as Extended ATX, or, EATX (see [Enterprise Electronics Bay Specification](/DataSheets/SSI%20EEB%202011%201.0.1.pdf)). The length of Zorro II cards and the abundance of components on the Amiga 2000 makes EATX the best choice for this project.
 
 There are one-to-one board replacement projects for the Amiga 2000, but none to change the layout to meet current form factor standards. In addition, the Amiga 2000 made use of connectors and custom parts that are no longer commercially manufactured. This often requires parts to be pulled from existing machines. As such, this project will make use of only actively supported components when possible.
 
 In addition to a new board replacement option, I believe the ubiquitous EATX standard will bring additional interest to the Amiga as a hobbyist and retro-computing option. At the time or writting this, the Amiga operating system is still actively developed and supported. In addition, there is a substantial database of existing software and hardware add-on options and an active community.
 
-Discord: https://discord.gg/NU7SPYfNFj
-
-<img src="/Images/2000EATX-Rev121.png" width="500">
+<img src="/Images/REV21-PCB.png" width="500">
 
 ## Project Status
-October 6, 2021
 
-I expect to assemble and test the next revision (2.0) of the Amiga 2000 EATX board by the middle of November. If you are wanting to build one of these boards, I recommend you wait for the revision 2.0 release. The revision 2.0 board will have additional features that many will find attractive. See revision history at the bottom of this page for additional information.
+### Revision 2.1 is the current production board.
+Rev 2.0 shown. The primary difference from earlier revisions is support of 8372A and 8375 Agnus parts on the same board.
 
-August 11, 2021
-
-**Revision 1.2.1 is the production board.**
-Rev 1.2 shown.
-
-<img src="/Images/Rev12-Complete.png" width="500">
+<img src="/Images/REV2.png" width="500">
 
 <img src="/Images/lemmings.png" width="500">
 
 <img src="/Images/case1.jpg" width="500">
+
+Revision 1.2.1 can be found [here](https://github.com/jasonsbeer/Amiga-2000-EATX/tree/Rev-1.2.1).
 
 If you are interested in a brief history of this project, check out the [Gallery page](/Gallery.md).
 
@@ -116,16 +111,22 @@ Rev 1.2
 7. Added support for 1 and 2 MB Kickstart ROMs (512k still supported)
 8. Added some space around the external ports...they were crowded
 
-Rev 1.2.1 **PRODUCTION REVISION**
+Rev 1.2.1
 1. Added some missing component values to the silk screen, where there was room
 2. Moved VIDIOT over to make additional room for coprocessor cards
 
-Rev 2.0 **FINAL DESIGN STAGE**
-1. Supports both Agnus 8372A and Agnus 8375 (A500+/A600 variety) on the same board
+Rev 2.0
+1. Supports both Agnus 8372A and certain Agnus 8375 part numbers on the same board
 2. Added external floppy drive header
 3. Support for two real-time clock options
-4. Moved Zorro bus termination
-5. Cleaned up the schematics
+4. Cleaned up the schematics
+
+Rev 2.1 **PRODUCTION REVISION**
+1. Changed footprint of U9000 to offer more part options
+2. Added U207 to buffer VSYNC and HSYNC signals
+3. Relocated Zorro termination components
+4. Added additional component values to silk screen
+5. Moved many traces to the external layers
    
 ## Acknowledgments
 kr239 - for the Amiga 500 DRAM replacement project inspiration and LIV2 and texneus for the modifications used in this project

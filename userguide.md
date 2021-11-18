@@ -18,10 +18,10 @@ The board surface to surface clearance between the coprocessor and video slot is
 
 <img src="/Images/COP-Video-Clearance.jpg" width="500">
 
-## Jumper Settings
+## User Jumper Settings
+
 Jumper|Description|Detail
 -|-|-
-J102|NTSC/PAL Timing|Place jumper when using an NTSC oscillator
 J301|DF1 Presence|Place jumper when using two internal disk drives
 J900|Chip RAM DMA Slowdown|Place jumper (factory default)
 J9001|Reset|Attach EATX case reset switch
@@ -33,7 +33,7 @@ J9100|Power Switch|Attach EATX case power switch
 
 Jumper Locations (click to enlarge)
 
-<img src="/Images/2000EATX-Jumpers.png" width="750">
+<img src="/Images/Jumpers-Front.png" width="400">
 
 ## Connecting your Amiga 2000 EATX
 You will need a computer case that will accept EATX boards as well as an ATX power supply (see Case Considerations, above). Connect the Amiga 2000 EATX as you would any other ATX board.
@@ -60,7 +60,9 @@ Certain video adapters, such as the GBS 8220, require a composite sync signal in
 <img src="/Images/A2000EATX_Ports.png" width="500">
 
 ## Floppy Drive(s)
-The Amiga uses a 34 pin cable to attach up to two internal floppy drives or floppy drive emulators. The Amiga floppy cable is different from a PC floppy cable. The cable must be oriented and drives attached in the correct order for full functionality. Ensure correct alignment of pin 1 at each connection.
+The Revision 2.0 board has two floppy drive headers. CN303 is for the internal drives (DF0 and DF1) and CN304 is for external drives (DF2 and DF3). The discussion below refers to the internal drives header (CN303). In order to use the external drive header, you will need to build a cable to DB23 connector. Refer to the assembly notes for further information.
+
+The Amiga uses a 34 pin cable to attach up to two internal floppy drives or floppy drive emulators to CN303. The Amiga floppy cable is different from a PC floppy cable. The cable must be oriented and drives attached in the correct order for full functionality. Ensure correct alignment of pin 1 at each connection.
 
 ### Setting Device IDs
 The Amiga requires the device ID be designated on the floppy drive. This is accomplished through the use of jumpers on the drive. Drive DF0 must be jumpered as S0. DF1 must be jumpered as S1.
@@ -83,6 +85,9 @@ The +12V pins on the card slots will support approximately 2.5 amps total on the
 On an Amiga keyboard, the Left Amiga-Right Amiga-Ctrl keys are pressed simultaneously. This signals the computer to complete any pending tasks and then reset. You also have the option to use the reset button on the computer case. Pressing this button will activate the same signals internally and will result in a reset in the same way. This is especially useful if you do not have an Amiga keyboard.
 
 ## Tables
+
+### Table 1. Video Port
+
 Table 1. Video Port
 
 Pin|Signal|Pin|Signal|Pin|Signal
