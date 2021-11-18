@@ -10,7 +10,7 @@ In addition to a new board replacement option, I believe the ubiquitous EATX sta
 ## Project Status
 November 17, 2021
 
-**Revision 2.1 is the production board.**
+### Revision 2.1 is the current production board.
 Rev 2.0 shown. The primary difference from the previous revisions is the support of 8372A and 8375 Agnus parts on the same board.
 
 <img src="/Images/REV2.png" width="500">
