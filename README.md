@@ -1,5 +1,3 @@
-# This is the development branch. Most things here probably do not work. If you are looking for production information, go the main branch.
-
 ## Amiga 2000 EATX PCB
 This is an open source Amiga 2000 PCB in the EATX form factor. EATX is an ATX variant that defines larger PCBs, measuring 12 x 13 inches (305 × 330 mm). These are referred to as Extended ATX, or, EATX (see [Enterprise Electronics Bay Specification](/DataSheets/SSI%20EEB%202011%201.0.1.pdf)). The length of Zorro II cards and the abundance of components on the Amiga 2000 makes EATX the best choice for this project.
 
@@ -10,16 +8,18 @@ In addition to a new board replacement option, I believe the ubiquitous EATX sta
 <img src="/Images/REV21-PCB.png" width="500">
 
 ## Project Status
-August 11, 2021
+November 17, 2021
 
-**Revision 1.2.1 is the production board.**
-Rev 1.2 shown.
+**Revision 2.1 is the production board.**
+Rev 2.0 shown. The primary difference from the previous revisions is the support of 8372A and 8375 Agnus parts on the same board.
 
-<img src="/Images/Rev12-Complete.png" width="500">
+<img src="/Images/REV2.png" width="500">
 
 <img src="/Images/lemmings.png" width="500">
 
 <img src="/Images/case1.jpg" width="500">
+
+Revision 1.2.1 can be found [here](https://github.com/jasonsbeer/Amiga-2000-EATX/tree/Rev-1.2.1).
 
 If you are interested in a brief history of this project, check out the [Gallery page](/Gallery.md).
 
@@ -112,7 +112,7 @@ Rev 1.2
 7. Added support for 1 and 2 MB Kickstart ROMs (512k still supported)
 8. Added some space around the external ports...they were crowded
 
-Rev 1.2.1 **PRODUCTION REVISION**
+Rev 1.2.1
 1. Added some missing component values to the silk screen, where there was room
 2. Moved VIDIOT over to make additional room for coprocessor cards
 
@@ -122,16 +122,12 @@ Rev 2.0
 3. Support for two real-time clock options
 4. Cleaned up the schematics
 
-Rev 2.1
-1. Corrected footprint of U109
-2. Changed footprint of U9000 to offer more part options
-3. Added U207 to buffer VSYNC and HSYNC signals
-4. Moved RN301 to make room for a shrouded connector at CN304
-5. Relocated Zorro termination components
-6. Added additional component values to silk screen
-7. Corrected Agnus Vbb trace
-8. Moved many traces to the external layers
-9. Added Agnus jumper settings to the rear silk screen
+Rev 2.1 **PRODUCTION REVISION**
+1. Changed footprint of U9000 to offer more part options
+2. Added U207 to buffer VSYNC and HSYNC signals
+3. Relocated Zorro termination components
+4. Added additional component values to silk screen
+5. Moved many traces to the external layers
    
 ## Acknowledgments
 kr239 - for the Amiga 500 DRAM replacement project inspiration and LIV2 and texneus for the modifications used in this project
