@@ -1,6 +1,6 @@
 # Amiga 2000 EATX PCB
 
-## I pushed new Rev 2.1 gerbers to github just now (November 20, 2021). The silkscreen of the original upload was missing the footprint values (e.g. 1k, 0.1uF, etc). Everything else was correct. Only the silkscreen was affected. This was due to an error on my part. If you happened to download the gerbers since Rev 2.1 was pushed, you should download them again.
+## I pushed new Rev 2.1 gerbers to github just now (November 20, 2021). The silkscreen of the original upload was missing the footprint values (e.g. 1k, 0.1uF, etc). Everything else was correct. Only the silkscreen was affected. If you happened to download the gerbers since Rev 2.1 was pushed, you should download them again.
 
 This is an open source Amiga 2000 PCB in the EATX form factor. EATX is an ATX variant that defines larger PCBs, measuring 12 x 13 inches (305 × 330 mm). These are referred to as Extended ATX, or, EATX (see [Enterprise Electronics Bay Specification](/DataSheets/SSI%20EEB%202011%201.0.1.pdf)). The length of Zorro II cards and the abundance of components on the Amiga 2000 makes EATX the best choice for this project.
 
