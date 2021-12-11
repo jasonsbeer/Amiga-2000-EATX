@@ -52,7 +52,7 @@ There are two options for the real time clock (RTC). You can install the origina
 When installing the MSM6242 circuit, include components Y800, C810, and VC800. When installing the RTC-62423A circuit, Y800, C810, and VC800 are omitted.
 
 ## BOM
-The individual line items of non-legacy components with Digi-Key and manufacturer part numbers can be found [here](/BOM/Amiga_2000_EATX_REV21_SHOPPINGLIST.csv). This file can be used as a reference for ordering. This CSV file can be uploaded into your Digi-Key cart, automatically adding the required items to your cart. It will also tell you when bumping the quantity to the next price break will save you money. Quite nice!
+The individual line items of non-legacy components with Digi-Key and manufacturer part numbers can be found [here](/BOM/Amiga_2000_EATX_REV21_SHOPPINGLIST.csv). This file can be used as a reference for ordering. This CSV file can be uploaded into your Digi-Key cart, automatically adding the required items to your cart. It will also tell you when bumping the quantity to the next price break will save you money. Quite nice! Note that some items are optional, depending on your desired configuration.
 
 Each individual component and PCB reference can be found [here](/BOM/2000ATX-REFERENCE_REV21.csv). This is a useful reference for placing parts, especially for those locations where labeling the component value was not possible.
 
