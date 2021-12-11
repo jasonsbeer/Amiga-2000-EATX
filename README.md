@@ -49,7 +49,7 @@ The internal video slot is complete with all signals.
 The external composite video jack has been removed.
 
 ### Memory
-The original 256Kx4 DRAMs have been replaced by a single SRAM. Agnus revisions 8372A and some 8375 part numbers are supported. See additional information in the [assembly notes](AssemblyNotes.md).
+The original 256Kx4 DRAMs have been replaced by a single SRAM. The Amiga 2000 EATX supports 1 or 2 MB of chip memory, depending on your Agnus version. See additional information in the [assembly notes](AssemblyNotes.md).
 
 ### Audio Output
 The left/right RCA jacks of the Amiga have been replaced by a 3.5mm stereo audio jack.
