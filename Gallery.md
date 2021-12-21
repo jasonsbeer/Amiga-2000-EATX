@@ -1,6 +1,6 @@
 Here are some photos of note and comments related to the development of the Amiga 2000 EATX. I ordered these from oldest to newest. I thought it would be fun to reflect on the last few months and how much effort this really took. It gives me a time to decompress and think about all it took to get here. Thanks for looking.
 
-The revision 0 board. This is where it all started. Starting in March, 2021, it took 2 weeks to enter the schematics and another 6 weeks to route the board. I did not solder a single component to this revision because it was painfully obvious that the card slots are nowhere near where the should be. I measured from the edge of the board instead of the correct datum point, which is the upper left mounting hole. I was pretty unhappy with myself, to say the least.
+The revision 0 board. This is where it all started. Starting in March, 2021, it took 2 weeks to enter the schematics and another 6 weeks to route the board. No components were soldered to this revision because it was painfully obvious that the card slots are nowhere near where the should be. I measured from the edge of the board instead of the correct datum point, which is the upper left mounting hole. I was pretty unhappy with myself, to say the least.
 
 <img src="/Images/rev0.jpg" width="750">
 
@@ -24,7 +24,7 @@ My idea of a pre-heater. My SMD technique is to use an electric griddle to pre-h
 
 <img src="/Images/preheat.jpg" width="750">
 
-After sending off for the revision 1.1 boards, I found a major issue in the schematics. The most likely reason I was not able to get revision 1.0 working is due to data signals that were connected to PPD signals of U300. Basically, D1 was shorted to PPD1, etc. This happened due to how I labeled some of the signals in the schematics. Lesson learned. You can see all the bodges around the serial and parallel port to fix this issue. In addition, I found an error on the Commodore A2000 (and A3000) schematics associated with the keyboard connector. You can see the bodges there, as well. One last bodge to implement the COPCFG signal, which was not routed due to a spelling mistake in the schematics. You can see a tactile switch soldered on as a power switch and an LED soldered directly to the board to serve as the power light.
+After sending off for the revision 1.1 boards, I found a major issue in the schematics. The most likely reason I was not able to get revision 1.0 working is due to data signals that were connected to PPD signals of U300. Basically, D1 was shorted to PPD1, etc. This happened due to how I labeled some of the signals in the schematics. Lesson learned. You can see the bodges around the serial and parallel port to fix this issue. In addition, I found an error on the Commodore A2000 (and A3000) schematics associated with the keyboard connector. You can see the bodges there, as well. One last bodge to implement the COPCFG signal, which was not routed due to a spelling mistake in the schematics. You can see a tactile switch soldered on as a power switch and an LED soldered directly to the board to serve as the power light.
 
 <img src="/Images/rev11.jpg" width="750">
 
@@ -40,7 +40,7 @@ However, not everything was rosey. I was unable to get a picture from the RGB po
 
 <img src="/Images/hsync-vsync.jpg" width="750">
 
-Revision 1.2, the production candidate. It worked on the first try. After 6 months of work, we have a working PCB with no bodges.
+Revision 1.2, the first production candidate. It worked on the first try. After 6 months of work, we have a working PCB with no bodges.
 
 <img src="/Images/rev12-ks.jpg" width="750">
 
