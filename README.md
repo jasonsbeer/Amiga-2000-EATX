@@ -73,7 +73,7 @@ ATX 24-pin power supplies are supported with -5V being supplied on board via a v
 The computer can be reset via CTRL-Amiga-Amiga on an Amiga keyboard or via the reset switch found on EATX computer cases.
 
 ### Real Time Clock
-The real time clock (RTC) has been changed to the RTC-62423. This RTC has a built in crystal and does not need adjustment. In the Amiga, the RTC is written and read by 4 address and 4 data lines. Unfortunately, there are no direct "modern" replacements for this type of bus connected RTC. As such, this is among the legacy IC's that must be obtained. It is readily available where these type of legacy IC's are sold.
+There are two real time clock (RTC) options beginning with revision 2.x. You can install the original Amiga 2000 RTC, which is based on the MSM6242, or a simplified RTC based on the RTC-62423. The MSM6242 requires more components and will need to be trimmed to dial in the correct clock speed. The RTC-62423 has a built in crystal and does not need adjustment, but is less accurate over time. In the Amiga, the RTC is written and read by 4 address and 4 data lines. There are no direct "modern" replacements for the type of bus connected RTC used in the Amiga. As such, the RTC chip you choose is among the legacy IC's that must be obtained. 
 
 ### TICK
 The TICK timing signal on the original Amiga 2000 was supplied by the power supply and is a 50 or 60Hz signal determined by the mains power in use. For the Amiga 2000 EATX, TICK is driven by _VSYNC from Agnus. This is a valid configuration option on the original Amiga 2000 via jumper J300. In addition, this is how the Amiga 500 is configured.
