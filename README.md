@@ -55,7 +55,7 @@ The original 256Kx4 DRAMs have been replaced by a single SRAM. The Amiga 2000 EA
 The left/right RCA jacks of the Amiga have been replaced by a 3.5mm stereo audio jack.
 
 ### Disk Drive Support
-Internally, any Amiga compatable double density disk drive or properly configured Gotek floppy emulator is supported. Up to two internal disk drives may be connected to the internal floppy connector. The external disk drive port has been removed.
+Internally, any Amiga compatable double density disk drive or properly configured Gotek floppy emulator is supported. Up to two internal disk drives may be connected to the internal floppy connector. Up to two external disk drives may be connected via a user supplied adapter cable.
 
 ### ISA Slots
 The number of 16 bit ISA slots has been reduced to three. This was done to provide additional space on the board. Support for ISA cards via a Bridgeboard is unchanged from the Amiga 2000.
