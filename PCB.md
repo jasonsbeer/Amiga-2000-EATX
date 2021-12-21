@@ -1,6 +1,6 @@
 ## PCB - Description and Ordering
 
-The Amiga 2000 EATX PCB is 4 layers. See Table P1 for layer descriptions. Most components are on the top layer with the ATX on/off circuit on the bottom.
+The Amiga 2000 EATX PCB is 4 layers. See Table P1 for layer descriptions. Most components are on the top layer with the ATX on/off circuit and some Agnus and real time clock passives on the bottom.
 
 Download the [Gerber zip file](/Gerber) and send to your favorite PCB manufacturer. If you do not have access to the appropriate stencil, it is highly recommended you purchase one at the time you purchase the PCB.
 
