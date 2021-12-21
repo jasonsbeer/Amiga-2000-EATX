@@ -86,8 +86,6 @@ On an Amiga keyboard, the Left Amiga-Right Amiga-Ctrl keys are pressed simultane
 
 ## Tables
 
-### Table 1. Video Port
-
 Table 1. Video Port
 
 Pin|Signal|Pin|Signal|Pin|Signal
