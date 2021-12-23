@@ -109,7 +109,7 @@ Index,Quantity,Digi-Key Part Number,Description,Customer Reference,Manufacturer 
 108,47,339-C0805C102K5RAC7800CT-ND,CAP CER 1000PF 50V X7R 0805,Zorro termination,C0805C102K5RAC7800,KEMET,0.091,$4.28,https://api.kemet.com/component-edge/download/datasheet/C0805C102K5RACTU.pdf
 109,1,887-1207-1-ND,XTAL OSC XO 28.63636MHZ CMOS SMD,Optional NTSC Oscillator,7C-28.63636MBB-T,TXC CORPORATION,1.94,$1.94,http://www.txccorp.com/download/products/oscillators/2015TXC_7C_57.pdf
 110,1,1473-SIT8208AI-33-33E-28.375000-ND,MEMS OSC XO 28.3750MHZ LVCMOS LV,Optional PAL Oscillator,SIT8208AI-33-33E-28.375000,SiTime,1.43,$1.43,https://www.sitime.com/datasheet/SiT8208
-111,1,339-C1206C200K5GAC7800CT-ND,CAP CER 20PF 50V C0G/NP0 1206,Optional RTC Capacitor,C1206C200K5GAC7800,KEMET,0.19,$0.19,https://api.kemet.com/component-edge/download/datasheet/C1206C200K5GACTU.pdf
+111,1,C1206C200K5GAC7800CT-ND,CAP CER 20PF 50V C0G/NP0 1206,Optional RTC Capacitor,C1206C200K5GAC7800,KEMET,0.19,$0.19,https://api.kemet.com/component-edge/download/datasheet/C1206C200K5GACTU.pdf
 112,1,3M5464-ND,CONN IC DIP SOCKET 18POS TIN,Optional RTC Socket,4818-3000-CP,3M,0.67,$0.67,https://multimedia.3m.com/mws/media/218496O/3mtm-dip-socket-4800-series-ts1099.pdf
 113,1,SER4076CT-ND,CRYSTAL 32.7680KHZ 12.5PF SMD,Optional RTC Crystal,FC-135R 32.7680KF-A3,EPSON,0.86,$0.86,https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-135R&lang=en
 114,1,2447-GKG60015-ND,CAP TRIMMER 12-60PF 100V TH,Optional RTC Trimmer Cap,GKG60015,EW Electronics,0.92,$0.92,//media.digikey.com/pdf/Data%20Sheets/EW%20Electronics-Edmar/GKGxx015_016_Series_DS.pdf
