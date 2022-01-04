@@ -15,7 +15,9 @@ Discord: https://discord.gg/NU7SPYfNFj
 ### Revision 2.1 is the current production board.
 Rev 2.0 shown. The primary difference from earlier revisions is support of 8372A and 8375 Agnus parts on the same board.
 
-**Known Issue**: Revision 2.1 and lower may not work with video cards that override the system clock via the XCLK and _XCLKEN signals. That may include Genlocks, Flicker Fixers, and possibly others. See the manual of your product in question to determine if this is a concern. I am exploring options to address this. Pi -> HDMI cards do not use these signals and work well.
+**Known Issues**: Revision 2.1 and lower may not work with video cards that override the system clock via the XCLK and _XCLKEN signals. That may include Genlocks, Flicker Fixers, and possibly others. See the manual of your product in question to determine if this is a concern. I am exploring options to address this. Pi -> HDMI cards do not use these signals and work well.
+
+There is an error in the Agnus jumper configuration information on the Rev 2.1 board. If you have Agnus part numbers 390544-01 or 390544-02 installed on your Rev 2.1 board, the correct configuration of JA5 is OPEN. All other jumpers are unchanged. Refer to [this table](https://github.com/jasonsbeer/Amiga-2000-EATX/blob/main/AssemblyNotes.md#table-a3-revision-2x-agnus-configuration-jumpers) for correct jumper settings.
 
 <img src="/Images/REV2.png" width="500">
 
