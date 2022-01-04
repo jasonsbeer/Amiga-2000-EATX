@@ -84,7 +84,7 @@ Throught hole IC's have a square pad and a "1" marking pin one. Pin one is usual
 <img src="/Images/DIP-orientation.png" width="200">
 
 ### Solder Pad Jumpers
-Solder pad jumpers are present on the Rev 2.0 board. In the event there are only two pads for the jumper, you will place a solder blob across the two pads to short them when necessary. In the event of a 3 pad jumper, the solder blob must be placed between pad 2 (the center pad) and either pad 1 or 3, as defined in Table A3. Pad 1 is marked with a small arrow and the numeral "1" on the silkscreen. Pad 3 is marked by a number "3" on the silkscreen.
+Solder pad jumpers are present on the Rev 2.x board. In the event there are only two pads for the jumper, you will place a solder blob across the two pads to short them when necessary. In the event of a 3 pad jumper, the solder blob must be placed between pad 2 (the center pad) and either pad 1 or 3, as defined in Table A3. Pad 1 is marked with a small arrow and the numeral "1" on the silkscreen. Pad 3 is marked by a number "3" on the silkscreen.
 
 <img src="/Images/solderjumper.png" width="200">
 
@@ -127,7 +127,7 @@ Agnus|Commodore Part Number|Status
 
 Agnus|<b>8372A</b>|<b>8375</b>|<b>8375</b>
 -|-|-|-
-Commodore<br>Part Number|ALL|390554-01<br>390554-02<br>318069-12<br>318069-13|390544-01<br>390544-02<br>318069-10<br>318069-11
+Commodore<br>Part Number|ALL|390544-01<br>390544-02<br>390554-01<br>390554-02<br>318069-12<br>318069-13|318069-10<br>318069-11
 Jumper|||
 JA1|3-2|1-2|1-2
 JA2|3-2|1-2|1-2
