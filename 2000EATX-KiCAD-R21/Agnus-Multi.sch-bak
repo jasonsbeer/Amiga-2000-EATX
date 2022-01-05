@@ -752,12 +752,12 @@ Connection ~ 11800 8150
 Text Notes 12350 9850 0    197  ~ 0
 Agnus 8375 and 8372A\nMultiadapter
 $Comp
-L Jumper:SolderJumper_3_Bridged12 JA8
+L Jumper:SolderJumper_3_Open JA8
 U 1 1 612754BB
 P 13750 4450
 F 0 "JA8" V 13796 4518 50  0000 L CNN
 F 1 "8375/8372A" V 13705 4518 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 13750 4450 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 13750 4450 50  0001 C CNN
 F 3 "~" H 13750 4450 50  0001 C CNN
 	1    13750 4450
 	0    1    -1   0   
