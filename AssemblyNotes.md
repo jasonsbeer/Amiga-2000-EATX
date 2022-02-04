@@ -187,7 +187,7 @@ Pin|Signal
 -|-
 1|_VSYNC
 2|Time Base (TICK)
-3|Ground
-4|Reset
+3|GROUND
+4|_RESET
 5|NC
 6|+5V
