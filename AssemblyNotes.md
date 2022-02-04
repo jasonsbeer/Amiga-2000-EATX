@@ -33,6 +33,9 @@ The Agnus solder pad jumpers are **not** configured from the factory. During boa
 
 <img src="/Images/Agnus-Jumpers-Back.png" width="400">
 
+## TICK Header (J300)
+The Amiga 2000 EATX can support an externally generated or internally generated TICK. The factory default configuration for J300 is to short pins 1 and 2, which uses the _VSYNC signal from Agnus as the time base signal. For most configurations, the factory default is acceptable. However, if you intend to use video devices that replace the system clock via the _XCLKEN and XCLK signals, you should supply an external time base signal. These types of video devices include genlocks, flicker fixers, and possibly others. See your product manual to determine whether this is of concern. Two accurate external TICK generators are included with this project and can be found in the [TICK](/TICK) folder. These devices are small boards with simple circuits intended to be installed directly on J300. For details on J300, see table [A6](#table-a6-tick-header-j300).
+
 ## Kickstart Installation
 The Amiga 2000 EATX is provisioned to accept 512k (27C400, 40 pin), 1MB (27C800, 42 pin), and 2MB (27C160, 42 pin) Kickstart EPROMs. The Kickstart socket (U500) is a 42 pin DIP footprint that supports all three types. A standard Amiga Kickstart ROM is based on the 27C400 EPROM. When installing a 27C400 EPROM, you must install it toward the bottom of the socket, leaving pins 1 and 42 of the socket empty. This is noted on the silk screen and will correctly align the pins. **Installing the 27C400 EPROM incorrectly may damage it!** Install 27C800 and 27C160 EPROMs as normal. Use of 1MB and larger EPROMs is considered experimental. Guides to create custom Kickstart ROMs can be found on Amiga community sites.
 
@@ -178,3 +181,13 @@ Pin|Signal|Pin|Signal
 10|_DKRST|22|_INDEX
 11|_CHNG|23|+12V
 |12|+5V||
+
+### Table A6. TICK Header (J300)
+Pin|Signal
+-|-
+1|_VSYNC
+2|Time Base (TICK)
+3|Ground
+4|Reset
+5|NC
+6|+5V
