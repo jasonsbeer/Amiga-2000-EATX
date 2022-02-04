@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name logic-4000)(type Legacy)(uri ${KIPRJMOD}/libraries/logic-4000.lib)(options "")(descr ""))
-)
