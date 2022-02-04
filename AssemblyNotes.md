@@ -14,16 +14,16 @@ Notes:
 
 ## Where To Get Amiga Custom ICs and Legacy Parts
 
-The best source of parts for this project is a dead or dying Amiga 2000 board. Otherwise, many of the Amiga legacy IC's and parts can be obatined from various internet suppliers. Unfortunately, Buster (MOS 5721) can be difficult to find. Beware the original Buster revision (318075-01) has a buffering error and cannot be used without a "Buster Tower". Be sure to use the one specifically listed in Table A1 or build a replacement option.
+The best source of parts for this project is a dead or dying Amiga 2000 board. Otherwise, many of the Amiga legacy IC's and parts can be obatined from various internet suppliers. Unfortunately, Buster (MOS 5721) can be difficult to find. Beware the original Buster revision (318075-01) has a buffering error and cannot be used without a "Buster Tower". Be sure to use the one specifically listed in Table [A1](#table-a1-legacy-parts-required) or build a replacement option.
 
-You will need an oscillator installed at X1 or X2 to generate a clock signal. You can find 5V TTL oscillators from various legacy suppliers in the 14-DIP format. In the event you cannot find one, you can use a 3.3V CMOS oscillator of the same frequency in position X2. See Table A1. Do not populate both X1 and X2.
+You will need an oscillator installed at X1 or X2 to generate a clock signal. You can find 5V TTL oscillators from various legacy suppliers in the 14-DIP format. In the event you cannot find one, you can use a 3.3V CMOS oscillator of the same frequency in position X2. See Table [A1](#table-a1-legacy-parts-required). Do not populate both X1 and X2.
 
 **Note on CMOS oscillator:** 3.3v CMOS logic is compatible with in-spec TTL logic. My test board worked well with a 3.3v CMOS oscillator. All clock signals from Agnus are correct on my test machine. I would still recommend using like-for-like logic, if possible. Using the 3.3v CMOS oscillator should only be considered if a TTL oscillator cannot be reasonably obtained. 
 
 ## Configuring the Agnus Jumpers
-The revision 2.x board supports multiple Agnus revisions. See Table A2 for a list of part numbers supported. Not all the listed part numbers have been directly tested. Reviewing related literature suggests all the listed parts numbers *should* work. However, <b>until each specific part number is tested, there is no guarantee any particular Agnus will work</b>, even if listed. Table A2 indicates the status of each part number. If you test a new Agnus part number, please place a new post in the issues tab so the table can be updated.
+The revision 2.x board supports multiple Agnus revisions. See Table [A2](#table-a2-agnus-parts-supported) for a list of part numbers supported. Not all the listed part numbers have been directly tested. Reviewing related literature suggests all the listed parts numbers *should* work. However, <b>until each specific part number is tested, there is no guarantee any particular Agnus will work</b>, even if listed. Table [A2](#table-a2-agnus-parts-supported) indicates the status of each part number. If you test a new Agnus part number, please place a new post in the issues tab so the table can be updated.
 
-The Agnus solder pad jumpers are **not** configured from the factory. During board assembly, the jumpers defined in Table A3 must be configured for the specific Agnus part number to be used. The individual assembling the board must correctly short each jumper, as necessary. Failure to correctly do so will result in a malfunctioning board. Most of the configuration jumpers are on the back of the board, with only JA13 on the front of the board. See Images 1 and 2. The jumper pad locations are circled in red.
+The Agnus solder pad jumpers are **not** configured from the factory. During board assembly, the jumpers defined in Table [A3](#table-a3-revision-2x-agnus-configuration-jumpers) must be configured for the specific Agnus part number to be used. The individual assembling the board must correctly short each jumper, as necessary. Failure to correctly do so will result in a malfunctioning board. Most of the configuration jumpers are on the back of the board, with only JA13 on the front of the board. See Images 1 and 2. The jumper pad locations are circled in red.
 
 **Image 1.** Agnus Jumper Locations - Front
 
@@ -44,7 +44,7 @@ The Amiga 2000 EATX is provisioned to accept 512k (27C400, 40 pin), 1MB (27C800,
 ## Floppy Drive Headers
 CN303 is a 34 pin header that is reponsible for the internal floppy drives DF0 and DF1. Pin 3 is a key. That is, factory Amiga floppy drive cables often have a pin socket blocked to ensure the cable is oriented correctly before installing. As such, it is recommended you remove pin 3 from the header before installing on the board. You can often pull it out with needle nose pliers. Alternatively, you can cut it off with a wire cutter.
 
-CN304 is a 20 pin header that is reponsible for the external floppy drives DF2 and DF3. This header provides 12V on pin 18. **Installing the cable backwards may result in damage to connected devices!** Thus, the BOM includes a keyed, shrouded connector that will help prevent incorrect installation when used with a keyed cable. To use external drives, an adapter cable will need to be created. See Tables A4 and A5.
+CN304 is a 20 pin header that is reponsible for the external floppy drives DF2 and DF3. This header provides 12V on pin 18. **Installing the cable backwards may result in damage to connected devices!** Thus, the BOM includes a keyed, shrouded connector that will help prevent incorrect installation when used with a keyed cable. To use external drives, an adapter cable will need to be created. See Tables [A4](#table-a4-external-floppy-drive-header-cn304) and [A5](#table-a5-amiga-db23-external-floppy-pinouts).
 
 <img src="/Images/floppyheader.jpg" width="500">
 
