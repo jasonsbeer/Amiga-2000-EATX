@@ -1,0 +1,111 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +AUD
+D Power symbol creates a global label with name "+5V"
+K power-flag
+$ENDCMP
+#
+$CMP +AV
+D Power symbol creates a global label with name "+5V"
+K power-flag
+$ENDCMP
+#
+$CMP +VID
+D Power symbol creates a global label with name "+5V"
+K power-flag
+$ENDCMP
+#
+$CMP -AV
+D Power symbol creates a global label with name "+5V"
+K power-flag
+$ENDCMP
+#
+$CMP ATX-24-Amiga
+D ATX Power supply 24pins
+K ATX PSU
+F https://www.intel.com/content/dam/www/public/us/en/documents/guides/power-supply-design-guide-june.pdf#page=33
+$ENDCMP
+#
+$CMP AUDIO
+D Power symbol creates a global label with name "AUDIO" , reference supply ground
+K power-flag
+$ENDCMP
+#
+$CMP CY74FCT821T
+D 10-BIT Bit Bus Interface
+F https://www.ti.com/lit/ds/symlink/cy74fct821t.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1616853456129
+$ENDCMP
+#
+$CMP C_ARRAY-x4
+D 4 resistor network, parallel topology
+K R network parallel topology isolated
+F ~
+$ENDCMP
+#
+$CMP C_Feedthrough
+D Feedthrough capacitor
+K EMI filter feedthrough capacitor
+F ~
+$ENDCMP
+#
+$CMP C_Feedthrough_Small
+D Feedthrough capacitor
+K EMI filter feedthrough capacitor
+F ~
+$ENDCMP
+#
+$CMP C_Small
+D Unpolarized capacitor, small symbol
+K capacitor cap
+F ~
+$ENDCMP
+#
+$CMP DB25_Stack_FemaleAndMale
+D 25-pin female D-SUB connector
+K female D-SUB connector
+F  ~
+$ENDCMP
+#
+$CMP DB9_Male_Stack
+D 9-pin male D-SUB connector
+K connector male D-SUB
+F  ~
+$ENDCMP
+#
+$CMP EMI_Filter_C
+D EMI filter, single capacitor
+K EMI filter feedthrough capacitor
+F http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb
+$ENDCMP
+#
+$CMP EMI_Filter_C_copy
+D EMI filter, single capacitor
+K EMI filter feedthrough capacitor
+F http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb
+$ENDCMP
+#
+$CMP Gary
+D Gary
+$ENDCMP
+#
+$CMP SN75188DR
+D Quad Line EIA-232D
+F https://www.ti.com/lit/ds/symlink/mc1488.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1616552868480
+$ENDCMP
+#
+$CMP SN75189DR
+D Quad Line EIA-232D
+F https://www.ti.com/lit/ds/symlink/mc1489a.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1616554587381
+$ENDCMP
+#
+$CMP VREF
+D Power symbol creates a global label with name "+5V"
+K power-flag
+$ENDCMP
+#
+$CMP ZorroCardEdge
+D Amiga Zorro Card Edge
+K Amiga Zorro Card Edge
+$ENDCMP
+#
+#End Doc Library
