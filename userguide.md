@@ -23,13 +23,13 @@ The board surface to surface clearance between the coprocessor and video slot is
 Jumper|Description|Detail
 -|-|-
 J300|TICK Time Base|Jumper Pins 1 and 2 (factory default). See [TICK](/TICK) for other options.
-J301|DF1 Presence|Place jumper when using two internal disk drives
-J900|Chip RAM DMA Slowdown|Place jumper (factory default)
-J9001|Reset|Attach EATX case reset switch
-J9002|Power LED|Attach EATX case power LED
-J9003|Case Fan|Attach 12V cooling fan
-J9004|HSYNC/COMPSYNC|Sends Composite Sync or HSYNC on video port
-J9100|Power Switch|Attach EATX case power switch
+J301|DF1 Presence|Place jumper when using two internal disk drives.
+J900|Chip RAM DMA Slowdown|Place jumper (factory default).
+J9001|Reset|Attach EATX case reset switch.
+J9002|Power LED|Attach EATX case power LED.
+J9003|Case Fan|Attach 12V cooling fan.
+J9004|HSYNC/COMPSYNC|Sends Composite Sync or HSYNC on video port.
+J9100|Power Switch|Attach EATX case power switch.
 
 
 Jumper Locations (click to enlarge)
