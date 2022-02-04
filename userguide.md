@@ -3,7 +3,7 @@
 Here you will find basic information on final set up of your Amiga 2000 EATX computer. For information on building an Amiga 2000 EATX PCB, see [here](AssemblyNotes.md). For general information on the Amiga 2000 not covered here, refer to the [Amiga 500 and 2000 Technical Reference Manual](/DataSheets/Amiga_A500_A2000_Technical_Reference_Manual_1987.pdf).
 
 ## Case Considerations
-When selecting a case, considerations must be made for accomodating full size plug in cards (PICs). The Amiga 2000 EATX motherboard is 12x13 inches (305 × 330 mm) in size and will fit any EATX or ATX case with sufficient room for this size PCB. Beware cases advertised as "EATX" that do not support full size EATX boards. Somewhere in the fine print, the specs will indicate "EATX up to *x* x *y*". These are not true EATX cases and likely will not support the Amiga 2000 EATX.  
+When selecting a case, considerations must be made for accomodating full size plug in cards (PICs). The Amiga 2000 EATX motherboard is 12x13 inches (305 × 330 mm) in size and will fit any EATX or ATX case with sufficient room for this size PCB. Beware cases advertised as "EATX" that do not support full size EATX boards. Somewhere in the fine print, the specs will indicate "EATX up to *x* x *y*". These are not true EATX cases and may not support the Amiga 2000 EATX board.  
 
 Full length plug in cards (PICs) for the Amiga 2000 are very large by today's standards. Zorro II PICs are up to 337.19mm in length, coprocessor cards up to 356 mm in length, and video slot PICs up to 210mm (see [Amiga 500 and 2000 Technical Reference Manual](/DataSheets/Amiga_A500_A2000_Technical_Reference_Manual_1987.pdf)). As you can see, full length Zorro II and coprocessor PICs exceed the maximum depth of the EATX specification (see [Enterprise Electronics Bay Specification](/DataSheets/SSI%20EEB%202011%201.0.1.pdf)). It is recommended you consider a case that has additional space between the "front" of the PCB and the case front in the slot area. This will allow room to accomodate full length PICs. EATX cases are already quite large, but may have permanent features that conflict with full length PICs. If the case has removable drive bays or an open area, you should be fine.
 
@@ -22,7 +22,7 @@ The board surface to surface clearance between the coprocessor and video slot is
 
 Jumper|Description|Detail
 -|-|-
-J300|TICK Time Base|Jumper Pins 1 and 2 (factory default). See [TICK](/TICK) for other options.
+J300|TICK Time Base|Jump Pins 1 and 2 (factory default). See [TICK](/TICK) for other options.
 J301|DF1 Presence|Place jumper when using two internal disk drives.
 J900|Chip RAM DMA Slowdown|Place jumper (factory default).
 J9001|Reset|Attach EATX case reset switch.
