@@ -22,6 +22,8 @@ You will need an oscillator installed at X1 or X2 to generate a clock signal. Yo
 **Note on China sourced oscillators:** 
 There are reports that some new 14-DIP oscillators sourced from China have an output enable signal on pin 1. Original 14-DIP oscillators have no connection on pin 1, thus pin 1 of X1 is not connected on the Amiga 2000 EATX board. If you have one of these oscillators and are not getting oscillations, or random system halts/crashes, you can try pulling pin 1 to logic high by connecting it to +5V. Pin 14 of X1 is a good place to do this. If that corrects the issue, you can bodge a resistor (<10k ohm) between pin 1 and pin 14 of X1 to act as a pull-up.
 
+<img src="/Images/Oscillator.jpg" width="250">
+
 **Note on X2 CMOS oscillator:** 3.3v CMOS logic is compatible with in-spec TTL logic. My test board worked well with a 3.3v CMOS oscillator. All clock signals from Agnus are correct on my test machine. I would still recommend using like-for-like logic, if possible. Using the 3.3v CMOS oscillator should only be considered if a TTL oscillator cannot be reasonably obtained. 
 
 ## Configuring the Agnus Jumpers
