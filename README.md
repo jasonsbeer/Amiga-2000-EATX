@@ -8,18 +8,28 @@ In addition to a new board replacement option, I believe the ubiquitous EATX sta
 
 Discord: https://discord.gg/NU7SPYfNFj
 
-<img src="/Images/REV21-PCB.png" width="500">
+<img src="/Images/A2000EATX-Rev22.png" width="500">
 
 ## Project Status
 
-### Revision 2.1 is the current production board.
-Rev 2.0 shown. The primary difference from earlier revisions is support of 8372A and 8375 Agnus parts on the same board.
+### Revision 2.2 is the current production board.
+This revision adds a TICK header with three options for generating a TICK signal.
 
-**Known Issues**: Revision 2.1 and lower may not work with video cards that override the system clock via the XCLK and _XCLKEN signals. That may include Genlocks, Flicker Fixers, and possibly others. See the manual of your product in question to determine if this is a concern. I am exploring options to address this. Pi -> HDMI cards do not use these signals and work well.
+**Hardware Supported**: All Amiga 2000 specific and Amiga general hardware is supported. The only exception would be external video hardware that would rely on signals not supplied on the HD15 video connection (see [Video](#video)). Here is a list of hardware tested and known to work:
+1. A2630 68030 CPU Card
+2. Supra WordSYNC SCSI Controller
+3. A2090 SCSI Controller
+4. Vampire V2+
+5. PiStorm
+6. RGB2HDMI
+7. BuddhaIDE
+8. GottaGoFastRam2000
+9. Wireless keyboard adapter
+10. A2286AT Bridgeboard (on ISA: SnarkBarker (soundblaster clone), XT-CF Lite and TsengLabs ET4000AX)
 
-There is an error in the Agnus jumper configuration information on the Rev 2.1 board. If you have Agnus part numbers 390544-01 or 390544-02 installed on your Rev 2.1 board, the correct configuration of JA5 is OPEN. All other jumpers are unchanged. Refer to [this table](https://github.com/jasonsbeer/Amiga-2000-EATX/blob/main/AssemblyNotes.md#table-a3-revision-2x-agnus-configuration-jumpers) for correct jumper settings. The Gerber and KiCAD files were updated and are correct as of January 4, 2022.
+**Known Issues**: None
 
-<img src="/Images/REV2.png" width="500">
+<img src="/Images/Rev22small.png" width="500">
 
 <img src="/Images/lemmings.png" width="500">
 
@@ -78,7 +88,7 @@ The computer can be reset via CTRL-Amiga-Amiga on an Amiga keyboard or via the r
 There are two real time clock (RTC) options beginning with revision 2.x. You can install the original Amiga 2000 RTC, which is based on the MSM6242, or a simplified RTC based on the RTC-62423. The MSM6242 requires more components and will need to be trimmed to dial in the correct clock speed. The RTC-62423 has a built in crystal and does not need adjustment, but is less accurate over time. In the Amiga, the RTC is written and read by 4 address and 4 data lines. There are no direct "modern" replacements for the type of bus connected RTC used in the Amiga. As such, the RTC chip you choose is among the legacy IC's that must be obtained. 
 
 ### TICK
-The TICK timing signal on the original Amiga 2000 was supplied by the power supply and is a 50 or 60Hz signal determined by the mains power in use. For the Amiga 2000 EATX, TICK is driven by _VSYNC from Agnus. This is a valid configuration option on the original Amiga 2000 via jumper J300. In addition, this is how the Amiga 500 is configured.
+The TICK timing signal on the original Amiga 2000 was supplied by the power supply and is a 50 or 60Hz signal determined by the mains power in use. ATX power supplies do not supply a TICK or any AC signal. Starting with Revision 2.2, a TICK Header (J300) was added to support independently generated TICK signals in the event your desired configuration demands this. The factory default setting obtains a suitable TICK signal from the Agnus _VSYNC signal, which is suitable for most configurations. See [TICK](/TICK) for more details. All revisions 2.1 and lower use the Agnus _VSYNC signal.
 
 ## What has not changed?
 ### Most External Ports
@@ -118,7 +128,7 @@ Rev 1.2
 7. Added support for 1 and 2 MB Kickstart ROMs (512k still supported)
 8. Added some space around the external ports...they were crowded
 
-Rev 1.2.1
+Rev 1.2.1 (First Production Release)
 1. Added some missing component values to the silk screen, where there was room
 2. Moved VIDIOT over to make additional room for coprocessor cards
 
@@ -128,19 +138,24 @@ Rev 2.0
 3. Support for two real-time clock options
 4. Cleaned up the schematics
 
-Rev 2.1 **PRODUCTION REVISION**
+Rev 2.1
 1. Changed footprint of U9000 to offer more part options
 2. Added U207 to buffer VSYNC and HSYNC signals
 3. Relocated Zorro termination components
 4. Added additional component values to silk screen
 5. Moved many traces to the external layers
+
+Rev. 2.2  **PRODUCTION REVISION**
+1. Added TICK header (J300)
+2. Cleaned up some odd routing that went back to the early revisions of this project
+3. Changed footprint of CN300 to support more part options
    
 ## Acknowledgments
 kr239 - for the Amiga 500 DRAM replacement project inspiration and LIV2 and texneus for the modifications used in this project
 
 iansbremmer - Amiga IC KiCad footprints - https://github.com/iansbremner/ReAmiga-3000---KiCAD
 
-texneus - ATX ON/OFF circuit
+texneus - ATX ON/OFF and AC TICK circuit
 
 DarrenHD - Pics and measurements of the Amiga 3000 video slot bracket adapter - https://eab.abime.net/showthread.php?t=106928
 
