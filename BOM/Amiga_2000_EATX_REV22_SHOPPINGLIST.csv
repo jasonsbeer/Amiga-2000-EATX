@@ -1,4 +1,4 @@
-Index,Quantity,Digi-Key Part Number,Description,Customer Reference,Manufacturer Part Number,Manufacturer Name,Unit Price,Extended Price,Datasheet
+s,Quantity,Digi-Key Part Number,Description,Customer Reference,Manufacturer Part Number,Manufacturer Name,Unit Price,Extended Price,Datasheet
 1,11,311-1.00KFRCT-ND,RES 1K OHM 1% 1/4W 1206,,RC1206FR-071KL,YAGEO,0.074,$0.81,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
 2,62,399-C1206C104K5RAC7800CT-ND,CAP CER 0.1UF 50V X7R 1206,,C1206C104K5RAC7800,KEMET,0.0452,$2.80,https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf
 3,1,A144213-ND,CONN CARDEDGE FEMALE 86POS 0.100,CPU Slot,1-5530843-0,TE Connectivity AMP Connectors,8.05,$8.05,https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773096_SEC03_CARD_EDGE&DocType=CS&DocLang=English
@@ -16,14 +16,14 @@ Index,Quantity,Digi-Key Part Number,Description,Customer Reference,Manufacturer 
 15,1,WM3811-ND,CONN HEADER VERT 24POS 4.2MM,ATX Power Connector,39281243,Molex,4.03,$4.03,https://www.molex.com/pdm_docs/sd/039281243_sd.pdf
 16,2,296-14860-1-ND,IC GATE NAND 4CH 2-INP 14SOIC,,SN74HCT00DR,Texas Instruments,0.53,$1.06,https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74hct00
 17,1,1655-1412-1-ND,DIODE ARRAY SCHOTTKY 30V SOT23,,BAT54CTR,SMC Diode Solutions,0.43,$0.43,http://www.smc-diodes.com/propdf/BAT54(A)(C)(S)%20N0123%20REV.D.pdf
-18,4,339-C1206C103K1RAC7800CT-ND,CAP CER 10000PF 100V X7R 1206,0.01 uF on silk screen,C1206C103K1RAC7800,KEMET,0.19,$0.76,https://api.kemet.com/component-edge/download/datasheet/C1206C103K1RACTU.pdf
-19,4,339-C1206C473K5RAC7800CT-ND,CAP CER 0.047UF 50V X7R 1206,,C1206C473K5RAC7800,KEMET,0.19,$0.76,https://api.kemet.com/component-edge/download/datasheet/C1206C473K5RACTU.pdf
-20,10,339-C1206C224K5RAC7800CT-ND,CAP CER 0.22UF 50V X7R 1206,,C1206C224K5RAC7800,KEMET,0.141,$1.41,https://api.kemet.com/component-edge/download/datasheet/C1206C224K5RACTU.pdf
-21,2,339-C1206C682K5RAC7800CT-ND,CAP CER 6800PF 50V X7R 1206,,C1206C682K5RAC7800,KEMET,0.38,$0.76,https://api.kemet.com/component-edge/download/datasheet/C1206C682K5RACTU.pdf
-22,2,339-C1206C392K5RAC7800CT-ND,CAP CER 3900PF 50V X7R 1206,,C1206C392K5RAC7800,KEMET,0.38,$0.76,https://api.kemet.com/component-edge/download/datasheet/C1206C392K5RACTU.pdf
+18,4,399-C1206C103K1RAC7800CT-ND,CAP CER 10000PF 100V X7R 1206,0.01 uF on silk screen,C1206C103K1RAC7800,KEMET,0.19,$0.76,https://api.kemet.com/component-edge/download/datasheet/C1206C103K1RACTU.pdf
+19,4,399-C1206C473K5RAC7800CT-ND,CAP CER 0.047UF 50V X7R 1206,,C1206C473K5RAC7800,KEMET,0.19,$0.76,https://api.kemet.com/component-edge/download/datasheet/C1206C473K5RACTU.pdf
+20,10,399-C1206C224K5RAC7800CT-ND,CAP CER 0.22UF 50V X7R 1206,,C1206C224K5RAC7800,KEMET,0.141,$1.41,https://api.kemet.com/component-edge/download/datasheet/C1206C224K5RACTU.pdf
+21,2,399-C1206C682K5RAC7800CT-ND,CAP CER 6800PF 50V X7R 1206,,C1206C682K5RAC7800,KEMET,0.38,$0.76,https://api.kemet.com/component-edge/download/datasheet/C1206C682K5RACTU.pdf
+22,2,399-C1206C392K5RAC7800CT-ND,CAP CER 3900PF 50V X7R 1206,,C1206C392K5RAC7800,KEMET,0.38,$0.76,https://api.kemet.com/component-edge/download/datasheet/C1206C392K5RACTU.pdf
 23,51,399-C1206C102K5RAC7210CT-ND,CAP CER 1000PF 50V X7R 1206,ISA Termination,C1206C102K5RAC7210,KEMET,0.0776,$3.96,https://api.kemet.com/component-edge/download/datasheet/C1206C102K5RAC7210.pdf
 24,1,399-1254-1-ND,CAP CER 1UF 16V X7R 1206,,C1206C105K4RACTU,KEMET,0.19,$0.19,https://api.kemet.com/component-edge/download/datasheet/C1206C105K4RACTU.pdf
-25,1,339-C1206C334K4RAC7800CT-ND,CAP CER 0.33UF 16V X7R 1206,,C1206C334K4RAC7800,KEMET,0.25,$0.25,https://api.kemet.com/component-edge/download/datasheet/C1206C334K4RACTU.pdf
+25,1,399-C1206C334K4RAC7800CT-ND,CAP CER 0.33UF 16V X7R 1206,,C1206C334K4RAC7800,KEMET,0.25,$0.25,https://api.kemet.com/component-edge/download/datasheet/C1206C334K4RACTU.pdf
 26,3,399-C1206C106K4PAC7210CT-ND,CAP CER 10UF 16V X5R 1206,,C1206C106K4PAC7210,KEMET,0.31,$0.93,https://api.kemet.com/component-edge/download/datasheet/C1206C106K4PAC7210.pdf
 27,10,399-17651-1-ND,CAP CER SMD 1206 100PF 50V 10% X,,C1206C101K5RAC7800,KEMET,0.288,$2.88,https://api.kemet.com/component-edge/download/datasheet/C1206C101K5RAC7800.pdf
 28,60,478-11171-1-ND,CAP FEEDTHRU 100PF 100V 1206,,W3F11A1018AT1F,KYOCERA AVX,0.2514,$15.08,https://datasheets.avx.com/AVX-Auto-W2FW3F.pdf
@@ -33,7 +33,7 @@ Index,Quantity,Digi-Key Part Number,Description,Customer Reference,Manufacturer 
 32,12,493-6458-1-ND,CAP ALUM 47UF 20% 35V SMD,,UUA1V470MNL1GS,Nichicon,0.545,$6.54,https://www.nichicon.co.jp/english/products/pdfs/e-uua.pdf
 33,7,493-9513-1-ND,CAP ALUM 22UF 20% 25V SMD,,UUL1E220MCL1GS,Nichicon,0.75,$5.25,https://www.nichicon.co.jp/english/products/pdfs/e-uul.pdf
 34,3,493-9537-1-ND,CAP ALUM 4.7UF 20% 35V SMD,,UUL1V4R7MCL1GS,Nichicon,0.74,$2.22,https://www.nichicon.co.jp/english/products/pdfs/e-uul.pdf
-35,2,339-C1206C470K5GAC7800CT-ND,CAP CER 47PF 50V C0G/NP0 1206,,C1206C470K5GAC7800,KEMET,0.2,$0.40,https://api.kemet.com/component-edge/download/datasheet/C1206C470K5GACTU.pdf
+35,2,399-C1206C470K5GAC7800CT-ND,CAP CER 47PF 50V C0G/NP0 1206,,C1206C470K5GAC7800,KEMET,0.2,$0.40,https://api.kemet.com/component-edge/download/datasheet/C1206C470K5GACTU.pdf
 36,3,MMBT3904TPMSCT-ND,TRANS NPN 40V 0.2A SOT23,,MMBT3904-TP,Micro Commercial Co,0.14,$0.42,https://www.mccsemi.com/pdf/Products/MMBT3904(SOT-23).pdf
 37,2,MMBFJ211CT-ND,JFET N-CH 25V 20MA SOT23,,MMBFJ211,onsemi,0.43,$0.86,"//media.digikey.com/pdf/Data%20Sheets/ON%20Semiconductor%20PDFs/J210-12,MMBFJ210-12.pdf"
 38,13,732-1629-1-ND,FERRITE BEAD 80 OHM 1206 1LN,,74279215,Würth Elektronik,0.246,$3.20,https://www.we-online.de/katalog/datasheet/74279215.pdf
@@ -81,7 +81,7 @@ Index,Quantity,Digi-Key Part Number,Description,Customer Reference,Manufacturer 
 80,1,296-6604-1-ND,IC QUAD DIFF COMPARATOR 14 -SOIC,,LM339ADR,Texas Instruments,0.53,$0.53,https://rocelec.widen.net/view/pdf/cozqvyieqk/MOTOS09494-1.pdf?t.download=true&u=5oefqw
 81,1,1727-2836-1-ND,IC INVERT SCHMITT 6CH 6-INP 14SO,,"74HCT14D,653",Nexperia USA Inc.,0.48,$0.48,https://assets.nexperia.com/documents/data-sheet/74HC_HCT14.pdf
 82,1,DS1813R-5+CT-ND,IC SUPERVISOR 1 CHANNEL SOT23-3,,DS1813R-5+T&R,Maxim Integrated,2.76,$2.76,https://datasheets.maximintegrated.com/en/ds/DS1813.pdf
-83,1,339-C1206C271K5GAC7800CT-ND,CAP CER 270PF 50V C0G/NP0 1206,,C1206C271K5GAC7800,KEMET,0.41,$0.41,https://api.kemet.com/component-edge/download/datasheet/C1206C271K5GACTU.pdf
+83,1,399-C1206C271K5GAC7800CT-ND,CAP CER 270PF 50V C0G/NP0 1206,,C1206C271K5GAC7800,KEMET,0.41,$0.41,https://api.kemet.com/component-edge/download/datasheet/C1206C271K5GACTU.pdf
 84,1,S2011EC-17-ND,CONN HEADER VERT 34POS 2.54MM,Floppy Header,PRPC017DAAN-RC,Sullins Connector Solutions,0.76,$0.76,https://drawings-pdf.s3.amazonaws.com/11636.pdf
 85,10,2092-JSX-1055-5.9-ND,JACK SCREW 4-40 WITH 5.5MM THREA,"D-Sub Jack Screws, As Needed",JSX-1055-5.9,"Kycon, Inc.",0.286,$2.86,http://www.kycon.com/Pub_Eng_Draw/JSX-1055-5.9.pdf
 86,1,36-1066-ND,BATT HLDR COIN 20MM 1 CEL PC PIN,,1066,Keystone Electronics,1.42,$1.42,https://www.keyelco.com/userAssets/file/M65p5.pdf
@@ -99,14 +99,14 @@ Index,Quantity,Digi-Key Part Number,Description,Customer Reference,Manufacturer 
 98,1,311-6.20KFRCT-ND,RES 6.2K OHM 1% 1/4W 1206,,RC1206FR-076K2L,YAGEO,0.1,$0.10,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
 99,1,CY62167ELL-45ZXI-ND,IC SRAM 16MBIT PARALLEL 48TSOP I,,CY62167ELL-45ZXI,Cypress Semiconductor Corp,16.61,$16.61,https://www.cypress.com/file/43821/download
 100,1,296-SN74HC258DRCT-ND,IC MULTIPLEXER 4 X 2:1 16SOIC,,SN74HC258DR,Texas Instruments,0.6,$0.60,https://www.ti.com/lit/ds/scls224b/scls224b.pdf
-101,1,339-C1206C220K5GAC7800CT-ND,CAP CER 22PF 50V C0G/NP0 1206,,C1206C220K5GAC7800,KEMET,0.2,$0.20,https://api.kemet.com/component-edge/download/datasheet/C1206C220K2GACTU.pdf
+101,1,399-C1206C220K5GAC7800CT-ND,CAP CER 22PF 50V C0G/NP0 1206,,C1206C220K5GAC7800,KEMET,0.2,$0.20,https://api.kemet.com/component-edge/download/datasheet/C1206C220K2GACTU.pdf
 102,2,4606X-1-471LF-ND,RES ARRAY 5 RES 470 OHM 6SIP,,4606X-101-471LF,Bourns Inc.,0.5,$1.00,https://www.bourns.com/docs/Product-Datasheets/4600x.pdf
 103,1,296-20799-1-ND,IC REG LIN -5V 1.5A DDPAK/TO263,-5V Regulator,UA7905CKTTR,Texas Instruments,1.49,$1.49,https://www.ti.com/lit/ds/slvs058h/slvs058h.pdf
 104,1,WM4201-ND,CONN HEADER VERT 3POS 2.54MM,Fan header,22232031,Molex,0.28,$0.28,https://www.molex.com/pdm_docs/sd/022232031_sd.pdf
 105,1,2057-BHR-20-VUA-ND,CONN HEADER VERT 20POS 2.54MM,External floppy header,BHR-20-VUA,Adam Tech,0.46,$0.46,https://app.adam-tech.com/products/download/data_sheet/203218/bhr-xx-vua-data-sheet.pdf
 106,2,1727-2845-1-ND,IC GATE OR 4CH 2-INP 14SO,,"74HCT32D,653",Nexperia USA Inc.,0.4,$0.80,https://assets.nexperia.com/documents/data-sheet/74HC_HCT32.pdf
 107,47,13-AC0805FR-7W1KLCT-ND,RES 1 KOHM 1% 1/4W 0805,Zorro termination,AC0805FR-7W1KL,YAGEO,0.084,$3.95,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf
-108,47,339-C0805C102K5RAC7800CT-ND,CAP CER 1000PF 50V X7R 0805,Zorro termination,C0805C102K5RAC7800,KEMET,0.091,$4.28,https://api.kemet.com/component-edge/download/datasheet/C0805C102K5RACTU.pdf
+108,47,399-C0805C102K5RAC7800CT-ND,CAP CER 1000PF 50V X7R 0805,Zorro termination,C0805C102K5RAC7800,KEMET,0.091,$4.28,https://api.kemet.com/component-edge/download/datasheet/C0805C102K5RACTU.pdf
 109,1,887-1207-1-ND,XTAL OSC XO 28.63636MHZ CMOS SMD,Optional NTSC Oscillator,7C-28.63636MBB-T,TXC CORPORATION,1.94,$1.94,http://www.txccorp.com/download/products/oscillators/2015TXC_7C_57.pdf
 110,1,1473-SIT8208AI-33-33E-28.375000-ND,MEMS OSC XO 28.3750MHZ LVCMOS LV,Optional PAL Oscillator,SIT8208AI-33-33E-28.375000,SiTime,1.43,$1.43,https://www.sitime.com/datasheet/SiT8208
 111,1,C1206C200K5GAC7800CT-ND,CAP CER 20PF 50V C0G/NP0 1206,Optional RTC Capacitor,C1206C200K5GAC7800,KEMET,0.19,$0.19,https://api.kemet.com/component-edge/download/datasheet/C1206C200K5GACTU.pdf
