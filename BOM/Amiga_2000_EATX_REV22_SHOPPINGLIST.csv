@@ -65,7 +65,7 @@ s,Quantity,Digi-Key Part Number,Description,Customer Reference,Manufacturer Part
 64,1,4608X-1-472LF-ND,RES ARRAY 7 RES 4.7K OHM 8SIP,,4608X-101-472LF,Bourns Inc.,0.44,$0.44,https://www.bourns.com/docs/Product-Datasheets/4600x.pdf
 65,1,4610X-2-102LF-ND,RES ARRAY 5 RES 1K OHM 10SIP,RN802,4610X-102-102LF,Bourns Inc.,0.55,$0.55,https://www.bourns.com/docs/Product-Datasheets/4600x.pdf
 66,2,4608X-2-470LF-ND,RES ARRAY 4 RES 47 OHM 8SIP,"RN102, RN902",4608X-102-470LF,Bourns Inc.,0.44,$0.88,https://www.bourns.com/docs/Product-Datasheets/4600x.pdf
-67,8,74HCT245DCT-ND,IC TXRX NON-INVERT 5.5V 20SOIC,,74HCT245D,Toshiba Semiconductor and Storage,0.54,$4.32,https://toshiba.semicon-storage.com/info/docget.jsp?did=37301&prodName=74HCT245D
+67,6,74HCT245DCT-ND,IC TXRX NON-INVERT 5.5V 20SOIC,,74HCT245D,Toshiba Semiconductor and Storage,0.54,$4.32,https://toshiba.semicon-storage.com/info/docget.jsp?did=37301&prodName=74HCT245D
 68,2,1727-2847-1-ND,IC LATCH TRANSP OCT D 3ST 20SOIC,,"74HCT373D,653",Nexperia USA Inc.,0.6,$1.20,https://assets.nexperia.com/documents/data-sheet/74HC_HCT373.pdf
 69,1,296-31832-1-ND,IC INVERTER 6CH 6-INP 14SOIC,,SN74HCT04DRG4,Texas Instruments,0.41,$0.41,https://www.ti.com/lit/ds/scls042d/scls042d.pdf
 70,2,296-1211-1-ND,IC FF D-TYPE DUAL 1BIT 14SOIC,,SN74HCT74DR,Texas Instruments,0.47,$0.94,https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74hct74
@@ -114,3 +114,4 @@ s,Quantity,Digi-Key Part Number,Description,Customer Reference,Manufacturer Part
 113,1,SER4076CT-ND,CRYSTAL 32.7680KHZ 12.5PF SMD,Optional RTC Crystal,FC-135R 32.7680KF-A3,EPSON,0.86,$0.86,https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-135R&lang=en
 114,1,2447-GKG60015-ND,CAP TRIMMER 12-60PF 100V TH,Optional RTC Trimmer Cap,GKG60015,EW Electronics,0.92,$0.92,//media.digikey.com/pdf/Data%20Sheets/EW%20Electronics-Edmar/GKGxx015_016_Series_DS.pdf
 115,1,S1212EC-06-ND,"Connector Header Through Hole 6 position 0.100"" (2.54mm)",J300,PREC006SFAN-RC,Sullins Connector Solutions,0.16,$0.16,https://media.digikey.com/PDF/Data%20Sheets/Sullins%20PDFs/xRxCzzzSxxN-RC_ST_11635-B.pdf
+116,2,,74F245 Non-Inverting Buffer 20SOIC,U103 and U105,,,,,
