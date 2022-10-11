@@ -27,7 +27,7 @@ This revision adds a TICK header with three options for generating a TICK signal
 9. Wireless keyboard adapter
 10. A2286AT Bridgeboard (on ISA: SnarkBarker (soundblaster clone), XT-CF Lite and TsengLabs ET4000AX)
 
-**Known Issues**: None
+**Known Issues**: See Issues tab.
 
 <img src="/Images/Rev22small.png" width="500">
 
