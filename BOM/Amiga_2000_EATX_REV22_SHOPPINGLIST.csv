@@ -114,4 +114,4 @@ s,Quantity,Digi-Key Part Number,Description,Customer Reference,Manufacturer Part
 113,1,SER4076CT-ND,CRYSTAL 32.7680KHZ 12.5PF SMD,Optional RTC Crystal,FC-135R 32.7680KF-A3,EPSON,0.86,$0.86,https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-135R&lang=en
 114,1,2447-GKG60015-ND,CAP TRIMMER 12-60PF 100V TH,Optional RTC Trimmer Cap,GKG60015,EW Electronics,0.92,$0.92,//media.digikey.com/pdf/Data%20Sheets/EW%20Electronics-Edmar/GKGxx015_016_Series_DS.pdf
 115,1,S1212EC-06-ND,"Connector Header Through Hole 6 position 0.100"" (2.54mm)",J300,PREC006SFAN-RC,Sullins Connector Solutions,0.16,$0.16,https://media.digikey.com/PDF/Data%20Sheets/Sullins%20PDFs/xRxCzzzSxxN-RC_ST_11635-B.pdf
-116,2,,74F245 Non-Inverting Buffer 20SOIC,U103 and U105,,,,,
+116,2,296-SN74F245NSRCT-ND,74F245 Non-Inverting Buffer 20SOIC,U103 and U105,,,$0.93,$1.86,
