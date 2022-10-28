@@ -1,0 +1,69 @@
+
+Dave Haynie
+unread,
+Feb 19, 1990, 12:57:45 PM
+to
+In article <37...@uafhp.uark.edu> jl...@uafhcx.uucp (Jennifer L. Garner) writes:
+>Dave:
+
+>I'm sure you've been asked this a zillion times, but maybe you could be
+>patient with a hardware neophyte. Why does the jump from a straight 2000
+>to a 2500 (2620 or 2630) represent such an incredible increase in the disk
+>operating speed? I guess I always assumed that the DMA speeds were constant
+>regardless of processor speed (fixed bus speed).
+
+The actual DMA from controller to memory is going, ideally, to be the same
+speed between all A2000s (or, for that matter, any Zorro II bus to bus
+transfers). There are certainly several differences between an A2000 and
+an A2500; for DMA I suspect the most notable might be that you have chip
+memory in the system. While it's not well known, a DMA on an A2000 into Chip
+or $00C00000 memory takes an extra wait state. This is due to the extremely
+tight timings on the Fat Agnus/Gary architecture; it was impossible to guarantee
+the specified Zorro II bus timing into Chip memory with this design, though it
+came pretty close (A2000s have a jumper, J900, which can be removed to eliminate
+this wait, but some DMA devices certainly won't work with J900 removed). To
+further aggrevate the situation, the custom chips always run 2 clock cycles,
+so you really can't add just one wait to state to a chip RAM DMA; the next
+access will require resynchronization, and things just aren't really happy.
+
+All A2500s come with real Fast memory, which _almost_ never adds a wait
+state during DMA (there's an occasional refresh cycle that could collide
+with DMA, but those are pretty quick). So DMA is going at full possible
+speed on any A2500 or A2000 with Fast memory, but it's a bit slower on a
+plain A2000.
+
+Next you can start considering the actual A2500 differences. Any software
+driven aspect of A2500 operation is going to be faster, and any DMA transfer
+isn't purely hardware driven. The actual transfer is of course based on
+the best match between bus speed and disk speed, but there are other factors.
+Interrupt response time is faster on the 2500, even though the actual
+interrupt vectors are in chip memory. The device driver code itself _can_
+be loaded into 32 bit memory (SetCPU with a CardROM entry can do this for
+2090A and possibly 2091 controllers, though I never worked it out for a
+2091 controller). Of course, the program that's running, the Fast Filesystem,
+the data that's actually DMAed, etc. all wind up in 32 bit wide memory. And
+the thing that you think is completely disk bound may show up to be more CPU
+bound than you suspected. This means, in reality, that it may actually be
+much close to disk bound when the CPU is going so much faster -- things
+like compilers show much more of this behavior on 2500 systems.
+
+>We are working on real-time transfer of stereo audio to HD. This will
+>require ~100k/sec transfer rate @ 16 bit words (48k per channel). Is this
+>reasonable to expect from an unexpanded system, or should we demand the use
+>of a speed up card?
+
+That shouldn't be a problem for a basic system, within limits. The actual
+bus bandwidth available is roughly 3.5 MB/s on a plain A2000 transferring to
+Fast memory. You won't find any SCSI device that keeps up with that until
+you start to play with synchronous SCSI. To prevent undue slowing of a DMA
+device, you would have to be careful about too much chip bus activity in
+critical areas, since a busy chip bus can cause a transfer lag; the DMA device
+may have to wait for the end of a scan line before it can master the bus, if
+the CPU is stuck waiting on Chip bus access. I guess the bottom line will
+really have to be the details of the rest of the application. If you need DMA
+into Chip memory, things will be slower. If you have lots of other CPU or
+interrupt activity, there may be some management necessary to make sure you
+get disk stuff done when the system isn't otherwise fully loaded. But my
+guess is that you'd have plenty of bandwidth left over on a basic system
+if things are set up carefully. On '030 systems, we've even had a few jokers
+around here doing simple, smooth, real-time animations directly from disk.
