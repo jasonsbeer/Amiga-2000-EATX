@@ -72,7 +72,7 @@ Each individual component and PCB reference can be found [here](/BOM/2000EATX-RE
 In addition to the items in the BOM, you will need to obtain the legacy components shown in Table A1. Select a single oscillator that matches the video standard you desire.
 
 ## Locating Components on the PCB
-There may be times when you have difficulty identifying the location of specific components on the silk screen. When this happens, the best way to identify component locations is to download the KiCAD files and use the find function on the PCB layout editor. It will highlight the component location you are searching for, reducing the time to place components. 
+You should download the interactive BOM, which will help you locate components on the board. It can be found [here](/BOM/Amiga2000EATX-ibom.html). Download the file and open it in your browser.
 
 ## Component Orientation
 
