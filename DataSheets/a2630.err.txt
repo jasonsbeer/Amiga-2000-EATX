@@ -1,0 +1,123 @@
+From perry Tue Apr 24 19:48:21 1990
+Received: by cbmvax.cbm.commodore.com (5.57/UUCP-Project/Commodore Jan 13 1990)
+	id AA28737; Tue, 24 Apr 90 19:48:18 EDT
+Date: Tue, 24 Apr 90 19:48:18 EDT
+From: perry (Perry Weinthal)
+Message-Id: <9004242348.AA28737@cbmvax.cbm.commodore.com>
+To: albright, bbaker, daveh, grr, gunther, perry, phil, rick, thomas
+Subject: A2500/30 problems.
+Cc: augi
+Status: R
+
+
+
+              A2630 Fault Analysis, by Perry Weinthal, PA CBM-WC
+
+    The A2500/30 is currently having DMA problems with the A2630 and A2091.
+  The symptoms are only apparent while performing a DMA transfer while
+  using 32 bit RAM on the A2630.  A DMA transfer to either chip RAM or
+  to 16 bit expansion RAM will be performed properly.  
+
+------------ Late Breaking News!  ----------------------------------------
+    Well, guess what, all the junk below can be reduced to the following.
+  When the jumper was placed on the A2630 (J302) to allow for operation 
+  WITHOUT the 68000, the system worked!  This leads me to suspect bus loading 
+  or the equations of PAL U304 and the others dependent on it.  However,
+  I can not point out what is the actual problem.  I have provided the 
+  following as a guide, I would like to help in the actual debugging of this 
+  problem.  Dave or George please call me when you are ready to work on it.
+-------------------------------------------------------------------------
+
+    The DMA problem is cited by only one of the byte of the word transferred 
+  being incorrect, and with bits being dropped -- a $FF becomes $5E, but a 
+  $00 will not become a $03.  This was apparent only when a $F was part 
+  of the test data, ie. $AAFF became $AAF0, $F05A became $005A.  
+
+    Connecting a logic analyzer up to the 68000 socket caused the
+  problem to disappear leading me to suspect bus loading on the CPU side.  
+  However, after closer investigation this abnormality disappeared without 
+  any reasonable explanation.  The next test was to take a working DMAC
+  and try it in a non-functional A2091, this also yielded negative results.
+  Other items tested, Gary and buster from the same working machine.  
+ 
+    The revision to 6.2 for the A2000 switched the tri-stated bus from a 
+  pull-high to a pull-low bus.  This was done by moving the resistor paks 
+  RP900 and RP901 to the leads of the U603 and U604 on pins 1-10. The common 
+  of the resistor paks are connected to ground, The CPU data lines and 
+  _DIR line of both U603 and U604 are loaded by the RP.  The value currently 
+  being used is 3.3K -- which is correct.  When I moved the common of the
+  resistor pak from ground to +5V, the screen would blink shades of gray
+  when the 68030 tried to run, but the system would work just fine on the 
+  68000 when the CPU selected was the 68000 from the CPU select menu.
+  I was informed that the bus condition should make no difference to the 
+  A2630 ROMs, during a brief discussion with Johann George.  If this is the 
+  case, then I can only infer that the results of the system being unable 
+  to boot-up would be caused by bus loading problems.
+
+    Sample info:
+       A2630 test code results  ~30 units.
+       A2630 hardware testing     3 units.
+       A2630 w/o 68000            1 unit.  - with ~40 passes before leaving
+
+       Test code A2500/30 Burn-in, written by Linda Thomas
+
+   Have a good Day.
+
+  Perry Weinthal, x9380
+
+From perry Tue Apr 24 20:12:56 1990
+Received: by cbmvax.cbm.commodore.com (5.57/UUCP-Project/Commodore Jan 13 1990)
+	id AA29184; Tue, 24 Apr 90 20:12:54 EDT
+Date: Tue, 24 Apr 90 20:12:54 EDT
+From: perry (Perry Weinthal)
+Message-Id: <9004250012.AA29184@cbmvax.cbm.commodore.com>
+To: albright, augi, bbaker, daveh, grr, gunther, perry, phil, rick, thomas
+Subject: A2500/30 more news  "I LIED"
+Status: R
+
+
+     Well, did that get your attention?   I should of gone home
+  and got the bad news tommorow.  Well, here is the bad news.
+
+    With the CPU bus set-up as tri-stated LOW, the DMA test failed 38 out
+  of ~180 cycles.  Atleast, we have a clue!  I have set-up the CPU bus
+  for tri-stated HIGH, and will see the positive results in the morning!
+                                          ^
+                                          |
+                                          + And I never met Murphy :}]
+
+  Well, have a good nite.
+
+  Perry
+ 
+
+
+From perry Wed Apr 25 10:12:58 1990
+Received: by cbmvax.cbm.commodore.com (5.57/UUCP-Project/Commodore Jan 13 1990)
+	id AA15516; Wed, 25 Apr 90 10:12:55 EDT
+Date: Wed, 25 Apr 90 10:12:55 EDT
+From: perry (Perry Weinthal)
+Message-Id: <9004251412.AA15516@cbmvax.cbm.commodore.com>
+To: albright, augi, bbaker, daveh, grr, gunther, perry, phil, rick, thomas
+Subject: A2500/30  GOOD NEWS, in the morning!
+Status: R
+
+
+
+   Hello Gang,
+
+      This system survived the night with over 3600 DMA passes and
+  not even a single FAILURE!   What did I do to get the wonderful 
+  results?   Pulled the 68000 out set the jumper J302 and placed
+  3.3K pull-ups on the CPU side of U603 and U604, without connecting
+  to the _DIR line on pin 1.  
+
+      Dave, I would like to help resolve the problem even further.
+  I have three sets of PCB (A2000, A2091, A2630) that exhibit the 
+  problem, only one has been modified.
+
+
+   Perry,   x9380
+
+   (I told you, I never met Murphy)
+
