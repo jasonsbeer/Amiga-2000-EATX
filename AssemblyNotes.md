@@ -129,8 +129,8 @@ Agnus|Commodore Part Number|Status
 8372A|ALL|Tested and working
 8375|390544-01|Tested and working
 8375|390544-02|Tested and working
-8375|318069-10|Unknown
-8375|318069-11|Unknown
+8375|318069-10|Tested and working
+8375|318069-11|Tested and working
 8375|390554-01|Unknown
 8375|390554-02|Unknown
 8375|318069-12|Unknown
