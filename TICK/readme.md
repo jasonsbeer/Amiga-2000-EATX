@@ -33,7 +33,7 @@ Submitted by kavanoz and sparxUK, this TICK generator is based on the crystal os
 
 Image 5. Dual oscillator TICK board on the Amiga 2000 EATX.
 
-<img src="/Images/DualOscillatorTICK.png" width="500">
+<img src="/Images/DualOscillatorTICK.jpg" width="500">
 
 ## BOM
 **Table 1.** 9VAC BOM
