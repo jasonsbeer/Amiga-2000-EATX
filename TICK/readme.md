@@ -28,6 +28,13 @@ Image 4. A 50Hz TICK signal from the crystal oscillator TICK Generator.
 
 <img src="/Images/50Hz-OSC-TICK.png" width="500">
 
+## Dual Oscillator TICK Generator
+Submitted by kavanoz and sparxUK, this TICK generator is based on the crystal oscillator TICK board but can be set to either PAL or NTSC via the on-board jumper. The passes have been reduced to the 0805 footprint. The BOM and assembly files can be found with the Gerber files in the [Gerber](/Gerber) folder.
+
+Image 5. Dual oscillator TICK board on the Amiga 2000 EATX.
+
+<img src="/Images/DualOscillatorTICK.png" width="500">
+
 ## BOM
 **Table 1.** 9VAC BOM
 
