@@ -1,4 +1,4 @@
-**DEPRECATED** This is the revision 1.2.1 information for historical reference. See the main branch for current revision.
+**DEPRECATED** This is the revision 2.2 information for historical reference. See the main branch for current revision.
 
 # Amiga 2000 EATX PCB
 
