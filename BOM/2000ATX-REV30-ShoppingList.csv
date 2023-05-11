@@ -1,6 +1,6 @@
 Item,Qty,Value,Component Type,Footprint,Comments,Digikey Part
 1,1,MC7905,-5V Voltage Regulator,TO-263-3,,296-20799-2-ND
-2,3,ISA-16-BIT-Slot,16 Bit ISA Slot,-,,
+2,3,ISA-16-BIT-Slot,16 Bit ISA Slot,-,,S3329-ND
 3,4,Male Pin Header,"1x02 Male Pin Header, 2.54 Pitch",,,
 4,1,Case Fan,1x03 Fan Header,,,WM4201-ND
 5,1,Male Pin Header,"1x03 Male Pin Header, 2.54 Pitch",,,
@@ -28,25 +28,25 @@ Item,Qty,Value,Component Type,Footprint,Comments,Digikey Part
 33,2,47pF,"Capacitor, Ceramic",1206,,
 35,2,6800pF,"Capacitor, Ceramic",1206,,
 36,13,80R,Ferrite Bead,1206,,
-23,47,1000pF,"Capacitor, Ceramic",0805,,
+23,47,1000pF,"Capacitor, Ceramic",805,,
 40,3,4.7uF,"Capacitor, Electrolytic",4x5.8,,
 39,7,22uF,"Capacitor, Electrolytic",6.3x5.8,,
 37,5,220uF,"Capacitor, Electrolytic",8x10,,
 41,4,470uF,"Capacitor, Electrolytic",8x10,,
 44,18,47uF,"Capacitor, Electrolytic",8x10,,
-45,60,100pF,"Capacitor, Feedthrough",1206,,
+45,60,100pF,"Capacitor, Feedthrough",1206,,478-11171-1-ND
 46,1,Battery_Cell,Coin Battery Holder,1x20mm,,36-1066-ND
 47,1,KEYBOARD,"DIN5, Female",-,,CP-2350-ND
-51,4,S1MWF-7,"Diode, SMD",SOD-123F,,
-48,2,1N4148,"Diode, SMD",SOD-323,,
+51,4,S1MWF-7,"Diode, SMD",SOD-123F,,RS1MWF-7DICT-ND
+48,2,1N4148,"Diode, SMD",SOD-323,,1655-1359-1-ND
 50,1,BAT54C,"Diode, SMD",SOT-23,,1655-1412-1-ND
 52,1,DB15_Female_HighDensity,DSUB 15 HD,-,,AE11024-ND
 53,1,DB25_Stack_FemaleAndMale,"DSUB 25 Stacked, Female Bottom/Male Top",-,,AE10996-ND
 54,1,DB9_Male_Stack,"DSUB 9 Stacked, Male/Male",-,,L17H2110130-ND
-55,2,CY74FCT821T,Flip Flop,SOIC-24W_7.5x15.4mm,,
-56,4,4A,Fuse,1206,,
-57,1,DS1813,IC Supervisor,SOT-23,,
-58,2,MMBFJ211,"JFET, SMD",SOT-23,,
+55,2,CY74FCT821T,Flip Flop,SOIC-24W_7.5x15.4mm,,296-CY74FCT821ATSOC-ND
+56,4,4A,Fuse,1206,,SF-1206S400-2CT-ND
+57,1,DS1813,IC Supervisor,SOT-23,,DS1813R-5+CT-ND
+58,2,MMBFJ211,"JFET, SMD",SOT-23,,MMBFJ211CT-ND
 63,2,74HCT00,Logic,SOIC-14_3.9x8.7mm,,
 65,1,74HCT04,Logic,SOIC-14_3.9x8.7mm,,
 66,4,74HCT08,Logic,SOIC-14_3.9x8.7mm,,
@@ -54,8 +54,8 @@ Item,Qty,Value,Component Type,Footprint,Comments,Digikey Part
 71,2,74HCT32,Logic,SOIC-14_3.9x8.7mm,,
 73,2,74HCT74,Logic,SOIC-14_3.9x8.7mm,,
 76,1,74LS38,Logic,SOIC-14_3.9x8.7mm,,
-77,1,SN75188DR,Logic,SOIC-14_3.9x8.7mm,,
-78,1,SN75189DR,Logic,SOIC-14_3.9x8.7mm,,
+77,1,SN75188DR,Logic,SOIC-14_3.9x8.7mm,,296-1276-1-ND
+78,1,SN75189DR,Logic,SOIC-14_3.9x8.7mm,,296-14957-1-ND
 62,1,74F258,Logic,SOIC-16_3.9x9.9mm,,
 67,1,74HCT138,Logic,SOIC-16_3.9x9.9mm,,
 69,1,74HCT157,Logic,SOIC-16_3.9x9.9mm,,
@@ -65,22 +65,22 @@ Item,Qty,Value,Component Type,Footprint,Comments,Digikey Part
 70,6,74HCT245,Logic,SOIC-20W_7.5x12.8mm,,
 72,2,74HCT373,Logic,SOIC-20W_7.5x12.8mm,,
 79,1,LF347,Op Amp,SOIC-14_3.9x8.7mm,,
-80,1,28.63636MHz,Oscillator,DIP-14,28.37516MHz for PAL,
-81,1,RTC62423,Real Time Clock,SOIC-24W_7.5x15.4mm,,
-82,1,MSM6242,Real Time Clock (Optional),DIP-18,,
-83,1,32.768KHz,Real Time Clock Crystal (Optional),3.2x1.5mm,,
-86,1,10k,"Resistor, Bussed Network",SIP10,,
-89,5,1k,"Resistor, Bussed Network",SIP10,"RN700,RN701,RN702,RN703,RN704",
-90,1,1k,"Resistor, Isolated Network",SIP10,RN802,
-91,1,2.7k,"Resistor, Bussed Network",SIP10,RN101,
-92,2,3.3k,"Resistor, Bussed Network",SIP10,"RNX1,RNX2",
-93,2,4.7k,"Resistor, Bussed Network",SIP10,"RN100,RN705",
-87,1,10k,"Resistor, Bussed Network",SIP6,,
-88,6,1k,"Resistor, Bussed Network",SIP6,"RN205,RN301,RN607,RN800,RN903,RN908",
-85,2,470R,"Resistor, Bussed Network",SIP6,,
-95,1,4.7k,"Resistor, Bussed Network",SIP8,,
-84,2,47R,"Resistor, Isolated Network",SIP8,"RN102, RN902",
-94,1,4.7k,"Resistor, Bussed Network",SIP9,,
+80,1,28.63636MHz,Oscillator,DIP-14,28.37516MHz for PAL,-
+81,1,RTC62423,Real Time Clock,SOIC-24W_7.5x15.4mm,,-
+82,1,MSM6242,Real Time Clock (Optional),DIP-18,,-
+83,1,32.768KHz,Real Time Clock Crystal (Optional),3.2x1.5mm,,SER4076CT-ND
+86,1,10k,"Resistor, Bussed Network",SIP10,,4610X-1-103LF-ND
+89,5,1k,"Resistor, Bussed Network",SIP10,"RN700,RN701,RN702,RN703,RN704",4610X-1-102LF-ND
+90,1,1k,"Resistor, Isolated Network",SIP10,RN802,4610X-2-102LF-ND
+91,1,2.7k,"Resistor, Bussed Network",SIP10,RN101,4610X-1-272LF-ND
+92,2,3.3k,"Resistor, Bussed Network",SIP10,"RNX1,RNX2",4610X-1-332LF-ND
+93,2,4.7k,"Resistor, Bussed Network",SIP10,"RN100,RN705",4610X-1-472LF-ND
+87,1,10k,"Resistor, Bussed Network",SIP6,,770-61-R10KP-ND
+88,6,1k,"Resistor, Bussed Network",SIP6,"RN205,RN301,RN607,RN800,RN903,RN908",4606X-1-102LF-ND
+85,2,470R,"Resistor, Bussed Network",SIP6,,4606X-1-471LF-ND
+95,1,4.7k,"Resistor, Bussed Network",SIP8,,4608X-1-472LF-ND
+84,2,47R,"Resistor, Isolated Network",SIP8,"RN102, RN902",4608X-2-470LF-ND
+94,1,4.7k,"Resistor, Bussed Network",SIP9,,4609X-101-472LF-ND
 96,1,1 0.5W,"Resistor, SMD",1206,,
 97,2,1.2k,"Resistor, SMD",1206,,
 98,10,10k,"Resistor, SMD",1206,,
@@ -109,13 +109,13 @@ Item,Qty,Value,Component Type,Footprint,Comments,Digikey Part
 122,1,6.2k,"Resistor, SMD",1206,,
 123,5,68R,"Resistor, SMD",1206,,
 124,1,68R,"Resistor, SMD",1206,,
-102,47,1k,"Resistor, SMD",0805,,
-125,2,DIP Socket,"Socket, DIP 40",DIP-40,,
-126,1,DIP Socket,"Socket, DIP 42",DIP-42,,
-127,4,DIP Socket,"Socket, DIP 48",DIP-48,,
-128,1,DIP Socket,"Socket, DIP 64",DIP-64,,
-129,1,PLCC Socket,"Socket, PLCC 84",PLCC-84,,
-130,1,7C-28.63636MBB-T,"Oscillator (SMD, Optional)",5.0x3.2mm,28.37516MHz for PAL,
+102,47,1k,"Resistor, SMD",805,,
+125,2,DIP Socket,"Socket, DIP 40",DIP-40,,3M5483-ND
+126,1,DIP Socket,"Socket, DIP 42",DIP-42,,-
+127,4,DIP Socket,"Socket, DIP 48",DIP-48,,3M5484-ND
+128,1,DIP Socket,"Socket, DIP 64",DIP-64,,ED3764-ND
+129,1,PLCC Socket,"Socket, PLCC 84",PLCC-84,,3M8411B1-ND
+130,1,7C-28.63636MBB-T,"Oscillator (SMD, Optional)",5.0x3.2mm,28.37516MHz for PAL,887-1207-1-ND
 131,1,AS6C1616-55TIN,SRAM,TSOP-I-48_18.4x12mm,,AS6C1616-55TIN
 132,3,MMBT3904,"Transistor, NPN, SMD",SOT-23,,
 133,2,MMBT3906,"Transistor, PNP, SMD",SOT-23,,
