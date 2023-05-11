@@ -8,7 +8,7 @@ In addition to a new board replacement option, I believe the ubiquitous EATX sta
 
 Discord: https://discord.gg/NU7SPYfNFj
 
-<img src="/Images/A2000EATX-Rev30.png" width="500">
+<img src="/Images/A2000EATX-Rev30.jpg" width="500">
 
 ## Project Status
 
