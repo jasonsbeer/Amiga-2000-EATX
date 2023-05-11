@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name AmigaFootprints)(type KiCad)(uri ${KIPRJMOD}/Amiga-KiCad/AmigaFootprints.pretty)(options "")(descr ""))
-)
