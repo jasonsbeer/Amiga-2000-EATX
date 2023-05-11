@@ -8,24 +8,11 @@ In addition to a new board replacement option, I believe the ubiquitous EATX sta
 
 Discord: https://discord.gg/NU7SPYfNFj
 
-<img src="/Images/A2000EATX-Rev22.png" width="500">
+<img src="/Images/A2000EATX-Rev30.png" width="500">
 
 ## Project Status
 
-### Revision 2.2 is the current production board.
-This revision adds a TICK header with three options for generating a TICK signal.
-
-**Hardware Supported**: All Amiga 2000 specific and Amiga general hardware is supported. The only exception would be external video hardware that would rely on signals not supplied on the HD15 video connection (see [Video](#video)). Here is a list of hardware tested and known to work:
-1. A2630 68030 CPU Card
-2. Supra WordSYNC SCSI Controller
-3. A2090 SCSI Controller
-4. Vampire V2+
-5. PiStorm
-6. RGB2HDMI
-7. BuddhaIDE
-8. GottaGoFastRam2000
-9. Wireless keyboard adapter
-10. A2286AT Bridgeboard (on ISA: SnarkBarker (soundblaster clone), XT-CF Lite and TsengLabs ET4000AX)
+### Revision 3.0 is the current production board.
 
 **Known Issues**: See Issues tab.
 
@@ -35,7 +22,8 @@ This revision adds a TICK header with three options for generating a TICK signal
 
 <img src="/Images/case1.jpg" width="500">
 
-Revision 1.2.1 can be found [here](https://github.com/jasonsbeer/Amiga-2000-EATX/tree/Rev-1.2.1).
+Revision 2.2 can be found [here](https://github.com/jasonsbeer/Amiga-2000-EATX/tree/Rev-2.2).  
+Revision 1.2.1 can be found [here](https://github.com/jasonsbeer/Amiga-2000-EATX/tree/Rev-1.2.1).  
 
 If you are interested in a brief history of this project, check out the [Gallery page](/Gallery.md).
 
@@ -104,19 +92,35 @@ For now, the Kickstart ROM remains the original 27C400. These are no longer made
 If something is not specifically mentioned, you should expect it to be unchanged in function or component from the original Amiga 2000.
 
 ## Revision History
-Rev 0 - Prototype board
 
-Rev 1.0
-1. Adjusted postion of slots and several other components
-2. Moved ATX On/Off circuit to back of board
-   
-Rev 1.1
-1. New ATX on/off circuit
-2. Modified SRAM circuit
-3. Added case fan header
-4. Fixed U100 and other footprints
-5. Moved some components
-6. Cleaned up silk screen
+Rev 3.0 **CURRENT PRODUCTION REVISION**
+1. Various fixes (see closed issues flagged for Revision 3.0)
+2. Changed SRAM to 5V tolerant 3.3V part
+3. Removed almost all signal traces from power planes
+4. Swapped position of U801 and U899 and brought related components to front of board
+5. Updated to KiCAD 7.0
+
+Rev. 2.2  
+1. Added TICK header (J300)
+2. Cleaned up some odd routing that went back to the early revisions of this project
+3. Changed footprint of CN300 to support more part options
+
+Rev 2.1
+1. Changed footprint of U9000 to offer more part options
+2. Added U207 to buffer VSYNC and HSYNC signals
+3. Relocated Zorro termination components
+4. Added additional component values to silk screen
+5. Moved many traces to the external layers
+
+Rev 2.0
+1. Supports both Agnus 8372A and certain Agnus 8375 part numbers on the same board
+2. Added external floppy drive header
+3. Support for two real-time clock options
+4. Cleaned up the schematics
+
+Rev 1.2.1 (First Production Release)
+1. Added some missing component values to the silk screen, where there was room
+2. Moved VIDIOT over to make additional room for coprocessor cards
 
 Rev 1.2
 1. Fixed traces on the keyboard connector (error on the C= schematic)
@@ -128,27 +132,19 @@ Rev 1.2
 7. Added support for 1 and 2 MB Kickstart ROMs (512k still supported)
 8. Added some space around the external ports...they were crowded
 
-Rev 1.2.1 (First Production Release)
-1. Added some missing component values to the silk screen, where there was room
-2. Moved VIDIOT over to make additional room for coprocessor cards
+Rev 1.1
+1. New ATX on/off circuit
+2. Modified SRAM circuit
+3. Added case fan header
+4. Fixed U100 and other footprints
+5. Moved some components
+6. Cleaned up silk screen
 
-Rev 2.0
-1. Supports both Agnus 8372A and certain Agnus 8375 part numbers on the same board
-2. Added external floppy drive header
-3. Support for two real-time clock options
-4. Cleaned up the schematics
+Rev 1.0
+1. Adjusted postion of slots and several other components
+2. Moved ATX On/Off circuit to back of board
 
-Rev 2.1
-1. Changed footprint of U9000 to offer more part options
-2. Added U207 to buffer VSYNC and HSYNC signals
-3. Relocated Zorro termination components
-4. Added additional component values to silk screen
-5. Moved many traces to the external layers
-
-Rev. 2.2  **PRODUCTION REVISION**
-1. Added TICK header (J300)
-2. Cleaned up some odd routing that went back to the early revisions of this project
-3. Changed footprint of CN300 to support more part options
+Rev 0 - Prototype board
    
 ## Acknowledgments
 kr239 - for the Amiga 500 DRAM replacement project inspiration and LIV2 and texneus for the modifications used in this project
@@ -160,5 +156,7 @@ texneus - ATX ON/OFF and AC TICK circuit
 DarrenHD - Pics and measurements of the Amiga 3000 video slot bracket adapter - https://eab.abime.net/showthread.php?t=106928
 
 Chucky - Amiga Diagrom...a priceless diagnostic tool - http://www.diagrom.com/
+
+floppie209 - For testing the Rev 3.0 board.
 
 Everyone that made the Amiga possible.
