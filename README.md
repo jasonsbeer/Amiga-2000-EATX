@@ -1,3 +1,5 @@
+**DEPRECATED** This is the revision 1.2.1 information for historical reference. See the main branch for current revision.
+
 # Amiga 2000 EATX PCB
 
 This is an open source Amiga 2000 PCB in the EATX form factor. EATX is an ATX variant that defines larger PCBs, measuring 12 x 13 inches (305 × 330 mm). These are referred to as Extended ATX, or, EATX (see [Enterprise Electronics Bay Specification](/DataSheets/SSI%20EEB%202011%201.0.1.pdf)). The length of Zorro II cards and the abundance of components on the Amiga 2000 makes EATX the best choice for this project.
