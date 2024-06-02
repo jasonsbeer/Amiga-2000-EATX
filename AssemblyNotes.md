@@ -4,7 +4,7 @@ IMPORTANT INFORMATION. It is highly recommended you read this entire page before
 
 **Disclaimer:** This project is free and open source. It is a complex project and should only be undertaken by individuals experienced in SMD assembly techniques. No warranty or guarantee is offered that it will work for your particular situation. You assume all risk should you choose to build it.
 
-This Amiga EATX PCB makes use of many modern surface mount components. These and the other standard components are available from most any good electronics supply house. The BOM includes Digi-Key part numbers for your reference. In addition, you will need to obtain the legacy components shown in Table A1. 
+This Amiga EATX PCB makes use of many modern surface mount components. These and the other standard components are available from most any good electronics supply house. In addition, you will need to obtain the legacy components shown in Table A1. 
 
 Notes:
 1. If you do not intend to use a bridgeboard or the ISA slots, you do not need to install the components shown in the ISA SUBSYSTEM silk screen.
@@ -24,7 +24,7 @@ There are reports that some new 14-DIP oscillators sourced from China have an ou
 
 <img src="/Images/Oscillator.jpg" width="250">
 
-**Note on X2 CMOS oscillator:** 3.3v CMOS logic is compatible with in-spec TTL logic. My test board worked well with a 3.3v CMOS oscillator. All clock signals from Agnus are correct on my test machine. I would still recommend using like-for-like logic, if possible. Using the 3.3v CMOS oscillator should only be considered if a TTL oscillator cannot be reasonably obtained. 
+**Note on X2 CMOS oscillator:** 3.3v CMOS logic is compatible with in-spec TTL logic. My test board worked well with a +3.3V CMOS oscillator. All clock signals from Agnus are correct on my test machine. I would still recommend using like-for-like logic, if possible. Using the +3.3V CMOS oscillator should only be considered if a TTL oscillator cannot be reasonably obtained. 
 
 ## Configuring the Agnus Jumpers
 The revision 2.x board supports multiple Agnus revisions. See Table [A2](#table-a2-agnus-parts-supported) for a list of part numbers supported. Not all the listed part numbers have been directly tested. Reviewing related literature suggests all the listed parts numbers *should* work. However, <b>until each specific part number is tested, there is no guarantee any particular Agnus will work</b>, even if listed. Table [A2](#table-a2-agnus-parts-supported) indicates the status of each part number. If you test a new Agnus part number, please place a new post in the issues tab so the table can be updated.
@@ -38,6 +38,9 @@ The Agnus solder pad jumpers are **not** configured from the factory. During boa
 **Image 2.** Agnus Jumper Locations - Back
 
 <img src="/Images/Agnus-Jumpers-Back.png" width="400">
+
+## SRAM Voltage
+Due to lack of availability of +5V SRAM, the revision 3.0 board was set up for +3.3V SRAM. All other board revisions, including 3.1, come from the factory set up for +5V SRAM. The revision 3.x boards include jumper J503, which is used to set the SRAM voltage. It is important to note the voltage of your SRAM part and set J503 accordingly. It is recommended to use the +5V part on all revisions.
 
 ## TICK Header (J300)
 The Amiga 2000 EATX (revision 2.2+) can support an externally or internally generated TICK. The factory default configuration for J300 is to short pins 1 and 2, which uses the _VSYNC signal from Agnus as the time base signal. For most configurations, the factory default is acceptable. However, if you intend to use video devices that replace the system clock via the _XCLKEN and XCLK signals, you should supply an external time base (TICK) signal. These types of video devices include genlocks, flicker fixers, and possibly others. See your product manual to determine whether this is of concern. Two accurate external TICK generators are included with this project and can be found in the [TICK](/TICK) folder. These devices are small boards with simple circuits intended to be installed directly on J300. For details on J300, see table [A6](#table-a6-tick-header-j300).
@@ -97,7 +100,7 @@ Throught hole IC's have a square pad and a "1" marking pin one. Pin one is usual
 <img src="/Images/DIP-orientation.png" width="200">
 
 ### Solder Pad Jumpers
-Solder pad jumpers are present on the Rev 2.x board. In the event there are only two pads for the jumper, you will place a solder blob across the two pads to short them when necessary. In the event of a 3 pad jumper, the solder blob must be placed between pad 2 (the center pad) and either pad 1 or 3, as defined in Table A3. Pad 1 is marked with a small arrow and the numeral "1" on the silkscreen. Pad 3 is marked by a number "3" on the silkscreen.
+Solder pad jumpers are present on the board. In the event there are only two pads for the jumper, you will place a solder blob across the two pads to short them when necessary. In the event of a 3 pad jumper, the solder blob must be placed between pad 2 (the center pad) and either pad 1 or 3, as defined in Table A3. Pad 1 is marked with a small arrow and the numeral "1" on the silkscreen. Pad 3 is marked by a number "3" on the silkscreen.
 
 <img src="/Images/solderjumper.png" width="200">
 

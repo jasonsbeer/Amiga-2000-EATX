@@ -12,7 +12,7 @@ Discord: https://discord.gg/NU7SPYfNFj
 
 ## Project Status
 
-### Revision 3.0 is the current production board.
+### Revision 3.1 is the current production board.
 
 **Known Issues**: See Issues tab.
 
@@ -22,6 +22,7 @@ Discord: https://discord.gg/NU7SPYfNFj
 
 <img src="/Images/case1.jpg" width="500">
 
+Revision 3.0 can be found [here](https://github.com/jasonsbeer/Amiga-2000-EATX/tree/Rev-3.0).  
 Revision 2.2 can be found [here](https://github.com/jasonsbeer/Amiga-2000-EATX/tree/Rev-2.2).  
 Revision 1.2.1 can be found [here](https://github.com/jasonsbeer/Amiga-2000-EATX/tree/Rev-1.2.1).  
 
@@ -93,9 +94,15 @@ If something is not specifically mentioned, you should expect it to be unchanged
 
 ## Revision History
 
-Rev 3.0 **CURRENT PRODUCTION REVISION**
+Rev 3.1 **CURRENT PRODUCTION REVISION**
+1. Various fixes (see closed issues flagged for Revision 3.1)
+2. Changed SRAM back to +5V part
+3. Added copper pours to top and bottom layer
+4. Updated to KiCAD 8.0
+
+Rev 3.0
 1. Various fixes (see closed issues flagged for Revision 3.0)
-2. Changed SRAM to 5V tolerant 3.3V part
+2. Changed SRAM to 5V tolerant 3.3V part (lack of availability of +5V part)
 3. Removed almost all signal traces from power planes
 4. Swapped position of U801 and U899 and brought related components to front of board
 5. Updated to KiCAD 7.0
@@ -160,3 +167,5 @@ Chucky - Amiga Diagrom...a priceless diagnostic tool - http://www.diagrom.com/
 floppie209 - For testing the Rev 3.0 board.
 
 Everyone that made the Amiga possible.
+
+**Last Updated 02-JUN-2024**
