@@ -5571,7 +5571,7 @@
 			"QmgM/D8kY3MgfAlzpwAAAABJRU5ErkJggg=="
 		)
 	)
-	(text "J503 = SRAM Vcc\n  1-2 3.3V (Factory Default)\n  2-3 5V"
+	(text "J503 = SRAM Vcc\n  1-2 3.3V \n  2-3 5V (Factory Default)"
 		(exclude_from_sim no)
 		(at 114.046 125.222 0)
 		(effects
